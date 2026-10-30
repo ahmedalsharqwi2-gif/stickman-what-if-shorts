@@ -1,0 +1,25 @@
+name: Stickman Demo Render
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+      - run: python -m stickman.factory --demo
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stickman-demo
+          path: |
+            out/video.mp4
+            out/manifest.json
+          retention-days: 5
