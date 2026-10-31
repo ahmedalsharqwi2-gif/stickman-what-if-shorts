@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "pipeline": "stickman-candidate-v2",
+  "duration": 120.0,
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "sha256": "91a710cfcd02b22b95ba37edada529dc908e9c4120bb05fc493bbf8f70728e68",
+  "visual_review": true,
+  "narration_verified": false,
+  "publishable": false,
+  "reason": "Candidate review only; narration semantics, measured captions and channel publishing must be verified before cutover",
+  "full_decode_verified": true
+}

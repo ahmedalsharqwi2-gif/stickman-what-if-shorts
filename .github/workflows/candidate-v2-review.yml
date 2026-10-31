@@ -1,0 +1,30 @@
+name: Stickman v2 visual review (not publishable)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: stickman-candidate-v2-review
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg libraqm0
+      - run: python -m pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: Render full-length silent visual review and fully decode it
+        run: python -m stickman.candidate --visual-review --duration 120 --fps 24 --output out/candidate-v2-visual-review.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: stickman-candidate-v2-visual-review
+          path: |
+            out/candidate-v2-visual-review.mp4
+            out/candidate-v2-visual-review.json
+          if-no-files-found: error
+          retention-days: 7
