@@ -1,7 +1,7 @@
 /** Bounded declarative 3D story scenes. No generated JavaScript is executed. */
 import * as THREE from 'three';
 const ASSETS=new Set(['cell','leaf','heart','dna','molecule','crystal','rock_layers','volcano','tree','pendulum','gear','magnet','circuit','river','fossil','scroll','book','temple','house','ship','cart','person','stickman','door','clock','lantern','table','sphere','box','cylinder','cone','torus','server','monitor','robot','satellite_dish','microphone','phone','chip','document','shield','network','waveform']);
-const MOTIONS=new Set(['none','spin','pulse','drift','orbit','grow','assemble','split','swing','flow']);
+const MOTIONS=new Set(['none','spin','pulse','drift','orbit','grow','assemble','split','swing','flow','slam','open','close','shake','float','backward','head_turn']);
 function material(color,extra={}){return new THREE.MeshStandardMaterial({color,roughness:.58,metalness:.08,...extra});}
 function mesh(parent,geometry,mat,x=0,y=0,z=0){const o=new THREE.Mesh(geometry,mat);o.position.set(x,y,z);o.castShadow=true;o.receiveShadow=true;parent.add(o);return o;}
 function rod(parent,a,b,r,mat){const start=new THREE.Vector3(...a),end=new THREE.Vector3(...b),delta=end.clone().sub(start);const o=mesh(parent,new THREE.CylinderGeometry(r,r,delta.length(),10),mat);o.position.copy(start).add(end).multiplyScalar(.5);o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),delta.normalize());return o;}
@@ -125,7 +125,7 @@ function shape(kind,color){
  }else if(kind==='clock'){
   tube(1,.18).rotation.x=Math.PI/2;
   for(let i=0;i<12;i++){const a=i/12*Math.PI*2;ball(.04,Math.sin(a)*.8,Math.cos(a)*.8,.13,light);}
-  rod(g,[0,0,.18],[.45,.25,.18],.035,dark);rod(g,[0,0,.18],[0,.65,.18],.025,dark);
+  const hand=new THREE.Group();g.add(hand);rod(hand,[0,0,.18],[.45,.25,.18],.035,dark);rod(hand,[0,0,.18],[0,.65,.18],.025,dark);g.userData.clockHands=hand;
  }else if(kind==='lantern'){
   tube(.35,.1,0,-.4,0,dark);tube(.35,.1,0,.4,0,dark);
   ball(.22,0,0,0,material(0xffc56b,{emissive:0xffaf43,emissiveIntensity:1}));
@@ -151,7 +151,7 @@ export function proceduralDirector(scene,story){
  if(story.visual_plan?.world!=='procedural_story'||story.scenes?.length!==8)throw Error('An authored declarative eight-scene plan is required');
  const root=new THREE.Group();scene.add(root);
  const stages=story.scenes.map(s=>{
-  if(!Array.isArray(s.objects)||s.objects.length<3||s.objects.length>16)throw Error('Invalid object count');
+  if(!Array.isArray(s.objects)||s.objects.length<1||s.objects.length>16)throw Error('Invalid object count');
   const group=new THREE.Group();root.add(group);environment(group,s.environment);
   const objects=s.objects.map(spec=>{
    if(!ASSETS.has(spec.kind)||!MOTIONS.has(spec.motion)||!/^#[0-9a-fA-F]{6}$/.test(spec.color))throw Error('Unimplemented object or motion');
@@ -165,6 +165,11 @@ export function proceduralDirector(scene,story){
    o.position.set(...s.position);o.scale.set(...s.scale);o.rotation.set(...s.rotation);
    const phase=t*1.5+i*.8;
    if(s.motion==='spin')o.rotation.y+=q*Math.PI*1.4;
+   if(s.motion==='backward'){if(o.userData.clockHands)o.userData.clockHands.rotation.z=t*3;else o.rotation.z+=q*Math.PI*2;}
+   if(s.motion==='open'||s.motion==='close'||s.motion==='slam'){const part=o.userData.swingPart||o;part.rotation.y=(s.motion==='open'?q:1-Math.min(1,p*5))*1.3;}
+   if(s.motion==='shake'){o.rotation.z+=Math.sin(t*15)*.045;o.position.x+=Math.sin(t*12)*.04;}
+   if(s.motion==='float')o.position.y+=Math.sin(t*.8+i)*.25;
+   if(s.motion==='head_turn')o.rotation.y+=q*1.3;
    if(s.motion==='pulse')o.scale.multiplyScalar(1+.06*Math.sin(phase*2));
    if(s.motion==='drift')o.position.x+=(q-.5)*1.4;
    if(s.motion==='orbit'){o.position.x+=Math.cos(phase)*.55;o.position.z+=Math.sin(phase)*.55;}

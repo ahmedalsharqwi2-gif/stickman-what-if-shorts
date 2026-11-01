@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "profile": "stickman",
+  "existing_bindings_confirmed_by_user": true,
+  "authorization": "Owner instructed use of existing fifth-repository destinations and explicitly confirmed Instagram in the current conversation.",
+  "live_evidence_run": 41353569666,
+  "buffer_channel_ids": {
+    "youtube": "6ae65d0a2f1f5ed648378c6c",
+    "facebook": "6ae65c3c2f1f5ed64837853d",
+    "instagram": "6ae65c082f1f5ed648378367"
+  },
+  "observed_names": {
+    "youtube": "إفترض كده",
+    "facebook": "إفترض كده",
+    "instagram": "just_assumethat"
+  }
+}

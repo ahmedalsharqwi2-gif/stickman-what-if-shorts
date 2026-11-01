@@ -22,6 +22,10 @@ def main():
     for row in rows:
      available.append(row)
      if any(norm('افترض كده') in norm(row.get(k,'')) for k in ('name','displayName')):matches.append(row)
+   config=Path('config/professional_destinations.json')
+   if config.is_file():
+    expected=json.loads(config.read_text()).get('buffer_channel_ids',{})
+    matches=[r for r in available if r['id'] in expected.values()]
    report['matching_channels']=matches
    report['available_channels']=available
    report['ready']=len(matches)>=1 and len({r['service'] for r in matches})==3 and all(r.get('isQueuePaused') is False for r in matches)

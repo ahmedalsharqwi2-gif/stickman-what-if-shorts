@@ -8,7 +8,7 @@ CATEGORIES={'science':['biology','chemistry','medicine_and_body','geology','phys
 'history':['daily_life','inventions','civilizations','trade','cities','historical_events'],
 'horror':['supernatural','psychological','mystery','isolated_places'],'news':['ai_news'],'stickman':['what_if','everyday_physics','impossible_world']}
 ASSETS=('cell','leaf','heart','dna','molecule','crystal','rock_layers','volcano','tree','pendulum','gear','magnet','circuit','river','fossil','scroll','book','temple','house','ship','cart','person','stickman','door','clock','lantern','table','sphere','box','cylinder','cone','torus','server','monitor','robot','satellite_dish','microphone','phone','chip','document','shield','network','waveform')
-MOTIONS=('none','spin','pulse','drift','orbit','grow','assemble','split','swing','flow')
+MOTIONS=('none','spin','pulse','drift','orbit','grow','assemble','split','swing','flow','slam','open','close','shake','float','backward','head_turn')
 ENVIRONMENTS=('laboratory','body_section','landscape','geology_section','workshop','ancient_city','harbor','dark_interior','forest','ocean')
 
 def enabled(profile,root='.'):
@@ -29,7 +29,7 @@ def validate(story,profile):
             raise ValueError('Narration, heading and visible causal change required')
         if scene.get('environment') not in ENVIRONMENTS:raise ValueError('Unsupported environment')
         objects=scene.get('objects',[])
-        if not 3<=len(objects)<=16:raise ValueError('Three to sixteen authored objects required per scene')
+        if not 1<=len(objects)<=16:raise ValueError('At least one authored composite subject is required per scene')
         for obj in objects:
             if obj.get('kind') not in ASSETS or obj.get('motion') not in MOTIONS:raise ValueError('Unimplemented subject or motion')
             if not vector(obj.get('position'),-6,6) or not vector(obj.get('scale'),.08,5) or not vector(obj.get('rotation'),-6.3,6.3):
@@ -42,6 +42,26 @@ def validate(story,profile):
     story['visual_plan']={'version':1,'world':'procedural_story','scenes':[{'id':s['id'],'setting':s['environment'],'focal_object':s['objects'][0]['kind'],'action':s['objects'][0]['motion'],'shot':'authored_camera','state_change':s['visual_change']} for s in story['scenes']]}
     story['visual_sequence_sha256']=hashlib.sha256(json.dumps(signatures).encode()).hexdigest()
     return story
+
+def complete_narration(editorial,draft,profile):
+    """One targeted continuation of the retained narration; visual plans stay unchanged."""
+    count=sum(len(s.get('narration','').split()) for s in draft.get('scenes',[]))
+    if 280<=count<=360:return draft
+    schema={'type':'OBJECT','properties':{'narrations':{'type':'ARRAY','minItems':8,'maxItems':8,'items':{'type':'OBJECT','properties':{'id':{'type':'STRING'},'narration':{'type':'STRING'}},'required':['id','narration']}}},'required':['narrations']}
+    brief={'title':draft.get('title'),'canonical_subject':draft.get('canonical_subject'),'scenes':[{'id':s['id'],'label':s['label'],'current_narration':s.get('narration',''),'visible_event':s.get('visual_change',''),'objects':[o.get('kind') for o in s.get('objects',[])]} for s in draft['scenes']]}
+    result=editorial.ask('Continue this EXACT retained episode, not a new topic. Return only eight replacement narration paragraphs with the exact supplied IDs. Each paragraph MUST contain 38 to44 space-separated Egyptian Arabic words, total304 to352. Count before returning. Preserve the same subjects, plot, ending, scene order and visible props. Expand concrete actions, decisions and explanations with connected natural Egyptian speech; no generic padding, source requests, new unrelated props or invented documentary claims. This is a targeted narration-length edit before the first TTS request. DATA:\\n'+json.dumps(brief,ensure_ascii=False),schema,creative=profile in ('horror','stickman'))
+    (editorial.ROOT/'delivery/narration-continuation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
+    rows=result.get('narrations',[])
+    if len(rows)!=8 or len({r.get('id') for r in rows})!=8 or {r.get('id') for r in rows}!={s['id'] for s in draft['scenes']}:
+        raise ValueError('Narration continuation must preserve all eight scene identities')
+    by_id={r['id']:r['narration'] for r in rows}
+    updated=deepcopy(draft)
+    for scene in updated['scenes']:
+        scene['narration']=by_id[scene['id']]
+        scene['labels']=[x for x in scene.get('labels',[]) if x in scene['narration']]
+    total=sum(len(s['narration'].split()) for s in updated['scenes'])
+    if not 280<=total<=360:raise ValueError('Retained narration continuation is still outside the full-film word budget')
+    return updated
 
 def prepare(editorial,profile,slot):
     data=editorial.registry()
@@ -84,6 +104,8 @@ def prepare(editorial,profile,slot):
     draft=editorial.ask(prompt,base,creative=profile in ('horror','stickman'))
     (delivery/'last-draft.json').write_text(json.dumps(draft,ensure_ascii=False,indent=2))
     if draft.get('suitable') is not True:raise ValueError('Author did not provide a usable original story')
+    draft=complete_narration(editorial,draft,profile)
+    (delivery/'last-draft.json').write_text(json.dumps(draft,ensure_ascii=False,indent=2))
     subject=str(draft.get('canonical_subject','')).casefold().strip()
     if not subject or any(subject==str(r.get('subject','')).casefold().strip() for r in old):raise ValueError('Underlying subject already reserved')
     for i,s in enumerate(draft['scenes']):s['id']='scene_'+str(i+1)
