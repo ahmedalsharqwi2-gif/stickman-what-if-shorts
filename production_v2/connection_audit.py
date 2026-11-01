@@ -16,13 +16,15 @@ def main():
    return data['data']
   try:
    orgs=query('query { account { organizations { id } } }')['account']['organizations']
-   matches=[]
+   matches=[];available=[]
    for org in orgs:
     rows=query('query { channels(input: {organizationId: '+json.dumps(org['id'])+'}) { id name displayName service isQueuePaused } }')['channels']
     for row in rows:
+     available.append(row)
      if any(norm('افترض كده') in norm(row.get(k,'')) for k in ('name','displayName')):matches.append(row)
    report['matching_channels']=matches
-   report['ready']=len(matches)==3 and len({r['service'] for r in matches})==3 and all(r.get('isQueuePaused') is False for r in matches)
+   report['available_channels']=available
+   report['ready']=len(matches)>=1 and len({r['service'] for r in matches})==3 and all(r.get('isQueuePaused') is False for r in matches)
   except Exception as error:report['error_class']=type(error).__name__
  else:report['problem']='Existing fifth-repository BUFFER_API_KEY is not configured'
  Path('work').mkdir(exist_ok=True);Path('work/publishing-connection.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
