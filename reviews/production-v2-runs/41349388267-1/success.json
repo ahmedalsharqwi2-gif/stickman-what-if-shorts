@@ -1,0 +1,48 @@
+{
+  "profile": "stickman",
+  "repository": "ahmedalsharqwi2-gif/stickman-what-if-shorts",
+  "run_id": "41349388267",
+  "run_attempt": "1",
+  "source_commit": "a1b5014414b98bc721a9406db245f4afba21f3b9",
+  "stage": "success",
+  "requested_stage": "success",
+  "observed_at": "2026-11-01T21:08:40.168869+00:00",
+  "review_only": true,
+  "automatically_published": false,
+  "cutover_eligible": false,
+  "complete_film_verified": true,
+  "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/review-v2-review-stickman-41349388267-1/review-video-v2-review-stickman-41349388267-1.mp4",
+  "credential_presence": {
+    "GEMINI_API_KEY": true,
+    "GEMINI_TEXT_API_KEY": false,
+    "GEMINI_TTS_API_KEY": true
+  },
+  "generation_result": {
+    "slot": "candidate-stickman-e46489002bc248d5a4148931eedfed3e",
+    "profile": "stickman",
+    "topic_key": "orbital-cabin-freefall-v2",
+    "duration": 156.72,
+    "story_sha256": "82b8e5ba80c5cadda61e9ff74b14f7bd0f2b6b5aba0cb6ea784bb92479645dde",
+    "audio_sha256": "7f9a60c15455f5f7c126a6f3c69102d91019add12143ef2325b6262f256bdf42",
+    "fresh_topic_verified": true,
+    "publishable": false
+  },
+  "video_sha256": "7854fdda59e57d69cc52bbe4833bd95e1db4053e3cda355d0fa838befcbca81f",
+  "verification_sha256": "a59d348895018884a9198b2fa4376cb5331e07dcf6e7ea19a9bb66018432ba96",
+  "duration": 156.72,
+  "width": 1080,
+  "height": 1920,
+  "decode": "PASS",
+  "generation_report_present": true,
+  "generation_report_sha256": "c72e4928a2108da935419d817f68ce6ed7bbd28b0a5638e001cd7addc2ba0e60",
+  "generation_report_fresh_topic_claim": true,
+  "generation_origin": null,
+  "fresh_topic_verified": true,
+  "narration_provenance": {
+    "provider": "Gemini TTS",
+    "voice": "Charon",
+    "interaction_id": "v1_ChdkSlBtYXZTTU9mYi01Tm9QN3ZqUzJBYxIXZEpQbWF2U01PZmItNU5vUDd2alMyQWM",
+    "sha256": "7f9a60c15455f5f7c126a6f3c69102d91019add12143ef2325b6262f256bdf42",
+    "output_sha256": "7f9a60c15455f5f7c126a6f3c69102d91019add12143ef2325b6262f256bdf42"
+  }
+}
