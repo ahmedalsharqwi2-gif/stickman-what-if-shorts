@@ -56,8 +56,11 @@ def measured_timing(story, duration, transcripts):
     expected=' '.join(s['narration'] for s in story['scenes']).split()
     anchors,models=anchor_chain(expected,duration,transcripts,norm)
     exact_coverage=len(anchors)/len(expected);normalized=False
-    if exact_coverage<.85:
-        anchors,models=anchor_chain(expected,duration,transcripts,recognized_key,join=True);normalized=True
+    if exact_coverage<.9:
+        for join in (False,True):
+            candidate,candidate_models=anchor_chain(expected,duration,transcripts,recognized_key,join=join)
+            if len(candidate)>len(anchors):
+                anchors,models=candidate,candidate_models;normalized=True
     coverage=len(anchors)/len(expected)
     if coverage<.85:raise ValueError('Insufficient measured speech evidence for phrase timing')
     cursor=0;scenes=[]
@@ -93,3 +96,4 @@ def measured_timing(story, duration, transcripts):
     return {'duration':duration,'scenes':scenes,'words':transcripts[0][1],'caption_groups':captions,
             'coverage':coverage,'exact_token_coverage':exact_coverage,'known_name_and_egyptian_normalization_applied':normalized,'asr_model':'+'.join(models),'unmatched_script_words':[w for i,w in enumerate(expected) if i not in anchors],
             'timing_method':('Known-name and Egyptian-pronunciation normalized measured anchors' if normalized else 'Exact-token ensemble anchors')+'; supplied-script phrase captions; no active-word precision claim'}
+
