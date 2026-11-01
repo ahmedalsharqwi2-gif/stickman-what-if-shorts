@@ -1,0 +1,23 @@
+{
+  "scenario": "orbital_phone",
+  "world": "orbital_cabin",
+  "duration": 32,
+  "fps": 24,
+  "frames": 768,
+  "width": 1080,
+  "height": 1920,
+  "sha256": "64f5709fa80c5647325f944f5e6d3f2b16fd923c6052da90983e5f454ac35605",
+  "full_decode": "PASS",
+  "silent_visual_review": true,
+  "publishable": false,
+  "actions": [
+    "wake",
+    "reach_miss",
+    "wall_push",
+    "air_run",
+    "rope_throw",
+    "rope_pull",
+    "phone_catch",
+    "return_secure"
+  ]
+}

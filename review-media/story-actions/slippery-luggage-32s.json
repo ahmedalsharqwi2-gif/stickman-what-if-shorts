@@ -1,0 +1,23 @@
+{
+  "scenario": "slippery_luggage",
+  "world": "station_corridor",
+  "duration": 32,
+  "fps": 24,
+  "frames": 768,
+  "width": 1080,
+  "height": 1920,
+  "sha256": "2bea5c47e056222c800ec8a4e8bfbb789c633bbe99d4fc0eddb4dc35f462de6b",
+  "full_decode": "PASS",
+  "silent_visual_review": true,
+  "publishable": false,
+  "actions": [
+    "bag_roll",
+    "chase_slip",
+    "bench_push",
+    "bag_overshoot",
+    "scarf_throw",
+    "scarf_brake",
+    "bag_catch",
+    "bag_secure"
+  ]
+}
