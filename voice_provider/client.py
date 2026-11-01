@@ -47,7 +47,7 @@ def _synthesize(text,c,key):
         except (urllib.error.URLError,TimeoutError):
             raise RuntimeError('Gemini TTS connection failed; task retained for retry without changing voice') from None
 
-def generate(text,output_path):
+def generate(text,output_path,*,cache_only=False):
     text=' '.join(str(text).split())
     if not text: raise ValueError('Narration is empty')
     output=Path(output_path).resolve()
@@ -62,6 +62,8 @@ def generate(text,output_path):
         data=cached.read_bytes();info=_wave_info(data);report=json.loads(meta.read_text());hit=True
         if report.get('sha256')!=hashlib.sha256(data).hexdigest(): raise ValueError('Voice cache integrity check failed')
     else:
+        if cache_only:
+            raise RuntimeError('Reserved narration cache is unavailable; refusing duplicate synthesis')
         data,interaction,info=_synthesize(text,c,key)
         report={'provider':'Gemini TTS','model':c['model'],'voice':c['speaker'],'style':c['style'],'text':text,'interaction_id':interaction,**info,'sha256':hashlib.sha256(data).hexdigest(),'newly_synthesized':True,'original_video_audio_used':False,'fallback_used':False}
         with tempfile.NamedTemporaryFile(dir=cache,delete=False) as f:f.write(data);tmp=Path(f.name)
@@ -78,3 +80,4 @@ def generate(text,output_path):
         target.replace(output)
     output.with_suffix('.source.json').write_text(json.dumps({**report,'cache_hit':hit,'output_sha256':hashlib.sha256(output.read_bytes()).hexdigest()},ensure_ascii=False,indent=2))
     return output
+
