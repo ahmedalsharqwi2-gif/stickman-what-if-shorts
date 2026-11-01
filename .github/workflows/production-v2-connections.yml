@@ -1,0 +1,44 @@
+{
+  "name": "Read-only existing stickman destinations",
+  "on": {
+    "push": {
+      "branches": [
+        "codex/rebuild-production-v2"
+      ],
+      "paths": [
+        ".github/production-v2-connection-request.json"
+      ]
+    },
+    "workflow_dispatch": {}
+  },
+  "permissions": {
+    "contents": "write"
+  },
+  "jobs": {
+    "audit": {
+      "runs-on": "ubuntu-24.04",
+      "timeout-minutes": 10,
+      "env": {
+        "BUFFER_API_KEY": "${{ secrets.BUFFER_API_KEY }}",
+        "GITHUB_TOKEN": "${{ github.token }}"
+      },
+      "steps": [
+        {
+          "uses": "actions/checkout@v4",
+          "with": {
+            "fetch-depth": 0
+          }
+        },
+        {
+          "uses": "actions/setup-python@v5",
+          "with": {
+            "python-version": "3.11"
+          }
+        },
+        {
+          "run": "python -m pip install requests\npython -m production_v2.connection_audit"
+        }
+      ]
+    }
+  }
+}
