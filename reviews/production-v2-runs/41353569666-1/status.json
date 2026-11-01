@@ -1,0 +1,52 @@
+{
+  "profile": "stickman",
+  "repository": "ahmedalsharqwi2-gif/stickman-what-if-shorts",
+  "run_id": "41353569666",
+  "run_attempt": "1",
+  "source_commit": "e157dcda6532499d5e66fad63720236432b4e011",
+  "stage": "success",
+  "kind": "publishing_connection_discovery",
+  "no_posts_created": true,
+  "read_only": true,
+  "ready": false,
+  "credential_present": true,
+  "matching_channels": [
+    {
+      "id": "6ae65d0a2f1f5ed648378c6c",
+      "name": "إفترض كده ",
+      "displayName": "إفترض كده ",
+      "service": "youtube",
+      "isQueuePaused": false
+    },
+    {
+      "id": "6ae65c3c2f1f5ed64837853d",
+      "name": "إفترض كده ",
+      "displayName": "إفترض كده ",
+      "service": "facebook",
+      "isQueuePaused": false
+    }
+  ],
+  "available_channels": [
+    {
+      "id": "6ae65d0a2f1f5ed648378c6c",
+      "name": "إفترض كده ",
+      "displayName": "إفترض كده ",
+      "service": "youtube",
+      "isQueuePaused": false
+    },
+    {
+      "id": "6ae65c3c2f1f5ed64837853d",
+      "name": "إفترض كده ",
+      "displayName": "إفترض كده ",
+      "service": "facebook",
+      "isQueuePaused": false
+    },
+    {
+      "id": "6ae65c082f1f5ed648378367",
+      "name": "just_assumethat",
+      "displayName": "just_assumethat",
+      "service": "instagram",
+      "isQueuePaused": false
+    }
+  ]
+}
