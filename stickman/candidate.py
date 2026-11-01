@@ -24,19 +24,29 @@ BEATS=(
  ('الحل مش في القوة','التخيل ممتع، والعلم يساعدنا نفهم الحركة','happy'),
 )
 FONT=Path(__file__).resolve().parents[1]/'assets/fonts/NotoSansArabic-Bold.ttf'
+CHANNEL_NAME=json.loads((Path(__file__).resolve().parents[1]/'config/channel.json').read_text())['channel_name']
 
 def ease(value):
     value=max(0,min(1,value))
     return value*value*(3-2*value)
 
-def scene_at(t,duration):
+def scene_at(t,duration,timing=None):
+    if timing:
+        scenes=timing["scenes"]
+        index=max(i for i,scene in enumerate(scenes) if scene["start"]<=max(0,min(t,duration)))
+        scene=scenes[index]
+        return index,ease((t-scene["start"])/max(.001,scene["end"]-scene["start"]))
     index=min(len(BEATS)-1,max(0,int(t/duration*len(BEATS))))
     return index,(t-index*duration/len(BEATS))/(duration/len(BEATS))
 
-def frame(t,duration=120,width=W,height=H,visual_review=True):
+def frame(t,duration=120,width=W,height=H,visual_review=True,story=None,timing=None):
     """Layered room, perspective floor, independent acting and slow camera drift."""
-    index,progress=scene_at(t,duration)
+    index,progress=scene_at(t,duration,timing)
     title,line,mood=BEATS[index]
+    if story:
+        scene=story["scenes"][index];title=scene["label"];line=scene.get("caption","");mood=scene.get("mood","neutral")
+    if timing:
+        line=next((group["text"] for group in timing["caption_groups"] if group["start"]<=t<group["end"]),"")
     im=Image.new('RGB',(W,H),'#091525'); d=ImageDraw.Draw(im)
     # A slowly changing light gradient preserves readable silhouettes.
     for y in range(0,H,12):
@@ -55,7 +65,7 @@ def frame(t,duration=120,width=W,height=H,visual_review=True):
         d.line((540+(n-1)*65-camera*.45,1320,540+(n-1)*420-camera*1.7,H),fill='#345164',width=3)
     for y in (1360,1425,1530,1690,1900): d.line((0,y,W,y),fill='#345164',width=3)
     floating=index in (1,2,3,4)
-    local=t-index*duration/8
+    local=t-(timing["scenes"][index]["start"] if timing else index*duration/8)
     x=580-camera+math.sin(local*.5)*55
     y=1130-(150+70*math.sin(local*.8) if floating else 0)
     # Soft contact shadow changes size as the character leaves the floor.
@@ -85,7 +95,7 @@ def frame(t,duration=120,width=W,height=H,visual_review=True):
     d.rounded_rectangle((70,95,1010,238),radius=25,fill='#142c40',outline='#3c6577',width=2)
     font=ImageFont.truetype(str(FONT),48); small=ImageFont.truetype(str(FONT),31)
     d.text((970,120),title,font=font,fill='#f1d69b',anchor='ra',direction='rtl')
-    d.text((970,190),f'تخيل لو!  المشهد {index+1} من 8',font=small,fill='#b7d6dc',anchor='ra',direction='rtl')
+    d.text((970,190),f'{CHANNEL_NAME} • المشهد {index+1} من 8',font=small,fill='#b7d6dc',anchor='ra',direction='rtl')
     d.rounded_rectangle((90,1515,990,1655),radius=22,fill='#142b3e')
     d.text((945,1540),line,font=small,fill='#f0f0e6',anchor='ra',direction='rtl')
     if visual_review:
@@ -96,7 +106,31 @@ def frame(t,duration=120,width=W,height=H,visual_review=True):
 def probe(path):
     return json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(path)]))
 
-def render(output,duration=120,fps=24,narration=None,visual_review=False):
+def validate_timing(story,timing,duration,narration):
+    if not narration or story.get('profile')!='stickman' or len(story.get('scenes',[]))!=8 or len(timing.get('scenes',[]))!=8:
+        raise ValueError('Eight authored and measured stickman scenes and narration are required')
+    if abs(float(timing['duration'])-duration)>.05 or not .9<=float(timing.get('coverage',0))<=1:
+        raise ValueError('Complete measured speech coverage is required')
+    if timing.get('audio_sha256')!=hashlib.sha256(Path(narration).read_bytes()).hexdigest():raise ValueError('Narration changed after alignment')
+    digest=hashlib.sha256(json.dumps(story,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
+    if timing.get('story_sha256')!=digest:raise ValueError('Story changed after alignment')
+    prior=0
+    for index,(authored,measured) in enumerate(zip(story['scenes'],timing['scenes'])):
+        start,end=float(measured['start']),float(measured['end'])
+        if measured['id']!=authored['id'] or not all(math.isfinite(v) for v in (start,end)) or abs(start-prior)>.05 or not start<end<=duration+.001:
+            raise ValueError('Measured scenes must cover the complete film without gaps')
+        prior=end
+    if abs(prior-duration)>.05:raise ValueError('Final measured scene must reach film end')
+    groups=timing.get('caption_groups',[])
+    if not groups:raise ValueError('Measured captions required')
+    previous=0
+    for group in groups:
+        start,end=float(group['start']),float(group['end'])
+        if not all(math.isfinite(v) for v in (start,end)) or not 0<=start<end<=duration+.1 or start<previous-.03:
+            raise ValueError('Measured captions are unordered or outside narration')
+        previous=end
+
+def render(output,duration=120,fps=24,narration=None,visual_review=False,story=None,timing=None):
     if not 120<=duration<180: raise ValueError('A full candidate must be 120 to less than 180 seconds')
     if not 12<=fps<=30: raise ValueError('Frame rate must be 12..30')
     if not visual_review and narration is None: raise ValueError('Original Arabic narration is required; use --visual-review for an incomplete silent review')
@@ -105,6 +139,9 @@ def render(output,duration=120,fps=24,narration=None,visual_review=False):
         if not any(s['codec_type']=='audio' for s in evidence['streams']): raise ValueError('Narration has no audio stream')
         audio_duration=float(evidence['format']['duration'])
         if abs(audio_duration-duration)>.5: raise ValueError('Narration duration must match requested film duration within 0.5 second')
+    if (story is None)!=(timing is None): raise ValueError('Authored story and measured timing must be supplied together')
+    if timing:
+        validate_timing(story,timing,duration,narration)
     output=Path(output);output.parent.mkdir(parents=True,exist_ok=True)
     if output.exists() or output.with_suffix('.json').exists(): raise FileExistsError('Candidate outputs are immutable: choose a new output path')
     temporary=output.with_name(output.stem+'.partial.mp4')
@@ -115,7 +152,7 @@ def render(output,duration=120,fps=24,narration=None,visual_review=False):
     command+=['-t',str(duration),'-c:v','libx264','-threads','2','-preset','veryfast','-crf','21','-pix_fmt','yuv420p','-movflags','+faststart',str(temporary)]
     process=subprocess.Popen(command,stdin=subprocess.PIPE)
     try:
-        for n in range(round(duration*fps)):process.stdin.write(frame(n/fps,duration,visual_review=visual_review).tobytes())
+        for n in range(round(duration*fps)):process.stdin.write(frame(n/fps,duration,visual_review=visual_review,story=story,timing=timing).tobytes())
         process.stdin.close()
         if process.wait(): raise RuntimeError('FFmpeg encoding failed')
     except BaseException:
@@ -127,7 +164,7 @@ def render(output,duration=120,fps=24,narration=None,visual_review=False):
         output.hardlink_to(temporary)  # atomic refusal if another run reserved this final path
         temporary.unlink()
     except BaseException:temporary.unlink(missing_ok=True);raise
-    manifest={'schema':1,'pipeline':'stickman-candidate-v2','duration':duration,'fps':fps,'width':W,'height':H,'sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'visual_review':visual_review,'narration_present':bool(narration),'narration_semantics_verified':False,'publishable':False,'reason':'Candidate review only; narration semantics, measured captions and channel publishing must be verified before cutover','full_decode_verified':True}
+    manifest={'schema':1,'pipeline':'stickman-candidate-v2','duration':duration,'fps':fps,'width':W,'height':H,'sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'visual_review':visual_review,'narration_present':bool(narration),'narration_semantics_verified':bool(timing),'measured_captions':bool(timing),'channel_name':CHANNEL_NAME,'publishable':False,'reason':'Candidate review only; narration semantics, measured captions and channel publishing must be verified before cutover','full_decode_verified':True}
     with output.with_suffix('.json').open('x',encoding='utf8') as receipt:
         receipt.write(json.dumps(manifest,ensure_ascii=False,indent=2))
     return manifest

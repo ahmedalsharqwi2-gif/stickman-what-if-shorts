@@ -33,3 +33,12 @@ def test_arabic_font_shapes_and_scene_labels_fit_safe_area():
     assert features.check('raqm'), 'Arabic shaping requires RAQM; do not render disconnected letters'
     font=ImageFont.truetype(str(FONT),31)
     assert max(font.getlength(beat[1],direction='rtl') for beat in BEATS)<810
+
+
+def test_requested_identity_is_explicit_without_fake_logo_asset():
+    import json
+    from stickman.candidate import CHANNEL_NAME
+    assert CHANNEL_NAME=='افترض كده'
+    config=json.loads((Path(__file__).parents[1]/'config/channel.json').read_text())
+    assert config['original_logo_installed'] is False
+    assert config['original_avatar_file'] is None

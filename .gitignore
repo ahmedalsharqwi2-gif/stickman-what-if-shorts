@@ -2,3 +2,7 @@ out/
 __pycache__/
 .pytest_cache/
 .env
+
+/.candidate-v2/
+/.voice_cache/
+state/api_budget.sqlite3*
