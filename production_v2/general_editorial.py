@@ -17,7 +17,18 @@ def enabled(profile,root='.'):
     policy=json.loads(path.read_text())
     return policy.get('profile')==profile and (policy.get('external_sources_required') is False or profile=='news' and policy.get('editorial_mode')=='sourced_procedural')
 
+ASSET_ALIASES={'sun':'sphere','earth':'sphere','solar_flare':'sphere','solar_corona':'sphere','magnetic_field':'wave','gps':'phone','power_grid':'circuit','satellite':'satellite_dish','grid':'circuit'}
+MOTION_ALIASES={'radiate':'pulse','emit':'pulse','flicker':'pulse','magnetic':'flow','orbiting':'orbit','explode':'split','collapse':'slam','bounce':'swing','move':'drift'}
+
+def _normalize_visual_aliases(story):
+    for scene in story.get('scenes',[]):
+        for obj in scene.get('objects',[]):
+            if obj.get('kind') in ASSET_ALIASES: obj['kind']=ASSET_ALIASES[obj['kind']]
+            if obj.get('motion') in MOTION_ALIASES: obj['motion']=MOTION_ALIASES[obj['motion']]
+    return story
+
 def validate(story,profile):
+    _normalize_visual_aliases(story)
     if story.get('profile')!=profile or not story.get('topic_key') or len(story.get('scenes',[]))!=8:
         raise ValueError('A new identified eight-scene story is required')
     if story.get('knowledge_category') not in CATEGORIES[profile]:raise ValueError('Unknown editorial category')
