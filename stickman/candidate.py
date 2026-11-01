@@ -95,7 +95,7 @@ def frame(t,duration=120,width=W,height=H,visual_review=True,story=None,timing=N
     d.rounded_rectangle((70,95,1010,238),radius=25,fill='#142c40',outline='#3c6577',width=2)
     font=ImageFont.truetype(str(FONT),48); small=ImageFont.truetype(str(FONT),31)
     d.text((970,120),title,font=font,fill='#f1d69b',anchor='ra',direction='rtl')
-    d.text((970,190),f'{CHANNEL_NAME} • المشهد {index+1} من 8',font=small,fill='#b7d6dc',anchor='ra',direction='rtl')
+    d.text((970,190),f'{CHANNEL_NAME}، المشهد {index+1} من 8',font=small,fill='#b7d6dc',anchor='ra',direction='rtl')
     d.rounded_rectangle((90,1515,990,1655),radius=22,fill='#142b3e')
     d.text((945,1540),line,font=small,fill='#f0f0e6',anchor='ra',direction='rtl')
     if review_label or visual_review:

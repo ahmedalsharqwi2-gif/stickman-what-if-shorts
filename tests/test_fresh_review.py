@@ -50,4 +50,86 @@ class FreshReviewTests(unittest.TestCase):
   authored=story();text=' '.join(s['narration'] for s in authored['scenes'])
   self.assertIn('الجاذبية ما اختفتش',text);self.assertIn('سقوط حر',text);self.assertTrue(authored['fiction'])
 
+ def test_explicit_resume_keeps_original_slot_and_script_without_new_reservation(self):
+  from production_v2.ledger import Ledger
+  captured=[]
+  def failed(text,path):captured.append(text);raise ConnectionError('mock provider unavailable')
+  with patch.dict(os.environ,{'GEMINI_API_KEY':'mock-only'},clear=True):
+   with self.assertRaises(ConnectionError):run(self.out,self.ledger,tts=failed)
+   failure=json.loads((self.out/'generation-failure.json').read_text());slot=failure['slot']
+   def same_text(text,path):captured.append(text);self.tts(text,path)
+   result=run(self.root/'explicit-resume',self.ledger,resume_slot=slot,tts=same_text,asr=self.timing,renderer=self.renderer,mixer=self.mixer,verifier=self.verify)
+  self.assertEqual(result['slot'],slot);self.assertTrue(result['resumed']);self.assertEqual(captured[0],captured[1])
+  with Ledger(self.ledger) as ledger:
+   self.assertEqual(ledger.db.execute('SELECT count(*) FROM reservations').fetchone()[0],1)
+   kinds=[row[0] for row in ledger.db.execute('SELECT kind FROM events ORDER BY sequence')]
+   self.assertIn('candidate_generation_failed',kinds);self.assertIn('candidate_resumed',kinds);self.assertIn('candidate_generated',kinds)
+ def test_resume_rejects_changed_story_and_missing_reservation(self):
+  from production_v2.ledger import Conflict
+  def failed(*args):raise ConnectionError('mock provider unavailable')
+  with patch.dict(os.environ,{'GEMINI_API_KEY':'mock-only'},clear=True):
+   with self.assertRaises(ConnectionError):run(self.out,self.ledger,tts=failed)
+   slot=json.loads((self.out/'generation-failure.json').read_text())['slot']
+   changed=story();changed['scenes'][0]['narration']='Replacement story is not authorized by resume'
+   with patch('stickman.fresh_review.authored_story',return_value=changed):
+    with self.assertRaisesRegex(Conflict,'story'):
+     run(self.root/'changed',self.ledger,resume_slot=slot,tts=self.tts)
+   with self.assertRaisesRegex(Conflict,'reservation'):
+    run(self.root/'missing',self.ledger,resume_slot='candidate-does-not-exist',tts=self.tts)
+  self.assertEqual(self.calls,[])
+ def test_resume_failure_appends_attempt_without_erasing_previous_failure(self):
+  from production_v2.ledger import Ledger
+  def failed(*args):raise ConnectionError('mock provider unavailable')
+  with patch.dict(os.environ,{'GEMINI_API_KEY':'mock-only'},clear=True):
+   with self.assertRaises(ConnectionError):run(self.out,self.ledger,tts=failed)
+   slot=json.loads((self.out/'generation-failure.json').read_text())['slot']
+   with self.assertRaises(ConnectionError):run(self.root/'resumed-failure',self.ledger,resume_slot=slot,tts=failed)
+  with Ledger(self.ledger) as ledger:
+   self.assertEqual(ledger.db.execute("SELECT count(*) FROM events WHERE kind='candidate_generation_failed'").fetchone()[0],2)
+   self.assertEqual(ledger.db.execute('SELECT count(*) FROM reservations').fetchone()[0],1)
+ def test_protected_ledger_path_is_rejected_before_creating_run(self):
+  repo=Path(__file__).resolve().parents[1]
+  with patch.dict(os.environ,{'GEMINI_API_KEY':'mock-only'},clear=True):
+   with self.assertRaisesRegex(ValueError,'protected'):
+    run(self.out,repo/'state/must-not-create.sqlite3',tts=self.tts)
+  self.assertFalse(self.out.exists());self.assertFalse((repo/'state/must-not-create.sqlite3').exists())
+ def test_resume_reuses_provider_voice_cache_without_another_synthesis(self):
+  import io
+  from voice_provider.client import generate
+  data=io.BytesIO()
+  with wave.open(data,'wb') as audio:audio.setparams((1,2,100,0,'NONE','PCM'));audio.writeframes(b'\0\0'*12000)
+  def failed_asr(*args):raise ValueError('Mock alignment interrupted after cached voice')
+  env={'GEMINI_API_KEY':'mock-only','VOICE_CACHE_DIR':str(self.root/'voice-cache')}
+  with patch.dict(os.environ,env,clear=True),patch('voice_provider.client._synthesize',return_value=(data.getvalue(),'mock-interaction',{'duration':120,'sample_rate':100,'channels':1})) as synth:
+   with self.assertRaises(ValueError):run(self.out,self.ledger,tts=generate,asr=failed_asr)
+   slot=json.loads((self.out/'generation-failure.json').read_text())['slot']
+   resumed=self.root/'cached-resume'
+   run(resumed,self.ledger,resume_slot=slot,tts=generate,asr=self.timing,renderer=self.renderer,mixer=self.mixer,verifier=self.verify)
+   self.assertEqual(synth.call_count,1)
+  source=json.loads((resumed/'professional_motion/delivery/narration.source.json').read_text())
+  self.assertTrue(source['cache_hit']);self.assertEqual(source['interaction_id'],'mock-interaction')
+ def test_resume_refuses_candidate_with_any_publication_intent(self):
+  from production_v2.ledger import Ledger,Conflict
+  def failed(*args):raise ConnectionError('mock provider unavailable')
+  with patch.dict(os.environ,{'GEMINI_API_KEY':'mock-only'},clear=True):
+   with self.assertRaises(ConnectionError):run(self.out,self.ledger,tts=failed)
+   slot=json.loads((self.out/'generation-failure.json').read_text())['slot']
+   with Ledger(self.ledger) as ledger:
+    due=ledger.db.execute('SELECT due FROM reservations WHERE slot=?',(slot,)).fetchone()[0]
+    ledger.register_video(slot,{'sha256':'c'*64,'decode':'PASS','validated':True})
+    ledger.begin_submission(slot,'youtube','retained-channel',due,'https://example.test/existing.mp4')
+   with self.assertRaisesRegex(Conflict,'Publication'):
+    run(self.root/'forbidden-resume',self.ledger,resume_slot=slot,tts=self.tts)
+  self.assertEqual(self.calls,[])
+ def test_displayed_arabic_characters_have_real_font_glyphs(self):
+  from PIL import ImageFont
+  from stickman.candidate import FONT,CHANNEL_NAME,BEATS
+  from stickman.fresh_review import FRESH_REVIEW_LABEL
+  font=ImageFont.truetype(str(FONT),31);missing=bytes(font.getmask('\U0010ffff'))
+  text=CHANNEL_NAME+'، المشهد 12345678 من '+FRESH_REVIEW_LABEL+' '.join(' '.join(beat[:2]) for beat in BEATS)
+  text+=' '.join(scene['label']+' '+scene['caption']+' '+scene['narration'] for scene in story()['scenes'])
+  self.assertNotIn('•',text)
+  unsupported=[char for char in set(text) if not char.isspace() and bytes(font.getmask(char))==missing]
+  self.assertEqual(unsupported,[])
+
 if __name__=='__main__':unittest.main()

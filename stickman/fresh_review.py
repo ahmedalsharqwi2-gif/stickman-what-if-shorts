@@ -13,6 +13,8 @@ from .alignment import measured_timing
 from .candidate import render,validate_timing
 
 
+FRESH_REVIEW_LABEL='عينة مراجعة، لا تُنشر تلقائيًا'
+
 def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 def write(path,data):Path(path).write_text(json.dumps(data,ensure_ascii=False,indent=2))
 
@@ -53,18 +55,22 @@ def mix_film(rendered,wav,timing,out):
        '-map','0:v:0','-map','[mix]','-c:v','copy','-c:a','aac','-b:a','192k','-t',duration,'-movflags','+faststart',film)
     return film
 
-def run(run_dir,ledger_path,*,git_state=False,tts=None,asr=None,renderer=None,mixer=None,verifier=None):
+def run(run_dir,ledger_path,*,git_state=False,tts=None,asr=None,renderer=None,mixer=None,verifier=None,resume_slot=None):
     # Existing secret of THIS repository only. Nothing is created before this check.
     if not (os.getenv('GEMINI_TTS_API_KEY') or os.getenv('GEMINI_API_KEY')):raise RuntimeError('Existing fifth-repository Gemini TTS secret is required')
     repo=Path(__file__).resolve().parents[1]
     if os.getenv('GITHUB_REPOSITORY') not in (None,'ahmedalsharqwi2-gif/stickman-what-if-shorts'):
         raise PermissionError('Do not use another repository credentials for this channel')
+    if resume_slot is not None and (not isinstance(resume_slot,str) or not resume_slot.strip()):
+        raise ValueError('An explicit nonempty retained slot is required to resume')
     out=Path(run_dir).resolve();ledger_path=Path(ledger_path).resolve()
     if out.exists() and any(out.iterdir()):raise FileExistsError('Existing candidate output is retained')
-    if out==repo or any(out.is_relative_to(repo/name) for name in ('stickman','config','state','assets')):
+    protected=('stickman','config','state','assets','voice_provider','production_v2','.git','professional_motion')
+    if out==repo or repo.is_relative_to(out) or any(out.is_relative_to(repo/name) for name in protected):
         raise ValueError('Use a fresh isolated review directory')
-    if ledger_path.is_relative_to(out):raise ValueError('The shared ledger must be outside the run directory')
-    from production_v2.ledger import Ledger
+    if ledger_path.suffix!='.sqlite3' or ledger_path.is_relative_to(out) or any(ledger_path.is_relative_to(repo/name) for name in protected):
+        raise ValueError('Use a separate candidate sqlite3 ledger outside the run directory and protected production resources')
+    from production_v2.ledger import Ledger,encode,Conflict
     from production_v2.media import verify
     persist=None
     if git_state:
@@ -78,27 +84,43 @@ def run(run_dir,ledger_path,*,git_state=False,tts=None,asr=None,renderer=None,mi
     asr=asr or align;renderer=renderer or render;mixer=mixer or mix_film;verifier=verifier or verify
     out.mkdir(parents=True,exist_ok=True);delivery=out/'professional_motion/delivery';delivery.mkdir(parents=True)
     output=out/'output';output.mkdir()
-    story=authored_story();slot='candidate-stickman-'+uuid.uuid4().hex
-    storyfile=delivery/'story.json';write(storyfile,story)
+    story=authored_story();slot=resume_slot or 'candidate-stickman-'+uuid.uuid4().hex
+    storyfile=delivery/'story.json'
     # Canonical story bytes for renderer/ASR; file hash separately proves artifact identity.
     due=datetime.now(timezone.utc).isoformat()
     with Ledger(ledger_path) as ledger:
         ledger.import_legacy(repo)
-        ledger.reserve(slot,story['topic_key'],due,story)
-        with ledger.transaction():ledger.event('candidate_story',{'slot':slot,'profile':'stickman','story':story,'run_dir':str(out)})
+        if resume_slot:
+            reservation=ledger.db.execute('SELECT topic,story_sha256 FROM reservations WHERE slot=?',(slot,)).fetchone()
+            retained=[json.loads(row[0]) for row in ledger.db.execute("SELECT payload FROM events WHERE kind='candidate_story'") if json.loads(row[0]).get('slot')==slot]
+            if not reservation or len(retained)!=1:
+                raise Conflict('An exact retained fifth-channel reservation and story are required to resume')
+            original=retained[0]
+            retained_story=original.get('story',{})
+            digest=hashlib.sha256(encode(retained_story).encode()).hexdigest()
+            if original.get('profile')!='stickman' or retained_story.get('profile')!='stickman' or retained_story!=story or reservation[0]!=retained_story.get('topic_key','').casefold().strip() or reservation[1]!=digest:
+                raise Conflict('Retained story, profile, or reservation changed; do not synthesize a replacement')
+            if ledger.db.execute('SELECT 1 FROM intents WHERE slot=?',(slot,)).fetchone():
+                raise Conflict('Publication was attempted; reconcile retained intent and receipts before any render retry')
+            story=retained_story
+            with ledger.transaction():ledger.event('candidate_resumed',{'slot':slot,'profile':'stickman','story_sha256':digest,'run_dir':str(out)})
+        else:
+            ledger.reserve(slot,story['topic_key'],due,story)
+            with ledger.transaction():ledger.event('candidate_story',{'slot':slot,'profile':'stickman','story':story,'run_dir':str(out)})
+        write(storyfile,story)
         if persist:persist(ledger)
         try:
             wav=delivery/'narration.wav';tts(' '.join(s['narration'] for s in story['scenes']),str(wav))
             timing=asr(story,wav,delivery);validate_timing(story,timing,timing['duration'],wav);write(delivery/'timing.json',timing)
             rendered=output/'rendered-review.mp4'
-            renderer(rendered,duration=timing['duration'],fps=24,narration=wav,visual_review=False,story=story,timing=timing,review_label='عينة مراجعة • لا تُنشر تلقائيًا')
+            renderer(rendered,duration=timing['duration'],fps=24,narration=wav,visual_review=False,story=story,timing=timing,review_label=FRESH_REVIEW_LABEL)
             film=mixer(rendered,wav,timing,output)
             evidence=verifier(film)
             evidence.update(profile='stickman',topic_key=story['topic_key'],pipeline='v2',review_only=True,publishable=False,
                 fresh_topic_verified=True,story_sha256=sha(storyfile),narration_sha256=sha(wav),measured_caption_coverage=timing['coverage'],
                 artistic_review='Technical ASR/media checks passed; actual visual/listening review remains required')
             write(output/'candidate-verification.json',evidence)
-            result={'slot':slot,'profile':'stickman','topic_key':story['topic_key'],'duration':timing['duration'],'story_sha256':sha(storyfile),'audio_sha256':sha(wav),'generated_in_isolation':True,'fresh_topic_verified':True,'publishable':False}
+            result={'slot':slot,'profile':'stickman','topic_key':story['topic_key'],'duration':timing['duration'],'story_sha256':sha(storyfile),'audio_sha256':sha(wav),'generated_in_isolation':True,'fresh_topic_verified':True,'publishable':False,'resumed':bool(resume_slot)}
             write(out/'generation-verification.json',result)
             with ledger.transaction():ledger.event('candidate_generated',result)
             if persist:persist(ledger)
@@ -112,6 +134,6 @@ def run(run_dir,ledger_path,*,git_state=False,tts=None,asr=None,renderer=None,mi
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--run-dir',required=True);p.add_argument('--ledger',required=True);p.add_argument('--git-state',action='store_true');a=p.parse_args()
-    print(json.dumps(run(a.run_dir,a.ledger,git_state=a.git_state),ensure_ascii=False,indent=2))
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--run-dir',required=True);p.add_argument('--ledger',required=True);p.add_argument('--git-state',action='store_true');p.add_argument('--resume-slot');a=p.parse_args()
+    print(json.dumps(run(a.run_dir,a.ledger,git_state=a.git_state,resume_slot=a.resume_slot),ensure_ascii=False,indent=2))
 if __name__=='__main__':main()
