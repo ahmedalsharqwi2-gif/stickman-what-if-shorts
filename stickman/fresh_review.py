@@ -23,7 +23,8 @@ def align(story,wav,out):
     with wave.open(str(wav)) as audio:duration=audio.getnframes()/audio.getframerate()
     if not 120<=duration<180:raise ValueError('Measured narration must be120 to under180 seconds; no padding or speed changes')
     transcripts=[]
-    for name in ('small','medium'):
+    models=('small','medium','large-v3')
+    for name in models:
         model=WhisperModel(name,device='cpu',compute_type='int8',cpu_threads=2)
         segments,_=model.transcribe(str(wav),language='ar',word_timestamps=True,beam_size=5,vad_filter=False)
         words=[{'text':w.word.strip(),'start':float(w.start),'end':float(w.end)} for segment in segments for w in segment.words or []]
@@ -33,7 +34,7 @@ def align(story,wav,out):
             if timing['coverage']<.9:raise ValueError('Measured speech coverage below90percent')
             break
         except ValueError:
-            if name=='medium':raise
+            if name==models[-1]:raise
     timing.update(profile='stickman',topic_key=story['topic_key'],audio_sha256=sha(wav),
                   story_sha256=hashlib.sha256(json.dumps(story,ensure_ascii=False,sort_keys=True).encode()).hexdigest())
     return timing
@@ -80,7 +81,10 @@ def run(run_dir,ledger_path,*,git_state=False,tts=None,asr=None,renderer=None,mi
         persist=store.checkpoint
     if tts is None:
         from voice_provider.client import generate
-        tts=generate
+        if resume_slot:
+            from functools import partial
+            tts=partial(generate,cache_only=True)
+        else:tts=generate
     asr=asr or align;renderer=renderer or render;mixer=mixer or mix_film;verifier=verifier or verify
     out.mkdir(parents=True,exist_ok=True);delivery=out/'professional_motion/delivery';delivery.mkdir(parents=True)
     output=out/'output';output.mkdir()
@@ -137,3 +141,4 @@ def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--run-dir',required=True);p.add_argument('--ledger',required=True);p.add_argument('--git-state',action='store_true');p.add_argument('--resume-slot');a=p.parse_args()
     print(json.dumps(run(a.run_dir,a.ledger,git_state=a.git_state,resume_slot=a.resume_slot),ensure_ascii=False,indent=2))
 if __name__=='__main__':main()
+
