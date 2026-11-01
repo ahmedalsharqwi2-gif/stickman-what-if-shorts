@@ -41,6 +41,10 @@ def scene_at(t,duration,timing=None):
 
 def frame(t,duration=120,width=W,height=H,visual_review=True,story=None,timing=None,review_label=None):
     """Layered room, perspective floor, independent acting and slow camera drift."""
+    if story and timing and story.get('topic_key')=='orbital-cabin-freefall-v2':
+        from .narrated_motion import frame as narrated_frame
+        image=narrated_frame(t,duration,story,timing)
+        return image if (width,height)==(W,H) else image.resize((width,height),Image.Resampling.LANCZOS)
     index,progress=scene_at(t,duration,timing)
     title,line,mood=BEATS[index]
     if story:
@@ -173,3 +177,4 @@ def main():
     parser=argparse.ArgumentParser();parser.add_argument('--output',required=True);parser.add_argument('--duration',type=float,default=120);parser.add_argument('--fps',type=int,default=24);parser.add_argument('--narration',type=Path);parser.add_argument('--visual-review',action='store_true');args=parser.parse_args()
     print(json.dumps(render(args.output,args.duration,args.fps,args.narration,args.visual_review),ensure_ascii=False,indent=2))
 if __name__=='__main__':main()
+
