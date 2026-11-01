@@ -4,9 +4,9 @@
   "run_id": "41260396721",
   "run_attempt": "1",
   "source_commit": "6996d03c3fb22d43b67c22d5257f02944337eb67",
-  "stage": "started",
-  "requested_stage": "started",
-  "observed_at": "2026-11-01T01:16:33.061053+00:00",
+  "stage": "failure",
+  "requested_stage": "failure",
+  "observed_at": "2026-11-01T01:22:38.488242+00:00",
   "review_only": true,
   "automatically_published": false,
   "cutover_eligible": false,
@@ -16,5 +16,13 @@
     "GEMINI_API_KEY": true,
     "GEMINI_TEXT_API_KEY": false,
     "GEMINI_TTS_API_KEY": true
-  }
+  },
+  "generation_failure": {
+    "slot": "candidate-stickman-e46489002bc248d5a4148931eedfed3e",
+    "profile": "stickman",
+    "error_class": "ValueError",
+    "reservation_retained": true,
+    "publishable": false
+  },
+  "evidence_error_class": "ValueError"
 }
