@@ -114,7 +114,7 @@ def actor(draw,state,color='#f6c36b',friend=False):
  if happy:draw.arc((head[0]-28,head[1]-2,head[0]+28,head[1]+35),0,180,fill=outline,width=5)
  else:draw.ellipse((head[0]-10,head[1]+14,head[0]+10,head[1]+33),outline=outline,width=4)
 
-def frame(scenario,t,seconds=32):
+def frame(scenario,t,seconds=32,*,story=None,timing=None,scene_index=None,actual_time=None):
  spec=STORIES[scenario];s=state_at(scenario,t,seconds);orbital=scenario=='orbital_phone';im=Image.new('RGB',(W,H),'#07172b' if orbital else'#e8cfaa');d=ImageDraw.Draw(im)
  for y in range(0,H,12):
   if orbital:c=(8+int(y/H*12),24+int(y/H*20),44+int(y/H*24))
@@ -163,14 +163,17 @@ def frame(scenario,t,seconds=32):
   x,y=s['bag'];d.rounded_rectangle((x-65,y-95,x+65,y+80),radius=22,fill='#a05d3d',outline='#473b30',width=5);d.rounded_rectangle((x-26,y-118,x+26,y-92),radius=8,outline='#473b30',width=7)
   for dx in (-42,42):d.ellipse((x+dx-12,y+70,x+dx+12,y+94),fill='#34424a')
  d.rounded_rectangle((55,65,1025,250),radius=22,fill='#142d40' if orbital else'#4f665e')
- d.text((975,98),spec['title'],font=font(43),fill='#fff0bf',anchor='ra',direction='rtl')
- d.text((975,170),CHANNEL_NAME+'، '+spec['goal'],font=font(28),fill='#e1e8dd',anchor='ra',direction='rtl')
+ d.text((975,98),story['title'] if story else spec['title'],font=font(43),fill='#fff0bf',anchor='ra',direction='rtl')
+ d.text((975,170),CHANNEL_NAME+'، '+('الجاذبية موجودة، والطفو سقوط حر' if story else spec['goal']),font=font(28),fill='#e1e8dd',anchor='ra',direction='rtl')
  title,caption=spec['beats'][s['beat']][2:]
+ if story:
+  title=story['scenes'][scene_index]['label']
+  caption=next((g['text'] for g in timing['caption_groups'] if g['start']<=actual_time<g['end']),'')
  d.rounded_rectangle((55,1500,1025,1735),radius=22,fill='#10283a' if orbital else'#4f665e')
  d.text((970,1533),title,font=font(38),fill='#ffe1a0',anchor='ra',direction='rtl')
  d.text((970,1610),caption,font=font(28),fill='#f8f0df',anchor='ra',direction='rtl')
- d.text((540,1790),'مراجعة قصة وحركة صامتة، لا تصلح للنشر',font=font(27),fill='#e7bc79' if orbital else'#384d49',anchor='ma',direction='rtl')
- d.text((540,1840),spec['note'],font=font(21),fill='#bfd0d4' if orbital else'#384d49',anchor='ma',direction='rtl')
+ d.text((540,1790),'عينة مراجعة، لا تُنشر تلقائيًا' if story else 'مراجعة قصة وحركة صامتة، لا تصلح للنشر',font=font(27),fill='#e7bc79' if orbital else'#384d49',anchor='ma',direction='rtl')
+ d.text((540,1840),('شخصيات خيالية، الجاذبية موجودة والمقصورة في سقوط حر' if story else spec['note']),font=font(21),fill='#bfd0d4' if orbital else'#384d49',anchor='ma',direction='rtl')
  return im
 
 def render(scenario,output,seconds=32,fps=24):
