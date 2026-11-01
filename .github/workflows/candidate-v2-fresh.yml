@@ -10,7 +10,7 @@
   "jobs": {
     "review": {
       "runs-on": "ubuntu-24.04",
-      "timeout-minutes": 60,
+      "timeout-minutes": 120,
       "env": {
         "GEMINI_API_KEY": "${{ secrets.GEMINI_API_KEY }}",
         "GEMINI_TTS_API_KEY": "${{ secrets.GEMINI_TTS_API_KEY || secrets.GEMINI_API_KEY }}",
@@ -56,11 +56,11 @@
           }
         },
         {
-          "run": "python -m pytest -q tests/test_fresh_review.py tests/test_candidate.py tests/test_factory.py"
+          "run": "python -m pytest -q tests/test_fresh_review.py tests/test_candidate.py tests/test_factory.py tests/test_story_actions.py tests/test_resume_regressions.py"
         },
         {
-          "name": "Generate one reserved original Charon film and measured Arabic captions",
-          "run": "python -m stickman.fresh_review --run-dir .candidate-v2/run-${{ github.run_id }}-${{ github.run_attempt }} --ledger .candidate-v2/shared.sqlite3 --git-state"
+          "name": "Resume retained orbital film, reuse voice cache, measure speech and render actions",
+          "run": "python - <<'PY'\nimport json,os,subprocess\nfrom pathlib import Path\nrequest=json.loads(Path('.github/production-v2-launch.json').read_text())\nslot=request.get('resume_slot')\nif slot!='candidate-stickman-e46489002bc248d5a4148931eedfed3e':raise ValueError('Explicit retained reservation required; no fresh synthesis')\nsubprocess.run(['python','-m','stickman.fresh_review','--run-dir','.candidate-v2/run-'+os.environ['CANDIDATE_RUN'],'--ledger','.candidate-v2/shared.sqlite3','--git-state','--resume-slot',slot],check=True)\nPY"
         },
         {
           "uses": "actions/cache/save@v4",
