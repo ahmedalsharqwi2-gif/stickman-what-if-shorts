@@ -1,0 +1,27 @@
+{
+  "profile": "stickman",
+  "repository": "ahmedalsharqwi2-gif/stickman-what-if-shorts",
+  "kind": "read_only_diagnostic",
+  "stage": "success",
+  "run_id": "41290675431",
+  "run_attempt": "1",
+  "source_commit": "b5babc6f175ed4278faf20b6c9141ff710223e96",
+  "target_run": "41260396721",
+  "observed_at": "2026-11-01T08:52:47.303333+00:00",
+  "no_provider_calls": true,
+  "no_posts_created": true,
+  "evidence": [
+    {
+      "file": "0_review.txt",
+      "error_lines": [
+        "2026-11-01T01:22:30.5092419Z Traceback (most recent call last):",
+        "2026-11-01T01:22:30.5114646Z     if timing['coverage']<.9:raise ValueError('Measured speech coverage below90percent')",
+        "2026-11-01T01:22:30.5115832Z ValueError: Measured speech coverage below90percent",
+        "2026-11-01T01:22:39.9706604Z     \"error_class\": \"ValueError\",",
+        "2026-11-01T01:22:39.9708412Z   \"evidence_error_class\": \"ValueError\","
+      ]
+    }
+  ],
+  "errors": [],
+  "provider_http_statuses": []
+}
