@@ -39,7 +39,7 @@ def scene_at(t,duration,timing=None):
     index=min(len(BEATS)-1,max(0,int(t/duration*len(BEATS))))
     return index,(t-index*duration/len(BEATS))/(duration/len(BEATS))
 
-def frame(t,duration=120,width=W,height=H,visual_review=True,story=None,timing=None):
+def frame(t,duration=120,width=W,height=H,visual_review=True,story=None,timing=None,review_label=None):
     """Layered room, perspective floor, independent acting and slow camera drift."""
     index,progress=scene_at(t,duration,timing)
     title,line,mood=BEATS[index]
@@ -98,8 +98,8 @@ def frame(t,duration=120,width=W,height=H,visual_review=True,story=None,timing=N
     d.text((970,190),f'{CHANNEL_NAME} • المشهد {index+1} من 8',font=small,fill='#b7d6dc',anchor='ra',direction='rtl')
     d.rounded_rectangle((90,1515,990,1655),radius=22,fill='#142b3e')
     d.text((945,1540),line,font=small,fill='#f0f0e6',anchor='ra',direction='rtl')
-    if visual_review:
-        d.text((540,1710),'مراجعة حركة فقط، بدون تعليق صوتي',font=small,fill='#efc87b',anchor='ma',direction='rtl')
+    if review_label or visual_review:
+        d.text((540,1710),review_label or 'مراجعة حركة فقط، بدون تعليق صوتي',font=small,fill='#efc87b',anchor='ma',direction='rtl')
     d.rectangle((95,1775,985,1780),fill='#315261'); d.rectangle((95,1775,95+890*min(1,t/duration),1780),fill='#88c9c0')
     return im if (width,height)==(W,H) else im.resize((width,height),Image.Resampling.LANCZOS)
 
@@ -130,7 +130,7 @@ def validate_timing(story,timing,duration,narration):
             raise ValueError('Measured captions are unordered or outside narration')
         previous=end
 
-def render(output,duration=120,fps=24,narration=None,visual_review=False,story=None,timing=None):
+def render(output,duration=120,fps=24,narration=None,visual_review=False,story=None,timing=None,review_label=None):
     if not 120<=duration<180: raise ValueError('A full candidate must be 120 to less than 180 seconds')
     if not 12<=fps<=30: raise ValueError('Frame rate must be 12..30')
     if not visual_review and narration is None: raise ValueError('Original Arabic narration is required; use --visual-review for an incomplete silent review')
@@ -152,7 +152,7 @@ def render(output,duration=120,fps=24,narration=None,visual_review=False,story=N
     command+=['-t',str(duration),'-c:v','libx264','-threads','2','-preset','veryfast','-crf','21','-pix_fmt','yuv420p','-movflags','+faststart',str(temporary)]
     process=subprocess.Popen(command,stdin=subprocess.PIPE)
     try:
-        for n in range(round(duration*fps)):process.stdin.write(frame(n/fps,duration,visual_review=visual_review,story=story,timing=timing).tobytes())
+        for n in range(round(duration*fps)):process.stdin.write(frame(n/fps,duration,visual_review=visual_review,story=story,timing=timing,review_label=review_label).tobytes())
         process.stdin.close()
         if process.wait(): raise RuntimeError('FFmpeg encoding failed')
     except BaseException:
@@ -164,7 +164,7 @@ def render(output,duration=120,fps=24,narration=None,visual_review=False,story=N
         output.hardlink_to(temporary)  # atomic refusal if another run reserved this final path
         temporary.unlink()
     except BaseException:temporary.unlink(missing_ok=True);raise
-    manifest={'schema':1,'pipeline':'stickman-candidate-v2','duration':duration,'fps':fps,'width':W,'height':H,'sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'visual_review':visual_review,'narration_present':bool(narration),'narration_semantics_verified':bool(timing),'measured_captions':bool(timing),'channel_name':CHANNEL_NAME,'publishable':False,'reason':'Candidate review only; narration semantics, measured captions and channel publishing must be verified before cutover','full_decode_verified':True}
+    manifest={'schema':1,'pipeline':'stickman-candidate-v2','duration':duration,'fps':fps,'width':W,'height':H,'sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'visual_review':visual_review,'narration_present':bool(narration),'narration_semantics_verified':bool(timing),'measured_captions':bool(timing),'channel_name':CHANNEL_NAME,'review_label':review_label,'publishable':False,'reason':'Candidate review only; narration semantics, measured captions and channel publishing must be verified before cutover','full_decode_verified':True}
     with output.with_suffix('.json').open('x',encoding='utf8') as receipt:
         receipt.write(json.dumps(manifest,ensure_ascii=False,indent=2))
     return manifest

@@ -91,7 +91,7 @@ def run(run_dir,ledger_path,*,git_state=False,tts=None,asr=None,renderer=None,mi
             wav=delivery/'narration.wav';tts(' '.join(s['narration'] for s in story['scenes']),str(wav))
             timing=asr(story,wav,delivery);validate_timing(story,timing,timing['duration'],wav);write(delivery/'timing.json',timing)
             rendered=output/'rendered-review.mp4'
-            renderer(rendered,duration=timing['duration'],fps=24,narration=wav,visual_review=False,story=story,timing=timing)
+            renderer(rendered,duration=timing['duration'],fps=24,narration=wav,visual_review=False,story=story,timing=timing,review_label='عينة مراجعة • لا تُنشر تلقائيًا')
             film=mixer(rendered,wav,timing,output)
             evidence=verifier(film)
             evidence.update(profile='stickman',topic_key=story['topic_key'],pipeline='v2',review_only=True,publishable=False,
