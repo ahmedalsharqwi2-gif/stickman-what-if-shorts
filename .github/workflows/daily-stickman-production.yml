@@ -1,0 +1,64 @@
+name: Daily stickman what-if production (review gate)
+'on':
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: daily-stickman-production
+  cancel-in-progress: false
+jobs:
+  produce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_TEXT_API_KEY: ${{ secrets.GEMINI_TEXT_API_KEY || secrets.GEMINI_API_KEY }}
+      GEMINI_TTS_API_KEY: ${{ secrets.GEMINI_TTS_API_KEY || secrets.GEMINI_API_KEY }}
+      GITHUB_TOKEN: ${{ github.token }}
+      GH_RELEASE_TOKEN: ${{ github.token }}
+      CANDIDATE_RUN: ${{ github.run_id }}-${{ github.run_attempt }}
+      PRODUCTION_PUBLICATION_DATE: ${{ format('{0}-{1}-{2}', github.event.schedule && '2026' || '2026', '11', '02') }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install renderer and test dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg libraqm0
+          python -m pip install numpy Pillow requests beautifulsoup4 faster-whisper==1.2.1 pytest
+          cd professional_motion
+          npm ci
+          npx playwright-core install --with-deps chromium
+      - name: Validate retained channel connections without publishing
+        run: python -m production_v2.connection_audit
+      - name: Run production-v2 tests
+        run: python -m pytest -q tests/test_production_v2.py tests/test_nextday_schedule.py tests/test_v2_general_editorial.py
+      - name: Generate one fresh stickman film
+        run: python -m production_v2.generate --profile stickman --run-dir ".candidate-v2/run-$CANDIDATE_RUN" --ledger .candidate-v2/shared.sqlite3 --git-state --then-review --production
+      - name: Export review evidence and upload artifact
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+        run: python -m production_v2.export_review --profile stickman --run-dir ".candidate-v2/run-$CANDIDATE_RUN" --stage "$JOB_STATUS"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stickman-daily-${{ github.run_id }}
+          path: |
+            .candidate-v2/run-*/output/*.mp4
+            .candidate-v2/run-*/output/*.json
+            .candidate-v2/run-*/professional_motion/delivery/*.json
+            .candidate-v2/run-*/professional_motion/delivery/narration.wav
+            .candidate-v2/run-*/generation-*.json
+          include-hidden-files: true
+          retention-days: 30
