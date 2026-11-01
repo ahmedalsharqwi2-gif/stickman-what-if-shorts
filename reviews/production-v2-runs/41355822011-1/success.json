@@ -1,0 +1,684 @@
+{
+  "profile": "stickman",
+  "stage": "success",
+  "kind": "retained_episode_inspection",
+  "target_run": "41354251108",
+  "provider_requests": 0,
+  "posts_created": false,
+  "evidence": {
+    "generation-failure.json": {
+      "slot": "candidate-stickman-d3775f73abc6423aa9fe6e31b94d4f36",
+      "profile": "stickman",
+      "error_class": "ValueError",
+      "reservation_retained": false,
+      "legacy_film_not_used_as_fallback": true,
+      "publishable": false,
+      "failed_phase": "story_or_reservation",
+      "measured_narration_seconds": null,
+      "timing_present": false
+    },
+    "last-draft.json": {
+      "title": "مغامرة استعارة المفتاح الكبير",
+      "canonical_subject": "stickman_missing_door_key",
+      "suitable": true,
+      "facts": [],
+      "milestones": [],
+      "scenes": [
+        {
+          "id": "scene_1",
+          "label": "محاولة الفتح الفاشلة",
+          "narration": "يا ترى إيه اللي ممكن يحصل لو رجل العصا نسي مفتاح باب بيته ولقى نفسه في الشارع لوحده؟ بيبتدي يحاول يفتح الباب بايده بسرعة بس الباب قافل ومتأمن كويس جدا.",
+          "labels": [
+            "محاولة الفتح الفاشلة",
+            "الباب قافل ومتأمن"
+          ],
+          "visual_mode": "hero",
+          "environment": "ancient_city",
+          "objects": [
+            {
+              "kind": "stickman",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#e0e0e0",
+              "motion": "shake"
+            },
+            {
+              "kind": "door",
+              "position": [
+                0.0,
+                1.5,
+                -1.0
+              ],
+              "scale": [
+                1.5,
+                2.0,
+                0.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#8b4513",
+              "motion": "none"
+            },
+            {
+              "kind": "lantern",
+              "position": [
+                2.0,
+                1.0,
+                0.0
+              ],
+              "scale": [
+                0.8,
+                0.8,
+                0.8
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#ffd700",
+              "motion": "pulse"
+            }
+          ],
+          "camera_start": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "camera_end": [
+            0.0,
+            0.0,
+            12.0
+          ],
+          "visual_change": "Stickman shakes while pushing the closed door unsuccessfully."
+        },
+        {
+          "id": "scene_2",
+          "label": "البحث عن أداة بديلة",
+          "narration": "الرجل بيبتعد عن الباب وبيقرر يغير خطته تماما عشان يدور على أداة بديلة تفتح الباب بالقوة. بيمشي لحد ما بيلاقي تروس قديمة مرمية على الأرض بجانب ورشة مهجورة.",
+          "labels": [
+            "تغيير الخطة تماما",
+            "تروس قديمة مرمية"
+          ],
+          "visual_mode": "hero",
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "stickman",
+              "position": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0.0,
+                1.5,
+                0.0
+              ],
+              "color": "#e0e0e0",
+              "motion": "backward"
+            },
+            {
+              "kind": "gear",
+              "position": [
+                1.5,
+                -1.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#708090",
+              "motion": "spin"
+            },
+            {
+              "kind": "box",
+              "position": [
+                -2.0,
+                -1.0,
+                -1.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#a0522d",
+              "motion": "none"
+            }
+          ],
+          "camera_start": [
+            2.0,
+            2.0,
+            12.0
+          ],
+          "camera_end": [
+            0.0,
+            1.0,
+            14.0
+          ],
+          "visual_change": "Stickman moves away from the door toward mechanical gears on the ground."
+        },
+        {
+          "id": "scene_3",
+          "label": "استخدام الترس الميكانيكي",
+          "narration": "بيحاول يمسك الترس ب إيده وبيلفه بحذر شديد عشان يفهم طريقة تشغيله يمكن يعرف يكسر بيه قفل الباب العنيد. الترس بيدور ببطء وبيطلع صوت حديد محتوب.",
+          "labels": [
+            "يمسك الترس ب إيده",
+            "الترس بيدور ببطء"
+          ],
+          "visual_mode": "hero",
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "stickman",
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#e0e0e0",
+              "motion": "none"
+            },
+            {
+              "kind": "gear",
+              "position": [
+                0.5,
+                0.0,
+                0.5
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#cd853f",
+              "motion": "spin"
+            },
+            {
+              "kind": "table",
+              "position": [
+                0.0,
+                -1.5,
+                0.0
+              ],
+              "scale": [
+                2.5,
+                0.5,
+                1.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#d2b48c",
+              "motion": "none"
+            }
+          ],
+          "camera_start": [
+            0.0,
+            2.0,
+            10.0
+          ],
+          "camera_end": [
+            0.0,
+            0.0,
+            11.0
+          ],
+          "visual_change": "Stickman holds and spins the mechanical gear on a wooden table."
+        },
+        {
+          "id": "scene_4",
+          "label": "ابتكار رافعة خشبية",
+          "narration": "لما الترس منففعش، فكر في فكرة تانية أكييد وهى استخدام لوح خشبي طويل ك رافعة ترفع الباب من مكانه. بيمد إيده ويمسك الخشبة بإحكام شديد جدا.",
+          "labels": [
+            "فكرة تانية أكييد",
+            "يمد إيده ويمسك الخشبة"
+          ],
+          "visual_mode": "hero",
+          "environment": "workshop",
+          "objects": [
+            {
+              "kind": "stickman",
+              "position": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0.0,
+                0.5,
+                0.0
+              ],
+              "color": "#e0e0e0",
+              "motion": "none"
+            },
+            {
+              "kind": "cylinder",
+              "position": [
+                1.0,
+                -0.5,
+                0.0
+              ],
+              "scale": [
+                0.5,
+                2.5,
+                0.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                1.57
+              ],
+              "color": "#deb887",
+              "motion": "swing"
+            },
+            {
+              "kind": "box",
+              "position": [
+                1.0,
+                -1.5,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                0.5,
+                1.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#696969",
+              "motion": "none"
+            }
+          ],
+          "camera_start": [
+            -2.0,
+            1.0,
+            12.0
+          ],
+          "camera_end": [
+            1.0,
+            0.0,
+            13.0
+          ],
+          "visual_change": "Stickman grasps a long wooden cylinder acting as a lever."
+        },
+        {
+          "id": "scene_5",
+          "label": "العودة أمام الباب المغلق",
+          "narration": "بيرجع رجل العصا قدام باب بيته ومعاه الخشبة الطويلة عشان يجرب يرفع الدرفة من تحت. بيحط طرف الخشبة تحت الباب بدقة وبيستعد للضغط عليها بكل قوته.",
+          "labels": [
+            "بيرجع رجل العصا قدام باب بيته",
+            "بيحط طرف الخشبة تحت الباب"
+          ],
+          "visual_mode": "hero",
+          "environment": "ancient_city",
+          "objects": [
+            {
+              "kind": "stickman",
+              "position": [
+                -1.2,
+                -0.5,
+                0.0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0.0,
+                0.5,
+                0.0
+              ],
+              "color": "#e0e0e0",
+              "motion": "none"
+            },
+            {
+              "kind": "door",
+              "position": [
+                1.0,
+                1.0,
+                -1.0
+              ],
+              "scale": [
+                1.5,
+                2.0,
+                0.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#8b4513",
+              "motion": "none"
+            },
+            {
+              "kind": "cylinder",
+              "position": [
+                0.0,
+                -1.2,
+                0.0
+              ],
+              "scale": [
+                0.3,
+                2.0,
+                0.3
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "color": "#deb887",
+              "motion": "none"
+            }
+          ],
+          "camera_start": [
+            0.0,
+            1.0,
+            14.0
+          ],
+          "camera_end": [
+            0.0,
+            0.0,
+            12.0
+          ],
+          "visual_change": "Stickman places the wooden lever underneath the closed door."
+        },
+        {
+          "id": "scene_6",
+          "label": "الضغط بكل القوة",
+          "narration": "بيضغط بكل طاقته على الخشبة عشان تعمل كرافعة تخلخل الباب من مكانه. المفصلات بتصدر صوت عالي والباب بيبتدي يتحرك ويهتز بشدة من قوة الضغط.",
+          "labels": [
+            "بيضغط بكل طاقته",
+            "الباب بيبتدي يتحرك ويهتز"
+          ],
+          "visual_mode": "hero",
+          "environment": "ancient_city",
+          "objects": [
+            {
+              "kind": "stickman",
+              "position": [
+                -1.2,
+                -0.5,
+                0.0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0.0,
+                0.5,
+                0.0
+              ],
+              "color": "#e0e0e0",
+              "motion": "slam"
+            },
+            {
+              "kind": "door",
+              "position": [
+                1.0,
+                1.0,
+                -1.0
+              ],
+              "scale": [
+                1.5,
+                2.0,
+                0.5
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#8b4513",
+              "motion": "shake"
+            }
+          ],
+          "camera_start": [
+            -1.0,
+            0.0,
+            11.0
+          ],
+          "camera_end": [
+            1.0,
+            1.0,
+            10.0
+          ],
+          "visual_change": "Stickman pushes down hard on the lever, causing the door to shake violently."
+        },
+        {
+          "id": "scene_7",
+          "label": "انفتاح الباب أخيرا",
+          "narration": "وفجأة وبدون مبالغة الباب بينفتح على مصراعيه وبيتفتح للأمام نتيجة الضغط المتواصل من الرافعة الذكية. الهواء البارد بيدخل البيت والرجل بيبتسم بسعادة.",
+          "labels": [
+            "الباب بينفتح على مصراعيه",
+            "الرجل بيبتسم بسعادة"
+          ],
+          "visual_mode": "hero",
+          "environment": "ancient_city",
+          "objects": [
+            {
+              "kind": "stickman",
+              "position": [
+                -1.5,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#e0e0e0",
+              "motion": "head_turn"
+            },
+            {
+              "kind": "door",
+              "position": [
+                1.0,
+                1.0,
+                -1.0
+              ],
+              "scale": [
+                1.5,
+                2.0,
+                0.5
+              ],
+              "rotation": [
+                0.0,
+                -1.57,
+                0.0
+              ],
+              "color": "#8b4513",
+              "motion": "open"
+            }
+          ],
+          "camera_start": [
+            0.0,
+            0.0,
+            12.0
+          ],
+          "camera_end": [
+            0.0,
+            0.0,
+            14.0
+          ],
+          "visual_change": "The door swings wide open as stickman turns his head in relief."
+        },
+        {
+          "id": "scene_8",
+          "label": "النتيجة النهائية ودخول البيت",
+          "narration": "النتيجة النهائية إن الفكرة البديلة نجحت تماما وقدر يدخل بيته من غير مفتاح أصلاً. بيعدي من العتبة وهو مرتاح بعد مجهود كبير ومغامرة ذكية.",
+          "labels": [
+            "الفكرة البديلة نجحت تماما",
+            "يقدر يدخل بيته من غير مفتاح"
+          ],
+          "visual_mode": "hero",
+          "environment": "ancient_city",
+          "objects": [
+            {
+              "kind": "stickman",
+              "position": [
+                0.5,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.2,
+                1.2,
+                1.2
+              ],
+              "rotation": [
+                0.0,
+                -1.57,
+                0.0
+              ],
+              "color": "#e0e0e0",
+              "motion": "forward"
+            },
+            {
+              "kind": "house",
+              "position": [
+                0.0,
+                1.0,
+                -2.0
+              ],
+              "scale": [
+                3.0,
+                3.0,
+                3.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "color": "#cd853f",
+              "motion": "none"
+            }
+          ],
+          "camera_start": [
+            0.0,
+            1.0,
+            15.0
+          ],
+          "camera_end": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "visual_change": "Stickman walks through the open doorway into his house successfully."
+        }
+      ],
+      "hashtags": [
+        "#رجل_العصا",
+        "#مغامرات",
+        "#قصص_مبتكرة",
+        "#ذكاء"
+      ]
+    },
+    "narration-continuation.json": {
+      "narrations": [
+        {
+          "id": "scene_1",
+          "narration": "يا ترى إيه اللي ممكن يحصل لو رجل العصا نسي مفتاح باب بيته ولقى نفسه في الشارع لوحده وبدون أي وسيلة مساعدة؟ بيبتدي يحاول يفتح الباب بايده بسرعة بس الباب قافل ومتأمن كويس جدا واللمبة منورة جنبه في الظلام."
+        },
+        {
+          "id": "scene_2",
+          "narration": "الرجل بيبتعد عن الباب تماما وبيقرر يغير خطته عشان يدور على أداة بديلة تفتح الباب بالقوة المناسبة. بيمشي لحد ما بيلاقي تروس قديمة مرمية على الأرض بجانب صندوق خشبي كبير قدام الورشة المهجورة."
+        },
+        {
+          "id": "scene_3",
+          "narration": "بيحاول يمسك الترس ب إيده وبيلفه بحذر شديد عشان يفهم طريقة تشغيله يمكن يعرف يكسر بيه قفل الباب العنيد اللي مغلبه. الترس بيدور ببطء على الترابيزة الخشبية وقدامه صندوق تاني صغير محطوط في الزاوية."
+        },
+        {
+          "id": "scene_4",
+          "narration": "لما الترس منففعش في فتح القفل، فكر في فكرة تانية أكيدة وهى استخدام لوح خشبي طويل يعمل كرافعة ترفع الباب من مكانه الأصلي. بيمد إيده بسرعة ويمسك الخشبة بإحكام شديد جدا وهو واقف جانب الصندوق."
+        },
+        {
+          "id": "scene_5",
+          "narration": "بيرجع رجل العصا قدام باب بيته مرة تانية ومعاه الخشبة الطويلة عشان يجرب يرفع الدرفة من تحت. بيحط طرف الخشبة تحت الباب بدقة بالغة وبيستعد تماما للضغط عليها بكل قوته وجسمه."
+        },
+        {
+          "id": "scene_6",
+          "narration": "بيضغط بكل طاقته على الخشبة عشان تعمل كرافعة قوية تخلخل الباب من مكانه وتفتح المجرى المقفول. المفصلات بتصدر صوت عالي والباب بيبتدي يتحرك ويهتز بشدة من قوة الضغط المستمر اللي بيعمله."
+        },
+        {
+          "id": "scene_7",
+          "narration": "وفجأة وبدون أي مبالغة الباب بينفتح على مصراعيه وبيتفتح للأمام نتيجة الضغط المتواصل من الرافعة الذكية اللي اخترعها. الهواء البارد بيدخل البيت والرجل بيلفت راسه وبيرتاح تماما وبيبتسم بسعادة كبيرة."
+        },
+        {
+          "id": "scene_8",
+          "narration": "النتيجة النهائية إن الفكرة البديلة نجحت تماما وقدر يدخل بيته من غير مفتاح أصلاً بعد تعب كبير وسعي مستمر. بيعدي من العتبة بخطوات واسعة وهو مرتاح جدا بعد مجهود كبير ومغامرة ذكية انتهت على خير."
+        }
+      ]
+    }
+  }
+}
