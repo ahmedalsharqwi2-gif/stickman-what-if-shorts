@@ -1,0 +1,7 @@
+{
+  "profile": "stickman",
+  "include_existing_instagram": true,
+  "read_only": true,
+  "no_posts_created": true,
+  "request": "inspect-existing-instagram-1"
+}
