@@ -1,0 +1,21 @@
+{
+  "profile": "stickman",
+  "repository": "ahmedalsharqwi2-gif/stickman-what-if-shorts",
+  "run_id": "41353015353",
+  "run_attempt": "1",
+  "source_commit": "31fdbe8035dee855ba9b340f0804a86e4258c233",
+  "stage": "failure",
+  "requested_stage": "failure",
+  "observed_at": "2026-11-01T21:40:12.287859+00:00",
+  "review_only": true,
+  "automatically_published": false,
+  "cutover_eligible": false,
+  "complete_film_verified": false,
+  "media_url": null,
+  "credential_presence": {
+    "GEMINI_API_KEY": true,
+    "GEMINI_TEXT_API_KEY": true,
+    "GEMINI_TTS_API_KEY": true
+  },
+  "evidence_error_class": "ValueError"
+}
