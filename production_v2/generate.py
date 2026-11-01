@@ -64,7 +64,8 @@ def _copy_inputs(repository, run_dir):
     candidates.extend(repository / name for name in (
         'topic_history.json', 'film_topics.json', 'professional_topics.json',
         'publication_receipts.json', 'professional_motion/catalog.json',
-        'config/accepted_voice.json', 'config/professional_models.json'))
+        'config/accepted_voice.json', 'config/professional_models.json', 'config/editorial_policy.json',
+        'professional_motion/director_catalog.json'))
     for source in sorted(set(candidates)):
         if not source.is_file():
             continue
@@ -93,8 +94,8 @@ def _merge_candidate_history(ledger, run_dir):
     _write(state, data)
 
 
-def generate(profile, run_dir, ledger_path, *, repository=None, then_review=False, persist=None):
-    if profile not in ('science', 'horror', 'history', 'news'):
+def generate(profile, run_dir, ledger_path, *, repository=None, then_review=False, persist=None, production=False):
+    if profile not in ('science', 'horror', 'history', 'news', 'stickman'):
         raise ValueError('Unknown channel profile')
     repository = Path(repository or Path.cwd()).resolve()
     run_dir, ledger_path = Path(run_dir).resolve(), Path(ledger_path).resolve()
@@ -115,26 +116,39 @@ def generate(profile, run_dir, ledger_path, *, repository=None, then_review=Fals
         raise ValueError('Use a durable candidate .sqlite3 ledger outside the run directory')
     if run_dir.exists() and any(run_dir.iterdir()):
         raise FileExistsError('Existing candidate files are retained; choose a fresh run directory')
+    from .directing import load_catalog, directing_editor, validate_plan, require_novel_plan
+    from .general_editorial import enabled as general_enabled, editor as general_editor, validate as validate_general
+    use_general=general_enabled(profile,repository)
+    catalog = None if use_general else load_catalog(repository, profile)
     editorial = importlib.import_module('professional_motion.editorial')
     voice_job = importlib.import_module('professional_motion.voice_job')
     run_dir.mkdir(parents=True, exist_ok=True)
     (run_dir / 'professional_motion').mkdir(exist_ok=True)
     slot = 'candidate-' + profile + '-' + uuid.uuid4().hex
-    due = window(datetime.now(timezone.utc))['due_at']
+    due = window(datetime.now(timezone.utc),os.getenv('PRODUCTION_PUBLICATION_DATE'))['due_at']
     with Ledger(ledger_path) as ledger:
         ledger.import_legacy(repository)
         inputs = _copy_inputs(repository, run_dir)
         _merge_candidate_history(ledger, run_dir)
         _write(run_dir / 'source-snapshot.json', {'repository': str(repository), 'inputs': inputs})
+        previous_plans = []
+        for (payload,) in ledger.db.execute("SELECT payload FROM events WHERE kind='candidate_story'"):
+            plan = json.loads(payload).get('story', {}).get('visual_plan')
+            if plan: previous_plans.append(plan)
         reserved = False
         try:
-            with isolated_editor(editorial, run_dir, repository):
+            with isolated_editor(editorial, run_dir, repository), (general_editor(editorial,profile) if use_general else directing_editor(editorial, catalog, previous_plans)):
                 story = editorial.prepare(profile, slot)
                 story_file = run_dir / 'professional_motion/delivery/story.json'
                 if not story.get('topic_key') or story.get('profile') != profile:
                     raise ValueError('Prepared story identity does not match the channel')
                 if json.loads(story_file.read_text()) != story:
                     raise ValueError('Prepared story and retained delivery bytes differ')
+                if use_general:
+                    validate_general(story,profile)
+                    plan=story['visual_plan']
+                else:plan = validate_plan(story, catalog)
+                plan_signature = require_novel_plan(plan, previous_plans)
                 # Transactional conflict check MUST happen before TTS or ASR.
                 ledger.reserve(slot, story['topic_key'], due, story)
                 reserved = True
@@ -149,7 +163,8 @@ def generate(profile, run_dir, ledger_path, *, repository=None, then_review=Fals
                 result = {'slot': slot, 'profile': profile, 'topic_key': checked_story['topic_key'],
                     'duration': timing['duration'], 'story_sha256': _digest(story_file),
                     'audio_sha256': _digest(run_dir / 'professional_motion/delivery/narration.wav'),
-                    'generated_in_isolation': True, 'review_only': True, 'publishable': False,
+                    'visual_plan_signature': plan_signature, 'topic_director_world': plan['world'],
+                    'generated_in_isolation': True, 'review_only': not production, 'publishable': False,
                     'fresh_topic_verified': True, 'legacy_state_unchanged': True,
                     'ledger': str(ledger_path),
                     'ledger_persistence_requirement': 'Persist the shared ledger, legacy state and API budget between all runs before enabling any active workflow.'}
@@ -192,6 +207,7 @@ def generate(profile, run_dir, ledger_path, *, repository=None, then_review=Fals
             sys.argv = ['production_v2.review', '--profile', profile,
                 '--delivery-dir', str(run_dir / 'professional_motion/delivery'),
                 '--output-dir', str(run_dir / 'output')]
+            if production:sys.argv.append('--production')
             review_main()
         finally:
             sys.argv = old_argv
@@ -200,10 +216,11 @@ def generate(profile, run_dir, ledger_path, *, repository=None, then_review=Fals
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--profile', choices=['science', 'horror', 'history', 'news'], required=True)
+    parser.add_argument('--profile', choices=['science', 'horror', 'history', 'news', 'stickman'], required=True)
     parser.add_argument('--run-dir', type=Path, required=True)
     parser.add_argument('--ledger', type=Path, required=True)
     parser.add_argument('--then-review', action='store_true')
+    parser.add_argument('--production', action='store_true', help='Render a final film without review-sample labeling; never posts by itself')
     parser.add_argument('--git-state', action='store_true', help='Restore and checkpoint the candidate ledger on its separate Git state branch')
     args = parser.parse_args()
     persist = None
@@ -215,7 +232,7 @@ def main():
             pass
         persist = store.checkpoint
     print(json.dumps(generate(args.profile, args.run_dir, args.ledger,
-                             then_review=args.then_review, persist=persist), ensure_ascii=False, indent=2))
+                             then_review=args.then_review, persist=persist, production=args.production), ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "profile": "stickman",
+  "external_sources_required": false,
+  "independent_scientific_review_required": false,
+  "editorial_mode": "original_what_if_story",
+  "categories": [
+    "what_if",
+    "everyday_physics",
+    "impossible_world"
+  ],
+  "preserve_original_character_reference": true,
+  "no_replacement_logo": true
+}

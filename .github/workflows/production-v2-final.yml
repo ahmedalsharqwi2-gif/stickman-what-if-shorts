@@ -1,0 +1,105 @@
+{
+  "name": "Aftrad Keda final next-day what-if film (no social mutation)",
+  "on": {
+    "push": {
+      "branches": [
+        "codex/rebuild-production-v2"
+      ],
+      "paths": [
+        ".github/production-v2-final-request.json"
+      ]
+    },
+    "workflow_dispatch": {}
+  },
+  "permissions": {
+    "contents": "write",
+    "actions": "read"
+  },
+  "concurrency": {
+    "group": "stickman-candidate-v2-review",
+    "cancel-in-progress": false
+  },
+  "jobs": {
+    "produce": {
+      "runs-on": "ubuntu-24.04",
+      "timeout-minutes": 120,
+      "env": {
+        "GEMINI_API_KEY": "${{ secrets.GEMINI_API_KEY }}",
+        "GEMINI_TEXT_API_KEY": "${{ secrets.GEMINI_TEXT_API_KEY || secrets.GEMINI_API_KEY }}",
+        "GEMINI_TTS_API_KEY": "${{ secrets.GEMINI_TTS_API_KEY || secrets.GEMINI_API_KEY }}",
+        "BUFFER_API_KEY": "${{ secrets.BUFFER_API_KEY }}",
+        "GITHUB_TOKEN": "${{ github.token }}",
+        "CANDIDATE_RUN": "${{ github.run_id }}-${{ github.run_attempt }}",
+        "PYTHONUNBUFFERED": "1",
+        "PRODUCTION_PUBLICATION_DATE": "2026-11-02"
+      },
+      "steps": [
+        {
+          "uses": "actions/checkout@v4",
+          "with": {
+            "fetch-depth": 0
+          }
+        },
+        {
+          "uses": "actions/setup-python@v5",
+          "with": {
+            "python-version": "3.11"
+          }
+        },
+        {
+          "uses": "actions/setup-node@v4",
+          "with": {
+            "node-version": "22"
+          }
+        },
+        {
+          "run": "sudo apt-get update -qq\nsudo apt-get install -y ffmpeg libraqm0\npython -m pip install numpy Pillow requests beautifulsoup4 faster-whisper==1.2.1 pytest\ncd professional_motion\nnpm ci\nnpx playwright-core install --with-deps chromium"
+        },
+        {
+          "name": "Read fifth-repository publishing connection without sending posts",
+          "run": "python -m production_v2.connection_audit"
+        },
+        {
+          "uses": "actions/cache/restore@v4",
+          "with": {
+            "path": ".voice_cache\nstate/api_budget.sqlite3\n~/.cache/huggingface",
+            "key": "stickman-v2-${{ github.repository_id }}-${{ github.run_id }}-${{ github.run_attempt }}",
+            "restore-keys": "stickman-v2-${{ github.repository_id }}-"
+          }
+        },
+        {
+          "run": "python -m pytest -q tests/test_production_v2.py tests/test_nextday_schedule.py tests/test_v2_general_editorial.py"
+        },
+        {
+          "name": "Create one original what-if final film, preserving its reservation",
+          "run": "python -m production_v2.generate --profile stickman --run-dir \".candidate-v2/run-$CANDIDATE_RUN\" --ledger .candidate-v2/shared.sqlite3 --git-state --then-review --production"
+        },
+        {
+          "if": "always()",
+          "uses": "actions/cache/save@v4",
+          "with": {
+            "path": ".voice_cache\nstate/api_budget.sqlite3\n~/.cache/huggingface",
+            "key": "stickman-v2-${{ github.repository_id }}-${{ github.run_id }}-${{ github.run_attempt }}"
+          }
+        },
+        {
+          "if": "always()",
+          "uses": "actions/upload-artifact@v4",
+          "with": {
+            "name": "stickman-v2-final-${{ github.run_id }}",
+            "path": ".candidate-v2/run-*/output/*.mp4\n.candidate-v2/run-*/output/*.json\n.candidate-v2/run-*/professional_motion/delivery/*.json\n.candidate-v2/run-*/professional_motion/delivery/narration.wav\n.candidate-v2/run-*/generation-*.json\nwork/publishing-connection.json",
+            "include-hidden-files": true,
+            "retention-days": 30
+          }
+        },
+        {
+          "if": "always()",
+          "env": {
+            "JOB_STATUS": "${{ job.status }}"
+          },
+          "run": "python -m production_v2.export_review --profile stickman --run-dir \".candidate-v2/run-$CANDIDATE_RUN\" --stage \"$JOB_STATUS\""
+        }
+      ]
+    }
+  }
+}
