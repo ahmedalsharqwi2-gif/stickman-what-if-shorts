@@ -1,0 +1,757 @@
+{
+  "episodes": {
+    "publication-2026-11-02": {
+      "topic_key": "knowledge-stickman_everyday_physics_gravity_puzzle",
+      "story": {
+        "title": "مغامرة عصاكمي مع الجاذبية",
+        "canonical_subject": "stickman_everyday_physics_gravity_puzzle",
+        "suitable": true,
+        "facts": [],
+        "milestones": [],
+        "scenes": [
+          {
+            "id": "scene_1",
+            "label": "محاولة رفع الصندوق",
+            "narration": "في يوم عادي قرر عصاكمي بناء برج من الصناديق الثقيلة في ورشته الصغيره، فحمل الصندوق الأول بكل طاقته لكن وزنه كان كبيرا جدا وسبب له تعبا كبيرا فوق الطاولة الخشبية",
+            "labels": [],
+            "visual_mode": "hero",
+            "environment": "workshop",
+            "objects": [
+              {
+                "kind": "stickman",
+                "position": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#333333",
+                "motion": "none"
+              },
+              {
+                "kind": "box",
+                "position": [
+                  0.0,
+                  0.5,
+                  0.0
+                ],
+                "scale": [
+                  1.2,
+                  1.2,
+                  1.2
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#b8860b",
+                "motion": "shake"
+              },
+              {
+                "kind": "table",
+                "position": [
+                  0.0,
+                  -1.5,
+                  0.0
+                ],
+                "scale": [
+                  2.0,
+                  0.2,
+                  1.5
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#8b4513",
+                "motion": "none"
+              }
+            ],
+            "camera_start": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "camera_end": [
+              0.0,
+              0.5,
+              12.0
+            ],
+            "visual_change": "Stickman strains to lift the box on the table, causing the box to shake visibly from the heavy load."
+          },
+          {
+            "id": "scene_2",
+            "label": "سقوط الصندوق",
+            "narration": "بسبب قوة الجاذبية الأرضية الجذابة، سقط الصندوق الثقيل من يدي عصاكمي واصطدم بقوة شديدة بالأرض الخشبية تحت قدميه ليفاجأ بسقوطه السريع والمدوي امام عينيه المندهشتين تماما في المكان",
+            "labels": [
+              "قوة الجاذبية"
+            ],
+            "visual_mode": "hero",
+            "environment": "workshop",
+            "objects": [
+              {
+                "kind": "box",
+                "position": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.2,
+                  1.2,
+                  1.2
+                ],
+                "rotation": [
+                  0.0,
+                  0.5,
+                  0.0
+                ],
+                "color": "#b8860b",
+                "motion": "slam"
+              },
+              {
+                "kind": "stickman",
+                "position": [
+                  -1.0,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.5
+                ],
+                "color": "#333333",
+                "motion": "head_turn"
+              }
+            ],
+            "camera_start": [
+              0.0,
+              1.0,
+              11.0
+            ],
+            "camera_end": [
+              0.0,
+              -0.5,
+              13.0
+            ],
+            "visual_change": "The box slams down onto the floor near the startled stickman."
+          },
+          {
+            "id": "scene_3",
+            "label": "استخدام الروافع",
+            "narration": "فكر عصاكمي بذكاء في تغيير خطته، فاستخدم عصا طويلة كرافعة بسيطة لتقليل الجهد المبذول في رفع الأجسام الثقيلة وتحريك الكرة الكبيرة فوق الاسطوانة بكل سهولة ودقة واضحة",
+            "labels": [
+              "رافعة بسيطة"
+            ],
+            "visual_mode": "hero",
+            "environment": "workshop",
+            "objects": [
+              {
+                "kind": "stickman",
+                "position": [
+                  -1.5,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#333333",
+                "motion": "none"
+              },
+              {
+                "kind": "cylinder",
+                "position": [
+                  0.0,
+                  -1.2,
+                  0.0
+                ],
+                "scale": [
+                  0.5,
+                  0.2,
+                  0.5
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#708090",
+                "motion": "none"
+              },
+              {
+                "kind": "sphere",
+                "position": [
+                  1.5,
+                  -0.5,
+                  0.0
+                ],
+                "scale": [
+                  0.8,
+                  0.8,
+                  0.8
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#4682b4",
+                "motion": "swing"
+              }
+            ],
+            "camera_start": [
+              0.0,
+              0.0,
+              12.0
+            ],
+            "camera_end": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "visual_change": "A lever mechanism swings smoothly over the fulcrum cylinder, lifting the heavy sphere."
+          },
+          {
+            "id": "scene_4",
+            "label": "توازن العزم",
+            "narration": "لاحظ عصاكمي كيف أن المسافة بين نقطة الارتكاز واليد تساعد في توليد عزم دوران يسهل حركة الأجسام بكل سهولة وهو يراقب الترس البرتقالي الكبير يدور بثبات وسرعة منتظمة",
+            "labels": [
+              "نقطة الارتكاز",
+              "عزم دوران"
+            ],
+            "visual_mode": "hero",
+            "environment": "workshop",
+            "objects": [
+              {
+                "kind": "gear",
+                "position": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#ff4500",
+                "motion": "spin"
+              },
+              {
+                "kind": "stickman",
+                "position": [
+                  1.5,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#333333",
+                "motion": "none"
+              }
+            ],
+            "camera_start": [
+              0.0,
+              0.0,
+              9.0
+            ],
+            "camera_end": [
+              0.0,
+              0.0,
+              11.0
+            ],
+            "visual_change": "The large orange gear spins steadily while the stickman watches the motion."
+          },
+          {
+            "id": "scene_5",
+            "label": "بناء البكرات",
+            "narration": "ولم يتوقف عند هذا الحد، بل جمع حبالا متينة وعدة بكرات لرفع الحمولات الكبيرة نحو الأعلى دون تعب يذكر ليشاهد الصندوق الأخضر يرتفع بسلاسة تامة نحو الاعلى بفضل الحبال",
+            "labels": [
+              "عدة بكرات"
+            ],
+            "visual_mode": "hero",
+            "environment": "workshop",
+            "objects": [
+              {
+                "kind": "stickman",
+                "position": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#333333",
+                "motion": "none"
+              },
+              {
+                "kind": "cylinder",
+                "position": [
+                  0.0,
+                  2.0,
+                  0.0
+                ],
+                "scale": [
+                  0.4,
+                  0.4,
+                  0.4
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  1.57
+                ],
+                "color": "#a0522d",
+                "motion": "spin"
+              },
+              {
+                "kind": "box",
+                "position": [
+                  0.0,
+                  0.5,
+                  0.0
+                ],
+                "scale": [
+                  0.8,
+                  0.8,
+                  0.8
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#2e8b57",
+                "motion": "float"
+              }
+            ],
+            "camera_start": [
+              0.0,
+              0.0,
+              14.0
+            ],
+            "camera_end": [
+              0.0,
+              1.0,
+              12.0
+            ],
+            "visual_change": "The pulley spins as the green box floats upward smoothly."
+          },
+          {
+            "id": "scene_6",
+            "label": "حركة الأجسام",
+            "narration": "أصبحت الصناديق تتحرك بسلاسة عبر النظام الجديد، ودرك عصاكمي أن فهم قوانين الحركة يوفر الجهد والوقت بينما يقف بهدوء وسط الصناديق التي تتحرك في اتجاهات مختلفة",
+            "labels": [
+              "قوانين الحركة"
+            ],
+            "visual_mode": "hero",
+            "environment": "workshop",
+            "objects": [
+              {
+                "kind": "box",
+                "position": [
+                  -2.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9,
+                  0.9,
+                  0.9
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#2e8b57",
+                "motion": "drift"
+              },
+              {
+                "kind": "box",
+                "position": [
+                  2.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  0.9,
+                  0.9,
+                  0.9
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#2e8b57",
+                "motion": "backward"
+              },
+              {
+                "kind": "stickman",
+                "position": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#333333",
+                "motion": "none"
+              }
+            ],
+            "camera_start": [
+              0.0,
+              0.0,
+              11.0
+            ],
+            "camera_end": [
+              0.0,
+              0.0,
+              13.0
+            ],
+            "visual_change": "Two boxes drift in opposite directions while the stickman stands calmly in the middle."
+          },
+          {
+            "id": "scene_7",
+            "label": "اكتمال البرج",
+            "narration": "وفي النهاية نجح عصاكمي في بناء برج متوازن وثابت تماما، وأثبت أن التفكير العلمي البسيط يحل أصعب المشاكل ليقف ناظرا بفخر الى البرج المكون من ثلاثة صناديق ملونة",
+            "labels": [
+              "برج متوازن"
+            ],
+            "visual_mode": "hero",
+            "environment": "workshop",
+            "objects": [
+              {
+                "kind": "box",
+                "position": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.2,
+                  0.8,
+                  1.2
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#b8860b",
+                "motion": "none"
+              },
+              {
+                "kind": "box",
+                "position": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  0.8,
+                  1.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#2e8b57",
+                "motion": "none"
+              },
+              {
+                "kind": "box",
+                "position": [
+                  0.0,
+                  1.0,
+                  0.0
+                ],
+                "scale": [
+                  0.8,
+                  0.8,
+                  0.8
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#4682b4",
+                "motion": "none"
+              },
+              {
+                "kind": "stickman",
+                "position": [
+                  -2.0,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#333333",
+                "motion": "none"
+              }
+            ],
+            "camera_start": [
+              0.0,
+              0.5,
+              12.0
+            ],
+            "camera_end": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "visual_change": "A stable tower of three colored boxes is fully assembled, admired by the stickman."
+          },
+          {
+            "id": "scene_8",
+            "label": "الخاتمة والنتيجة",
+            "narration": "هكذا تحولت التجربة الفاشلة إلى إنجاز ممتع يوضح لنا كيف تستخدم الفيزياء في حياتنا اليومية بكل بساطة بينما يضيء الفانوس الذهبي بضوء دافئ وفرح فوق رأس عصاكمي السعيد بالنتيجة",
+            "labels": [
+              "إنجاز ممتع"
+            ],
+            "visual_mode": "hero",
+            "environment": "workshop",
+            "objects": [
+              {
+                "kind": "stickman",
+                "position": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#333333",
+                "motion": "head_turn"
+              },
+              {
+                "kind": "lantern",
+                "position": [
+                  0.0,
+                  1.5,
+                  0.0
+                ],
+                "scale": [
+                  0.8,
+                  0.8,
+                  0.8
+                ],
+                "rotation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "color": "#ffd700",
+                "motion": "pulse"
+              }
+            ],
+            "camera_start": [
+              0.0,
+              0.0,
+              10.0
+            ],
+            "camera_end": [
+              0.0,
+              0.0,
+              12.0
+            ],
+            "visual_change": "The golden lantern pulses with warm light above the happy stickman, concluding the story."
+          }
+        ],
+        "hashtags": [
+          "#فيزياء",
+          "#عصاكمي",
+          "#تجارب",
+          "#علوم"
+        ],
+        "profile": "stickman",
+        "series": "افترض كده",
+        "topic_key": "knowledge-stickman_everyday_physics_gravity_puzzle",
+        "knowledge_category": "everyday_physics",
+        "visual_family": "haunted_interior",
+        "variant": "procedural",
+        "fiction": true,
+        "documented": false,
+        "source": {
+          "kind": "original_fiction",
+          "publisher": "افترض كده",
+          "url": "",
+          "title": ""
+        },
+        "editorial_policy": {
+          "external_sources_required": false,
+          "independent_scientific_review_required": false
+        },
+        "visual_plan": {
+          "version": 1,
+          "world": "procedural_story",
+          "scenes": [
+            {
+              "id": "scene_1",
+              "setting": "workshop",
+              "focal_object": "stickman",
+              "action": "none",
+              "shot": "authored_camera",
+              "state_change": "Stickman strains to lift the box on the table, causing the box to shake visibly from the heavy load."
+            },
+            {
+              "id": "scene_2",
+              "setting": "workshop",
+              "focal_object": "box",
+              "action": "slam",
+              "shot": "authored_camera",
+              "state_change": "The box slams down onto the floor near the startled stickman."
+            },
+            {
+              "id": "scene_3",
+              "setting": "workshop",
+              "focal_object": "stickman",
+              "action": "none",
+              "shot": "authored_camera",
+              "state_change": "A lever mechanism swings smoothly over the fulcrum cylinder, lifting the heavy sphere."
+            },
+            {
+              "id": "scene_4",
+              "setting": "workshop",
+              "focal_object": "gear",
+              "action": "spin",
+              "shot": "authored_camera",
+              "state_change": "The large orange gear spins steadily while the stickman watches the motion."
+            },
+            {
+              "id": "scene_5",
+              "setting": "workshop",
+              "focal_object": "stickman",
+              "action": "none",
+              "shot": "authored_camera",
+              "state_change": "The pulley spins as the green box floats upward smoothly."
+            },
+            {
+              "id": "scene_6",
+              "setting": "workshop",
+              "focal_object": "box",
+              "action": "drift",
+              "shot": "authored_camera",
+              "state_change": "Two boxes drift in opposite directions while the stickman stands calmly in the middle."
+            },
+            {
+              "id": "scene_7",
+              "setting": "workshop",
+              "focal_object": "box",
+              "action": "none",
+              "shot": "authored_camera",
+              "state_change": "A stable tower of three colored boxes is fully assembled, admired by the stickman."
+            },
+            {
+              "id": "scene_8",
+              "setting": "workshop",
+              "focal_object": "stickman",
+              "action": "head_turn",
+              "shot": "authored_camera",
+              "state_change": "The golden lantern pulses with warm light above the happy stickman, concluding the story."
+            }
+          ]
+        },
+        "visual_sequence_sha256": "c84448d479dd9a7bd49f15762d9fefa69a0b6cabb775a240df736e5d15bbf651"
+      },
+      "source_run": 41416916064,
+      "source_slot": "candidate-stickman-1d4786d19a1c480baf0213bea2499c4e",
+      "video_sha256": "3c6a9144e2867f306b251ba9f7741ea4052c2cc49f6f145c25bd075a3b8eb142",
+      "due_at": "2026-11-02T15:00:00Z",
+      "posts": {},
+      "accepted_duration_policy": "strictly over90seconds",
+      "technical_evidence": {
+        "validated": true,
+        "path": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/work/completed/run-41416916064-1/output/candidate-review.mp4",
+        "sha256": "3c6a9144e2867f306b251ba9f7741ea4052c2cc49f6f145c25bd075a3b8eb142",
+        "decode": "PASS",
+        "width": 1080,
+        "height": 1920,
+        "duration": 119.566667,
+        "video_duration": 119.566667,
+        "audio_duration": 119.56,
+        "decoded_video_frames": 3587,
+        "fps": 30.0,
+        "video_codec": "h264",
+        "audio_codec": "aac",
+        "bytes": 16741521,
+        "limitation": "Stream/decode validation does not prove narration correctness, novelty, or editorial approval"
+      }
+    }
+  }
+}
