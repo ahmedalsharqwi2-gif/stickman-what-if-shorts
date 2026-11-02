@@ -1,0 +1,85 @@
+name: Daily stickman what-if production (review gate)
+'on':
+  push:
+    branches: [main]
+    paths: [.github/stickman-retained-resume.json]
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    inputs:
+      publication_date:
+        description: Optional explicit publication date; blank prepares tomorrow at 17 Cairo
+        required: false
+        default: ''
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: daily-stickman-production
+  cancel-in-progress: false
+jobs:
+  produce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_TEXT_API_KEY: ${{ secrets.GEMINI_TEXT_API_KEY || secrets.GEMINI_API_KEY }}
+      GEMINI_TTS_API_KEY: ${{ secrets.GEMINI_TTS_API_KEY || secrets.GEMINI_API_KEY }}
+      GITHUB_TOKEN: ${{ github.token }}
+      GH_RELEASE_TOKEN: ${{ github.token }}
+      CANDIDATE_RUN: ${{ github.run_id }}-${{ github.run_attempt }}
+      PRODUCTION_PUBLICATION_DATE: ${{ inputs.publication_date || '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install renderer and test dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg libraqm0
+          python -m pip install numpy Pillow requests beautifulsoup4 faster-whisper==1.2.1 pytest
+          cd professional_motion
+          npm ci
+          npx playwright-core install --with-deps chromium
+      - name: Validate retained channel connections without publishing
+        run: python -m production_v2.connection_audit
+      - name: Run production-v2 tests
+        run: python -m pytest -q tests/test_production_v2.py tests/test_nextday_schedule.py tests/test_v2_general_editorial.py tests/test_v2_staged_novelty.py
+      - name: Resume retained plan on repair; generate a new daily film on its normal trigger
+        run: |
+          python - <<'PY'
+          import json,os,sys
+          from pathlib import Path
+          from production_v2.generate import main
+          sys.argv=['production_v2.generate','--profile','stickman','--run-dir','.candidate-v2/run-'+os.environ['CANDIDATE_RUN'],'--ledger','.candidate-v2/shared.sqlite3','--git-state','--then-review','--production']
+          if os.getenv('GITHUB_EVENT_NAME')=='push':
+              from production_v2.planning_resume import planning_resume
+              request=json.loads(Path('.github/stickman-retained-resume.json').read_text())
+              os.environ['PRODUCTION_PUBLICATION_DATE']=request['publication_date']
+              if request.get('resume_reserved_run'):
+                  from production_v2.resume_reserved import main as resume
+                  sys.argv=['production_v2.resume_reserved','--profile','stickman','--target-run',str(request['resume_reserved_run']),'--run-dir','.candidate-v2/run-'+os.environ['CANDIDATE_RUN'],'--ledger','.candidate-v2/shared.sqlite3','--production']
+                  resume()
+              else:
+                  with planning_resume('stickman',int(request['target_run'])):main()
+          else:
+              main()
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stickman-daily-${{ github.run_id }}
+          path: |
+            .candidate-v2/run-*/output/*.mp4
+            .candidate-v2/run-*/output/*.json
+            .candidate-v2/run-*/professional_motion/delivery/*.json
+            .candidate-v2/run-*/professional_motion/delivery/narration.wav
+            .candidate-v2/run-*/generation-*.json
+          include-hidden-files: true
+          retention-days: 30
