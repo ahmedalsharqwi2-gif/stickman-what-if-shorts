@@ -17,7 +17,9 @@
       "coverage": 0.9090909090909091,
       "video_sha256": "13bac752c5d11d5a22291d34a47754b8b9088b1b3925486f8b830a72acc7fdc2",
       "render_run": 41492210211,
-      "source_evidence_file": "professional_motion/output/remotion-validation.json"
+      "source_evidence_file": "professional_motion/output/remotion-validation.json",
+      "creative_rejected": true,
+      "creative_feedback": "Owner rejected key/voice plot; replace with escalating What If scientific/technology scenarios, original character and visual comedy. Original film/audio retained, never publish this candidate."
     }
   }
 }
