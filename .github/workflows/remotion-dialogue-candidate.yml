@@ -56,7 +56,7 @@
         {
           "name": "Freeze original date; verify Cairo9 guard and all existing queues",
           "id": "decision",
-          "run": "python -m remotion_factory.daily --date2026-11-03 --decide-only --review-only"
+          "run": "python -m remotion_factory.daily --date 2026-11-03 --decide-only --review-only"
         },
         {
           "uses": "actions/setup-node@v4",
@@ -86,7 +86,7 @@
         {
           "name": "Render exact original dialogue with two voices; full inspection only, no posting",
           "if": "steps.decision.outputs.run == 'true'",
-          "run": "python -m remotion_factory.daily --date2026-11-03 --review-only"
+          "run": "python -m remotion_factory.daily --date 2026-11-03 --review-only"
         },
         {
           "uses": "actions/upload-artifact@v4",
