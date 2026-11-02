@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-02",
+  "profile": "stickman",
+  "phase": "postpublish",
+  "checked_at": "2026-11-02T21:53:43.281781+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/41532375127",
+  "report_path": "reviews/daily_health/2026-11-02/41532375127-1.json",
+  "publication_due_utc": "2026-11-02T15:00:00+00:00",
+  "errors": [
+    "No unique retained episode/media fingerprint for this date and actual post video"
+  ],
+  "passed": false,
+  "generation_calls": 0,
+  "publication_mutations": 0,
+  "preview": false,
+  "scheduler": {
+    "observed": false,
+    "reason": "Monitoring was activated after this date morning; no historical9am success claimed"
+  },
+  "observed_receipts": {
+    "youtube": [
+      {
+        "id": "6ae874a0146ca029aa15113f",
+        "channelId": "6ae65d0a2f1f5ed648378c6c",
+        "status": "sent",
+        "dueAt": "2026-11-02T15:00:00.000Z",
+        "sentAt": "2026-11-02T15:01:49.581Z",
+        "externalLink": "https://www.youtube.com/shorts/IQDzL5dLLR4"
+      }
+    ],
+    "facebook": [
+      {
+        "id": "6ae8749d6d4b19decd3f4e88",
+        "channelId": "6ae65c3c2f1f5ed64837853d",
+        "status": "sent",
+        "dueAt": "2026-11-02T15:00:00.000Z",
+        "sentAt": "2026-11-02T15:01:56.239Z",
+        "externalLink": "https://www.facebook.com/reel/1868933854282868/"
+      }
+    ],
+    "instagram": [
+      {
+        "id": "6ae87499e364127fe0d82973",
+        "channelId": "6ae65c082f1f5ed648378367",
+        "status": "sent",
+        "dueAt": "2026-11-02T15:00:00.000Z",
+        "sentAt": "2026-11-02T15:02:22.909Z",
+        "externalLink": "https://www.instagram.com/reel/DfPlOm9CiE3/"
+      }
+    ]
+  },
+  "receipts": {
+    "youtube": {
+      "id": "6ae874a0146ca029aa15113f",
+      "channelId": "6ae65d0a2f1f5ed648378c6c",
+      "status": "sent",
+      "dueAt": "2026-11-02T15:00:00.000Z",
+      "sentAt": "2026-11-02T15:01:49.581Z",
+      "externalLink": "https://www.youtube.com/shorts/IQDzL5dLLR4"
+    },
+    "facebook": {
+      "id": "6ae8749d6d4b19decd3f4e88",
+      "channelId": "6ae65c3c2f1f5ed64837853d",
+      "status": "sent",
+      "dueAt": "2026-11-02T15:00:00.000Z",
+      "sentAt": "2026-11-02T15:01:56.239Z",
+      "externalLink": "https://www.facebook.com/reel/1868933854282868/"
+    },
+    "instagram": {
+      "id": "6ae87499e364127fe0d82973",
+      "channelId": "6ae65c082f1f5ed648378367",
+      "status": "sent",
+      "dueAt": "2026-11-02T15:00:00.000Z",
+      "sentAt": "2026-11-02T15:02:22.909Z",
+      "externalLink": "https://www.instagram.com/reel/DfPlOm9CiE3/"
+    }
+  }
+}
