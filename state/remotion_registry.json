@@ -20,6 +20,13 @@
       "source_evidence_file": "professional_motion/output/remotion-validation.json",
       "creative_rejected": true,
       "creative_feedback": "Owner rejected key/voice plot; replace with escalating What If scientific/technology scenarios, original character and visual comedy. Original film/audio retained, never publish this candidate."
+    },
+    "daily-remotion-2026-11-04-stickman": {
+      "profile": "stickman",
+      "due_at": "2026-11-04T15:00:00Z",
+      "status": "author_pending",
+      "source_run": 41498857958,
+      "created_at": "2026-11-02T18:15:52.674477+00:00"
     }
   }
 }
