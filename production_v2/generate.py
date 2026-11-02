@@ -129,7 +129,8 @@ def generate(profile, run_dir, ledger_path, *, repository=None, then_review=Fals
     run_dir.mkdir(parents=True, exist_ok=True)
     (run_dir / 'professional_motion').mkdir(exist_ok=True)
     slot = 'candidate-' + profile + '-' + uuid.uuid4().hex
-    due = window(datetime.now(timezone.utc),os.getenv('PRODUCTION_PUBLICATION_DATE'))['due_at']
+    publication_date=os.getenv('PRODUCTION_PUBLICATION_DATE','').strip() or None
+    due = window(datetime.now(timezone.utc),publication_date)['due_at']
     with Ledger(ledger_path) as ledger:
         ledger.import_legacy(repository)
         inputs = _copy_inputs(repository, run_dir)
