@@ -28,8 +28,8 @@ def bundle(delivery, profile):
     if story.get('profile') != profile:
         raise ValueError('Delivery belongs to another channel')
     duration = float(timing['duration'])
-    if not math.isfinite(duration) or not 120 <= duration < 180:
-        raise ValueError('A complete 120 to under 180 second narrated film is required')
+    if not math.isfinite(duration) or not 30 <= duration < 180:
+        raise ValueError('A complete 30 to under 180 second narrated film is required')
     if timing.get('story_sha256') != digest(story_path) or timing.get('audio_sha256') != digest(audio_path):
         raise ValueError('Story or original narration changed after measured alignment')
     if not story.get('topic_key') or timing.get('topic_key') != story['topic_key']:
