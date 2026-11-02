@@ -1,0 +1,10 @@
+{
+  "run": false,
+  "reason": "dry run; no provider mutation",
+  "profile": "stickman",
+  "due_at": "2026-11-03T15:00:00Z",
+  "entry": null,
+  "dry_run": true,
+  "generation_calls": 0,
+  "publication_mutations": 0
+}
