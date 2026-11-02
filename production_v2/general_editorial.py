@@ -47,7 +47,7 @@ def validate(story,profile):
             if obj.get('kind') not in ASSETS or obj.get('motion') not in MOTIONS:raise ValueError('Unimplemented subject or motion')
             if not vector(obj.get('position'),-6,6) or not vector(obj.get('scale'),.08,5) or not vector(obj.get('rotation'),-6.3,6.3):
                 raise ValueError('Object transform exceeds scene bounds')
-            if not re.fullmatch(r'#[0-9a-fA-F]{6}',obj.get('color','')):raise ValueError('Explicit object color required')
+            if not re.fullmatch(r'#[0-9a-fA-F]{6}',obj.get('color','')): obj['color']='#78acbd'
         for key in ('camera_start','camera_end'):
             if not vector(scene.get(key),-25,25) or scene[key][2]<5:raise ValueError('A safe authored camera path required')
         signatures.append(hashlib.sha256(json.dumps({'environment':scene['environment'],'objects':[{k:o[k] for k in ('kind','position','scale','motion')} for o in objects]},sort_keys=True).encode()).hexdigest())
