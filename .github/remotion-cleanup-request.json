@@ -1,13 +1,28 @@
 {
+  "workflow_catalog": true,
   "apply": true,
-  "revision": 2,
-  "expected_dry_run": "41533712767",
-  "scope": "Apply inspected inactive snapshots and fully merged branches with verified archive tags and atomic delete leases",
-  "keep": [
-    "main",
-    "open PR branches",
-    "active runs",
-    "production_v2 recovery/state/source/diagnostic refs",
-    "all topic histories/receipts/voice originals"
-  ]
+  "revision": 10,
+  "keep_paths": [
+    ".github/workflows/remotion-daily.yml",
+    ".github/workflows/remotion-health.yml",
+    ".github/workflows/remotion-cleanup.yml",
+    ".github/workflows/checks.yml"
+  ],
+  "retired_paths": [
+    ".github/workflows/acting-prototype.yml",
+    ".github/workflows/build.yml",
+    ".github/workflows/candidate-v2-fresh.yml",
+    ".github/workflows/candidate-v2-review.yml",
+    ".github/workflows/daily-stickman-production.yml",
+    ".github/workflows/production-v2-connections.yml",
+    ".github/workflows/production-v2-diagnose.yml",
+    ".github/workflows/production-v2-final.yml",
+    ".github/workflows/production-v2-inspect-retained.yml",
+    ".github/workflows/publish-completed-stickman.yml",
+    ".github/workflows/remotion-dialogue-candidate.yml",
+    ".github/workflows/remotion-voice.yml",
+    ".github/workflows/remotion-complete.yml",
+    ".github/workflows/remotion-visible-tags-edit.yml"
+  ],
+  "recovery_ref": "archive/housekeeping-41535807101-1/main-before-cleanup"
 }

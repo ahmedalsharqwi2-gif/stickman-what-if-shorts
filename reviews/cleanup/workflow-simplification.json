@@ -1,0 +1,64 @@
+{
+  "recovery_ref": "archive/housekeeping-41535807101-1/main-before-cleanup",
+  "verified_original_blobs": true,
+  "removed": [
+    {
+      "path": ".github/workflows/acting-prototype.yml",
+      "sha": "bcee98835f809a67d3d388783a51c81feede0cec"
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "sha": "fb585675e71a4986fbf750444495b92f08719588"
+    },
+    {
+      "path": ".github/workflows/candidate-v2-fresh.yml",
+      "sha": "efd498216c20927d34f8e3b9d37a0b81fc55273f"
+    },
+    {
+      "path": ".github/workflows/candidate-v2-review.yml",
+      "sha": "7814aca31e6101fec1982eae62d85741e112b2cb"
+    },
+    {
+      "path": ".github/workflows/daily-stickman-production.yml",
+      "sha": "2609940a832f999362453a81e03cb75fdb8568d3"
+    },
+    {
+      "path": ".github/workflows/production-v2-connections.yml",
+      "sha": "bc788ea34aa44695cef7ee7ce1e17486b4324778"
+    },
+    {
+      "path": ".github/workflows/production-v2-diagnose.yml",
+      "sha": "38fda9ac58965212e75d1aadf682c82445ba3314"
+    },
+    {
+      "path": ".github/workflows/production-v2-final.yml",
+      "sha": "afa461acb39620c24a08294ad73ce15d4f1cfb12"
+    },
+    {
+      "path": ".github/workflows/production-v2-inspect-retained.yml",
+      "sha": "dfba91e6b2af8d6c38b3d0e5a542013e57910141"
+    },
+    {
+      "path": ".github/workflows/publish-completed-stickman.yml",
+      "sha": "02addf3931ee250cf8cea849e288a980a128800b"
+    },
+    {
+      "path": ".github/workflows/remotion-dialogue-candidate.yml",
+      "sha": "5b1b19e156f504f125af1c0e97e99df270eccd60"
+    }
+  ],
+  "active_paths": [
+    ".github/workflows/remotion-daily.yml",
+    ".github/workflows/remotion-health.yml",
+    ".github/workflows/remotion-cleanup.yml",
+    ".github/workflows/checks.yml"
+  ],
+  "ci_consolidation": "All retired engine test jobs retained in checks.yml; original Arabic and repository validation checks retain their own definitions",
+  "scheduled_workflows": [
+    "remotion-daily.yml",
+    "remotion-health.yml"
+  ],
+  "social_mutations": 0,
+  "generation_calls": 0,
+  "run_deletions": 0
+}
