@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "deleted_branches": 0,
+  "remaining_branches": 8,
+  "all_deleted_refs_independently_absent": true,
+  "all_recovery_refs_independently_match": true,
+  "source_runs": [
+    "41535807101"
+  ],
+  "removed_superseded_workflows": 3,
+  "workflow_evidence": "reviews/cleanup/workflow-retirement.json",
+  "scope": "Remove only inspected unused snapshots and fully merged inactive work; preserve unique unmerged features, open PRs, runtime refs, production state and all media/receipts",
+  "generation_calls": 0,
+  "social_mutations": 0
+}
