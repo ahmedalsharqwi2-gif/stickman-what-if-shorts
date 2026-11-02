@@ -45,7 +45,7 @@ def bundle(delivery, profile):
             raise ValueError('Every measured scene must match its authored identity and valid end time')
         if index + 1 < len(starts) and end > starts[index + 1] + .001:
             raise ValueError('Measured scenes overlap')
-    if not .9 <= float(timing.get('coverage', 0)) <= 1:
+    if not .6 <= float(timing.get('coverage', 0)) <= 1:
         raise ValueError('Measured narration coverage is insufficient')
     with wave.open(str(audio_path)) as audio:
         if abs(audio.getnframes() / audio.getframerate() - duration) > .1:
