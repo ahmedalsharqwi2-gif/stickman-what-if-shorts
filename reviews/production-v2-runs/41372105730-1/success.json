@@ -1,0 +1,14 @@
+{
+  "profile": "stickman",
+  "repository": "ahmedalsharqwi2-gif/stickman-what-if-shorts",
+  "run_id": "41372105730",
+  "run_attempt": "1",
+  "source_commit": "2332c4258dd577d61d131520080e05807b510c85",
+  "stage": "success",
+  "kind": "publishing_connection_discovery",
+  "no_posts_created": true,
+  "read_only": true,
+  "ready": false,
+  "credential_present": false,
+  "problem": "Existing fifth-repository BUFFER_API_KEY is not configured"
+}
