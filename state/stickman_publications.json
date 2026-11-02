@@ -751,7 +751,8 @@
         "audio_codec": "aac",
         "bytes": 16741521,
         "limitation": "Stream/decode validation does not prove narration correctness, novelty, or editorial approval"
-      }
+      },
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-stickman-2026-11-02/production-video-stickman-2026-11-02.mp4"
     }
   }
 }
