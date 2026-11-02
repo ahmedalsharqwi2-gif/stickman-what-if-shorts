@@ -1,0 +1,54 @@
+{
+  "repository": "ahmedalsharqwi2-gif/stickman-what-if-shorts",
+  "run_id": "41535807101",
+  "apply": true,
+  "started_at": "2026-11-02T22:16:28.421875+00:00",
+  "errors": [],
+  "deleted_branches": [],
+  "retained": [
+    {
+      "name": "codex/character-story-review-2026-11-01",
+      "reason": "keep_unmerged_work_not_proven_unused"
+    },
+    {
+      "name": "codex/production-v2-audit-status",
+      "reason": "keep_recovery_and_diagnostic_history"
+    },
+    {
+      "name": "codex/production-v2-diagnostics",
+      "reason": "keep_recovery_and_diagnostic_history"
+    },
+    {
+      "name": "codex/production-v2-media-2026-10-31",
+      "reason": "keep_recovery_and_diagnostic_history"
+    },
+    {
+      "name": "codex/production-v2-state",
+      "reason": "keep_recovery_and_diagnostic_history"
+    },
+    {
+      "name": "codex/production-v2-status",
+      "reason": "keep_recovery_and_diagnostic_history"
+    },
+    {
+      "name": "codex/rebuild-production-v2",
+      "reason": "keep_recovery_and_diagnostic_history"
+    },
+    {
+      "name": "main",
+      "reason": "keep_protected_or_default"
+    }
+  ],
+  "removed_paths": [],
+  "generation_calls": 0,
+  "social_mutations": 0,
+  "default_branch": "main",
+  "main_before": "6fe392f57e8c0fa14253cb57b680067cd048c4ac",
+  "branch_count": 8,
+  "planned_branches": [],
+  "planned_paths": [],
+  "main_recovery_tag": "archive/housekeeping-41535807101-1/main-before-cleanup",
+  "cache_cleanup_commit": null,
+  "passed": true,
+  "finished_at": "2026-11-02T22:16:35.727303+00:00"
+}
