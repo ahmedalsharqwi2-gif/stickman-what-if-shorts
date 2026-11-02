@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-02",
+  "classification": "Historical live post IDs/media differ from retained original; linked media fails the permanent minimum duration",
+  "historical_publication_recovered": false,
+  "disposition": "Archived invalid historical-media incident; no retry or rollover",
+  "observed_media_sha256": "b1c942401e02bea519822c6abbb60ed78fdf171fbc18833e52888ffd33aa3576",
+  "observed_linked_media_duration": 5.166667,
+  "expected_original_sha256": "3c6a9144e2867f306b251ba9f7741ea4052c2cc49f6f145c25bd075a3b8eb142",
+  "diagnostic": "reviews/daily_health/legacy-reconciliation/2026-11-02-41539179487.json",
+  "prevention": [
+    "Reject substituted IDs and source URLs instead of silently accepting occupied slots",
+    "Verify independent complete-media duration, decode and retained SHA",
+    "Retain the complete new two-character candidate for the ordinary daily controller, without generating it again"
+  ],
+  "new_complete_candidate": {
+    "run": 41532375170,
+    "sha256": "16a3fee0065ca42528abcc398443e2bb192615d6a3a619bc73413716163f8efa",
+    "duration": 139.733333,
+    "review_only": true,
+    "social_publication_claimed": false
+  },
+  "current_day_preflight": {
+    "run": false,
+    "reason": "dry run; no provider mutation",
+    "profile": "stickman",
+    "due_at": "2026-11-03T15:00:00Z",
+    "entry": null,
+    "dry_run": true,
+    "generation_calls": 0,
+    "publication_mutations": 0
+  },
+  "publication_mutations": 0,
+  "generation_calls": 0
+}
