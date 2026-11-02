@@ -759,11 +759,13 @@
           "verified_at": "2026-11-02T10:06:34.424073+00:00"
         },
         "instagram": {
-          "phase": "intent",
+          "phase": "acknowledged",
           "channel_id": "6ae65c082f1f5ed648378367",
           "due_at": "2026-11-02T15:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-stickman-2026-11-02/production-video-stickman-2026-11-02.mp4",
-          "created_at": "2026-11-02T10:06:36.306849+00:00"
+          "created_at": "2026-11-02T10:06:36.306849+00:00",
+          "id": "6ae860aec100ba337af27901",
+          "accepted_at": "2026-11-02T10:06:38.720129+00:00"
         }
       },
       "accepted_duration_policy": "strictly over90seconds",
