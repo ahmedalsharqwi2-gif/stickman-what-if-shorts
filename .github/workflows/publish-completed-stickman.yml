@@ -1,0 +1,70 @@
+{
+  "name": "Publish exact completed stickman119s film for today17:00 Cairo",
+  "on": {
+    "push": {
+      "branches": [
+        "main"
+      ],
+      "paths": [
+        ".github/publish-completed-stickman.json"
+      ]
+    }
+  },
+  "permissions": {
+    "contents": "write",
+    "actions": "read"
+  },
+  "concurrency": {
+    "group": "daily-stickman-production",
+    "cancel-in-progress": false
+  },
+  "jobs": {
+    "publish": {
+      "runs-on": "ubuntu-24.04",
+      "timeout-minutes": 20,
+      "env": {
+        "GITHUB_TOKEN": "${{ github.token }}",
+        "GH_RELEASE_TOKEN": "${{ github.token }}",
+        "BUFFER_API_KEY": "${{ secrets.BUFFER_API_KEY }}"
+      },
+      "steps": [
+        {
+          "uses": "actions/checkout@v4",
+          "with": {
+            "fetch-depth": 0
+          }
+        },
+        {
+          "uses": "actions/setup-python@v5",
+          "with": {
+            "python-version": "3.11"
+          }
+        },
+        {
+          "run": "sudo apt-get update -qq\nsudo apt-get install -y ffmpeg\npython -m pip install requests"
+        },
+        {
+          "uses": "actions/download-artifact@v4",
+          "with": {
+            "github-token": "${{ github.token }}",
+            "run-id": 41416916064,
+            "name": "stickman-daily-41416916064",
+            "path": "work/completed"
+          }
+        },
+        {
+          "run": "python -m unittest discover -s tests -p test_duration_rule.py -v\npython -m unittest discover -s tests -p test_stickman_publication_once.py -v\npython -m production_v2.publish_completed_stickman"
+        },
+        {
+          "if": "always()",
+          "uses": "actions/upload-artifact@v4",
+          "with": {
+            "name": "stickman-complete-publication-${{ github.run_id }}",
+            "path": "work/stickman-publication-result.json\nstate/stickman_publications.json",
+            "retention-days": 30
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_run": 41416916064,
+  "source_slot": "candidate-stickman-1d4786d19a1c480baf0213bea2499c4e",
+  "video_sha256": "3c6a9144e2867f306b251ba9f7741ea4052c2cc49f6f145c25bd075a3b8eb142",
+  "due_at": "2026-11-02T15:00:00Z",
+  "owner_authorization": "Publish completed stickman today at17:00 Cairo; permanent duration over90seconds.",
+  "review_only": false,
+  "decoded_duration": 119.566667,
+  "independent_asr_coverage": 0.9422222222222222
+}
