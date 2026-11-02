@@ -35,7 +35,7 @@ def decide(args):
  repo,profile=identity();event=json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text());created=instant(api('/actions/runs/'+os.environ['GITHUB_RUN_ID'])['created_at'])
  target=args.date or event.get('inputs',{}).get('publish_date') or None
  request=Path('.github/remotion-daily-request.json')
- if os.environ['GITHUB_EVENT_NAME']=='push' and request.exists():
+ if os.environ['GITHUB_EVENT_NAME']=='push' and request.exists() and not target:
   change=json.loads(request.read_text());target=change.get('publish_date') or target
  due=slot_for(created,os.environ['GITHUB_EVENT_NAME'],event.get('schedule',''),target)
  if due is None:return {'run':False,'reason':'other DST trigger'}
@@ -57,7 +57,7 @@ def decide(args):
  if not args.dry_run:mutate(choose)
  return {'run':not args.dry_run,'reason':'eligible' if not args.dry_run else 'dry run; no provider mutation','profile':profile,'due_at':due,'entry':selected}
 def main():
- parser=argparse.ArgumentParser();parser.add_argument('--dry-run',action='store_true');parser.add_argument('--date');parser.add_argument('--decide-only',action='store_true');args=parser.parse_args();decision=decide(args)
+ parser=argparse.ArgumentParser();parser.add_argument('--dry-run',action='store_true');parser.add_argument('--date');parser.add_argument('--decide-only',action='store_true');parser.add_argument('--review-only',action='store_true');args=parser.parse_args();decision=decide(args)
  Path('professional_motion/output').mkdir(parents=True,exist_ok=True);Path('professional_motion/output/daily-decision.json').write_text(json.dumps(decision,ensure_ascii=False,indent=2))
  print(json.dumps(decision,ensure_ascii=False))
  if os.getenv('GITHUB_OUTPUT'):
@@ -88,6 +88,8 @@ def main():
  # never a claim that the owner watched an automatically produced episode.
  from .quality import verify
  verify(movie,report,profile)
+ if args.review_only:
+  print(json.dumps({'status':'full_candidate_checked','publication_mutations':0,'original_voice_retained':True,'due_at':req['due_at']}));return
  approval=Path('.work/approval.json');approval.write_text(json.dumps({'video_sha256':hashlib.sha256(movie.read_bytes()).hexdigest(),'visual_review_passed':True,'approval_basis':'standing owner style approval plus automated scene/technical/source checks','owner_watched_this_episode':False}));os.environ['REMOTION_APPROVAL_PATH']=str(approval)
  from .publish import main as publish
  publish()

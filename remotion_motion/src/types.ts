@@ -1,3 +1,4 @@
 export type Profile='science'|'history'|'horror'|'news'|'stickman';
-export type Scene={id:string;label:string;narration:string;start:number;end:number;kind:string;asset?:string;asset_label?:string;kicker?:string;scenario?:string;headline?:string;number?:string;detail?:string;latitude?:number;longitude?:number;zoom?:number;labels?:string[];timeline?:{year:string;text:string}[];};
-export type Episode={profile:Profile;series:string;title:string;duration:number;scenes:Scene[];caption_groups:{text:string;start:number;end:number}[];hashtags?:string[];audio?:string;review_only?:boolean;source_date?:string;};
+export type DialogueTurn={speaker:'a'|'b';text:string;start:number;end:number;timing_method?:string};
+export type Scene={id:string;label:string;narration:string;start:number;end:number;kind:string;asset?:string;asset_label?:string;kicker?:string;scenario?:string;dialogue_turns?:DialogueTurn[];headline?:string;number?:string;detail?:string;latitude?:number;longitude?:number;zoom?:number;labels?:string[];timeline?:{year:string;text:string}[];};
+export type Episode={profile:Profile;series:string;title:string;duration:number;scenes:Scene[];caption_groups:{text:string;start:number;end:number;speaker?:'a'|'b'}[];hashtags?:string[];audio?:string;review_only?:boolean;source_date?:string;};

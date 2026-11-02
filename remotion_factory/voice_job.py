@@ -10,6 +10,7 @@ from .state import mutate
 from .alignment import measured_timing
 from .speech_characters import character_timing
 from .speech_lexicon import recognized_key
+from .dialogue import flatten,attach_timing
 def main():
  req=read_request();story=json.loads((DELIVERY/'story.json').read_text());full=' '.join(s['narration'] for s in story['scenes']);wav=DELIVERY/'narration.wav';source=DELIVERY/'narration.source.json'
  def started(data):
@@ -23,7 +24,10 @@ def main():
   if (proof.get('output_sha256') or proof.get('sha256'))!=hashlib.sha256(wav.read_bytes()).hexdigest():raise ValueError('Retained voice provenance hash differs')
  else:
   style={'science':'Clear engaging Egyptian Arabic science explanation.','history':'Natural Egyptian Arabic true historical storytelling; grounded, curious, cinematic, never grandiose.','horror':'Clear resonant Egyptian Arabic true-disaster storytelling, restrained dread and narrative tension; no whispering, screams, fake dialogue or swallowed words.','news':'Quick Egyptian Arabic technology news with light dry humor, clear facts and natural conversational delivery.','stickman':'Playful Egyptian Arabic what-if story with character actions, setbacks and a comic payoff.'}[story['profile']]
-  generate(full,str(wav),style+' Read only the supplied words. Finish the final sentence. No music or sound effects. Natural clear pace without stretching.')
+  if story.get('dialogue_enabled'):
+   from voice_provider.dialogue import generate as generate_dialogue
+   generate_dialogue(flatten(story),wav)
+  else:generate(full,str(wav),style+' Read only the supplied words. Finish the final sentence. No music or sound effects. Natural clear pace without stretching.')
  duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',str(wav)]))
  minimum=60 if story['profile']=='news' else 90
  if not minimum<duration<180:raise ValueError(f'Actual voice must be strictly over{minimum}seconds and under180; no padding or speed change')
@@ -40,9 +44,14 @@ def main():
   transcripts.append((name,actual))
   try:
    candidate=measured_timing(story,duration,transcripts,allow_low_coverage=True);best_exact=max(best_exact,candidate.get('exact_token_coverage',candidate['coverage']))
-   if candidate['coverage']>=.9 and not candidate.get('diagnostic_only'):timing=candidate;break
+   if candidate['coverage']>=.9 and not candidate.get('diagnostic_only'):
+    if story.get('dialogue_enabled'):candidate=attach_timing(story,candidate,transcripts)
+    timing=candidate;break
   except ValueError:pass
-  try:timing=character_timing(story,duration,transcripts,recognized_key,best_exact);break
+  try:
+   candidate=character_timing(story,duration,transcripts,recognized_key,best_exact)
+   if story.get('dialogue_enabled'):candidate=attach_timing(story,candidate,transcripts)
+   timing=candidate;break
   except ValueError:pass
  if timing is None:raise ValueError('Independent ASR does not cover enough real speech; original voice retained')
  timing.update(story_sha256=hashlib.sha256((DELIVERY/'story.json').read_bytes()).hexdigest(),audio_sha256=hashlib.sha256(wav.read_bytes()).hexdigest(),profile=story['profile'],topic_key=story['topic_key'])

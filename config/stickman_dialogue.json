@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "voices": {"a": "Charon", "b": "Puck"},
+  "styles": {
+    "a": "Curious and impulsive Egyptian Arabic character, expressive but clear; natural quick conversation, no exaggerated screaming.",
+    "b": "Calm Egyptian Arabic companion with dry comic reactions, distinct conversational delivery; not an announcer."
+  },
+  "spoken_character_names": false,
+  "speaker_identifiers_are_metadata_only": true,
+  "provider_requests_per_episode": 1,
+  "model": "existing accepted gemini-3.8-flash-tts",
+  "authorization": "Owner requested two unnamed characters talking naturally, bigger in frame, original What If stories on2026-11-02.",
+  "documentation": "https://aistudio.google.com/docs/speech-generation#multi-speaker"
+}
