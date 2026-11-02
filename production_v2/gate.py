@@ -65,7 +65,7 @@ def check_profile(profile, evidence):
         source = (root / relative).resolve()
         if not source.is_relative_to(root) or not source.is_file() or sha256(source) != expected:
             raise ValueError('Renderer source changed after full-film acceptance')
-    video = verify(evidence['video_path'])
+    video = verify(evidence['video_path'],profile=profile)
     if video['sha256'] != evidence.get('video_sha256'):
         raise ValueError('Acceptance video changed after review')
     if ('video', video['sha256']) in old_tokens:

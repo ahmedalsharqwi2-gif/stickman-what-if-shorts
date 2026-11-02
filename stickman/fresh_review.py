@@ -21,7 +21,7 @@ def write(path,data):Path(path).write_text(json.dumps(data,ensure_ascii=False,in
 def align(story,wav,out):
     from faster_whisper import WhisperModel
     with wave.open(str(wav)) as audio:duration=audio.getnframes()/audio.getframerate()
-    if not 120<=duration<180:raise ValueError('Measured narration must be120 to under180 seconds; no padding or speed changes')
+    if not 90<duration<180:raise ValueError('Measured narration must exceed90seconds and stay under180seconds; no padding or speed changes')
     transcripts=[]
     models=('small','medium','large-v3')
     for name in models:
