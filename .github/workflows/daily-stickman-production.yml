@@ -50,7 +50,7 @@ jobs:
       - name: Validate retained channel connections without publishing
         run: python -m production_v2.connection_audit
       - name: Run production-v2 tests
-        run: python -m pytest -q tests/test_production_v2.py tests/test_nextday_schedule.py tests/test_v2_general_editorial.py
+        run: python -m pytest -q tests/test_production_v2.py tests/test_nextday_schedule.py tests/test_v2_general_editorial.py tests/test_v2_staged_novelty.py
       - name: Resume retained plan on repair; generate a new daily film on its normal trigger
         run: |
           python - <<'PY'
@@ -62,7 +62,12 @@ jobs:
               from production_v2.planning_resume import planning_resume
               request=json.loads(Path('.github/stickman-retained-resume.json').read_text())
               os.environ['PRODUCTION_PUBLICATION_DATE']=request['publication_date']
-              with planning_resume('stickman',int(request['target_run'])):main()
+              if request.get('resume_reserved_run'):
+                  from production_v2.resume_reserved import main as resume
+                  sys.argv=['production_v2.resume_reserved','--profile','stickman','--target-run',str(request['resume_reserved_run']),'--run-dir','.candidate-v2/run-'+os.environ['CANDIDATE_RUN'],'--ledger','.candidate-v2/shared.sqlite3','--production']
+                  resume()
+              else:
+                  with planning_resume('stickman',int(request['target_run'])):main()
           else:
               main()
           PY

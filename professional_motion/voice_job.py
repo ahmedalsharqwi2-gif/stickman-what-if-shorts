@@ -47,7 +47,7 @@ def main():
         del model
         try:
             timing=measured_timing(story,duration,transcripts)
-            if timing['coverage']<.6: print('Low ASR coverage; continuing with degraded deterministic timing', flush=True)
+            if timing['coverage']<.9:raise ValueError('Measured coverage below90percent; try the next local ASR model against the same retained audio')
             break
         except ValueError:
             if name=='large-v3':raise
