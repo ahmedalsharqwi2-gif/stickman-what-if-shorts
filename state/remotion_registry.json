@@ -24,7 +24,7 @@
     "daily-remotion-2026-11-04-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-04T15:00:00Z",
-      "status": "voice_requested",
+      "status": "voice_ready",
       "source_run": 41499549297,
       "created_at": "2026-11-02T18:15:52.674477+00:00",
       "source_selection": {
@@ -150,7 +150,11 @@
         "passed": true
       },
       "story_sha256": "7d30a862ef9ca4e23d7c9d42c50bde688fec5a8bc35d80f852e268164cda9dba",
-      "voice_request_run": 41499549297
+      "voice_request_run": 41499549297,
+      "duration": 124.4,
+      "audio_sha256": "2b1b24063ec368b6f46f518f568142b3670f132c0ced0680a4a7dd3121987a28",
+      "timing_sha256": "a4be08c05560384d35898ef15f7b9ea41af9d343e7820b9202c12ef01aa466ce",
+      "coverage": 0.9060150375939849
     }
   }
 }
