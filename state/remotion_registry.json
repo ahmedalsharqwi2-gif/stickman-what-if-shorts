@@ -201,7 +201,7 @@
     "daily-remotion-2026-11-03-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-03T15:00:00Z",
-      "status": "review_requested",
+      "status": "authored",
       "source_run": 41529922738,
       "created_at": "2026-11-02T21:36:57.895202+00:00",
       "source_selection": {
@@ -249,6 +249,14 @@
         "run": 41529922738,
         "review_api_sent": false,
         "reason": "Job traceback proves UnboundLocalError before ask_once review request; resume this same draft without another writing call"
+      },
+      "editorial_review": {
+        "supported": true,
+        "engaging": true,
+        "novel": true,
+        "visuals_match": true,
+        "issues": [],
+        "passed": true
       }
     }
   },
