@@ -25,6 +25,8 @@ def _normalize_visual_aliases(story):
         for obj in scene.get('objects',[]):
             if obj.get('kind') in ASSET_ALIASES: obj['kind']=ASSET_ALIASES[obj['kind']]
             if obj.get('motion') in MOTION_ALIASES: obj['motion']=MOTION_ALIASES[obj['motion']]
+            if obj.get('kind') not in ASSETS: obj['kind']='stickman' if profile=='stickman' else 'sphere'
+            if obj.get('motion') not in MOTIONS: obj['motion']='drift'
     return story
 
 def validate(story,profile):
