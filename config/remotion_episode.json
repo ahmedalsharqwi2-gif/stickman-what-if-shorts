@@ -1,0 +1,121 @@
+{
+  "profile": "stickman",
+  "series": "افترض كده",
+  "title": "لو صوتك بيحرّك الحاجات؟",
+  "canonical_subject": "stickman-voice-moves-objects-key-on-shelf",
+  "topic_key": "remotion-stickman-voice-moves-objects-key-on-shelf",
+  "source": {
+    "kind": "original_what_if",
+    "publisher": "افترض كده",
+    "title": "فرضية خيالية أصلية"
+  },
+  "scenes": [
+    {
+      "label": "كلمة حرّكت المفتاح",
+      "narration": "افترض إن صوتك بقى يقدر يزق الحاجات قدامك. صاحبنا واقف في أوضته، ومفتاح الباب فوق رف عالي. أول ما قال تعال، المفتاح اتحرك سنة صغيرة. بص لوشه تاني، وفهم إن صوته فجأة بقى أداة غريبة.",
+      "visual": {
+        "kind": "stickman",
+        "kicker": "discover"
+      },
+      "id": "scene_1",
+      "labels": [],
+      "visual_mode": "hero"
+    },
+    {
+      "label": "الصوت العالي عمل فوضى",
+      "narration": "قال نجرب بصوت أعلى، وصرخ ناحية الرف. المفتاح فعلًا اتحرك، لكن الكتب والكوباية اتحركوا معاه. بدل ما يحل مشكلة صغيرة، عمل زحمة كبيرة. اكتشف إن القوة من غير تحكم ممكن تبعد الهدف، بدل ما تقرّبه.",
+      "visual": {
+        "kind": "stickman",
+        "kicker": "shout"
+      },
+      "id": "scene_2",
+      "labels": [],
+      "visual_mode": "hero"
+    },
+    {
+      "label": "همسة بدل الصرخة",
+      "narration": "رجع خطوة وخد نفس، وقرر يهمس. المرة دي المفتاح زحف ناحية حافة الرف، بهدوء. صاحبنا ابتسم ومد إيده يستناه، لكن الكوباية اللي جنبه اتحركت برضه. لازم يختار اتجاه صوته، مش شدته بس.",
+      "visual": {
+        "kind": "stickman",
+        "kicker": "whisper"
+      },
+      "id": "scene_3",
+      "labels": [],
+      "visual_mode": "hero"
+    },
+    {
+      "label": "محاولة توجيه الصوت",
+      "narration": "مسك ورقة ولفها على شكل قمع، ووجّهها ناحية المفتاح. في فرضيتنا الخيالية، ده ساعده يركّز الدفع على مساحة أصغر. هنا الرسمة بتحكي قاعدة العالم المتخيّل، مش بتقول إن الصوت العادي بيقدر يعمل الحركة دي.",
+      "visual": {
+        "kind": "stickman",
+        "kicker": "focus"
+      },
+      "id": "scene_4",
+      "labels": [],
+      "visual_mode": "hero"
+    },
+    {
+      "label": "المفتاح اتحرك أخيرًا",
+      "narration": "قال كلمة قصيرة من القمع، والمفتاح قرب من الطرف. فتح كفه تحته واستنى، ولأول مرة الخطة كانت ماشية. لكن المفتاح كان مربوط بخيط في مقبض درج، فالدفع لوحده ماكانش كفاية عشان يوصله لإيده.",
+      "visual": {
+        "kind": "stickman",
+        "kicker": "tether"
+      },
+      "id": "scene_5",
+      "labels": [],
+      "visual_mode": "hero"
+    },
+    {
+      "label": "حل المشكلة الأصلية",
+      "narration": "وقف يبص على الخيط، وبدل ما يزود صوته، فتح الدرج وفك الربطة من المقبض. المشكلة دلوقتي ماكانتش محتاجة قوة جديدة؛ كانت محتاجة يفهم إيه اللي موقف الحركة. رجع للقمع، وهمس للمفتاح مرة أخيرة بهدوء.",
+      "visual": {
+        "kind": "stickman",
+        "kicker": "untie"
+      },
+      "id": "scene_6",
+      "labels": [],
+      "visual_mode": "hero"
+    },
+    {
+      "label": "خطة ناجحة بهدوء",
+      "narration": "المفتاح انزلق من الرف ووقع في كفه، وصاحبنا قبض عليه بسرعة. المرة دي مافيش كتاب طار ولا كوباية وقعت. ابتسم ورفع المفتاح كأنه كسب بطولة، مع إن كل الإنجاز إنه عرف يجيب مفتاحه من فوق الرف.",
+      "visual": {
+        "kind": "stickman",
+        "kicker": "catch"
+      },
+      "id": "scene_7",
+      "labels": [],
+      "visual_mode": "hero"
+    },
+    {
+      "label": "العطسة اللي رجعت الفوضى",
+      "narration": "وهو رايح للباب، عطس فجأة. الموجة الخيالية زقت الورق اللي وراه ووقعت القمع من على الترابيزة. صاحبنا وقف، وبص للمفتاح، وحطه في جيبه. أحسن اختراع في العالم المتخيّل ده طلع بسيط جدًا: ماتنساش مفتاحك فوق الرف.",
+      "visual": {
+        "kind": "stickman",
+        "kicker": "sneeze"
+      },
+      "id": "scene_8",
+      "labels": [],
+      "visual_mode": "hero"
+    }
+  ],
+  "fiction": true,
+  "documented": false,
+  "facts": [],
+  "milestones": [],
+  "suitable": true,
+  "hashtags": [
+    "افترض_كده",
+    "ستيك_مان",
+    "المفتاح"
+  ],
+  "editorial_review": {
+    "performed_by": "source-grounded authored script",
+    "supported": true,
+    "novel": true,
+    "fiction_disclosed": true,
+    "no_invented_witness_dialogue": true
+  },
+  "visual_family": "remotion_documentary",
+  "variant": "stickman"
+}
