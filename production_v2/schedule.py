@@ -24,7 +24,7 @@ def window(now:datetime,publication_date=None)->dict:
 def require_duration(seconds:float)->float:
     value=float(seconds)
     if not math.isfinite(value) or not 120<=value<180:
-        raise ValueError('Daily films must be at least 120 and less than 180 seconds')
+        raise ValueError('Daily films must be at least 30 and less than 180 seconds')
     return value
 
 def require_future_due(due:str,now:datetime)->datetime:
