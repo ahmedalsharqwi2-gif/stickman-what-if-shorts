@@ -20,7 +20,7 @@ def enabled(profile,root='.'):
 ASSET_ALIASES={'sun':'sphere','earth':'sphere','solar_flare':'sphere','solar_corona':'sphere','magnetic_field':'wave','gps':'phone','power_grid':'circuit','satellite':'satellite_dish','grid':'circuit'}
 MOTION_ALIASES={'radiate':'pulse','emit':'pulse','flicker':'pulse','magnetic':'flow','orbiting':'orbit','explode':'split','collapse':'slam','bounce':'swing','move':'drift'}
 
-def _normalize_visual_aliases(story):
+def _normalize_visual_aliases(story, profile='stickman'):
     for scene in story.get('scenes',[]):
         for obj in scene.get('objects',[]):
             if obj.get('kind') in ASSET_ALIASES: obj['kind']=ASSET_ALIASES[obj['kind']]
@@ -30,7 +30,7 @@ def _normalize_visual_aliases(story):
     return story
 
 def validate(story,profile):
-    _normalize_visual_aliases(story)
+    _normalize_visual_aliases(story, profile)
     if story.get('profile')!=profile or not story.get('topic_key') or len(story.get('scenes',[]))!=8:
         raise ValueError('A new identified eight-scene story is required')
     if story.get('knowledge_category') not in CATEGORIES[profile]:raise ValueError('Unknown editorial category')
