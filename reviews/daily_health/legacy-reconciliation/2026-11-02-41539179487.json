@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-02",
+  "read_only": true,
+  "generation_calls": 0,
+  "publication_mutations": 0,
+  "post_fields": [
+    "text"
+  ],
+  "channels": {
+    "youtube": [
+      {
+        "id": "6ae874a0146ca029aa15113f",
+        "channelId": "6ae65d0a2f1f5ed648378c6c",
+        "status": "sent",
+        "dueAt": "2026-11-02T15:00:00.000Z",
+        "sentAt": "2026-11-02T15:01:49.581Z",
+        "externalLink": "https://www.youtube.com/shorts/IQDzL5dLLR4",
+        "text": "ماذا لو كل قرار في حياتك محتاج موافقة؟ حتى فتح التلاجة... السيستم قال: استنى دورك! 😂\n\n#ماذا_لو #ستيك_مان #كوميديا_مصرية #افترض_كده",
+        "assets": [
+          {
+            "host": "files.manuscdn.com",
+            "source_url_sha256": "a4f9e5c9d92efaeb1cf9f2df474bc69b69874e430109b610fb1dc25dccc8d52d",
+            "sha256": "b1c942401e02bea519822c6abbb60ed78fdf171fbc18833e52888ffd33aa3576",
+            "bytes": 1464479,
+            "duration": 5.166667
+          }
+        ]
+      }
+    ],
+    "facebook": [
+      {
+        "id": "6ae8749d6d4b19decd3f4e88",
+        "channelId": "6ae65c3c2f1f5ed64837853d",
+        "status": "sent",
+        "dueAt": "2026-11-02T15:00:00.000Z",
+        "sentAt": "2026-11-02T15:01:56.239Z",
+        "externalLink": "https://www.facebook.com/reel/1868933854282868/",
+        "text": "ماذا لو كل قرار في حياتك محتاج موافقة؟ حتى فتح التلاجة... السيستم قال: استنى دورك! 😂\n\n#ماذا_لو #ستيك_مان #كوميديا_مصرية #افترض_كده",
+        "assets": [
+          {
+            "host": "files.manuscdn.com",
+            "source_url_sha256": "a4f9e5c9d92efaeb1cf9f2df474bc69b69874e430109b610fb1dc25dccc8d52d",
+            "sha256": "b1c942401e02bea519822c6abbb60ed78fdf171fbc18833e52888ffd33aa3576",
+            "bytes": 1464479,
+            "duration": 5.166667
+          }
+        ]
+      }
+    ],
+    "instagram": [
+      {
+        "id": "6ae87499e364127fe0d82973",
+        "channelId": "6ae65c082f1f5ed648378367",
+        "status": "sent",
+        "dueAt": "2026-11-02T15:00:00.000Z",
+        "sentAt": "2026-11-02T15:02:22.909Z",
+        "externalLink": "https://www.instagram.com/reel/DfPlOm9CiE3/",
+        "text": "ماذا لو كل قرار في حياتك محتاج موافقة؟ حتى فتح التلاجة... السيستم قال: استنى دورك! 😂\n\n#ماذا_لو #ستيك_مان #كوميديا_مصرية #افترض_كده",
+        "assets": [
+          {
+            "host": "files.manuscdn.com",
+            "source_url_sha256": "a4f9e5c9d92efaeb1cf9f2df474bc69b69874e430109b610fb1dc25dccc8d52d",
+            "sha256": "b1c942401e02bea519822c6abbb60ed78fdf171fbc18833e52888ffd33aa3576",
+            "bytes": 1464479,
+            "duration": 5.166667
+          }
+        ]
+      }
+    ]
+  },
+  "known_posts": {
+    "6ae860a2b0da614b553ed2a1": {
+      "unavailable": "RuntimeError"
+    },
+    "6ae860a8b0da614b553ed4c2": {
+      "unavailable": "RuntimeError"
+    },
+    "6ae860aec100ba337af27901": {
+      "unavailable": "RuntimeError"
+    },
+    "6ae87499e364127fe0d82973": {
+      "id": "6ae87499e364127fe0d82973",
+      "channelId": "6ae65c082f1f5ed648378367",
+      "status": "sent",
+      "dueAt": "2026-11-02T15:00:00.000Z",
+      "sentAt": "2026-11-02T15:02:22.909Z",
+      "externalLink": "https://www.instagram.com/reel/DfPlOm9CiE3/",
+      "text": "ماذا لو كل قرار في حياتك محتاج موافقة؟ حتى فتح التلاجة... السيستم قال: استنى دورك! 😂\n\n#ماذا_لو #ستيك_مان #كوميديا_مصرية #افترض_كده",
+      "assets": [
+        {
+          "host": "files.manuscdn.com",
+          "source_url_sha256": "a4f9e5c9d92efaeb1cf9f2df474bc69b69874e430109b610fb1dc25dccc8d52d",
+          "sha256": "b1c942401e02bea519822c6abbb60ed78fdf171fbc18833e52888ffd33aa3576",
+          "bytes": 1464479,
+          "duration": 5.166667
+        }
+      ]
+    },
+    "6ae8749d6d4b19decd3f4e88": {
+      "id": "6ae8749d6d4b19decd3f4e88",
+      "channelId": "6ae65c3c2f1f5ed64837853d",
+      "status": "sent",
+      "dueAt": "2026-11-02T15:00:00.000Z",
+      "sentAt": "2026-11-02T15:01:56.239Z",
+      "externalLink": "https://www.facebook.com/reel/1868933854282868/",
+      "text": "ماذا لو كل قرار في حياتك محتاج موافقة؟ حتى فتح التلاجة... السيستم قال: استنى دورك! 😂\n\n#ماذا_لو #ستيك_مان #كوميديا_مصرية #افترض_كده",
+      "assets": [
+        {
+          "host": "files.manuscdn.com",
+          "source_url_sha256": "a4f9e5c9d92efaeb1cf9f2df474bc69b69874e430109b610fb1dc25dccc8d52d",
+          "sha256": "b1c942401e02bea519822c6abbb60ed78fdf171fbc18833e52888ffd33aa3576",
+          "bytes": 1464479,
+          "duration": 5.166667
+        }
+      ]
+    },
+    "6ae874a0146ca029aa15113f": {
+      "id": "6ae874a0146ca029aa15113f",
+      "channelId": "6ae65d0a2f1f5ed648378c6c",
+      "status": "sent",
+      "dueAt": "2026-11-02T15:00:00.000Z",
+      "sentAt": "2026-11-02T15:01:49.581Z",
+      "externalLink": "https://www.youtube.com/shorts/IQDzL5dLLR4",
+      "text": "ماذا لو كل قرار في حياتك محتاج موافقة؟ حتى فتح التلاجة... السيستم قال: استنى دورك! 😂\n\n#ماذا_لو #ستيك_مان #كوميديا_مصرية #افترض_كده",
+      "assets": [
+        {
+          "host": "files.manuscdn.com",
+          "source_url_sha256": "a4f9e5c9d92efaeb1cf9f2df474bc69b69874e430109b610fb1dc25dccc8d52d",
+          "sha256": "b1c942401e02bea519822c6abbb60ed78fdf171fbc18833e52888ffd33aa3576",
+          "bytes": 1464479,
+          "duration": 5.166667
+        }
+      ]
+    }
+  },
+  "errors": []
+}
