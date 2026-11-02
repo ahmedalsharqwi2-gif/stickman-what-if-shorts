@@ -19,6 +19,8 @@ def main():
  mutate(started)
  if wav.exists():
   if not source.exists() or json.loads(source.read_text()).get('text')!=full:raise ValueError('Retained voice text differs')
+  proof=json.loads(source.read_text())
+  if (proof.get('output_sha256') or proof.get('sha256'))!=hashlib.sha256(wav.read_bytes()).hexdigest():raise ValueError('Retained voice provenance hash differs')
  else:
   style={'science':'Clear engaging Egyptian Arabic science explanation.','history':'Natural Egyptian Arabic true historical storytelling; grounded, curious, cinematic, never grandiose.','horror':'Clear resonant Egyptian Arabic true-disaster storytelling, restrained dread and narrative tension; no whispering, screams, fake dialogue or swallowed words.','news':'Quick Egyptian Arabic technology news with light dry humor, clear facts and natural conversational delivery.','stickman':'Playful Egyptian Arabic what-if story with character actions, setbacks and a comic payoff.'}[story['profile']]
   generate(full,str(wav),style+' Read only the supplied words. Finish the final sentence. No music or sound effects. Natural clear pace without stretching.')
