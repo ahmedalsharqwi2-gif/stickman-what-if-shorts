@@ -1,8 +1,8 @@
 {
   "repository": "ahmedalsharqwi2-gif/stickman-what-if-shorts",
-  "run_id": "41533712767",
-  "apply": false,
-  "started_at": "2026-11-02T22:02:31.299418+00:00",
+  "run_id": "41535807101",
+  "apply": true,
+  "started_at": "2026-11-02T22:16:28.421875+00:00",
   "errors": [],
   "deleted_branches": [],
   "retained": [
@@ -43,10 +43,12 @@
   "generation_calls": 0,
   "social_mutations": 0,
   "default_branch": "main",
-  "main_before": "4352401c6d631a00b00bdc5cb207cc9a95071a50",
+  "main_before": "6fe392f57e8c0fa14253cb57b680067cd048c4ac",
   "branch_count": 8,
   "planned_branches": [],
   "planned_paths": [],
+  "main_recovery_tag": "archive/housekeeping-41535807101-1/main-before-cleanup",
+  "cache_cleanup_commit": null,
   "passed": true,
-  "finished_at": "2026-11-02T22:02:35.140831+00:00"
+  "finished_at": "2026-11-02T22:16:35.727303+00:00"
 }
