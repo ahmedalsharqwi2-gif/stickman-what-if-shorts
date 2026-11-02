@@ -1,0 +1,38 @@
+{
+  "head": "b5ece4604ab5e15dafd3b7228915db3b657727f5",
+  "run_id": "41540160402",
+  "disabled": [],
+  "active": [
+    {
+      "id": 404843271,
+      "name": "Automatic Remotion —9am Cairo produce; same day5pm publish",
+      "path": ".github/workflows/remotion-daily.yml",
+      "state": "active"
+    },
+    {
+      "id": 404887196,
+      "name": "Independent daily video health — production, media and publication",
+      "path": ".github/workflows/remotion-health.yml",
+      "state": "active"
+    },
+    {
+      "id": 405043340,
+      "name": "Conservative repository cleanup — recoverable branches and generated caches",
+      "path": ".github/workflows/remotion-cleanup.yml",
+      "state": "active"
+    },
+    {
+      "id": 405076366,
+      "name": "Quality checks — Python, scene engines and Remotion",
+      "path": ".github/workflows/checks.yml",
+      "state": "active"
+    }
+  ],
+  "unknown_preserved": [],
+  "errors": [],
+  "run_deletions": 0,
+  "artifact_deletions": 0,
+  "social_mutations": 0,
+  "generation_calls": 0,
+  "passed": true
+}
