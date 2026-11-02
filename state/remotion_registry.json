@@ -2,7 +2,7 @@
   "version": 1,
   "episodes": {
     "remotion-2026-11-04-stickman": {
-      "status": "voice_ready",
+      "status": "rendered",
       "canonical_subject": "stickman-voice-moves-objects-key-on-shelf",
       "title": "لو صوتك بيحرّك الحاجات؟",
       "story_sha256": "c4fed6f379791d937250676ec3930c34b2e8fb0050a84a3a2604f684cc55f975",
@@ -11,10 +11,13 @@
       "source_run": 41483485505,
       "created_at": "2026-11-02T16:40:09.371286+00:00",
       "voice_request_run": 41483485505,
-      "duration": 123.04,
+      "duration": 123.066667,
       "audio_sha256": "c9ea8b57d4e955d24ce071f3db31173d2a9a43d2ba391e274d3d52fcb6949584",
       "timing_sha256": "a05886e72e45fec201695ca5f819fde233798a90c2b9f01d4c04f4b27d03f5cc",
-      "coverage": 0.9090909090909091
+      "coverage": 0.9090909090909091,
+      "video_sha256": "13bac752c5d11d5a22291d34a47754b8b9088b1b3925486f8b830a72acc7fdc2",
+      "render_run": 41492210211,
+      "source_evidence_file": "professional_motion/output/remotion-validation.json"
     }
   }
 }
