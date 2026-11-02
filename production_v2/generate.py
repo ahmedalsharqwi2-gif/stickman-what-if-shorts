@@ -32,6 +32,9 @@ def _write(path, data):
 @contextmanager
 def isolated_editor(editorial, run_dir, repository):
     """Restore cwd, provider budgets/cache environment and mutable editor globals on error."""
+    import sys
+    previous_sys_path=list(sys.path)
+    sys.path.insert(0,str(repository))
     previous_cwd, previous_root, previous_state = Path.cwd(), editorial.ROOT, editorial.STATE
     names = ('API_BUDGET_PATH', 'VOICE_CACHE_DIR', 'FACTORY_DAILY')
     previous_env = {name: os.environ.get(name) for name in names}
@@ -50,6 +53,7 @@ def isolated_editor(editorial, run_dir, repository):
     finally:
         editorial.ROOT, editorial.STATE = previous_root, previous_state
         os.chdir(previous_cwd)
+        sys.path[:]=previous_sys_path
         for name, value in previous_env.items():
             if value is None:
                 os.environ.pop(name, None)
@@ -117,7 +121,7 @@ def generate(profile, run_dir, ledger_path, *, repository=None, then_review=Fals
     if run_dir.exists() and any(run_dir.iterdir()):
         raise FileExistsError('Existing candidate files are retained; choose a fresh run directory')
     from .directing import load_catalog, directing_editor, validate_plan, require_novel_plan
-    from .general_editorial import enabled as general_enabled, editor as general_editor, validate as validate_general
+    from .general_editorial import enabled as general_enabled, editor as general_editor, validate as validate_general, require_novel_story
     use_general=general_enabled(profile,repository)
     catalog = None if use_general else load_catalog(repository, profile)
     editorial = importlib.import_module('professional_motion.editorial')
@@ -132,8 +136,11 @@ def generate(profile, run_dir, ledger_path, *, repository=None, then_review=Fals
         _merge_candidate_history(ledger, run_dir)
         _write(run_dir / 'source-snapshot.json', {'repository': str(repository), 'inputs': inputs})
         previous_plans = []
+        previous_stories = []
         for (payload,) in ledger.db.execute("SELECT payload FROM events WHERE kind='candidate_story'"):
-            plan = json.loads(payload).get('story', {}).get('visual_plan')
+            previous_story=json.loads(payload).get('story', {})
+            previous_stories.append(previous_story)
+            plan = previous_story.get('visual_plan')
             if plan: previous_plans.append(plan)
         reserved = False
         try:
@@ -148,7 +155,7 @@ def generate(profile, run_dir, ledger_path, *, repository=None, then_review=Fals
                     validate_general(story,profile)
                     plan=story['visual_plan']
                 else:plan = validate_plan(story, catalog)
-                plan_signature = require_novel_plan(plan, previous_plans)
+                plan_signature = require_novel_story(story,previous_stories) if use_general else require_novel_plan(plan, previous_plans)
                 # Transactional conflict check MUST happen before TTS or ASR.
                 ledger.reserve(slot, story['topic_key'], due, story)
                 reserved = True

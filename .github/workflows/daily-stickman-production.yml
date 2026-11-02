@@ -1,8 +1,16 @@
 name: Daily stickman what-if production (review gate)
 'on':
+  push:
+    branches: [main]
+    paths: [.github/stickman-retained-resume.json]
   schedule:
     - cron: '0 7 * * *'
   workflow_dispatch:
+    inputs:
+      publication_date:
+        description: Optional explicit publication date; blank prepares tomorrow at 17 Cairo
+        required: false
+        default: ''
 permissions:
   contents: write
   actions: read
@@ -20,7 +28,7 @@ jobs:
       GITHUB_TOKEN: ${{ github.token }}
       GH_RELEASE_TOKEN: ${{ github.token }}
       CANDIDATE_RUN: ${{ github.run_id }}-${{ github.run_attempt }}
-      PRODUCTION_PUBLICATION_DATE: ${{ format('{0}-{1}-{2}', github.event.schedule && '2026' || '2026', '11', '02') }}
+      PRODUCTION_PUBLICATION_DATE: ${{ inputs.publication_date || '' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -43,13 +51,21 @@ jobs:
         run: python -m production_v2.connection_audit
       - name: Run production-v2 tests
         run: python -m pytest -q tests/test_production_v2.py tests/test_nextday_schedule.py tests/test_v2_general_editorial.py
-      - name: Generate one fresh stickman film
-        run: python -m production_v2.generate --profile stickman --run-dir ".candidate-v2/run-$CANDIDATE_RUN" --ledger .candidate-v2/shared.sqlite3 --git-state --then-review --production
-      - name: Export review evidence and upload artifact
-        if: always()
-        env:
-          JOB_STATUS: ${{ job.status }}
-        run: python -m production_v2.export_review --profile stickman --run-dir ".candidate-v2/run-$CANDIDATE_RUN" --stage "$JOB_STATUS"
+      - name: Resume retained plan on repair; generate a new daily film on its normal trigger
+        run: |
+          python - <<'PY'
+          import json,os,sys
+          from pathlib import Path
+          from production_v2.generate import main
+          sys.argv=['production_v2.generate','--profile','stickman','--run-dir','.candidate-v2/run-'+os.environ['CANDIDATE_RUN'],'--ledger','.candidate-v2/shared.sqlite3','--git-state','--then-review','--production']
+          if os.getenv('GITHUB_EVENT_NAME')=='push':
+              from production_v2.planning_resume import planning_resume
+              request=json.loads(Path('.github/stickman-retained-resume.json').read_text())
+              os.environ['PRODUCTION_PUBLICATION_DATE']=request['publication_date']
+              with planning_resume('stickman',int(request['target_run'])):main()
+          else:
+              main()
+          PY
       - uses: actions/upload-artifact@v4
         if: always()
         with:

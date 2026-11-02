@@ -175,3 +175,17 @@ def sourced_news_editor(editorial):
     editorial.SCHEMA,editorial.ask,editorial.prepare=schema,ask,prepare
     try:yield
     finally:editorial.SCHEMA,editorial.ask,editorial.prepare=original_schema,original_ask,original_prepare
+
+def require_novel_story(story, previous_stories):
+    """Compare all staged props and their actions, not just the recurring hero."""
+    def beats(value):
+        return [(scene.get('environment'),tuple(sorted((o.get('kind'),o.get('motion')) for o in scene.get('objects',[])))) for scene in value.get('scenes',[])]
+    current=beats(story)
+    if len(current)!=8:raise ValueError('Eight complete staged scenes required')
+    for old in previous_stories:
+        if old.get('visual_plan',{}).get('world')!='procedural_story':continue
+        if len(old.get('scenes',[]))!=8 or not all(s.get('objects') for s in old['scenes']):continue
+        prior=beats(old)
+        if sum(a!=b for a,b in zip(current,prior))<4:
+            raise ValueError('Staged props and actions repeat an earlier film; edit the retained scene plan')
+    return hashlib.sha256(json.dumps(current,sort_keys=True).encode()).hexdigest()
