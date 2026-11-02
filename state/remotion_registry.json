@@ -161,11 +161,13 @@
       "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4",
       "receipts": {
         "youtube": {
-          "phase": "intent",
+          "phase": "acknowledged",
           "channel_id": "6ae65d0a2f1f5ed648378c6c",
           "due_at": "2026-11-04T15:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4",
-          "created_at": "2026-11-02T18:38:40.713104+00:00"
+          "created_at": "2026-11-02T18:38:40.713104+00:00",
+          "id": "6ae8d8b3a1cb4345befe6c8a",
+          "accepted_at": "2026-11-02T18:38:43.206499+00:00"
         }
       }
     }
