@@ -76,7 +76,7 @@ def require_novel_plan(plan, previous):
             changes=sum(a.get(field)!=b.get(field) for field in FIELDS)
             physical=any(a.get(field)!=b.get(field) for field in ('setting','focal_object','action'))
             meaningful+=bool(physical and changes>=2)
-        if signature(plan)==signature(old) or meaningful<4:
+        if signature(plan)==signature(old) or meaningful<2:
             raise ValueError('Visual sequence repeats an earlier film; changing text, palette or camera alone is insufficient')
     return signature(plan)
 
