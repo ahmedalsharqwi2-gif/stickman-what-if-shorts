@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-04",
+  "profile": "stickman",
+  "phase": "prepublish",
+  "checked_at": "2026-11-03T19:52:13.148940+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/41707123708",
+  "report_path": "reviews/daily_health/2026-11-04/41707123708-1.json",
+  "publication_due_utc": "2026-11-04T10:00:00+00:00",
+  "errors": [
+    "Production workflow failed/cancelled; inspect its retained evidence"
+  ],
+  "passed": false,
+  "generation_calls": 0,
+  "publication_mutations": 0,
+  "preview": true,
+  "scheduler": {
+    "observed": false,
+    "reason": "Transition inventory retained; first automatic evening run targets November 5"
+  },
+  "observed_receipts": {
+    "youtube": [
+      {
+        "id": "6ae8d8b3a1cb4345befe6c8a",
+        "channelId": "6ae65d0a2f1f5ed648378c6c",
+        "status": "scheduled",
+        "dueAt": "2026-11-04T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
+      }
+    ],
+    "facebook": [
+      {
+        "id": "6ae8d8b9752c1c9052c630dc",
+        "channelId": "6ae65c3c2f1f5ed64837853d",
+        "status": "scheduled",
+        "dueAt": "2026-11-04T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
+      }
+    ],
+    "instagram": [
+      {
+        "id": "6ae8d8bfc1e1a0710438321a",
+        "channelId": "6ae65c082f1f5ed648378367",
+        "status": "scheduled",
+        "dueAt": "2026-11-04T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
+      }
+    ]
+  },
+  "receipts": {
+    "youtube": {
+      "id": "6ae8d8b3a1cb4345befe6c8a",
+      "channelId": "6ae65d0a2f1f5ed648378c6c",
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    },
+    "facebook": {
+      "id": "6ae8d8b9752c1c9052c630dc",
+      "channelId": "6ae65c3c2f1f5ed64837853d",
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    },
+    "instagram": {
+      "id": "6ae8d8bfc1e1a0710438321a",
+      "channelId": "6ae65c082f1f5ed648378367",
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    }
+  },
+  "episode": {
+    "slot": "daily-remotion-2026-11-04-stickman",
+    "title": "ماذا لو صحيت جوه موبايلك؟",
+    "pipeline": "remotion",
+    "expected_sha256": "d3dcf92107ea44e39c7ca5d47f710adb79a230f9872462753081ab58007ce9fc"
+  },
+  "technical": {
+    "passed": true,
+    "sha256": "d3dcf92107ea44e39c7ca5d47f710adb79a230f9872462753081ab58007ce9fc",
+    "full_decode": true,
+    "duration": 124.4,
+    "width": 1080,
+    "height": 1920,
+    "audio_mean_db": -18.8,
+    "actual_visual_samples": 12,
+    "unique_visual_samples": 12,
+    "checked_at": "2026-11-02T19:05:16.793335+00:00",
+    "scope": "Independent technical media check; no claim of human narrative or scientific review",
+    "reused_immutable_media_check": true,
+    "live_asset_metadata_verified": true
+  },
+  "media_binding": "Same live scheduled source URL and independently hashed original",
+  "production_at_cairo": "2026-11-03T19:00:00+02:00",
+  "publication_at_cairo": "2026-11-04T12:00:00+02:00",
+  "hours_until_publication": 14.13,
+  "readiness": "verified"
+}
