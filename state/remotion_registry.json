@@ -267,7 +267,16 @@
       "video_sha256": "16a3fee0065ca42528abcc398443e2bb192615d6a3a619bc73413716163f8efa",
       "render_run": 41532375170,
       "source_evidence_file": "professional_motion/output/remotion-validation.json",
-      "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-03-stickman/stickman-daily-remotion-2026-11-03-stickman.mp4"
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-03-stickman/stickman-daily-remotion-2026-11-03-stickman.mp4",
+      "receipts": {
+        "youtube": {
+          "phase": "intent",
+          "channel_id": "6ae65d0a2f1f5ed648378c6c",
+          "due_at": "2026-11-03T15:00:00Z",
+          "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-03-stickman/stickman-daily-remotion-2026-11-03-stickman.mp4",
+          "created_at": "2026-11-03T09:32:03.286057+00:00"
+        }
+      }
     }
   },
   "cutover_evidence": {
