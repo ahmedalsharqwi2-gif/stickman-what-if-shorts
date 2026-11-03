@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-03",
+  "automatic09_event_observed": false,
+  "underlying_missing_event_cause": "Not established from available GitHub evidence; no clock-triggered run was listed",
+  "recovery_mode": "Explicit same-day push; retained completed movie only",
+  "recovery_run": 41611542902,
+  "recovery_run_conclusion": "success",
+  "scheduled_at_cairo": "2026-11-03T11:32:17+02:00",
+  "publication_at_cairo": "2026-11-03T17:00:00+02:00",
+  "video_sha256": "16a3fee0065ca42528abcc398443e2bb192615d6a3a619bc73413716163f8efa",
+  "original_render_run": 41532375170,
+  "voice_generation_calls_added": 0,
+  "video_regenerations_added": 0,
+  "receipts": {
+    "youtube": {
+      "id": "6ae9aa155d9f5a9a75862cf4",
+      "channelId": "6ae65d0a2f1f5ed648378c6c",
+      "status": "scheduled",
+      "dueAt": "2026-11-03T15:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    },
+    "facebook": {
+      "id": "6ae9aa1ad7236852a18311c5",
+      "channelId": "6ae65c3c2f1f5ed64837853d",
+      "status": "scheduled",
+      "dueAt": "2026-11-03T15:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    },
+    "instagram": {
+      "id": "6ae9aa1fb0e17c0fb57140b0",
+      "channelId": "6ae65c082f1f5ed648378367",
+      "status": "scheduled",
+      "dueAt": "2026-11-03T15:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    }
+  },
+  "technical": {
+    "passed": true,
+    "sha256": "16a3fee0065ca42528abcc398443e2bb192615d6a3a619bc73413716163f8efa",
+    "full_decode": true,
+    "duration": 139.733333,
+    "width": 1080,
+    "height": 1920,
+    "audio_mean_db": -19.2,
+    "actual_visual_samples": 12,
+    "unique_visual_samples": 12,
+    "checked_at": "2026-11-03T09:33:22.661290+00:00",
+    "scope": "Independent technical media check; no claim of human narrative or scientific review",
+    "reused_immutable_media_check": false,
+    "live_asset_metadata_verified": true
+  },
+  "automatic_clock_still_not_claimed_successful_today": true,
+  "backup_cron_change": {
+    "primary_local": "09:00",
+    "backup_local": "09:17",
+    "serialized": true,
+    "same_day_publication": "17:00",
+    "quality_check_run": 41613755042,
+    "quality_checks_passed": true
+  },
+  "historical_failure_preserved": true
+}
