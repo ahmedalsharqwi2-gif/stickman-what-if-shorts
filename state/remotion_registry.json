@@ -309,9 +309,9 @@
     }
   },
   "cutover_evidence": {
-    "slot": "daily-remotion-2026-11-04-stickman",
-    "video_sha256": "d3dcf92107ea44e39c7ca5d47f710adb79a230f9872462753081ab58007ce9fc",
-    "run": 41501767017,
+    "slot": "daily-remotion-2026-11-03-stickman",
+    "video_sha256": "16a3fee0065ca42528abcc398443e2bb192615d6a3a619bc73413716163f8efa",
+    "run": 41532375170,
     "ready": true
   }
 }
