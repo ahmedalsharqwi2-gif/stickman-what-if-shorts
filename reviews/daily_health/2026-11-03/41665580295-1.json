@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-03",
+  "profile": "stickman",
+  "phase": "postpublish",
+  "checked_at": "2026-11-03T15:37:28.252728+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/41665580295",
+  "report_path": "reviews/daily_health/2026-11-03/41665580295-1.json",
+  "publication_due_utc": "2026-11-03T15:00:00+00:00",
+  "errors": [
+    "No successful clock-triggered daily run for this date; manual recovery and dry-run tests do not count as the automatic clock"
+  ],
+  "passed": false,
+  "generation_calls": 0,
+  "publication_mutations": 0,
+  "preview": false,
+  "observed_receipts": {
+    "youtube": [
+      {
+        "id": "6ae9aa155d9f5a9a75862cf4",
+        "channelId": "6ae65d0a2f1f5ed648378c6c",
+        "status": "sent",
+        "dueAt": "2026-11-03T15:00:00.000Z",
+        "sentAt": "2026-11-03T15:01:33.232Z",
+        "externalLink": "https://www.youtube.com/shorts/RDqV1_Bo_T0"
+      }
+    ],
+    "facebook": [
+      {
+        "id": "6ae9aa1ad7236852a18311c5",
+        "channelId": "6ae65c3c2f1f5ed64837853d",
+        "status": "sent",
+        "dueAt": "2026-11-03T15:00:00.000Z",
+        "sentAt": "2026-11-03T15:01:48.414Z",
+        "externalLink": "https://www.facebook.com/reel/1878144056940195/"
+      }
+    ],
+    "instagram": [
+      {
+        "id": "6ae9aa1fb0e17c0fb57140b0",
+        "channelId": "6ae65c082f1f5ed648378367",
+        "status": "sent",
+        "dueAt": "2026-11-03T15:00:00.000Z",
+        "sentAt": "2026-11-03T15:03:27.644Z",
+        "externalLink": "https://www.instagram.com/reel/DfSKA10iMeH/"
+      }
+    ]
+  },
+  "receipts": {
+    "youtube": {
+      "id": "6ae9aa155d9f5a9a75862cf4",
+      "channelId": "6ae65d0a2f1f5ed648378c6c",
+      "status": "sent",
+      "dueAt": "2026-11-03T15:00:00.000Z",
+      "sentAt": "2026-11-03T15:01:33.232Z",
+      "externalLink": "https://www.youtube.com/shorts/RDqV1_Bo_T0"
+    },
+    "facebook": {
+      "id": "6ae9aa1ad7236852a18311c5",
+      "channelId": "6ae65c3c2f1f5ed64837853d",
+      "status": "sent",
+      "dueAt": "2026-11-03T15:00:00.000Z",
+      "sentAt": "2026-11-03T15:01:48.414Z",
+      "externalLink": "https://www.facebook.com/reel/1878144056940195/"
+    },
+    "instagram": {
+      "id": "6ae9aa1fb0e17c0fb57140b0",
+      "channelId": "6ae65c082f1f5ed648378367",
+      "status": "sent",
+      "dueAt": "2026-11-03T15:00:00.000Z",
+      "sentAt": "2026-11-03T15:03:27.644Z",
+      "externalLink": "https://www.instagram.com/reel/DfSKA10iMeH/"
+    }
+  },
+  "episode": {
+    "slot": "daily-remotion-2026-11-03-stickman",
+    "title": "ماذا لو مياه المحيطات اختفت؟",
+    "pipeline": "remotion",
+    "expected_sha256": "16a3fee0065ca42528abcc398443e2bb192615d6a3a619bc73413716163f8efa"
+  },
+  "technical": {
+    "passed": true,
+    "sha256": "16a3fee0065ca42528abcc398443e2bb192615d6a3a619bc73413716163f8efa",
+    "full_decode": true,
+    "duration": 139.733333,
+    "width": 1080,
+    "height": 1920,
+    "audio_mean_db": -19.2,
+    "actual_visual_samples": 12,
+    "unique_visual_samples": 12,
+    "checked_at": "2026-11-03T09:33:22.661290+00:00",
+    "scope": "Independent technical media check; no claim of human narrative or scientific review",
+    "reused_immutable_media_check": true,
+    "live_asset_metadata_verified": true
+  },
+  "media_binding": "Three live sent post IDs match retained original submission receipts; original release SHA independently verified. Platform-transcoded bytes are not claimed identical."
+}
