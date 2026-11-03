@@ -6,7 +6,7 @@ from .publish import destinations, query, queued, instant
 from .state import identity, local, mutate
 from .schedule import due_for, CAIRO, trial
 from .health import write_json
-FIELDS='id channelId status dueAt text assets {source}'
+FIELDS='id channelId status dueAt text assets {source} metadata {__typename ... on YoutubePostMetadata {title category {categoryId} privacy madeForKids notifySubscribers}}'
 
 def read_post(identifier):
     """Fetch one exact retained provider ID independently."""
@@ -31,9 +31,9 @@ def move_one(service, destination, identifier, request, entry, record, persist):
         record.update(phase='intent',post_id=identifier,before=before)
         persist()
         try:
-            result=query('mutation ChangeApprovedSchedule($input:EditPostInput!){editPost(input:$input){... on PostActionSuccess{post{id dueAt}} ... on MutationError{message}}}',{'input':{'id':identifier,'mode':'customScheduled','dueAt':request['target_due_at']}})['editPost']
+            result=query('mutation ChangeApprovedSchedule($input:EditPostInput!){editPost(input:$input){__typename ... on PostActionSuccess{post{id dueAt}} ... on MutationError{message}}}',{'input':{'id':identifier,'mode':'customScheduled','dueAt':request['target_due_at']}})['editPost']
             if result.get('post',{}).get('id')!=identifier:
-                raise ValueError('Time edit was not acknowledged for the retained ID')
+                raise ValueError('Time edit was not acknowledged: '+str(result.get('message') or result.get('__typename') or 'unknown provider response')[:400])
             record['phase']='acknowledged';persist()
         except Exception:
             record['phase']='uncertain';persist();raise
@@ -82,6 +82,10 @@ def main():
     entry=local()['episodes'][req['slot']]
     validate_request(req,repo,profile,entry)
     mapping,observations=preflight(req,entry,profile)
+    if req.get('inspect_only'):
+        write_json('reviews/schedule_changes/'+req['request_id']+'-inspection.json',{'request':req,'observed':observations,'publication_mutations':0})
+        print('Read-only inspection complete; no Buffer mutation attempted')
+        return
     proof_path='reviews/schedule_changes/'+req['request_id']+'.json'
     saved=Path(proof_path)
     if not saved.exists():
