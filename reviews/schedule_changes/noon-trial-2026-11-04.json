@@ -11,7 +11,11 @@
       "youtube": "6ae8d8b3a1cb4345befe6c8a",
       "facebook": "6ae8d8b9752c1c9052c630dc",
       "instagram": "6ae8d8bfc1e1a0710438321a"
-    }
+    },
+    "inspect_only": false,
+    "reconciled_rejection_ids": [],
+    "reconciliation_evidence": "Run 41705894340 returned a normal editPost payload without a post, not a transport timeout; read-only inspection run 41706372719 independently confirmed the same original ID, time, text and media remain unchanged.",
+    "revision": 5
   },
   "before": {
     "youtube": {
@@ -51,7 +55,65 @@
       ]
     }
   },
-  "complete": false,
+  "after": {
+    "youtube": {
+      "id": "6ae8d8b3a1cb4345befe6c8a",
+      "channelId": "6ae65d0a2f1f5ed648378c6c",
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "text": "ماذا لو صحيت جوه موبايلك؟\n#موبايل #تكنولوجيا #كوميديا",
+      "assets": [
+        {
+          "source": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4"
+        }
+      ],
+      "metadata": {
+        "__typename": "YoutubePostMetadata",
+        "title": "ماذا لو صحيت جوه موبايلك؟",
+        "category": {
+          "categoryId": "27"
+        },
+        "privacy": "public",
+        "madeForKids": false,
+        "notifySubscribers": false
+      }
+    },
+    "facebook": {
+      "id": "6ae8d8b9752c1c9052c630dc",
+      "channelId": "6ae65c3c2f1f5ed64837853d",
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "text": "ماذا لو صحيت جوه موبايلك؟\n#موبايل #تكنولوجيا #كوميديا",
+      "assets": [
+        {
+          "source": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4"
+        }
+      ],
+      "metadata": {
+        "__typename": "FacebookPostMetadata",
+        "type": "post"
+      }
+    },
+    "instagram": {
+      "id": "6ae8d8bfc1e1a0710438321a",
+      "channelId": "6ae65c082f1f5ed648378367",
+      "status": "scheduled",
+      "dueAt": "2026-11-04T10:00:00.000Z",
+      "text": "ماذا لو صحيت جوه موبايلك؟\n#موبايل #تكنولوجيا #كوميديا",
+      "assets": [
+        {
+          "source": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4"
+        }
+      ],
+      "metadata": {
+        "__typename": "InstagramPostMetadata",
+        "type": "reel",
+        "shouldShareToFeed": true
+      }
+    }
+  },
+  "complete": true,
   "generation_calls": 0,
-  "new_posts": 0
+  "new_posts": 0,
+  "verified_at": "2026-11-03T19:52:10.814915+00:00"
 }
