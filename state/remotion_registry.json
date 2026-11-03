@@ -200,7 +200,7 @@
       "time_change_receipts": {
         "noon-trial-2026-11-04": {
           "youtube": {
-            "phase": "acknowledged",
+            "phase": "verified",
             "post_id": "6ae8d8b3a1cb4345befe6c8a",
             "before": {
               "id": "6ae8d8b3a1cb4345befe6c8a",
@@ -225,7 +225,10 @@
               }
             },
             "reconciliation_used": true,
-            "provider_message": "Invalid post: Post must have either text or media., YouTube posts require a video."
+            "provider_message": "Invalid post: Post must have either text or media., YouTube posts require a video.",
+            "service": "youtube",
+            "due_at": "2026-11-04T10:00:00.000Z",
+            "verified_at": "2026-11-03T19:51:57.270577+00:00"
           }
         }
       }
