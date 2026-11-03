@@ -252,6 +252,27 @@
             "service": "facebook",
             "due_at": "2026-11-04T10:00:00.000Z",
             "verified_at": "2026-11-03T19:52:02.620591+00:00"
+          },
+          "instagram": {
+            "phase": "intent",
+            "post_id": "6ae8d8bfc1e1a0710438321a",
+            "before": {
+              "id": "6ae8d8bfc1e1a0710438321a",
+              "channelId": "6ae65c082f1f5ed648378367",
+              "status": "scheduled",
+              "dueAt": "2026-11-04T15:00:00.000Z",
+              "text": "ماذا لو صحيت جوه موبايلك؟\n#موبايل #تكنولوجيا #كوميديا",
+              "assets": [
+                {
+                  "source": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4"
+                }
+              ],
+              "metadata": {
+                "__typename": "InstagramPostMetadata",
+                "type": "reel",
+                "shouldShareToFeed": true
+              }
+            }
           }
         }
       }
