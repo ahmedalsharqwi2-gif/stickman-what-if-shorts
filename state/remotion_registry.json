@@ -231,7 +231,7 @@
             "verified_at": "2026-11-03T19:51:57.270577+00:00"
           },
           "facebook": {
-            "phase": "acknowledged",
+            "phase": "verified",
             "post_id": "6ae8d8b9752c1c9052c630dc",
             "before": {
               "id": "6ae8d8b9752c1c9052c630dc",
@@ -248,7 +248,10 @@
                 "__typename": "FacebookPostMetadata",
                 "type": "post"
               }
-            }
+            },
+            "service": "facebook",
+            "due_at": "2026-11-04T10:00:00.000Z",
+            "verified_at": "2026-11-03T19:52:02.620591+00:00"
           }
         }
       }
