@@ -12,8 +12,7 @@
     "instagram": "6ae8d8bfc1e1a0710438321a"
   },
   "inspect_only": false,
-  "reconciled_rejection_ids": [
-    "6ae8d8b3a1cb4345befe6c8a"
-  ],
-  "reconciliation_evidence": "Run 41705894340 returned a normal editPost payload without a post, not a transport timeout; read-only inspection run 41706372719 independently confirmed the same original ID, time, text and media remain unchanged."
+  "reconciled_rejection_ids": [],
+  "reconciliation_evidence": "Run 41705894340 returned a normal editPost payload without a post, not a transport timeout; read-only inspection run 41706372719 independently confirmed the same original ID, time, text and media remain unchanged.",
+  "revision": 4
 }
