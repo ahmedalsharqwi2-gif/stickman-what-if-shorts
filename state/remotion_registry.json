@@ -231,7 +231,7 @@
             "verified_at": "2026-11-03T19:51:57.270577+00:00"
           },
           "facebook": {
-            "phase": "intent",
+            "phase": "acknowledged",
             "post_id": "6ae8d8b9752c1c9052c630dc",
             "before": {
               "id": "6ae8d8b9752c1c9052c630dc",
