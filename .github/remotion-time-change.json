@@ -14,5 +14,5 @@
   "inspect_only": false,
   "reconciled_rejection_ids": [],
   "reconciliation_evidence": "Run 41705894340 returned a normal editPost payload without a post, not a transport timeout; read-only inspection run 41706372719 independently confirmed the same original ID, time, text and media remain unchanged.",
-  "revision": 4
+  "revision": 5
 }
