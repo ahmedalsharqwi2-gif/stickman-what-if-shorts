@@ -200,7 +200,7 @@
       "time_change_receipts": {
         "noon-trial-2026-11-04": {
           "youtube": {
-            "phase": "rejected_reconciled",
+            "phase": "intent",
             "post_id": "6ae8d8b3a1cb4345befe6c8a",
             "before": {
               "id": "6ae8d8b3a1cb4345befe6c8a",
@@ -212,7 +212,17 @@
                 {
                   "source": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4"
                 }
-              ]
+              ],
+              "metadata": {
+                "__typename": "YoutubePostMetadata",
+                "title": "ماذا لو صحيت جوه موبايلك؟",
+                "category": {
+                  "categoryId": "27"
+                },
+                "privacy": "public",
+                "madeForKids": false,
+                "notifySubscribers": false
+              }
             },
             "reconciliation_used": true
           }
