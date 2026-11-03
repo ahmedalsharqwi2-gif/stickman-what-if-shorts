@@ -23,7 +23,7 @@
     },
     "daily-remotion-2026-11-04-stickman": {
       "profile": "stickman",
-      "due_at": "2026-11-04T15:00:00Z",
+      "due_at": "2026-11-04T10:00:00Z",
       "status": "scheduled",
       "source_run": 41499549297,
       "created_at": "2026-11-02T18:15:52.674477+00:00",
@@ -163,37 +163,37 @@
         "youtube": {
           "phase": "verified",
           "channel_id": "6ae65d0a2f1f5ed648378c6c",
-          "due_at": "2026-11-04T15:00:00Z",
+          "due_at": "2026-11-04T10:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4",
           "created_at": "2026-11-02T18:38:40.713104+00:00",
           "id": "6ae8d8b3a1cb4345befe6c8a",
           "accepted_at": "2026-11-02T18:38:43.206499+00:00",
           "status": "scheduled",
-          "scheduled_at": "2026-11-04T15:00:00.000Z",
+          "scheduled_at": "2026-11-04T10:00:00.000Z",
           "verified_at": "2026-11-02T18:38:45.184126+00:00"
         },
         "facebook": {
           "phase": "verified",
           "channel_id": "6ae65c3c2f1f5ed64837853d",
-          "due_at": "2026-11-04T15:00:00Z",
+          "due_at": "2026-11-04T10:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4",
           "created_at": "2026-11-02T18:38:46.953331+00:00",
           "id": "6ae8d8b9752c1c9052c630dc",
           "accepted_at": "2026-11-02T18:38:49.228898+00:00",
           "status": "scheduled",
-          "scheduled_at": "2026-11-04T15:00:00.000Z",
+          "scheduled_at": "2026-11-04T10:00:00.000Z",
           "verified_at": "2026-11-02T18:38:51.213463+00:00"
         },
         "instagram": {
           "phase": "verified",
           "channel_id": "6ae65c082f1f5ed648378367",
-          "due_at": "2026-11-04T15:00:00Z",
+          "due_at": "2026-11-04T10:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-04-stickman/stickman-daily-remotion-2026-11-04-stickman.mp4",
           "created_at": "2026-11-02T18:38:53.075094+00:00",
           "id": "6ae8d8bfc1e1a0710438321a",
           "accepted_at": "2026-11-02T18:38:55.441486+00:00",
           "status": "scheduled",
-          "scheduled_at": "2026-11-04T15:00:00.000Z",
+          "scheduled_at": "2026-11-04T10:00:00.000Z",
           "verified_at": "2026-11-02T18:38:57.257104+00:00"
         }
       },
@@ -278,7 +278,14 @@
             "verified_at": "2026-11-03T19:52:08.069451+00:00"
           }
         }
-      }
+      },
+      "schedule_history": [
+        {
+          "request_id": "noon-trial-2026-11-04",
+          "from": "2026-11-04T15:00:00Z",
+          "to": "2026-11-04T10:00:00Z"
+        }
+      ]
     },
     "daily-remotion-2026-11-03-stickman": {
       "profile": "stickman",
