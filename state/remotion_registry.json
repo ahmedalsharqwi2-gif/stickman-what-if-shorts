@@ -294,13 +294,16 @@
           "verified_at": "2026-11-03T09:32:12.045389+00:00"
         },
         "instagram": {
-          "phase": "acknowledged",
+          "phase": "verified",
           "channel_id": "6ae65c082f1f5ed648378367",
           "due_at": "2026-11-03T15:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-03-stickman/stickman-daily-remotion-2026-11-03-stickman.mp4",
           "created_at": "2026-11-03T09:32:13.516294+00:00",
           "id": "6ae9aa1fb0e17c0fb57140b0",
-          "accepted_at": "2026-11-03T09:32:15.706923+00:00"
+          "accepted_at": "2026-11-03T09:32:15.706923+00:00",
+          "status": "scheduled",
+          "scheduled_at": "2026-11-03T15:00:00.000Z",
+          "verified_at": "2026-11-03T09:32:17.563483+00:00"
         }
       }
     }
