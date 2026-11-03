@@ -2,14 +2,12 @@
   "date": "2026-11-04",
   "profile": "stickman",
   "phase": "prepublish",
-  "checked_at": "2026-11-03T19:52:13.148940+00:00",
-  "run_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/41707123708",
-  "report_path": "reviews/daily_health/2026-11-04/41707123708-1.json",
+  "checked_at": "2026-11-03T19:52:54.303731+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/41707297206",
+  "report_path": "reviews/daily_health/2026-11-04/41707297206-1.json",
   "publication_due_utc": "2026-11-04T10:00:00+00:00",
-  "errors": [
-    "Production workflow failed/cancelled; inspect its retained evidence"
-  ],
-  "passed": false,
+  "errors": [],
+  "passed": true,
   "generation_calls": 0,
   "publication_mutations": 0,
   "preview": true,
@@ -99,6 +97,6 @@
   "media_binding": "Same live scheduled source URL and independently hashed original",
   "production_at_cairo": "2026-11-03T19:00:00+02:00",
   "publication_at_cairo": "2026-11-04T12:00:00+02:00",
-  "hours_until_publication": 14.13,
+  "hours_until_publication": 14.12,
   "readiness": "verified"
 }
