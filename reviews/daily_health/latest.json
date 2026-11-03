@@ -1,10 +1,10 @@
 {
   "date": "2026-11-03",
   "profile": "stickman",
-  "phase": "prepublish",
-  "checked_at": "2026-11-03T14:44:28.415263+00:00",
-  "run_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/41656590618",
-  "report_path": "reviews/daily_health/2026-11-03/41656590618-1.json",
+  "phase": "postpublish",
+  "checked_at": "2026-11-03T15:37:28.252728+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/41665580295",
+  "report_path": "reviews/daily_health/2026-11-03/41665580295-1.json",
   "publication_due_utc": "2026-11-03T15:00:00+00:00",
   "errors": [
     "No successful clock-triggered daily run for this date; manual recovery and dry-run tests do not count as the automatic clock"
@@ -18,30 +18,30 @@
       {
         "id": "6ae9aa155d9f5a9a75862cf4",
         "channelId": "6ae65d0a2f1f5ed648378c6c",
-        "status": "scheduled",
+        "status": "sent",
         "dueAt": "2026-11-03T15:00:00.000Z",
-        "sentAt": null,
-        "externalLink": null
+        "sentAt": "2026-11-03T15:01:33.232Z",
+        "externalLink": "https://www.youtube.com/shorts/RDqV1_Bo_T0"
       }
     ],
     "facebook": [
       {
         "id": "6ae9aa1ad7236852a18311c5",
         "channelId": "6ae65c3c2f1f5ed64837853d",
-        "status": "scheduled",
+        "status": "sent",
         "dueAt": "2026-11-03T15:00:00.000Z",
-        "sentAt": null,
-        "externalLink": null
+        "sentAt": "2026-11-03T15:01:48.414Z",
+        "externalLink": "https://www.facebook.com/reel/1878144056940195/"
       }
     ],
     "instagram": [
       {
         "id": "6ae9aa1fb0e17c0fb57140b0",
         "channelId": "6ae65c082f1f5ed648378367",
-        "status": "scheduled",
+        "status": "sent",
         "dueAt": "2026-11-03T15:00:00.000Z",
-        "sentAt": null,
-        "externalLink": null
+        "sentAt": "2026-11-03T15:03:27.644Z",
+        "externalLink": "https://www.instagram.com/reel/DfSKA10iMeH/"
       }
     ]
   },
@@ -49,26 +49,26 @@
     "youtube": {
       "id": "6ae9aa155d9f5a9a75862cf4",
       "channelId": "6ae65d0a2f1f5ed648378c6c",
-      "status": "scheduled",
+      "status": "sent",
       "dueAt": "2026-11-03T15:00:00.000Z",
-      "sentAt": null,
-      "externalLink": null
+      "sentAt": "2026-11-03T15:01:33.232Z",
+      "externalLink": "https://www.youtube.com/shorts/RDqV1_Bo_T0"
     },
     "facebook": {
       "id": "6ae9aa1ad7236852a18311c5",
       "channelId": "6ae65c3c2f1f5ed64837853d",
-      "status": "scheduled",
+      "status": "sent",
       "dueAt": "2026-11-03T15:00:00.000Z",
-      "sentAt": null,
-      "externalLink": null
+      "sentAt": "2026-11-03T15:01:48.414Z",
+      "externalLink": "https://www.facebook.com/reel/1878144056940195/"
     },
     "instagram": {
       "id": "6ae9aa1fb0e17c0fb57140b0",
       "channelId": "6ae65c082f1f5ed648378367",
-      "status": "scheduled",
+      "status": "sent",
       "dueAt": "2026-11-03T15:00:00.000Z",
-      "sentAt": null,
-      "externalLink": null
+      "sentAt": "2026-11-03T15:03:27.644Z",
+      "externalLink": "https://www.instagram.com/reel/DfSKA10iMeH/"
     }
   },
   "episode": {
@@ -92,5 +92,5 @@
     "reused_immutable_media_check": true,
     "live_asset_metadata_verified": true
   },
-  "media_binding": "Same live scheduled source URL and independently hashed original"
+  "media_binding": "Three live sent post IDs match retained original submission receipts; original release SHA independently verified. Platform-transcoded bytes are not claimed identical."
 }
