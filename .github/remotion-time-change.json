@@ -1,0 +1,14 @@
+{
+  "request_id": "noon-trial-2026-11-04",
+  "repository": "ahmedalsharqwi2-gif/stickman-what-if-shorts",
+  "approved_by_owner": true,
+  "slot": "daily-remotion-2026-11-04-stickman",
+  "source_due_at": "2026-11-04T15:00:00Z",
+  "target_due_at": "2026-11-04T10:00:00Z",
+  "video_sha256": "d3dcf92107ea44e39c7ca5d47f710adb79a230f9872462753081ab58007ce9fc",
+  "post_ids": {
+    "youtube": "6ae8d8b3a1cb4345befe6c8a",
+    "facebook": "6ae8d8b9752c1c9052c630dc",
+    "instagram": "6ae8d8bfc1e1a0710438321a"
+  }
+}
