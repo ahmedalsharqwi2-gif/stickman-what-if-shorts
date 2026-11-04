@@ -399,8 +399,8 @@
     "daily-remotion-2026-11-05-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-05T10:00:00Z",
-      "status": "authored",
-      "source_run": 41904759546,
+      "status": "voice_requested",
+      "source_run": 41916692910,
       "created_at": "2026-11-04T20:15:41.920033+00:00",
       "source_selection": {
         "title": "ماذا لو حجمك بقى زي النملة؟",
@@ -476,7 +476,8 @@
           }
         }
       ],
-      "story_sha256": "770e32781b8713dd664a058a823dc8270621f5b20615d7a3bf25e56338a64c1c"
+      "story_sha256": "770e32781b8713dd664a058a823dc8270621f5b20615d7a3bf25e56338a64c1c",
+      "voice_request_run": 41916692910
     }
   },
   "cutover_evidence": {
