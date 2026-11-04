@@ -2,25 +2,99 @@
   "date": "2026-11-05",
   "profile": "stickman",
   "phase": "prepublish",
-  "checked_at": "2026-11-04T21:40:32.619648+00:00",
-  "run_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/41918184891",
-  "report_path": "reviews/daily_health/2026-11-05/41918184891-1.json",
+  "checked_at": "2026-11-04T21:50:00.921874+00:00",
+  "run_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/41919662946",
+  "report_path": "reviews/daily_health/2026-11-05/41919662946-1.json",
   "publication_due_utc": "2026-11-05T10:00:00+00:00",
   "errors": [
-    "No successful clock-triggered daily run for this date; manual recovery and dry-run tests do not count as the automatic clock",
-    "youtube: missing post or duplicate posts at the configured Cairo slot"
+    "No successful clock-triggered daily run for this date; manual recovery and dry-run tests do not count as the automatic clock"
   ],
   "passed": false,
   "generation_calls": 0,
   "publication_mutations": 0,
   "preview": true,
   "observed_receipts": {
-    "youtube": [],
-    "facebook": [],
-    "instagram": []
+    "youtube": [
+      {
+        "id": "6aeba84bc91738fad5067080",
+        "channelId": "6ae65d0a2f1f5ed648378c6c",
+        "status": "scheduled",
+        "dueAt": "2026-11-05T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
+      }
+    ],
+    "facebook": [
+      {
+        "id": "6aeba84f4cb090f0ac3f001e",
+        "channelId": "6ae65c3c2f1f5ed64837853d",
+        "status": "scheduled",
+        "dueAt": "2026-11-05T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
+      }
+    ],
+    "instagram": [
+      {
+        "id": "6aeba853c91738fad5067194",
+        "channelId": "6ae65c082f1f5ed648378367",
+        "status": "scheduled",
+        "dueAt": "2026-11-05T10:00:00.000Z",
+        "sentAt": null,
+        "externalLink": null
+      }
+    ]
   },
+  "receipts": {
+    "youtube": {
+      "id": "6aeba84bc91738fad5067080",
+      "channelId": "6ae65d0a2f1f5ed648378c6c",
+      "status": "scheduled",
+      "dueAt": "2026-11-05T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    },
+    "facebook": {
+      "id": "6aeba84f4cb090f0ac3f001e",
+      "channelId": "6ae65c3c2f1f5ed64837853d",
+      "status": "scheduled",
+      "dueAt": "2026-11-05T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    },
+    "instagram": {
+      "id": "6aeba853c91738fad5067194",
+      "channelId": "6ae65c082f1f5ed648378367",
+      "status": "scheduled",
+      "dueAt": "2026-11-05T10:00:00.000Z",
+      "sentAt": null,
+      "externalLink": null
+    }
+  },
+  "episode": {
+    "slot": "daily-remotion-2026-11-05-stickman",
+    "title": "ماذا لو بقيت بحجم نملة جنب كوباية مية؟",
+    "pipeline": "remotion",
+    "expected_sha256": "86f3bc27491bde83fb66879d4ef878ab1762ae5efe08c6821ee5e2af4dc3aa2a"
+  },
+  "technical": {
+    "passed": true,
+    "sha256": "86f3bc27491bde83fb66879d4ef878ab1762ae5efe08c6821ee5e2af4dc3aa2a",
+    "full_decode": true,
+    "duration": 127.0,
+    "width": 1080,
+    "height": 1920,
+    "audio_mean_db": -19.7,
+    "actual_visual_samples": 12,
+    "unique_visual_samples": 12,
+    "checked_at": "2026-11-04T21:50:14.972671+00:00",
+    "scope": "Independent technical media check; no claim of human narrative or scientific review",
+    "reused_immutable_media_check": false,
+    "live_asset_metadata_verified": true
+  },
+  "media_binding": "Same live scheduled source URL and independently hashed original",
   "production_at_cairo": "2026-11-04T19:00:00+02:00",
   "publication_at_cairo": "2026-11-05T12:00:00+02:00",
-  "hours_until_publication": 12.32,
-  "readiness": "needs_attention"
+  "hours_until_publication": 12.17,
+  "readiness": "verified"
 }
