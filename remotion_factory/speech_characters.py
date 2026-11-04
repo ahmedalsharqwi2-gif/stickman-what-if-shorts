@@ -76,11 +76,12 @@ def character_timing(story,duration,transcripts,key,exact_coverage=0):
         else:captions.append(entry)
     if captions:captions[-1]['end']=duration  # Keep the last phrase visible; never invent a word anchor.
     if any(len(c['text'].split())>18 for c in captions):raise ValueError('Shared ASR token spans exceed the readable phrase budget')
-    return {'duration':duration,'scenes':scenes,'words':raw,'caption_groups':captions,
+    return {'script_word_anchors':anchors,'duration':duration,'scenes':scenes,'words':raw,'caption_groups':captions,
        'coverage':word_coverage,'exact_token_coverage':exact_coverage,'normalized_character_coverage':char_coverage,
        'known_name_and_egyptian_normalization_applied':True,'asr_model':model,
        'unmatched_script_words':[word for i,word in enumerate(expected) if i not in anchors],
        'asr_transcripts':[{'model':m,'recognized_words':w} for m,w in retained],
        'caption_boundary_method':'Clip an overlapping phrase at the next independently recognized phrase start; retain raw ASR timestamps',
        'timing_method':'Monotonic ensemble of normalized script-character anchors against independently recognized speech; ASR word-splitting differences allowed; supplied-script phrase captions; no active-word precision claim'}
+
 

@@ -25,7 +25,8 @@ def prepare_draft(draft):
 def flatten(story):return [dict(t) for scene in story['scenes'] for t in scene.get('turns',[])]
 def attach_timing(story,timing,transcripts):
  expected=' '.join(s['narration'] for s in story['scenes']).split();duration=timing['duration']
- anchors,_=anchor_chain(expected,duration,transcripts,recognized_key,join=True)
+ anchors={int(i):a for i,a in timing.get('script_word_anchors',{}).items()}
+ if not anchors:anchors,_=anchor_chain(expected,duration,transcripts,recognized_key,join=True)
  # ASR may split Arabic clitics. Recover literal character anchors, never estimated durations.
  if len(anchors)/len(expected)<.9:
   from difflib import SequenceMatcher
@@ -45,12 +46,26 @@ def attach_timing(story,timing,transcripts):
     if sum(k in mapping for k in range(a,b))/(b-a)<.85 or not indices or indices[-1]-indices[0]>5:continue
     first,last=raw[indices[0]],raw[indices[-1]]
     if 0<=first['start']<last['end']<=duration+.1:anchors[i]={'start':first['start'],'end':last['end']}
- cursor=0;turns=[];captions=[]
+ cursor=0;turns=[];captions=[];omissions=[];omitted_words=0
  for scene_index,scene in enumerate(story['scenes']):
   measured=[]
   for turn in scene['turns']:
    words=turn['text'].split();stop=cursor+len(words);first=[anchors[i] for i in range(cursor,min(cursor+4,stop)) if i in anchors];last=[anchors[i] for i in range(max(cursor,stop-4),stop) if i in anchors]
-   if not first or not last:raise ValueError('Dialogue turn has no independently measured speech boundary; retained voice must not be regenerated')
+   if not first or not last:
+    points=[anchors[i] for i in range(cursor,stop) if i in anchors]
+    preceding=[i for i in anchors if i<cursor];following=[i for i in anchors if i>=stop]
+    if points or not preceding or not following:raise ValueError('Dialogue turn has no independently measured speech boundary; retained voice must not be regenerated')
+    left=anchors[max(preceding)]['end'];right=anchors[min(following)]['start']
+    keys={recognized_key(w) for w in words};confirmations=[]
+    for model,raw in transcripts:
+     local_words=[w for w in raw if w['start']>=left-.1 and w['end']<=right+.1]
+     if not any(recognized_key(w['text']) in keys for w in local_words):confirmations.append(model)
+    omitted_words+=len(words)
+    if not 0<=right-left<=1.2 or len(confirmations)<2 or not 4<=len(words)<=12 or omitted_words>min(12,len(expected)*.05) or omissions:
+     raise ValueError('Uncertain or excessive missing dialogue; retained audio needs inspection')
+    omissions.append({'scene':scene_index+1,'speaker':turn['speaker'],'text':turn['text'],'word_count':len(words),'preceding_speech_end':left,'following_speech_start':right,'confirming_asr_models':confirmations,'reason':'No word anchors, independently absent in a short measured gap; omitted from captions and actor bubbles, original script and audio retained'})
+    cursor=stop
+    continue
    item={**turn,'start':min(w['start'] for w in first),'end':max(w['end'] for w in last),'timing_method':'independent ASR anchors, not phoneme synchronization'}
    if turns and item['start']<turns[-1]['start']:raise ValueError('Dialogue speaker order conflicts with actual recognized speech')
    measured.append(item);turns.append(item)
@@ -59,11 +74,14 @@ def attach_timing(story,timing,transcripts):
     if not points:raise ValueError('Dialogue caption has no measured speech')
     captions.append({'speaker':turn['speaker'],'text':' '.join(expected[start:end]),'start':min(w['start'] for w in points),'end':max(w['end'] for w in points)})
    cursor=stop
+  if {item['speaker'] for item in measured}!={'a','b'}:raise ValueError('Measured scene lost one speaking character')
   timing['scenes'][scene_index]['dialogue_turns']=measured
  for a,b in zip(turns,turns[1:]):
   if a['end']>b['start']:a['end']=b['start']
  if any(t['end']<=t['start'] for t in turns):raise ValueError('Dialogue turns overlap without an audible boundary')
  for a,b in zip(captions,captions[1:]):
   if a['end']>b['start']:a['end']=b['start']
+ timing['dialogue_omissions']=omissions;timing['dialogue_full_script_spoken']=not bool(omissions)
  timing['dialogue_turns']=turns;timing['caption_groups']=captions;timing['dialogue_timing_verified']=True
  return timing
+

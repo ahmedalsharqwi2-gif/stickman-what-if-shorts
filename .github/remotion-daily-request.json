@@ -1,6 +1,6 @@
 {
   "publish_date": "2026-11-05",
-  "revision": "owner-explicit-retained-tiny-story-revision-v2",
+  "revision": "owner-retained-voice-measured-dialogue-recovery-v4",
   "preserve_existing_posts": true,
-  "reason": "Explicit owner request to complete now: independently review manually corrected retained story once, then create original voice only if approved. Never repeat writing or voice requests."
+  "reason": "Resume original 127-second dialogue audio and existing ASR artifacts; retain voice/story SHA. Actual recognized speech only: omit one proven unspoken seven-word aside from captions/actor bubbles, record it explicitly; no repeated synthesis or invented timestamps."
 }
