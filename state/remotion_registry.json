@@ -399,7 +399,7 @@
     "daily-remotion-2026-11-05-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-05T10:00:00Z",
-      "status": "review_requested",
+      "status": "editorial_rejected",
       "source_run": 41904759546,
       "created_at": "2026-11-04T20:15:41.920033+00:00",
       "source_selection": {
@@ -426,7 +426,18 @@
         "sha256": "ecf015379b77b1214c996621c9535abbdf18cbb58f34824e48158728d75e3fed"
       },
       "canonical_subject": "stickman-whatif-tiny-consequences",
-      "title": "ماذا لو حجمك بقا قد النملة وسط البيت؟"
+      "title": "ماذا لو حجمك بقا قد النملة وسط البيت؟",
+      "editorial_review": {
+        "supported": false,
+        "engaging": true,
+        "novel": true,
+        "visuals_match": false,
+        "issues": [
+          "The story includes unapproved objects like a control button/screen in scene 7 which violates the strict allowed actual renderer objects list (cup, droplet and oversized steps).",
+          "Scene 7 mentions turning on a screen and pressing a button, turning it into an escape room or control panel puzzle which is explicitly forbidden by the source and topic."
+        ],
+        "passed": false
+      }
     }
   },
   "cutover_evidence": {
