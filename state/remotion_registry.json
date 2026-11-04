@@ -399,7 +399,7 @@
     "daily-remotion-2026-11-05-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-05T10:00:00Z",
-      "status": "voice_requested",
+      "status": "voice_ready",
       "source_run": 41916692910,
       "created_at": "2026-11-04T20:15:41.920033+00:00",
       "source_selection": {
@@ -477,7 +477,11 @@
         }
       ],
       "story_sha256": "770e32781b8713dd664a058a823dc8270621f5b20615d7a3bf25e56338a64c1c",
-      "voice_request_run": 41916692910
+      "voice_request_run": 41916692910,
+      "duration": 127.0,
+      "audio_sha256": "33a66a87b261ddfbc2122fac14db7f478b3898281845f9c87ed1c65166683982",
+      "timing_sha256": "05dc1009b5ea8d8e44a3b879f546fdebbdede717ca973beaa4fb7b08e5920a25",
+      "coverage": 0.9097472924187726
     }
   },
   "cutover_evidence": {
