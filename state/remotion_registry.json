@@ -399,7 +399,7 @@
     "daily-remotion-2026-11-05-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-05T10:00:00Z",
-      "status": "rendered",
+      "status": "publishing",
       "source_run": 41916692910,
       "created_at": "2026-11-04T20:15:41.920033+00:00",
       "source_selection": {
@@ -484,7 +484,8 @@
       "coverage": 0.9097472924187726,
       "video_sha256": "86f3bc27491bde83fb66879d4ef878ab1762ae5efe08c6821ee5e2af4dc3aa2a",
       "render_run": 41918800449,
-      "source_evidence_file": "professional_motion/output/remotion-validation.json"
+      "source_evidence_file": "professional_motion/output/remotion-validation.json",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-05-stickman/stickman-daily-remotion-2026-11-05-stickman.mp4"
     }
   },
   "cutover_evidence": {
