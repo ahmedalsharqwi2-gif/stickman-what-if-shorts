@@ -500,11 +500,13 @@
           "verified_at": "2026-11-04T21:49:00.611624+00:00"
         },
         "facebook": {
-          "phase": "intent",
+          "phase": "acknowledged",
           "channel_id": "6ae65c3c2f1f5ed64837853d",
           "due_at": "2026-11-05T10:00:00Z",
           "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-05-stickman/stickman-daily-remotion-2026-11-05-stickman.mp4",
-          "created_at": "2026-11-04T21:49:01.983955+00:00"
+          "created_at": "2026-11-04T21:49:01.983955+00:00",
+          "id": "6aeba84f4cb090f0ac3f001e",
+          "accepted_at": "2026-11-04T21:49:03.838480+00:00"
         }
       }
     }
