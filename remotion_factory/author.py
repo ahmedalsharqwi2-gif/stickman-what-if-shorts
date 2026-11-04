@@ -150,7 +150,7 @@ def author(req,entry):
   if not current.get('editorial_review',{}).get('passed'):raise ValueError('Retained draft awaits its original review; never regenerate')
   return current.get('authored_story') or document_read(current['story_document'])
  if current.get('status')=='author_requested':raise ValueError('Previous writing request unacknowledged; recover it, never rewrite')
- prior=used(slot);seen_urls={r.get('source',{}).get('url') for r in prior};seen_topics={r.get('canonical_subject') for r in prior}
+ prior=used(slot);seen_urls,seen_topics=prior_identifiers(prior)
  draft,row,source=retained_draft(req,current,seen_urls,seen_topics)
  from .editorial_recovery import checked_draft
  draft=checked_draft(slot,draft,profile,source,row,validate,ask_once,schema_for(SCHEMA) if profile=='stickman' else SCHEMA,local()['episodes'][slot],mutate,document_write,prepare_draft if profile=='stickman' else None)

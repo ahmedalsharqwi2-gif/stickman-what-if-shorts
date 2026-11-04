@@ -1,6 +1,6 @@
 {
   "publish_date": "2026-11-05",
-  "revision": "clock-drift-manual-recovery-20261105-v1",
+  "revision": "owner-explicit-retained-tiny-story-revision-v2",
   "preserve_existing_posts": true,
-  "reason": "Owner-authorized remediation of stale external clock. Manual recovery of original November 5 noon slot; no duplicate generation or publication and no rollover."
+  "reason": "Explicit owner request to complete now: independently review manually corrected retained story once, then create original voice only if approved. Never repeat writing or voice requests."
 }
