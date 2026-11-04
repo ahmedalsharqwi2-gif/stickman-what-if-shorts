@@ -399,7 +399,7 @@
     "daily-remotion-2026-11-05-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-05T10:00:00Z",
-      "status": "draft_retained",
+      "status": "review_prepared",
       "source_run": 41904759546,
       "created_at": "2026-11-04T20:15:41.920033+00:00",
       "source_selection": {
@@ -420,7 +420,13 @@
       "draft_document": {
         "path": "state/remotion_documents/daily-remotion-2026-11-05-stickman-draft-7a6e91d88d5ed1d3.json",
         "sha256": "7a6e91d88d5ed1d3e4bd79bda76dd4cd98745ccc5d3d1999e5972b9d74ee155b"
-      }
+      },
+      "story_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-05-stickman-story-ecf015379b77b121.json",
+        "sha256": "ecf015379b77b1214c996621c9535abbdf18cbb58f34824e48158728d75e3fed"
+      },
+      "canonical_subject": "stickman-whatif-tiny-consequences",
+      "title": "ماذا لو حجمك بقا قد النملة وسط البيت؟"
     }
   },
   "cutover_evidence": {
