@@ -126,7 +126,7 @@ class FreshReviewTests(unittest.TestCase):
   from stickman.candidate import FONT,CHANNEL_NAME,BEATS
   from stickman.fresh_review import FRESH_REVIEW_LABEL
   font=ImageFont.truetype(str(FONT),31);missing=bytes(font.getmask('\U0010ffff'))
-  text=CHANNEL_NAME+'، المشهد 12345678 من '+FRESH_REVIEW_LABEL+' '.join(' '.join(beat[:2]) for beat in BEATS)
+  text=CHANNEL_NAME+'، المشهد 12345678 من '+FRESH_REVIEW_LABEL+' '.join(' '.join((beat['title'],beat['subtitle'])) for beat in BEATS)
   text+=' '.join(scene['label']+' '+scene['caption']+' '+scene['narration'] for scene in story()['scenes'])
   self.assertNotIn('•',text)
   unsupported=[char for char in set(text) if not char.isspace() and bytes(font.getmask(char))==missing]

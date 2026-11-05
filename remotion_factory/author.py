@@ -11,7 +11,7 @@ from .identity import schema_for as identity_schema,direction,validate_director,
 from .documents import write as document_write,read as document_read
 from .narration_style import STORY_DIRECTION,validate_unnamed_story
 from .dialogue import DIALOGUE_DIRECTION,schema_for,prepare_draft,visual_contract
-SERIES={'science':'اسرار الكون','horror':'ملفات غامضه','history':'نقص ونروى','news':'ai على السريع','stickman':'افترض كده'}
+SERIES={'science':'أسرار الكون','horror':'ملفات غامضة','history':'نقص ونروي','news':'AI على السريع','stickman':'افترض كده'}
 MODES=('flow','compare','cycle','layers')
 ACTIONS=('impact','experiment','escalation','fail','discovery','adapt','solution','twist')
 SCENARIOS=('sleep','phone','ocean','tiny','giant','freeze','gravity','earth-stop')
@@ -93,6 +93,10 @@ SCHEMA={'type':'OBJECT','properties':{'title':{'type':'STRING'},'canonical_subje
 SCHEMA['properties']['cover_text']={'type':'STRING'}
 SCHEMA['required'].append('cover_text')
 SCHEMA=identity_schema(SCHEMA,'stickman')
+SCHEMA['properties']={'hook_line':{'type':'STRING'},'title_accent_word':{'type':'STRING'},**SCHEMA['properties']}
+SCHEMA['required']=['hook_line','title_accent_word',*SCHEMA['required']]
+SCHEMA['properties']['scenes']['items']['properties']['title_accent_word']={'type':'STRING'}
+SCHEMA['properties']['scenes']['items']['required'].append('title_accent_word')
 REVIEW={'type':'OBJECT','properties':{'supported':{'type':'BOOLEAN'},'engaging':{'type':'BOOLEAN'},'novel':{'type':'BOOLEAN'},'visuals_match':{'type':'BOOLEAN'},'issues':{'type':'ARRAY','items':{'type':'STRING'}}},'required':['supported','engaging','novel','visuals_match','issues']}
 def model(review):
  cfg=json.loads(Path('config/professional_models.json').read_text());return cfg['reviewer' if review else 'writer']
@@ -108,6 +112,9 @@ def ask_once(prompt,schema,review=False):
  if candidate.get('finishReason')!='STOP':raise ValueError('Editorial output incomplete; retained response must be inspected')
  return json.loads(''.join(p.get('text','') for p in candidate.get('content',{}).get('parts',[]) if not p.get('thought')))
 def validate(story,profile,source):
+ if story.get('visual_template_version')==1:
+  from .locked_episode import validate_episode
+  validate_episode(story,source)
  validate_director(story,profile)
  if profile=='stickman':validate_unnamed_story(story)
  if not 3<=len(story.get('hashtags',[]))<=5:raise ValueError('Three to five topical on-screen hashtags required before synthesis')
