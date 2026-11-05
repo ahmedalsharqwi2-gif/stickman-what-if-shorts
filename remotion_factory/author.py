@@ -6,6 +6,7 @@ from datetime import datetime,timezone,timedelta
 import requests
 from bs4 import BeautifulSoup
 from .state import mutate,local
+from .identity import schema_for as identity_schema,direction,validate_director,authored_visual
 from .documents import write as document_write,read as document_read
 from .narration_style import STORY_DIRECTION,validate_unnamed_story
 from .dialogue import DIALOGUE_DIRECTION,schema_for,prepare_draft,visual_contract
@@ -88,6 +89,7 @@ def read_source(row):
 SCHEMA={'type':'OBJECT','properties':{'title':{'type':'STRING'},'canonical_subject':{'type':'STRING'},'hashtags':{'type':'ARRAY','minItems':3,'maxItems':5,'items':{'type':'STRING'}},'scenes':{'type':'ARRAY','minItems':8,'maxItems':8,'items':{'type':'OBJECT','properties':{'label':{'type':'STRING'},'narration':{'type':'STRING'},'evidence_quote':{'type':'STRING'},'diagram':{'type':'STRING','enum':list(MODES)},'labels':{'type':'ARRAY','minItems':2,'maxItems':4,'items':{'type':'STRING'}}},'required':['label','narration','evidence_quote','diagram','labels']}}},'required':['title','canonical_subject','hashtags','scenes']}
 SCHEMA['properties']['cover_text']={'type':'STRING'}
 SCHEMA['required'].append('cover_text')
+SCHEMA=identity_schema(SCHEMA,'stickman')
 REVIEW={'type':'OBJECT','properties':{'supported':{'type':'BOOLEAN'},'engaging':{'type':'BOOLEAN'},'novel':{'type':'BOOLEAN'},'visuals_match':{'type':'BOOLEAN'},'issues':{'type':'ARRAY','items':{'type':'STRING'}}},'required':['supported','engaging','novel','visuals_match','issues']}
 def model(review):
  cfg=json.loads(Path('config/professional_models.json').read_text());return cfg['reviewer' if review else 'writer']
@@ -103,6 +105,7 @@ def ask_once(prompt,schema,review=False):
  if candidate.get('finishReason')!='STOP':raise ValueError('Editorial output incomplete; retained response must be inspected')
  return json.loads(''.join(p.get('text','') for p in candidate.get('content',{}).get('parts',[]) if not p.get('thought')))
 def validate(story,profile,source):
+ validate_director(story,profile)
  if profile=='stickman':validate_unnamed_story(story)
  if not 3<=len(story.get('hashtags',[]))<=5:raise ValueError('Three to five topical on-screen hashtags required before synthesis')
  if len(story.get('scenes',[]))!=8:raise ValueError('Exactly eight narrative scenes required')
@@ -138,6 +141,7 @@ def retained_draft(req,current,seen_urls,seen_topics):
   if profile=='stickman':prompt+='\n'+STORY_DIRECTION+'\n'+DIALOGUE_DIRECTION+'\n'+visual_contract(row['scenario'])
   scene_goal='24-29' if profile=='news' else '34-41'
   prompt+=f'\nLength planning: aim for {scene_goal} whitespace-separated narration words per scene. Check the TOTAL before returning. Evidence quotes and labels do not count as narration. Do not pad with generic filler.'
+  prompt+='\n'+direction(profile)
   draft=ask_once(prompt,schema_for(SCHEMA) if profile=='stickman' else SCHEMA)
   draft_document=document_write(slot,'draft',draft)
   def retain(data):data['episodes'][slot].update(status='draft_retained',draft_document=draft_document)
@@ -162,6 +166,7 @@ def author(req,entry):
   s['visual']={'kind':'explainer','kicker':s['diagram'],'labels':s['labels']}
   if profile=='stickman':s['visual']={'kind':'whatif','kicker':ACTIONS[i],'scenario':row['scenario'],'labels':s['labels']}
   elif i in (1,5) and row.get('latitude') is not None:s['visual']={'kind':'map','latitude':row['latitude'],'longitude':row['longitude'],'zoom':row.get('zoom',4),'detail':row['title'][:70]}
+ story=authored_visual(story,row)
  # The reviewer sees the exact draft and source independently; it cannot rewrite it.
  story_document=document_write(slot,'story',story)
  def review_intent(data):data['episodes'][slot].update(status='review_prepared',story_document=story_document,canonical_subject=story['canonical_subject'],title=story['title'])
@@ -171,10 +176,11 @@ def author(req,entry):
  def request_review(data):data['episodes'][slot]['status']='review_requested'
  mutate(request_review)
  instruction+=' Also check that title and cover_text accurately promise the actual content, without misleading claims.'
- review=ask_once(instruction+'\nSTORY:'+json_text(story)+'\nTOPIC:'+json_text(row)+'\nSOURCE:'+source+'\nPRIOR:'+json_text(list(seen_topics)),REVIEW,True)
+ review=ask_once(direction(story['profile'])+'\n'+instruction+'\nSTORY:'+json_text(story)+'\nTOPIC:'+json_text(row)+'\nSOURCE:'+source+'\nPRIOR:'+json_text(list(seen_topics)),REVIEW,True)
  review['passed']=all(review.get(k) is True for k in ('supported','engaging','novel','visuals_match')) and not review.get('issues')
  def save(data):data['episodes'][slot].update(story_document=story_document,editorial_review=review,status='authored' if review['passed'] else 'editorial_rejected')
  mutate(save)
  if not review['passed']:raise ValueError('Independent editorial review rejected this retained draft; no new TTS or rewrite')
  return story
+
 

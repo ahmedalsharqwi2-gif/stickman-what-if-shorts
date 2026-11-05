@@ -1,0 +1,13 @@
+{
+  "version": "channel-identities-v1",
+  "profile": "stickman",
+  "name": "افترض كده",
+  "background": "#fff4dd",
+  "ink": "#202d3a",
+  "accent": "#d16d39",
+  "visual": "two large unnamed original characters, physical interaction, cause and consequence, visual comedy",
+  "sound": "pizzicato, playful bass, footsteps and object-driven comic accents",
+  "enabled": true,
+  "approval_basis": "Owner approved the two real hybrid samples and requested channel-by-channel adaptation on 2026-11-05",
+  "schedule_and_publication_configuration_changed": false
+}
