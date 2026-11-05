@@ -89,8 +89,9 @@ def measured_timing(story, duration, transcripts):
             scene[prefix+'_beat']=min(w['start'] for w in points);scene[prefix+'_end']=max(w['end'] for w in points)
         offset+=len(words)
     captions=[]
-    for start in range(0,len(expected),6):
-        stop=min(start+6,len(expected));matches=[anchors[k] for k in range(start,stop) if k in anchors]
+    boundaries=([0]+list(range(len(story['hook_line'].split()),len(expected),4))) if story.get('visual_template_version')==1 else list(range(0,len(expected),6))
+    for group_index,start in enumerate(boundaries):
+        stop=boundaries[group_index+1] if group_index+1<len(boundaries) else len(expected);matches=[anchors[k] for k in range(start,stop) if k in anchors]
         fallback_start=(start/len(expected))*duration; fallback_end=(stop/len(expected))*duration
         captions.append({'text':' '.join(expected[start:stop]),'start':0 if start==0 else (matches[0]['start'] if matches else fallback_start),'end':matches[-1]['end'] if matches else fallback_end})
     return {'duration':duration,'scenes':scenes,'words':transcripts[0][1],'caption_groups':captions,

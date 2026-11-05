@@ -41,7 +41,7 @@ class ScheduleTests(unittest.TestCase):
         self.assertEqual(require_future_due(DUE, NOW).hour, 15)
 
     def test_duration_contract(self):
-        for value in (0, 119.99, 180, 181, float('nan'), float('inf')):
+        for value in (0, 90, 180, 181, float('nan'), float('inf')):
             with self.assertRaises(ValueError):
                 require_duration(value)
         self.assertEqual(require_duration(120), 120)

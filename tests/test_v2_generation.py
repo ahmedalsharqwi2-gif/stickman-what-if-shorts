@@ -34,7 +34,12 @@ class CandidateGenerationTests(unittest.TestCase):
             'canonical_subject': 'Distinct verified subject',
             'source': {'url': 'https://openai.com/new-subject'},
             'scenes': [{'id': str(i), 'narration': 'mock speech'} for i in range(8)]}
+        self.director={'version':1,'profile':'news','worlds':{'fixture_world':{'settings':['place'+str(i) for i in range(8)],'focal_objects':['prop'+str(i) for i in range(8)],'actions':['act'+str(i) for i in range(8)],'shots':['wide','medium','detail']}}}
+        (self.repo/'professional_motion/director_catalog.json').write_text(json.dumps(self.director))
+        self.story['visual_plan']={'version':1,'world':'fixture_world','scenes':[{'id':str(i),'setting':'place'+str(i),'focal_object':'prop'+str(i),'action':'act'+str(i),'shot':['wide','medium','detail'][i%3],'state_change':'Mock visible event for isolation tests'} for i in range(8)]}
         self.editorial = types.ModuleType('professional_motion.editorial')
+        self.editorial.SCHEMA={'type':'OBJECT','properties':{},'required':[]}
+        self.editorial.ask=lambda *args,**kwargs: deepcopy(self.story)
         self.editorial.ROOT = self.repo / 'professional_motion'
         self.editorial.STATE = Path('state/professional_topics.json')
         self.original_root, self.original_state = self.editorial.ROOT, self.editorial.STATE

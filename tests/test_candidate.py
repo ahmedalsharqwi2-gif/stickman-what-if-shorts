@@ -19,8 +19,8 @@ def test_real_candidate_requires_narration(tmp_path):
         render(tmp_path/'film.mp4')
 
 def test_short_candidate_rejected(tmp_path):
-    with pytest.raises(ValueError,match='120'):
-        render(tmp_path/'film.mp4',duration=119,visual_review=True)
+    with pytest.raises(ValueError,match='90'):
+        render(tmp_path/'film.mp4',duration=90,visual_review=True)
 
 def test_existing_film_never_overwritten(tmp_path):
     film=tmp_path/'film.mp4';film.write_bytes(b'original evidence')
@@ -32,7 +32,7 @@ def test_arabic_font_shapes_and_scene_labels_fit_safe_area():
     from stickman.candidate import FONT,BEATS
     assert features.check('raqm'), 'Arabic shaping requires RAQM; do not render disconnected letters'
     font=ImageFont.truetype(str(FONT),31)
-    assert max(font.getlength(beat[1],direction='rtl') for beat in BEATS)<810
+    assert max(font.getlength(beat['subtitle'],direction='rtl') for beat in BEATS)<810
 
 
 def test_requested_identity_is_explicit_without_fake_logo_asset():

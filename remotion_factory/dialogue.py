@@ -69,8 +69,9 @@ def attach_timing(story,timing,transcripts):
    item={**turn,'start':min(w['start'] for w in first),'end':max(w['end'] for w in last),'timing_method':'independent ASR anchors, not phoneme synchronization'}
    if turns and item['start']<turns[-1]['start']:raise ValueError('Dialogue speaker order conflicts with actual recognized speech')
    measured.append(item);turns.append(item)
-   for start in range(cursor,stop,6):
-    end=min(start+6,stop);points=[anchors[i] for i in range(start,end) if i in anchors]
+   boundaries=([0]+list(range(len(story['hook_line'].split()),stop,4))) if story.get('visual_template_version')==1 and cursor==0 else list(range(cursor,stop,4 if story.get('visual_template_version')==1 else 6))
+   for group_index,start in enumerate(boundaries):
+    end=boundaries[group_index+1] if group_index+1<len(boundaries) else stop;points=[anchors[i] for i in range(start,end) if i in anchors]
     if not points:raise ValueError('Dialogue caption has no measured speech')
     captions.append({'speaker':turn['speaker'],'text':' '.join(expected[start:end]),'start':min(w['start'] for w in points),'end':max(w['end'] for w in points)})
    cursor=stop
