@@ -6,6 +6,7 @@ from datetime import datetime,timezone,timedelta
 import requests
 from bs4 import BeautifulSoup
 from .state import mutate,local
+from .stickman_topics import template,seed_anchor,ordered as order_hypotheses
 from .identity import schema_for as identity_schema,direction,validate_director,authored_visual
 from .documents import write as document_write,read as document_read
 from .narration_style import STORY_DIRECTION,validate_unnamed_story
@@ -31,6 +32,8 @@ def prior_identifiers(rows):
   url=source if isinstance(source,str) else source.get('url') if isinstance(source,dict) else None
   if isinstance(url,str) and url:urls.add(url)
   if row.get('canonical_subject'):topics.add(row['canonical_subject'])
+  anchor=seed_anchor(row)
+  if anchor:topics.add(anchor)
  return urls,topics
 def candidates(profile):
  if profile=='news':
@@ -66,9 +69,9 @@ def candidates(profile):
  if profile=='stickman':
   # The seed episodes are examples, not a finite eight-day publishing queue.
   # New stories must pass independent novelty review against retained topics.
-  worlds={'phone':'شاشة هاتف، إشعارات وصور وشبكة وبطارية وشاحن وزر طاقة','sleep':'غرفة، سرير، ساعة ومكتب وشاشة وشخصية تجرّب وتتعب وتتعافى','gravity':'شخصية تطفو مع كتل وقطرات في غرفة، والكتلة محفوظة','tiny':'شخصية صغيرة مع كوب وقطرة ودرجات سلم كبيرة','giant':'شخصية عملاقة ومبانٍ وكوب، مع قيود قوانين الحجم','freeze':'شخصية وكرات وساعة متوقفة، والضوء والتنفس مستثنيان صراحة','ocean':'شخصية وقاع بحر وسفينة وأسماك ومؤشر مستوى الماء','earth-stop':'شخصية وكرات وخطوط حركة قصور ذاتي وساعة'}
+  worlds={'phone':'شاشة هاتف، إشعارات وصور وشبكة وبطارية وشاحن وزر طاقة','sleep':'غرفة، سرير، ساعة ومكتب وشاشة وشخصية تجرّب وتتعب وتتعافى','gravity':'شخصية تطفو مع كتل وقطرات في غرفة، والكتلة محفوظة','tiny':'شخصية صغيرة مع كوب وقطرة ودرجات سلم كبيرة','giant':'شخصية عملاقة ومبانٍ وكوب، مع قيود قوانين الحجم','freeze':'شخصية وكرات وساعة متوقفة، والضوء والتنفس مستثنيان صراحة','ocean':'شخصية وقاع بحر وسفينة وأسماك ومؤشر مستوى الماء','earth-stop':'كوكب أرضي توضيحي وكرات وخطوط القصور الذاتي وشخصيتان تناقشان تجربة ذهنية'}
   for scenario,world in worlds.items():rows.append({'title':'ابتكر فرضية ماذا لو جديدة بالكامل داخل عالم '+scenario,'canonical_subject':'creative-environment-'+scenario,'scenario':scenario,'publisher':'افترض كده','brief':'ابتكر فرضية أصلية محددة مختلفة جوهريًا عن كل الموضوعات السابقة، وليست إعادة عنوان الحلقة الأولى. البيئة والأشياء التي يستطيع الرسام إظهارها فقط: '+world+'. التزم بالمراحل الثمانية impact/experiment/escalation/fail/discovery/adapt/solution/twist، واستعمل الحركة والأشياء المرسومة فعليًا. الخيال معلن، لا تقلد شخصية أو حبكة من قناة أخرى. لا تفرض غرفة هروب على كل قصة.'})
- return list({r.get('url') or r['canonical_subject']:r for r in rows}.values())
+ return order_hypotheses(list({r.get('url') or r['canonical_subject']:r for r in rows}.values()),used())
 def read_source(row):
  if not row.get('url'):return row['brief']
  host=urlparse(row['url']).hostname
@@ -123,11 +126,11 @@ def retained_draft(req,current,seen_urls,seen_topics):
  if current.get('raw_draft') or current.get('draft_document'):
   draft=current.get('raw_draft') or document_read(current['draft_document']);row=current['source_selection'];source=current.get('source_text') or document_read(current['source_document'])['text']
  else:
-  rows=[r for r in candidates(profile) if (not r.get('url') or r['url'] not in seen_urls) and r.get('canonical_subject') not in seen_topics]
+  rows=[r for r in candidates(profile) if (not r.get('url') or r['url'] not in seen_urls) and (template(r) or r.get('canonical_subject') not in seen_topics)]
   if profile=='news':
    due=datetime.fromisoformat(req['due_at'].replace('Z','+00:00'))
    rows=[r for r in rows if r.get('published') and timedelta(0)<=due-datetime.fromisoformat(r['published'].replace('Z','+00:00'))<=timedelta(hours=72)]
-  if profile=='stickman':rows=[r for r in rows if r['canonical_subject'] not in seen_topics]
+  if profile=='stickman':rows=[r for r in rows if template(r) or r['canonical_subject'] not in seen_topics]
   source=None;row=None;errors=[]
   for candidate in rows[:12]:
    try:source=read_source(candidate);row=candidate;break
