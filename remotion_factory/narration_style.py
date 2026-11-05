@@ -6,3 +6,7 @@ def validate_unnamed_story(story):
  spoken=''.join(c for c in unicodedata.normalize('NFKC',spoken) if unicodedata.category(c)!='Mn').replace('ـ','')
  patterns=(r'(?<![\u0621-\u064a])(?:ال)?[اأإ]?ست[يى]ك[يى]?\s*مان(?![\u0621-\u064a])',r'\bstick\s*man\b',r'(?:آرنولد|ارنولد|\barnold\b)')
  if any(re.search(pattern,spoken,re.I) for pattern in patterns):raise ValueError('Spoken protagonist must stay unnamed; retain this draft for correction before any voice request')
+
+
+# The final outcome need not magically reverse the hypothesis.
+STORY_DIRECTION+='\nفرضية واحدة بقواعد واضحة، وتجربة لها نتيجة مرئية، ثم تصاعد سببي. لا تفرض هروبًا أو مفتاحًا أو إنقاذًا سحريًا؛ اعرض النتيجة المنطقية حتى لو كانت مزعجة. الكوميديا تأتي من الحركة ورد الفعل، لا من حشو الكلام. لا تنسخ حبكات أو شخصيات القنوات المرجعية.'
