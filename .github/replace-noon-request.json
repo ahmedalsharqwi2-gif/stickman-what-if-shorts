@@ -1,0 +1,620 @@
+{
+  "request_id": "owner-replace-five-identity-films-2026-11-05",
+  "repository": "ahmedalsharqwi2-gif/stickman-what-if-shorts",
+  "episode_key": "daily-remotion-2026-11-05-stickman",
+  "due_at": "2026-11-05T10:00:00Z",
+  "owner_approved_exact_full_file": true,
+  "authorization": "User explicitly asked to replace the five noon posts today with these exact five reviewed full films. Preserve IDs and due time; no new posts.",
+  "old_video_sha256": "86f3bc27491bde83fb66879d4ef878ab1762ae5efe08c6821ee5e2af4dc3aa2a",
+  "old_media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-05-stickman/stickman-daily-remotion-2026-11-05-stickman.mp4",
+  "posts": {
+    "youtube": {
+      "phase": "verified",
+      "channel_id": "6ae65d0a2f1f5ed648378c6c",
+      "due_at": "2026-11-05T10:00:00Z",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-05-stickman/stickman-daily-remotion-2026-11-05-stickman.mp4",
+      "created_at": "2026-11-04T21:48:57.472025+00:00",
+      "id": "6aeba84bc91738fad5067080",
+      "accepted_at": "2026-11-04T21:48:59.454355+00:00",
+      "status": "scheduled",
+      "scheduled_at": "2026-11-05T10:00:00.000Z",
+      "verified_at": "2026-11-04T21:49:00.611624+00:00"
+    },
+    "facebook": {
+      "phase": "verified",
+      "channel_id": "6ae65c3c2f1f5ed64837853d",
+      "due_at": "2026-11-05T10:00:00Z",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-05-stickman/stickman-daily-remotion-2026-11-05-stickman.mp4",
+      "created_at": "2026-11-04T21:49:01.983955+00:00",
+      "id": "6aeba84f4cb090f0ac3f001e",
+      "accepted_at": "2026-11-04T21:49:03.838480+00:00",
+      "status": "scheduled",
+      "scheduled_at": "2026-11-05T10:00:00.000Z",
+      "verified_at": "2026-11-04T21:49:05.018220+00:00"
+    },
+    "instagram": {
+      "phase": "verified",
+      "channel_id": "6ae65c082f1f5ed648378367",
+      "due_at": "2026-11-05T10:00:00Z",
+      "media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/production-daily-remotion-2026-11-05-stickman/stickman-daily-remotion-2026-11-05-stickman.mp4",
+      "created_at": "2026-11-04T21:49:06.273626+00:00",
+      "id": "6aeba853c91738fad5067194",
+      "accepted_at": "2026-11-04T21:49:07.979039+00:00",
+      "status": "scheduled",
+      "scheduled_at": "2026-11-05T10:00:00.000Z",
+      "verified_at": "2026-11-04T21:49:09.151146+00:00"
+    }
+  },
+  "new_video_sha256": "0e48c434d1dbfe7be8a9a53e0d45ae934b391cd7af9147c5a6015e211da00f80",
+  "new_media_url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/releases/download/approved-identity-2026-11-05/identity-full-review.mp4",
+  "story": {
+    "title": "ماذا لو مياه المحيطات اختفت؟",
+    "canonical_subject": "stickman-whatif-ocean-consequences",
+    "hashtags": [
+      "ماذا_لو",
+      "المحيطات",
+      "كوميديا"
+    ],
+    "scenes": [
+      {
+        "label": "البحر اختفى!",
+        "narration": "تخيّل إن مياه المحيطات اختفت، وإنت واقف جنب البحر. هو البحر راح فين؟ والسفينة ركنت على الرمل ليه؟ في فرضيتنا المياه اختفت سحريًا، مش اتبخرت بطريقة طبيعية. يعني بنتخيل المستحيل، بس هنفهم النتايج واحدة واحدة.",
+        "evidence_quote": "",
+        "diagram": "flow",
+        "labels": [
+          "قاع البحر",
+          "السفينة",
+          "فرضية خيالية"
+        ],
+        "turns": [
+          {
+            "speaker": "a",
+            "text": "تخيّل إن مياه المحيطات اختفت، وإنت واقف جنب البحر."
+          },
+          {
+            "speaker": "b",
+            "text": "هو البحر راح فين؟ والسفينة ركنت على الرمل ليه؟"
+          },
+          {
+            "speaker": "a",
+            "text": "في فرضيتنا المياه اختفت سحريًا، مش اتبخرت بطريقة طبيعية."
+          },
+          {
+            "speaker": "b",
+            "text": "يعني بنتخيل المستحيل، بس هنفهم النتايج واحدة واحدة."
+          }
+        ],
+        "id": "scene_1",
+        "visual_mode": "hero",
+        "visual": {
+          "kind": "whatif",
+          "kicker": "impact",
+          "scenario": "ocean",
+          "labels": [
+            "قاع البحر",
+            "السفينة",
+            "فرضية خيالية"
+          ]
+        }
+      },
+      {
+        "label": "السفينة مش عربية",
+        "narration": "بص على السفينة؛ مبقتش قادرة تكمل رحلتها من غير مياه. كنت فاكرها هتمشي على الرمل، طلعت فعلًا مش عربية. النقل البحري بيعتمد على المحيط، واختفاؤه بيوقف الطريق نفسه. كده مفيش تأخير في الميناء، الميناء نفسه بقى محتار!",
+        "evidence_quote": "",
+        "diagram": "flow",
+        "labels": [
+          "نقل بحري",
+          "سفينة عالقة",
+          "قاع مكشوف"
+        ],
+        "turns": [
+          {
+            "speaker": "a",
+            "text": "بص على السفينة؛ مبقتش قادرة تكمل رحلتها من غير مياه."
+          },
+          {
+            "speaker": "b",
+            "text": "كنت فاكرها هتمشي على الرمل، طلعت فعلًا مش عربية."
+          },
+          {
+            "speaker": "a",
+            "text": "النقل البحري بيعتمد على المحيط، واختفاؤه بيوقف الطريق نفسه."
+          },
+          {
+            "speaker": "b",
+            "text": "كده مفيش تأخير في الميناء، الميناء نفسه بقى محتار!"
+          }
+        ],
+        "id": "scene_2",
+        "visual_mode": "hero",
+        "visual": {
+          "kind": "whatif",
+          "kicker": "experiment",
+          "scenario": "ocean",
+          "labels": [
+            "نقل بحري",
+            "سفينة عالقة",
+            "قاع مكشوف"
+          ]
+        }
+      },
+      {
+        "label": "المحيط كان بيوزع الحرارة",
+        "narration": "المحيط مش مياه وخلاص؛ بينقل الحرارة من مناطق لمناطق. يعني كان شغال موزّع حرارة وإحنا فاكرينه منظر حلو؟ بالضبط، وجوده بيساعد ينظّم المناخ والطقس حوالين العالم كله. واختفاؤه مش مجرد مشكلة إننا مش هننزل نصيف.",
+        "evidence_quote": "",
+        "diagram": "flow",
+        "labels": [
+          "حرارة",
+          "مناخ",
+          "تيارات"
+        ],
+        "turns": [
+          {
+            "speaker": "a",
+            "text": "المحيط مش مياه وخلاص؛ بينقل الحرارة من مناطق لمناطق."
+          },
+          {
+            "speaker": "b",
+            "text": "يعني كان شغال موزّع حرارة وإحنا فاكرينه منظر حلو؟"
+          },
+          {
+            "speaker": "a",
+            "text": "بالضبط، وجوده بيساعد ينظّم المناخ والطقس حوالين العالم كله."
+          },
+          {
+            "speaker": "b",
+            "text": "واختفاؤه مش مجرد مشكلة إننا مش هننزل نصيف."
+          }
+        ],
+        "id": "scene_3",
+        "visual_mode": "hero",
+        "visual": {
+          "kind": "whatif",
+          "kicker": "escalation",
+          "scenario": "ocean",
+          "labels": [
+            "حرارة",
+            "مناخ",
+            "تيارات"
+          ]
+        }
+      },
+      {
+        "label": "بيوت اختفت من غير أبواب",
+        "narration": "والسمك قدامك فقد المكان اللي بيعيش فيه أصلًا. كنت هقول نرجّعه البحر، بس واضح إن الاقتراح محتاج بحر! اختفاء البيئة البحرية يضرب الكائنات اللي عايشة فيها والغذاء المرتبط بيها. يبقى الموضوع أكبر بكتير من رحلة صيد اتلغت.",
+        "evidence_quote": "",
+        "diagram": "flow",
+        "labels": [
+          "موطن بحري",
+          "أسماك",
+          "غذاء"
+        ],
+        "turns": [
+          {
+            "speaker": "a",
+            "text": "والسمك قدامك فقد المكان اللي بيعيش فيه أصلًا."
+          },
+          {
+            "speaker": "b",
+            "text": "كنت هقول نرجّعه البحر، بس واضح إن الاقتراح محتاج بحر!"
+          },
+          {
+            "speaker": "a",
+            "text": "اختفاء البيئة البحرية يضرب الكائنات اللي عايشة فيها والغذاء المرتبط بيها."
+          },
+          {
+            "speaker": "b",
+            "text": "يبقى الموضوع أكبر بكتير من رحلة صيد اتلغت."
+          }
+        ],
+        "id": "scene_4",
+        "visual_mode": "hero",
+        "visual": {
+          "kind": "whatif",
+          "kicker": "fail",
+          "scenario": "ocean",
+          "labels": [
+            "موطن بحري",
+            "أسماك",
+            "غذاء"
+          ]
+        }
+      },
+      {
+        "label": "الحكاية واصلة لليابسة",
+        "narration": "ناس كتير شغلها وأكلها وحركة تجارتها مرتبطة بالبحر. يعني حتى اللي عمره ما شاف المحيط هيتأثر؟ أيوه، لأن أثره واصل لليابسة، مش واقف عند الشط. كل ما أبص للسفينة دي أفهم إن الطريق كان المياه!",
+        "evidence_quote": "",
+        "diagram": "flow",
+        "labels": [
+          "غذاء",
+          "عمل",
+          "نقل"
+        ],
+        "turns": [
+          {
+            "speaker": "a",
+            "text": "ناس كتير شغلها وأكلها وحركة تجارتها مرتبطة بالبحر."
+          },
+          {
+            "speaker": "b",
+            "text": "يعني حتى اللي عمره ما شاف المحيط هيتأثر؟"
+          },
+          {
+            "speaker": "a",
+            "text": "أيوه، لأن أثره واصل لليابسة، مش واقف عند الشط."
+          },
+          {
+            "speaker": "b",
+            "text": "كل ما أبص للسفينة دي أفهم إن الطريق كان المياه!"
+          }
+        ],
+        "id": "scene_5",
+        "visual_mode": "hero",
+        "visual": {
+          "kind": "whatif",
+          "kicker": "discovery",
+          "scenario": "ocean",
+          "labels": [
+            "غذاء",
+            "عمل",
+            "نقل"
+          ]
+        }
+      },
+      {
+        "label": "مش كل قطرة اختفت",
+        "narration": "بس خلي بالك، فرضيتنا عن مياه المحيطات تحديدًا. يعني مش معنى كده إن كل مياه عذبة اختفت فورًا؟ صح، مينفعش نزود كارثة تانية ونقول إنها حصلت تلقائيًا. تمام، خيالنا غريب، بس مش هنزوّد عليه من عندنا.",
+        "evidence_quote": "",
+        "diagram": "flow",
+        "labels": [
+          "محيطات",
+          "مياه عذبة",
+          "حدود الفرضية"
+        ],
+        "turns": [
+          {
+            "speaker": "a",
+            "text": "بس خلي بالك، فرضيتنا عن مياه المحيطات تحديدًا."
+          },
+          {
+            "speaker": "b",
+            "text": "يعني مش معنى كده إن كل مياه عذبة اختفت فورًا؟"
+          },
+          {
+            "speaker": "a",
+            "text": "صح، مينفعش نزود كارثة تانية ونقول إنها حصلت تلقائيًا."
+          },
+          {
+            "speaker": "b",
+            "text": "تمام، خيالنا غريب، بس مش هنزوّد عليه من عندنا."
+          }
+        ],
+        "id": "scene_6",
+        "visual_mode": "hero",
+        "visual": {
+          "kind": "whatif",
+          "kicker": "adapt",
+          "scenario": "ocean",
+          "labels": [
+            "محيطات",
+            "مياه عذبة",
+            "حدود الفرضية"
+          ]
+        }
+      },
+      {
+        "label": "مفيش زرار يصلح كوكب",
+        "narration": "وبرضه مفيش حل سحري من شخصين يرجّع محيطات كاملة. طب كفاية تخيّل، رجّعنا للعالم اللي فيه موج وسفن بتتحرك. هنقفل الفرضية هنا، ونرجع للواقع اللي المحيط فيه موجود. اتفقنا، أنا اشتقت لصوت الموج من غير ما أغرق في الشرح.",
+        "evidence_quote": "",
+        "diagram": "flow",
+        "labels": [
+          "فرضية",
+          "نتائج",
+          "واقع"
+        ],
+        "turns": [
+          {
+            "speaker": "a",
+            "text": "وبرضه مفيش حل سحري من شخصين يرجّع محيطات كاملة."
+          },
+          {
+            "speaker": "b",
+            "text": "طب كفاية تخيّل، رجّعنا للعالم اللي فيه موج وسفن بتتحرك."
+          },
+          {
+            "speaker": "a",
+            "text": "هنقفل الفرضية هنا، ونرجع للواقع اللي المحيط فيه موجود."
+          },
+          {
+            "speaker": "b",
+            "text": "اتفقنا، أنا اشتقت لصوت الموج من غير ما أغرق في الشرح."
+          }
+        ],
+        "id": "scene_7",
+        "visual_mode": "hero",
+        "visual": {
+          "kind": "whatif",
+          "kicker": "solution",
+          "scenario": "ocean",
+          "labels": [
+            "فرضية",
+            "نتائج",
+            "واقع"
+          ]
+        }
+      },
+      {
+        "label": "رجع الموج... اتحرك!",
+        "narration": "رجع الموج في خيالنا، والسفينة هتقدر تعوم تاني. ثانية واحدة، إحنا لسه واقفين قدامها في نفس المكان! اتحرك بسرعة، المرة دي المشكلة مش إن البحر اختفى. المشكلة إني نسيت إن الموج لما يرجع، مش هيستأذن!",
+        "evidence_quote": "",
+        "diagram": "flow",
+        "labels": [
+          "عودة للواقع",
+          "موج",
+          "مفاجأة"
+        ],
+        "turns": [
+          {
+            "speaker": "a",
+            "text": "رجع الموج في خيالنا، والسفينة هتقدر تعوم تاني."
+          },
+          {
+            "speaker": "b",
+            "text": "ثانية واحدة، إحنا لسه واقفين قدامها في نفس المكان!"
+          },
+          {
+            "speaker": "a",
+            "text": "اتحرك بسرعة، المرة دي المشكلة مش إن البحر اختفى."
+          },
+          {
+            "speaker": "b",
+            "text": "المشكلة إني نسيت إن الموج لما يرجع، مش هيستأذن!"
+          }
+        ],
+        "id": "scene_8",
+        "visual_mode": "hero",
+        "visual": {
+          "kind": "whatif",
+          "kicker": "twist",
+          "scenario": "ocean",
+          "labels": [
+            "عودة للواقع",
+            "موج",
+            "مفاجأة"
+          ]
+        }
+      }
+    ],
+    "editorial_revision": {
+      "kind": "same retained draft corrected before any TTS",
+      "reason": "Remove unsupported motorcycle/drill imagery and false instant groundwater evaporation; natural two-character conversation and Arabic headings. Original writer response remains retained.",
+      "new_writer_calls": 0
+    },
+    "dialogue_enabled": true,
+    "dialogue_audio_policy": "two distinct Gemini voices; speaker IDs are unspoken metadata",
+    "profile": "stickman",
+    "series": "افترض كده",
+    "fiction": true,
+    "documented": false,
+    "topic_key": "remotion-stickman-whatif-ocean-consequences",
+    "source": {
+      "url": "https://oceanservice.noaa.gov/facts/why-care-about-ocean.html",
+      "title": "ماذا لو مياه المحيطات اختفت؟",
+      "publisher": "NOAA"
+    }
+  },
+  "timing_sha256": "96af290657a467f5ca27b70c1797355974da388b63b71f2a7bff274ebe004a86",
+  "qa": {
+    "repo": "stickman-what-if-shorts",
+    "profile": "stickman",
+    "status": "complete_private_qa_film_technically_verified",
+    "review_only": true,
+    "publishable": false,
+    "scheduled": false,
+    "voice_generation_calls": 0,
+    "publication_calls": 0,
+    "duration": 139.733333,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "movie_sha256": "0e48c434d1dbfe7be8a9a53e0d45ae934b391cd7af9147c5a6015e211da00f80",
+    "original_voice_sha256": "549d7d025516b97c17dd67e63ea53e612580663af8d678d6b46ed6e3949e52c5",
+    "original_story_sha256": "1ce4b30f3268b093445d0ed353e283a694616b7ff82370d12420469f6f6d8ac5",
+    "full_decode_passed": true,
+    "frames": 4192,
+    "audio_tail": {
+      "audio_seconds": 139.72,
+      "video_seconds": 139.72,
+      "difference_seconds": 0.0,
+      "last_speech_window_correlation": 0.9777105450630188,
+      "audio_tail_checked": true,
+      "silence_padding_used_to_hide_lost_speech": false
+    },
+    "scene_images": [
+      {
+        "name": "remotion-shot-1.png",
+        "sha256": "21875672c9fbe9c1d97e7c373ebcd4cb9d60387dde42290c0c574a99982535e4"
+      },
+      {
+        "name": "remotion-shot-2.png",
+        "sha256": "dbd9884053169de892023b80da85aeaf3d12906a4b44082616726a6a14dc8c60"
+      },
+      {
+        "name": "remotion-shot-3.png",
+        "sha256": "34e5be8f023be8ee530dcab4325d56a83d2d0dd6e95d7387f5689cf80c184356"
+      },
+      {
+        "name": "remotion-shot-4.png",
+        "sha256": "dc27f0c05be0625cc8604761b4030146fd0b74fc5e52a48b5ee9eebb440d90f4"
+      },
+      {
+        "name": "remotion-shot-5.png",
+        "sha256": "a23119638715342adcff4ab8e72d93984d76de28c6683fbfec68e240be91a9c0"
+      },
+      {
+        "name": "remotion-shot-6.png",
+        "sha256": "baf8c26f3deb32473c04ecf332d0fda89f351401693ca51eedc1b8e8559dcb2c"
+      },
+      {
+        "name": "remotion-shot-7.png",
+        "sha256": "51fc82c76def96c9e347909a9535ac0db113f31d1a8c30646e1dc738626ce73a"
+      },
+      {
+        "name": "remotion-shot-8.png",
+        "sha256": "64fdc54cbf5697733cc2d0e4b76854912671db9c58abf7f6465f2744ed3a83d6"
+      }
+    ],
+    "unique_scene_images": 8,
+    "identity": {
+      "version": "channel-identities-v1",
+      "profile": "stickman",
+      "name": "افترض كده",
+      "background": "#fff4dd",
+      "ink": "#202d3a",
+      "accent": "#d16d39",
+      "visual": "two large unnamed original characters, physical interaction, cause and consequence, visual comedy",
+      "sound": "pizzicato, playful bass, footsteps and object-driven comic accents"
+    },
+    "sound": {
+      "profile": "stickman",
+      "bpm": 126,
+      "sound_identity": "pizzicato, playful bass and physical comedy accents",
+      "seed": 3030807272,
+      "episode_key_sha256": "b4a672e800ed5983125f0f997a0b0feb50cc482346027555f49e5794966f9fa1",
+      "duration": 139.72,
+      "cues": [
+        {
+          "type": "physical_comedy_accent",
+          "at": 0,
+          "scene_object": "ship"
+        },
+        {
+          "type": "physical_comedy_accent",
+          "at": 19.1,
+          "scene_object": "ship"
+        },
+        {
+          "type": "physical_comedy_accent",
+          "at": 36.64,
+          "scene_object": "molecule"
+        },
+        {
+          "type": "physical_comedy_accent",
+          "at": 55.7,
+          "scene_object": "bacterium"
+        },
+        {
+          "type": "physical_comedy_accent",
+          "at": 73.08,
+          "scene_object": "ship"
+        },
+        {
+          "type": "physical_comedy_accent",
+          "at": 89.28,
+          "scene_object": "cell"
+        },
+        {
+          "type": "physical_comedy_accent",
+          "at": 106.46,
+          "scene_object": "waveform"
+        },
+        {
+          "type": "physical_comedy_accent",
+          "at": 123.66,
+          "scene_object": "ship"
+        }
+      ],
+      "original_composition": true,
+      "reference_audio_sampled": false,
+      "score_sha256": "9caadc0bf287b6eac5277e26d613c82d3d3547e5a613b0babdf01e5854222071"
+    },
+    "renderer": {
+      "pipeline": "remotion",
+      "renderer": "Remotion4.0.540",
+      "duration": 139.72,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "originalVoice": true,
+      "review": false,
+      "story_sha256": "1ce4b30f3268b093445d0ed353e283a694616b7ff82370d12420469f6f6d8ac5",
+      "audio_sha256": "549d7d025516b97c17dd67e63ea53e612580663af8d678d6b46ed6e3949e52c5",
+      "total_frames": 4192,
+      "rendered_frames": 4192,
+      "render_mode": "video",
+      "visual_style": "افترض كده",
+      "identity_version": "channel-identities-v1",
+      "identity_plan_sha256": "4c2c0584bb0b45e9a9e81731421c7c001ba55721e19676ef4ca5315a544e2652",
+      "burned_hashtags": [
+        "ماذا_لو",
+        "المحيطات",
+        "كوميديا"
+      ],
+      "errors": [],
+      "renderer_sources": {
+        "src/AdventurePlate.tsx": "da8a8c16496723b0ff44412cd771909e82cfdad33c95e3e2e36e1540cf2e739a",
+        "src/Documentary.tsx": "fb52225428bd384c028aa3f5ffa6f27e66a2923eb3dacb92d712dd5e7a99ffb0",
+        "src/DuoActors.tsx": "fd0417e70e6738372ea08e776f3797ec819d1586c711153133203f5ed8c7183a",
+        "src/ExplainerPlate.tsx": "3ec96774f04e1aeffc9c5ca2cd9a9918815b41dfe5bcd26ed0857d7c207c386b",
+        "src/IdentityFilm.tsx": "f250ccde0071f477310150015dcc89b9754d6e8e51cae80d84a0958018cab522",
+        "src/IdentityStickman.tsx": "ced2f0ecb0ef26fe01c3740495e5807c3ec99dd941a0893665685cec9365183f",
+        "src/LearningDevice.tsx": "0f6e5d1a54e3b7b67333d292281dc9a39483e9f02ee7e94bb9f26ee1ab08da88",
+        "src/LegacyWorld.tsx": "f83f66d937393d6f7180db6ad11caad2667d8a2acc300303d745b2d7ddc6523d",
+        "src/MapPlate.tsx": "9f5beb4bb0a5451d8b8ae438ca2b247f10c11742ceae2e6378067d7751354745",
+        "src/MotionFinish.tsx": "c01d9c9e0e7c4b0f1fc7e7ed7c4e66dce6b93e9188fb459f6e02eb6908748f2f",
+        "src/OpeningCover.tsx": "64e114f1531ce5676c4d4ab8d63757bf1ebdf20dcd7ae2b9c95389d78ec74ea7",
+        "src/Root.tsx": "c5f240f57d18387c8d047fdcc731e5775694278ed89bc2407afc85898872fb47",
+        "src/SciencePlate.tsx": "35064313d2afdd40e3cf5c0f8e04307c64c544fff554539f465444624e22f830",
+        "src/StickmanPlate.tsx": "a2249b511f86dcd9aa5b554bbb4e11e5494edee4e1de1bb1900e481410d39288",
+        "src/WhatIfPlate.tsx": "3341d12fd8ffc2c33a908a2e19045580d4c659dea2916df0e37bec4ed0561fa1",
+        "src/index.ts": "28c07a9c5b90643adcecc9e9235322ab175ab5c423bc4f0c813ecfb06e23ff56",
+        "src/types.ts": "8d5cbf14527a8fd60002ff93111b7c5920171669971b03c677c24c5c4492195c",
+        "render.mjs": "aa2155b7d533bcf2621cffc7b2e1faf0bdb61b7c8bbf16c80f8f0b0d680860fe",
+        "package.json": "422907b1c8db1264e6ff674d5faa386e69fc6b713b8869e7347617b081c8951a",
+        "package-lock.json": "32147035bebea55f6b61667031723a159347192ec99968b8de33b57c7416c3c1",
+        "visual-overrides.json": "e7a13610af470eea3a4f8e0d9b80fad904caeb322103d3399ad21cdcaf7a2fae",
+        "../professional_motion/procedural_story.js": "efdad5a0fb7e0bcd02cc7d51c9df59e0432ad3bf01b5f7b7600c5a8259788d34",
+        "../professional_motion/identity_stage.js": "d8bd47fa0c1118ee358453f1a2a1aa6f74774c1ee82b965e03fc7332e99a230a",
+        "../professional_motion/cinema.js": "37954e44c4362a83df34e5523b768026a90bd06d4cf257bc1fd91eae49083667",
+        "../professional_motion/science_shots.js": "d051358861c5e2a6a55b43a2a0c6f9ca295fe082ad262bf3e48781cb92913df7"
+      },
+      "local_qa_last_scene_update": {
+        "review_only": true,
+        "start_frame": 3710,
+        "end_frame": 4191,
+        "preceding_frames_preserved": true,
+        "reason": "Retained dialogue explicitly says the waves return in imagination; draw that reset, do not rewrite or resynthesize the voice",
+        "original_prefix_movie_sha256": "7a803865298681d277bf27014f19562c1d86ba8f40fcb4a61b161efd4693bd31",
+        "final_visuals_sha256": "4eaf3682df63990f470c019405629144e66d3653f02952132d9917f9c3c2aaf8",
+        "prefix_reencoded_without_scene_regeneration": true,
+        "track_timescale": 90000
+      }
+    },
+    "technical_checks_are_not_a_guarantee_of_engagement": true
+  },
+  "caption": "ماذا لو مياه المحيطات اختفت؟\n#ماذا_لو #المحيطات #كوميديا\nالمصدر: https://oceanservice.noaa.gov/facts/why-care-about-ocean.html",
+  "hashtags": "#ماذا_لو #المحيطات #كوميديا",
+  "owner_approved_git_blob_transport": true,
+  "transport_parts": [
+    {
+      "blob_sha": "2862176e0931257a87332339fec5f59019192ef0",
+      "sha256": "d5f46375f8f552443d5aa3f7d14a6b547ce3beebfa216b39068e568f9eca6e9e",
+      "size": 8388608
+    },
+    {
+      "blob_sha": "68474f2a50a88d8570a7794c9617fb8328170996",
+      "sha256": "e1d97e6751f1b94de34e1ee44bb9b0b10dc902e1ae0cab5ad65c36e563cc1342",
+      "size": 8388608
+    },
+    {
+      "blob_sha": "e5d51ebc2c4137f598fa073d9233ccabf7badf43",
+      "sha256": "ec298b14ecfbabfab2270a8f11e8467f8383844d9a3aed492c815930b5cc8360",
+      "size": 8388608
+    },
+    {
+      "blob_sha": "d70822e63bfad93031582cdd0ee4cb7af14a5b67",
+      "sha256": "4221fc529ecb1aec0a800ffc96779db0e52a6c078a77b4063a64e7a33d924736",
+      "size": 670514
+    }
+  ]
+}
