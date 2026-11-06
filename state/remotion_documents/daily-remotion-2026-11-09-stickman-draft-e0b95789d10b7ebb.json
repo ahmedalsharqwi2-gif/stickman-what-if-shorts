@@ -1,0 +1,279 @@
+{
+  "title": "ماذا لو الأرض وقفت دوران فجأة؟",
+  "canonical_subject": "stickman-whatif-earth-stop-consequences",
+  "hashtags": [
+    "افترض_كده",
+    "عالمنا",
+    "فيزياء",
+    "كوميديا",
+    "stickman"
+  ],
+  "scenes": [
+    {
+      "label": "الوقفة المفاجئة",
+      "narration": "تخيل إن الأرض وقفت مكانها فجأة في ثانية واحدة و إحنا واقفين عليها بكل سرعتنا. طب ده معناه إيه لينا؟ جسمك هيكمل حركة لقدام بسرعة ألف و ستمائة كيلومتر في الساعة بكل بساطة. افتكر إن الكوكب وقف بس العطالة بتتحرك. يا راجل دي كارثة فيزيائية واضحة مش محتاجة كلام كتير. ده إحنا هنطير في الهوا زي الصاروخ من غير حتى ما نلحق نقول بغبغاء.",
+      "evidence_quote": "جسمك هيكمل حركة لقدام بسرعة ألف و ستمائة كيلومتر في الساعة",
+      "diagram": "flow",
+      "labels": [
+        "عطالة",
+        "سرعة",
+        "توقف"
+      ],
+      "visual_rationale": "stickman flying forward off the surface while the globe stops dead",
+      "cause": "Earth stops rotating instantly",
+      "attempt": "Trying to stand still on the ground",
+      "consequence": "Inertia launches characters forward into the air",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "تخيل إن الأرض وقفت مكانها فجأة في ثانية واحدة و إحنا واقفين عليها بكل سرعتنا."
+        },
+        {
+          "speaker": "b",
+          "text": "طب ده معناه إيه لينا؟ جسمك هيكمل حركة لقدام بسرعة ألف و ستمائة كيلومتر في الساعة بكل بساطة."
+        },
+        {
+          "speaker": "a",
+          "text": "افتكر إن الكوكب وقف بس العطالة بتتحرك. يا راجل دي كارثة فيزيائية واضحة مش محتاجة كلام كتير."
+        },
+        {
+          "speaker": "b",
+          "text": "ده إحنا هنطير في الهوا زي الصاروخ من غير حتى ما نلحق نقول بغبغاء."
+        }
+      ]
+    },
+    {
+      "label": "تجربة الهوا",
+      "narration": "طب تعالى نجرب نمسك في أي حاجة ثابتة عشان نتفادى الطيران ده. العاصفة اللي هتقوم بسبب حركة الهوا هتكون أسرع من أي إعصار شفناه قبل كده. هوا إيه اللي هيمسكنا ده الجو نفسه مكمل جرى بنفس السرعة القديمة. الرياح دي هتشيل كل المباني كأنها ورق مش عمارة خرسانة صلبة. يبقى مفيش فايدة من محاولتنا البسيطة دي.",
+      "evidence_quote": "العاصفة اللي هتقوم بسبب حركة الهوا هتكون أسرع من أي إعصار شفناه",
+      "diagram": "compare",
+      "labels": [
+        "رياح",
+        "عاصفة",
+        "هوا"
+      ],
+      "visual_rationale": "stickmen holding onto a tiny post while hurricane winds blow past them",
+      "cause": "Atmosphere continues moving at original high speed",
+      "attempt": "Holding onto a ground post",
+      "consequence": "Super-fast winds strip objects and buildings away",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "طب تعالى نجرب نمسك في أي حاجة ثابتة عشان نتفادى الطيران ده."
+        },
+        {
+          "speaker": "b",
+          "text": "العاصفة اللي هتقوم بسبب حركة الهوا هتكون أسرع من أي إعصار شفناه قبل كده."
+        },
+        {
+          "speaker": "a",
+          "text": "هوا إيه اللي هيمسكنا ده الجو نفسه مكمل جرى بنفس السرعة القديمة."
+        },
+        {
+          "speaker": "b",
+          "text": "الرياح دي هتشيل كل المباني كأنها ورق مش عمارة خرسانة صلبة. يبقى مفيش فايدة من محاولتنا البسيطة دي."
+        }
+      ]
+    },
+    {
+      "label": "تصاعد المحيطات",
+      "narration": "المية كمان مش هتسكت وهتتحرك ناحية القطبين أو تغرق الدنيا كلها مرة واحدة. تخيل المحيطات وهي بتتحرك بسرعة مهولة وتغطي اليابسة في ثواني معدودة. دي مش موجة عادية دي تسونامي عملاق يلف الكوكب كله من أوله لآخره. شكلنا كده هنعوم غصب عننا في نص الصحراء.",
+      "evidence_quote": "المحيطات وهي بتتحرك بسرعة مهولة وتغطي اليابسة في ثواني معدودة",
+      "diagram": "layers",
+      "labels": [
+        "محيطات",
+        "تسونامي",
+        "يابسة"
+      ],
+      "visual_rationale": "huge wall of water rushing across the land toward the stickmen",
+      "cause": "Inertia forces oceans to keep moving while the seabed stops",
+      "attempt": "Running uphill to escape the rising water",
+      "consequence": "Massive global mega-tsunami floods the continents",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "المية كمان مش هتسكت وهتتحرك ناحية القطبين أو تغرق الدنيا كلها مرة واحدة."
+        },
+        {
+          "speaker": "b",
+          "text": "تخيل المحيطات وهي بتتحرك بسرعة مهولة وتغطي اليابسة في ثواني معدودة."
+        },
+        {
+          "speaker": "a",
+          "text": "دي مش موجة عادية دي تسونامي عملاق يلف الكوكب كله من أوله لآخره."
+        },
+        {
+          "speaker": "b",
+          "text": "شكلنا كده هنعوم غصب عننا في نص الصحراء."
+        }
+      ]
+    },
+    {
+      "label": "فشل التوازن",
+      "narration": "حاولنا نثبت نفسنا بصخرة كبيرة بس الصخرة ذات نفسها اتحركت وسابت مكانها. ما هي العطالة مش مستثنية الصخور ولا الجبال اللي على وش الأرض. كل حاجة مفككة من مكانها وتايهة في الزحمة دي. الفيزياء مفيش فيها واسطة يا صاحبي و القوانين ماشية على الكل من غير استثناء.",
+      "evidence_quote": "العطالة مش مستثنية الصخور ولا الجبال اللي على وش الأرض",
+      "diagram": "cycle",
+      "labels": [
+        "صخور",
+        "فيزياء",
+        "قوانين"
+      ],
+      "visual_rationale": "the boulder the stickman holds onto breaks loose and rolls away",
+      "cause": "Massive inertia detaches large surface rocks",
+      "attempt": "Anchoring behind a heavy rock",
+      "consequence": "The anchor rock rolls away due to inertia",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "حاولنا نثبت نفسنا بصخرة كبيرة بس الصخرة ذات نفسها اتحركت وسابت مكانها."
+        },
+        {
+          "speaker": "b",
+          "text": "ما هي العطالة مش مستثنية الصخور ولا الجبال اللي على وش الأرض."
+        },
+        {
+          "speaker": "a",
+          "text": "كل حاجة مفككة من مكانها وتايهة في الزحمة دي."
+        },
+        {
+          "speaker": "b",
+          "text": "الفيزياء مفيش فيها واسطة يا صاحبي و القوانين ماشية على الكل من غير استثناء."
+        }
+      ]
+    },
+    {
+      "label": "اكتشاف النهار الطويل",
+      "narration": "استنى هنا ده كده اليوم الواحد هيبقى قد سنة بحالها لف ودوران. نص الكوكب هيشوف الشمس ست شهور متواصلة تحرق كل شبر. والنص التاني هيعيش في ظلام ومجمدة أبدية من غير نقطة نور واحدة. يعني الشروق والغروب المعتادين دول بقوا تاريخ قديم خلاص.",
+      "evidence_quote": "اليوم الواحد هيبقى قد سنة بحالها لف ودوران",
+      "diagram": "compare",
+      "labels": [
+        "شمس",
+        "ظلام",
+        "سنة"
+      ],
+      "visual_rationale": "split screen showing half the globe in endless scorching sun and half in dark ice",
+      "cause": "Earth rotation stopping locks day and night sides",
+      "attempt": "Checking a watch against the static sun position",
+      "consequence": "Six-month long scorching days and freezing nights",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "استنى هنا ده كده اليوم الواحد هيبقى قد سنة بحالها لف ودوران."
+        },
+        {
+          "speaker": "b",
+          "text": "نص الكوكب هيشوف الشمس ست شهور متواصلة تحرق كل شبر."
+        },
+        {
+          "speaker": "a",
+          "text": "والنص التاني هيعيش في ظلام ومجمدة أبدية من غير نقطة نور واحدة."
+        },
+        {
+          "speaker": "b",
+          "text": "يعني الشروق والغروب المعتادين دول بقوا تاريخ قديم خلاص."
+        }
+      ]
+    },
+    {
+      "label": "تأقلم الحرارة",
+      "narration": "طيب نقدر نتحرك الناحية التانية عشان نهرب من الحر والثلج. بس الأرض بقت قارية وشكلها اتغير وبقت عاملة زي الكورة البيضاوي بسبب الطرد المركزي القديم. المية اتجمعت عند القطبين وبقت اليابسة حلقة واحدة في النص. التأقلم هنا معناه إننا نعيش في شريط ضيق بين الحرق والتجميد.",
+      "evidence_quote": "الأرض بقت قارية وشكلها اتغير وبقت عاملة زي الكورة البيضاوي",
+      "diagram": "flow",
+      "labels": [
+        "حرارة",
+        "تشكيل",
+        "شريط"
+      ],
+      "visual_rationale": "stickmen walking along a narrow temperate strip between desert and glacier",
+      "cause": "Centrifugal force redistribution alters Earth's shape",
+      "attempt": "Walking toward the temperate middle zone",
+      "consequence": "Inhabitants are restricted to a thin habitable strip",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "طيب نقدر نتحرك الناحية التانية عشان نهرب من الحر والثلج."
+        },
+        {
+          "speaker": "b",
+          "text": "بس الأرض بقت قارية وشكلها اتغير وبقت عاملة زي الكورة البيضاوي بسبب الطرد المركزي القديم."
+        },
+        {
+          "speaker": "a",
+          "text": "المية اتجمعت عند القطبين وبقت اليابسة حلقة واحدة في النص."
+        },
+        {
+          "speaker": "b",
+          "text": "التأقلم هنا معناه إننا نعيش في شريط ضيق بين الحرق والتجميد."
+        }
+      ]
+    },
+    {
+      "label": "النتيجة العلمية",
+      "narration": "الخلاصة إن توقف دوران الأرض معناه دمار شامل مش مجرد وقفة عادية. المجال المغناطيسي هيضعف ويخلي الإشعاعات الشمسية تدخل تاكل الجو. مفيش زرار هندوسه يرجع الحركة ولا حل سحري ينقذ الموقف. الفيزياء هنا بتقول كلمتها الأخيرة اللي مفيهاش رجعة.",
+      "evidence_quote": "توقف دوران الأرض معناه دمار شامل مش مجرد وقفة عادية",
+      "diagram": "layers",
+      "labels": [
+        "مغناطيسية",
+        "إشعاع",
+        "خلاصة"
+      ],
+      "visual_rationale": "sun radiation piercing through a weakening magnetic shield around the globe",
+      "cause": "Core rotation stops causing magnetic field collapse",
+      "attempt": "Measuring radiation levels with a simple gauge",
+      "consequence": "Solar radiation strips away atmospheric protection",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "الخلاصة إن توقف دوران الأرض معناه دمار شامل مش مجرد وقفة عادية."
+        },
+        {
+          "speaker": "b",
+          "text": "المجال المغناطيسي هيضعف ويخلي الإشعاعات الشمسية تدخل تاكل الجو."
+        },
+        {
+          "speaker": "a",
+          "text": "مفيش زرار هندوسه يرجع الحركة ولا حل سحري ينقذ الموقف."
+        },
+        {
+          "speaker": "b",
+          "text": "الفيزياء هنا بتقول كلمتها الأخيرة اللي مفيهاش رجعة."
+        }
+      ]
+    },
+    {
+      "label": "المفاجأة الأخيرة",
+      "narration": "والمفاجأة بقا إن حتى لو عرفنا ننجو من كل ده ووقفنا على الشريط ده. الشمس نفسها مش مستنية حد وبتلف حوالين مركز المجرة بسرعة أكبر بكتير. يعني كدة كدة إحنا في رحلة فضائية طويلة من غير ما ندفع تذكرة السفر. فالحمد لله إن الأرض بتمشي براحتها ومن غير استعجال.",
+      "evidence_quote": "الشمس نفسها مش مستنية حد وبتلف حوالين مركز المجرة",
+      "diagram": "cycle",
+      "labels": [
+        "مجرة",
+        "رحلة",
+        "مفاجأة"
+      ],
+      "visual_rationale": "stickmen riding on the globe while the entire solar system orbits the galaxy core",
+      "cause": "Solar system continues its galactic orbit despite Earth stop",
+      "attempt": "Looking up at the starry galaxy background",
+      "consequence": "Realizing Earth is always hurtling through the galaxy anyway",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "والمفاجأة بقا إن حتى لو عرفنا ننجو من كل ده ووقفنا على الشريط ده."
+        },
+        {
+          "speaker": "b",
+          "text": "الشمس نفسها مش مستنية حد وبتلف حوالين مركز المجرة بسرعة أكبر بكتير."
+        },
+        {
+          "speaker": "a",
+          "text": "يعني كدة كدة إحنا في رحلة فضائية طويلة من غير ما ندفع تذكرة السفر."
+        },
+        {
+          "speaker": "b",
+          "text": "فالحمد لله إن الأرض بتمشي براحتها ومن غير استعجال."
+        }
+      ]
+    }
+  ],
+  "cover_text": "الأرض وقفت فجأة",
+  "director_version": "v1.0"
+}
