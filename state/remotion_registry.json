@@ -658,7 +658,7 @@
     "daily-remotion-2026-11-10-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-10T10:00:00Z",
-      "status": "draft_retained",
+      "status": "review_prepared",
       "source_run": 42244680427,
       "created_at": "2026-11-06T15:37:06.048856+00:00",
       "source_selection": {
@@ -679,7 +679,13 @@
       "draft_document": {
         "path": "state/remotion_documents/daily-remotion-2026-11-10-stickman-draft-2e4e7a45847d1be4.json",
         "sha256": "2e4e7a45847d1be4d7340598403874f9cd3e06e53842749cff7ab32ba7fe08a5"
-      }
+      },
+      "story_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-10-stickman-story-62d3142cc3d7b053.json",
+        "sha256": "62d3142cc3d7b053023752358717b011915bc15b234a52b52cb68b0eb059c5c0"
+      },
+      "canonical_subject": "stickman-whatif-earth-stop-consequences",
+      "title": "ماذا لو الأرض وقفت دوران فجأة؟"
     }
   },
   "cutover_evidence": {
