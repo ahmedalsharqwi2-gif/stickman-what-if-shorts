@@ -147,7 +147,7 @@
         {
           "name": "New topic → retained voice → Remotion → full decode → verified configured-time scheduling",
           "if": "steps.decision.outputs.run == 'true'",
-          "run": "python -m remotion_factory.daily ${{ inputs.render_only && '--render-only' || '' }}"
+          "run": "python -m remotion_factory.daily ${{ inputs.render_only inputs.render_only && '--render-only'inputs.render_only && '--render-only' '--review-only' || '' }}"
         },
         {
           "uses": "actions/upload-artifact@v4",
