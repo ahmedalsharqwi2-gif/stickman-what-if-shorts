@@ -658,7 +658,7 @@
     "daily-remotion-2026-11-10-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-10T10:00:00Z",
-      "status": "voice_ready",
+      "status": "rendered",
       "source_run": 42244680427,
       "created_at": "2026-11-06T15:37:06.048856+00:00",
       "source_selection": {
@@ -696,10 +696,13 @@
       },
       "story_sha256": "62d3142cc3d7b053023752358717b011915bc15b234a52b52cb68b0eb059c5c0",
       "voice_request_run": 42244680427,
-      "duration": 171.48,
+      "duration": 171.5,
       "audio_sha256": "2780e21b3f36e9198738ece3d92dff68a3adfd47cdf49ee1b0b4efc11553c035",
       "timing_sha256": "1a6fdd8f1cb7fd86805c0d0def676f6d2951e44ca57e184fe7b7262d4c26d5e2",
-      "coverage": 0.9190751445086706
+      "coverage": 0.9190751445086706,
+      "video_sha256": "eab6049da6217e6544524fde832222eb0d98634dbae94b452e3c742fe3ae0183",
+      "render_run": 42244680427,
+      "source_evidence_file": "professional_motion/output/remotion-validation.json"
     }
   },
   "cutover_evidence": {
