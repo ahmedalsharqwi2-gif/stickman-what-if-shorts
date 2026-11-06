@@ -620,7 +620,7 @@
     "daily-remotion-2026-11-09-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-09T10:00:00Z",
-      "status": "author_requested",
+      "status": "draft_retained",
       "source_run": 42243420365,
       "created_at": "2026-11-06T15:29:02.396868+00:00",
       "source_selection": {
@@ -637,7 +637,11 @@
         "path": "state/remotion_documents/daily-remotion-2026-11-09-stickman-source-a968ec1f1556b7c8.json",
         "sha256": "a968ec1f1556b7c8b4d439594bfdc08c58e834d03c687dbd5fb3be8c606b7177"
       },
-      "writer_run": 42243420365
+      "writer_run": 42243420365,
+      "draft_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-09-stickman-draft-e0b95789d10b7ebb.json",
+        "sha256": "e0b95789d10b7ebb7ba65941d1c6e4fe0af31adc4c50e3234c8402af6319f5fd"
+      }
     }
   },
   "cutover_evidence": {
