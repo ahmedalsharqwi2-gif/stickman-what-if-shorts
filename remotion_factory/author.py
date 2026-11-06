@@ -135,6 +135,9 @@ def validate(story,profile,source):
 def retained_draft(req,current,seen_urls,seen_topics):
  """Load an acknowledged draft or retain one original writing response."""
  slot=req['slot'];profile=req['profile']
+ if current.get('status')=='review_prepared' and current.get('draft_document') and current.get('source_document'):
+  draft=document_read(current['draft_document']);row=current['source_selection'];source=current.get('source_text') or document_read(current['source_document'])['text']
+  return draft,row,source
  if current.get('raw_draft') or current.get('draft_document'):
   draft=current.get('raw_draft') or document_read(current['draft_document']);row=current['source_selection'];source=current.get('source_text') or document_read(current['source_document'])['text']
  elif current.get('recovery_requested') and current.get('source_selection') and current.get('source_document'):
@@ -199,5 +202,4 @@ def author(req,entry):
  mutate(save)
  if not review['passed']:raise ValueError('Independent editorial review rejected this retained draft; no new TTS or rewrite')
  return story
-
 
