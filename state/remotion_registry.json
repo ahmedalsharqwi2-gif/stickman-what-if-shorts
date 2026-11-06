@@ -658,9 +658,24 @@
     "daily-remotion-2026-11-10-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-10T10:00:00Z",
-      "status": "author_pending",
+      "status": "author_requested",
       "source_run": 42244680427,
-      "created_at": "2026-11-06T15:37:06.048856+00:00"
+      "created_at": "2026-11-06T15:37:06.048856+00:00",
+      "source_selection": {
+        "title": "ماذا لو الأرض وقفت دوران فجأة؟",
+        "publisher": "افترض كده",
+        "canonical_subject": "stickman-whatif-earth-stop-consequences",
+        "scenario": "earth-stop",
+        "brief": "افتراض كارثي خيالي وغير واقعي فجأة: وضح القصور الذاتي والهواء والماء وانقطاع تعاقب الليل والنهار المعتاد. لا تزعم اختفاء الجاذبية ولا أرقام ضحايا أو جدول زمني مخترع. تسلسل المشاهد: impact ثم experiment ثم escalation ثم fail ثم discovery ثم adapt ثم solution ثم twist. لكل مشهد تحرك الشخصية وتتفاعل مع2–4 أشياء أو مفاهيم تُكتب في labels. كوميديا بصرية وتعليق مصري. لا تحول كل فرضية إلى غرفة هروب أو مفتاح، لا تستخدم أمثلة طبية كتعليمات. الشخصيتان تناقشان النتائج داخل تجربة ذهنية بقواعد ثابتة؛ لا نجاة سحرية من كارثة، ولا ضغط زر يعكس الفيزياء. المرحلة solution تعني النتيجة أو الاستنتاج، وليس اختراع حل للمشكلة. كل محاولة تغير ما يحدث بصريًا؛ الحوار ليس وصفًا لشخصيتين واقفتين."
+      },
+      "source": {
+        "url": null
+      },
+      "source_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-10-stickman-source-a968ec1f1556b7c8.json",
+        "sha256": "a968ec1f1556b7c8b4d439594bfdc08c58e834d03c687dbd5fb3be8c606b7177"
+      },
+      "writer_run": 42244680427
     }
   },
   "cutover_evidence": {
