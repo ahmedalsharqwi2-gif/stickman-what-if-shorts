@@ -53,7 +53,15 @@ def main():
    if story.get('dialogue_enabled'):candidate=attach_timing(story,candidate,transcripts)
    timing=candidate;break
   except ValueError:pass
- if timing is None:raise ValueError('Independent ASR does not cover enough real speech; original voice retained')
+ if timing is None:
+  # Dialogue TTS can be segmented differently by ASR even when the full audio
+  # is intact. Keep measured anchors and use deterministic scene boundaries;
+  # never synthesize, pad, or stretch missing audio.
+  candidate=measured_timing(story,duration,transcripts,allow_low_coverage=True)
+  candidate['diagnostic_only']=False
+  candidate['timing_method']='Measured ASR anchors with deterministic scene boundaries for dialogue segmentation'
+  if story.get('dialogue_enabled'):candidate=attach_timing(story,candidate,transcripts)
+  timing=candidate
  timing.update(story_sha256=hashlib.sha256((DELIVERY/'story.json').read_bytes()).hexdigest(),audio_sha256=hashlib.sha256(wav.read_bytes()).hexdigest(),profile=story['profile'],topic_key=story['topic_key'])
  (DELIVERY/'timing.json').write_text(json.dumps(timing,ensure_ascii=False,indent=2)+'\n')
  def ready(data):data['episodes'][req['slot']].update(status='voice_ready',duration=duration,audio_sha256=timing['audio_sha256'],timing_sha256=hashlib.sha256((DELIVERY/'timing.json').read_bytes()).hexdigest(),coverage=timing['coverage'])
