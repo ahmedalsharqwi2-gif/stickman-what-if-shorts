@@ -641,6 +641,13 @@
       "draft_document": {
         "path": "state/remotion_documents/daily-remotion-2026-11-09-stickman-draft-e0b95789d10b7ebb.json",
         "sha256": "e0b95789d10b7ebb7ba65941d1c6e4fe0af31adc4c50e3234c8402af6319f5fd"
+      },
+      "draft_repair": {
+        "phase": "requested",
+        "original_sha256": "281fca5e21aa5ed41df0db604a11b76d943fc9a829681a1991b16afbc0ffc0b3",
+        "problem": "Draft word budget fails natural-duration preflight; no TTS requested",
+        "maximum_requests": 1,
+        "voice_requests": 0
       }
     }
   },
