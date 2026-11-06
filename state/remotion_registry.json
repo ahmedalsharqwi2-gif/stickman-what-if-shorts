@@ -616,6 +616,13 @@
       },
       "story_sha256": "95c505b26a04112e32bd26169c10f7e727774f801c926ba1012dae76bf7a6358",
       "voice_request_run": 42237927907
+    },
+    "daily-remotion-2026-11-09-stickman": {
+      "profile": "stickman",
+      "due_at": "2026-11-09T10:00:00Z",
+      "status": "author_pending",
+      "source_run": 42243420365,
+      "created_at": "2026-11-06T15:29:02.396868+00:00"
     }
   },
   "cutover_evidence": {
