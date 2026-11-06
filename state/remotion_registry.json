@@ -658,7 +658,7 @@
     "daily-remotion-2026-11-10-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-10T10:00:00Z",
-      "status": "review_requested",
+      "status": "authored",
       "source_run": 42244680427,
       "created_at": "2026-11-06T15:37:06.048856+00:00",
       "source_selection": {
@@ -685,7 +685,15 @@
         "sha256": "62d3142cc3d7b053023752358717b011915bc15b234a52b52cb68b0eb059c5c0"
       },
       "canonical_subject": "stickman-whatif-earth-stop-consequences",
-      "title": "ماذا لو الأرض وقفت دوران فجأة؟"
+      "title": "ماذا لو الأرض وقفت دوران فجأة؟",
+      "editorial_review": {
+        "supported": true,
+        "engaging": true,
+        "novel": true,
+        "visuals_match": true,
+        "issues": [],
+        "passed": true
+      }
     }
   },
   "cutover_evidence": {
