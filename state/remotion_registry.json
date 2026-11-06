@@ -535,7 +535,7 @@
     "daily-remotion-2026-11-07-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-07T10:00:00Z",
-      "status": "author_requested",
+      "status": "draft_retained",
       "source_run": 42228800281,
       "created_at": "2026-11-06T13:51:16.192529+00:00",
       "source_selection": {
@@ -553,8 +553,11 @@
         "sha256": "a968ec1f1556b7c8b4d439594bfdc08c58e834d03c687dbd5fb3be8c606b7177"
       },
       "writer_run": 42228800281,
-      "recovery_requested": true,
-      "recovery_reason": "Confirmed prior author request ended non-200 before draft; Gemini diagnostic now returned HTTP 200; reuse retained source only."
+      "recovery_reason": "Confirmed prior author request ended non-200 before draft; Gemini diagnostic now returned HTTP 200; reuse retained source only.",
+      "draft_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-07-stickman-draft-0d60873470ce3a57.json",
+        "sha256": "0d60873470ce3a57ac9fabf76693d50c75039223234cef76a0a6dc58833a3687"
+      }
     }
   },
   "cutover_evidence": {
