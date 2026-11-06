@@ -558,11 +558,15 @@
         "sha256": "cfb5eab07111db02a9d6073fb80ef70d98ceaf6577708cf6be50beddb15551da"
       },
       "draft_repair": {
-        "phase": "requested",
+        "phase": "received",
         "original_sha256": "9fcc322a28c016d357c0bc291a787ab6c47fea86e0b664a1a0e10b35f23e913c",
         "problem": "Draft word budget fails natural-duration preflight; no TTS requested",
         "maximum_requests": 1,
-        "voice_requests": 0
+        "voice_requests": 0,
+        "document": {
+          "path": "state/remotion_documents/daily-remotion-2026-11-07-stickman-corrected-draft-cfb0cdba48fb51be.json",
+          "sha256": "cfb0cdba48fb51be917cab9c0f667fe7a48b842a0a4adc4ab5d6c2403e07e6ee"
+        }
       }
     }
   },
