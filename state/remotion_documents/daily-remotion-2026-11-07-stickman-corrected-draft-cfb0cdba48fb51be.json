@@ -1,0 +1,246 @@
+{
+  "title": "ماذا لو الأرض وقفت دوران فجأة؟",
+  "canonical_subject": "stickman-whatif-earth-stop-consequences",
+  "hashtags": [
+    "فضول",
+    "فيزياء",
+    "كوميديا",
+    "تجارب"
+  ],
+  "scenes": [
+    {
+      "label": "توقف مفاجئ",
+      "narration": "تخيل إن الكوكب وقف فجأة وأنت ماشي بالشارع. هتاخد طيران حر بسبب القصور.",
+      "evidence_quote": "تخيل إن الكوكب وقف فجأة وأنت ماشي",
+      "diagram": "flow",
+      "labels": [
+        "قصور ذاتي",
+        "حركة",
+        "اندفاع"
+      ],
+      "visual_rationale": "Stick figure flies forward across the screen while the Earth globe stops abruptly underneath.",
+      "cause": "Earth stopped spinning instantly while maintaining forward momentum.",
+      "attempt": "Try to land safely on the stopping ground.",
+      "consequence": "Flung forward at high speed due to inertia.",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "تخيل إن الكوكب وقف فجأة وأنت ماشي براحتك في الشارع."
+        },
+        {
+          "speaker": "b",
+          "text": "هتاخد طيران حر بسبب القصور الذاتي لحد ما تقابل الحائط."
+        },
+        {
+          "speaker": "a",
+          "text": "الأرض ثبتت بس إنت مكمل بسرعة كبيرة جدا."
+        }
+      ]
+    },
+    {
+      "label": "تجربة الهواء",
+      "narration": "جربنا نوقف الهوا بنفس الطريقة. الرياح العاتية هتمسح كل الشوارع فجأة.",
+      "evidence_quote": "جربنا نوقف الهوا بنفس الطريقة",
+      "diagram": "compare",
+      "labels": [
+        "رياح",
+        "ضغط",
+        "عاصفة"
+      ],
+      "visual_rationale": "Wind lines sweep across the screen pushing the stick figures backwards against their will.",
+      "cause": "Atmosphere continues moving despite the stationary Earth.",
+      "attempt": "Hold onto a lamppost to test wind resistance.",
+      "consequence": "Hurricanes strip everything off the surface immediately.",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "جربنا نوقف الهوا بنفس الطريقة ونشوف اللي هيحصل في الجو."
+        },
+        {
+          "speaker": "b",
+          "text": "الرياح العاتية هتمسح كل الشوارع كأنها مكنسة كهربية."
+        },
+        {
+          "speaker": "a",
+          "text": "الهواء نفسه متمسك بسرعته القديمة ومش ناوي يهدي أبدا."
+        }
+      ]
+    },
+    {
+      "label": "تصاعد الأمواج",
+      "narration": "المحيطات هتهيج وتتحرك بسرعة مهولة نحو القطبين بدون أي استئذان مسبق.",
+      "evidence_quote": "المحيطات هتهيج وتتحرك بسرعة مهولة نحو",
+      "diagram": "layers",
+      "labels": [
+        "محيطات",
+        "تسونامي",
+        "فيضان"
+      ],
+      "visual_rationale": "Water levels rise rapidly over landmasses on the globe diagram.",
+      "cause": "Oceans retain momentum and rush toward the poles.",
+      "attempt": "Climb a high hill to escape rising water.",
+      "consequence": "Gigantic mega-tsunamis flood the continental plates.",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "المحيطات هتهيج وتتحرك بسرعة مهولة نحو القطبين بدون استئذان."
+        },
+        {
+          "speaker": "b",
+          "text": "الميه مش هتعرف تفرمل وهتغرق اليابسة في ثواني معدودة."
+        },
+        {
+          "speaker": "a",
+          "text": "تسونامي عملاق بيغطي القارات وبيغير خريطة العالم تماما."
+        }
+      ]
+    },
+    {
+      "label": "فشل الاستقرار",
+      "narration": "حاولنا نثبت نفسنا في الأرض بس التربة اتفكت واتحركت بسرعة جدا.",
+      "evidence_quote": "حاولنا نثبت نفسنا في الأرض بس",
+      "diagram": "flow",
+      "labels": [
+        "تصدع",
+        "انهيار",
+        "اهتزاز"
+      ],
+      "visual_rationale": "The ground cracks underneath the stick figures causing them to stumble.",
+      "cause": "Soil lacks structural anchoring against sudden deceleration forces.",
+      "attempt": "Plant anchors deep into the dirt to stop sliding.",
+      "consequence": "Ground collapses completely under the strain.",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "حاولنا نثبت نفسنا في الأرض بس التربة نفسها اتفكت."
+        },
+        {
+          "speaker": "b",
+          "text": "القاعدة الصلبة اللي واقفين عليها بقت زحليقة كبرى بلا حدود."
+        },
+        {
+          "speaker": "a",
+          "text": "كل المحاولات الهندسية فشلت قدام قوة القصور الجبارة."
+        }
+      ]
+    },
+    {
+      "label": "اكتشاف النهار الطويل",
+      "narration": "اكتشفنا إن نص الكوكب هياخد شمس دائمة وتاني نص هيعيش ظلام.",
+      "evidence_quote": "اكتشفنا إن نص الكوكب هياخد شمس",
+      "diagram": "compare",
+      "labels": [
+        "شمس",
+        "ظلام",
+        "مناخ"
+      ],
+      "visual_rationale": "One half of the globe turns permanently bright while the other stays dark.",
+      "cause": "Earth stopped rotating relative to the sun.",
+      "attempt": "Observe the boundary line between light and shadow.",
+      "consequence": "Extreme permanent day and night zones established.",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "اكتشفنا إن نص الكوكب هياخد شمس دائمة وتاني نص سيظل مظلم."
+        },
+        {
+          "speaker": "b",
+          "text": "ست شهور نور وست شهور ظلمة من غير ما نغير مكاننا."
+        },
+        {
+          "speaker": "a",
+          "text": "الحرارة هتولع في ناحية والثلج هيحتل الناحية التانية للأبد."
+        }
+      ]
+    },
+    {
+      "label": "تكيف بطيء",
+      "narration": "اضطرنا نعيش على خط السير الفاصل بين الحرق والتجميد المستمر.",
+      "evidence_quote": "اضطرنا نعيش على خط السير الفاصل",
+      "diagram": "cycle",
+      "labels": [
+        "هجرة",
+        "تأقلم",
+        "حركة"
+      ],
+      "visual_rationale": "Stick figures walk continuously along the twilight border of the globe.",
+      "cause": "Extreme temperatures force relocation to the temperate zone.",
+      "attempt": "Migrate constantly to stay in the twilight strip.",
+      "consequence": "Nomadic lifestyle becomes the only way to survive.",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "اضطرنا نعيش على خط السير الفاصل بين الحرق والتجميد المستمر."
+        },
+        {
+          "speaker": "b",
+          "text": "نتحرك مع الشمس بالراحة زي السلاحف عشان نجاة أرواحنا."
+        },
+        {
+          "speaker": "a",
+          "text": "الحياة بقت رحلة سفر أبدية بحثا عن الجو المعتدل."
+        }
+      ]
+    },
+    {
+      "label": "نتيجة الفيزياء",
+      "narration": "النتيجة النهائية بتقول إن عجلة الزمن الكوكبي لا يمكن رجوعها.",
+      "evidence_quote": "النتيجة النهائية بتقول إن عجلة الزمن",
+      "diagram": "flow",
+      "labels": [
+        "فيزياء",
+        "مغناطيس",
+        "إشعاع"
+      ],
+      "visual_rationale": "Magnetic field lines around the globe fade away into space.",
+      "cause": "Core rotation stops causing magnetic field collapse.",
+      "attempt": "Check the control panel for a restart switch.",
+      "consequence": "Cosmic radiation penetrates the unprotected atmosphere.",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "النتيجة النهائية بتقول إن عجلة الزمن الكوكبي لا يمكن رجوعها."
+        },
+        {
+          "speaker": "b",
+          "text": "الفيزياء مبتجامعش حد ولا بتصالح الكسلانين مهما كانت لغتهم."
+        },
+        {
+          "speaker": "a",
+          "text": "حقل المغناطيس هيتلاشى ويسبنا لوحدنا قدام الإشعاع الكوني العنيف."
+        }
+      ]
+    },
+    {
+      "label": "المفاجأة الأخيرة",
+      "narration": "طلعنا أصلا قاعدين جوه صالة ألعاب واقع افتراضي مفيهاش جاذبية.",
+      "evidence_quote": "طلعنا أصلا قاعدين جوه صالة ألعاب",
+      "diagram": "flow",
+      "labels": [
+        "واقع",
+        "شاشة",
+        "نهاية"
+      ],
+      "visual_rationale": "The entire Earth globe shrinks into a computer monitor turning off.",
+      "cause": "The simulation gets shut down by an outside user.",
+      "attempt": "Look around for the edge of the virtual world.",
+      "consequence": "Everything blinks out of existence as the power dies.",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "طلعنا أصلا قاعدين جوه صالة ألعاب واقع افتراضي مفيهاش جاذبية."
+        },
+        {
+          "speaker": "b",
+          "text": "والمطور قفل اللعبة عشان شحن البطارية خلص فجأة في وسط التجربة."
+        },
+        {
+          "speaker": "a",
+          "text": "طلعنا كابتشر في شاشة كمبيوتر قديم ومنتظرين إعادة التشغيل."
+        }
+      ]
+    }
+  ],
+  "cover_text": "الأرض وقفت فجأة",
+  "director_version": "channel-identities-v1"
+}
