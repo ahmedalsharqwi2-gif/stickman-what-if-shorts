@@ -1,0 +1,305 @@
+{
+  "title": "ماذا لو الأرض وقفت دوران فجأة؟",
+  "canonical_subject": "stickman-whatif-earth-stop-consequences",
+  "hashtags": [
+    "stickman",
+    "whatif",
+    "egyptian"
+  ],
+  "scenes": [
+    {
+      "label": "التوقف المفاجئ",
+      "narration": "تخيل إن الأرض تقف مرة واحدة وأنت ماشي في الشارع. ليه كل حاجة بتتحرك قدام بسرعة؟ ده القصور الذاتي يا صاحبي بيكمل حركة الجسم للأمام بنفس السرعة القديمة. يا راجل أنا طرت في الهواء ووقعت فوق شجرة لوحدي. السرعة كانت ألف وستمائة كيلومتر في الساعة ودلوقتي بقت صفر تمامًا.",
+      "evidence_quote": "القصور الذاتي بيكمل حركة الجسم للأمام",
+      "diagram": "flow",
+      "labels": [
+        "القصور الذاتي",
+        "توقف الأرض",
+        "طيران مفاجئ"
+      ],
+      "visual_rationale": "stick figure flies horizontally off the ground past an illustrative Earth globe showing rotation halt lines",
+      "cause": "earth stops spinning instantly while inertia keeps objects moving",
+      "attempt": "try to walk normally right after the sudden stop",
+      "consequence": "character is launched forward through the air into a tree",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "تخيل إن الأرض تقف مرة واحدة وأنت ماشي في الشارع."
+        },
+        {
+          "speaker": "b",
+          "text": "ليه كل حاجة بتتحرك قدام بسرعة؟"
+        },
+        {
+          "speaker": "a",
+          "text": "ده القصور الذاتي يا صاحبي بيكمل حركة الجسم للأمام بنفس السرعة القديمة."
+        },
+        {
+          "speaker": "b",
+          "text": "يا راجل أنا طرت في الهواء ووقعت فوق شجرة لوحدي."
+        },
+        {
+          "speaker": "a",
+          "text": "السرعة كانت ألف وستمائة كيلومتر في الساعة ودلوقتي بقت صفر تمامًا."
+        }
+      ]
+    },
+    {
+      "label": "التجربة العملية",
+      "narration": "تعال نجرب نرمي الكرة دي ونشوف هتروح فين دلوقتي. الكرة مشيت خط مستقيم ومعدتش تلف معانا زي الأول خالص. المدارات اتغيرت والهواء بقى يتحرك برياح عاتية مش طبيعية لوحده. الرياح دي هتدمر أي مبنى قدامها حالا. مش هينفع نلعب كورة بالطريقة دي تاني أبدا.",
+      "evidence_quote": "الكرة مشيت خط مستقيم ومعدتش تلف معانا",
+      "diagram": "compare",
+      "labels": [
+        "حركة الكرة",
+        "رياح عاتية",
+        "خط مستقيم"
+      ],
+      "visual_rationale": "stick figures throw a ball that travels in a straight line past rotating globe models",
+      "cause": "lack of rotational frame of reference alters projectile trajectories",
+      "attempt": "throw a ball to test the new physics",
+      "consequence": "the ball flies off in a straight line instead of curving with the ground",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "تعال نجرب نرمي الكرة دي ونشوف هتروح فين دلوقتي."
+        },
+        {
+          "speaker": "b",
+          "text": "الكرة مشيت خط مستقيم ومعدتش تلف معانا زي الأول خالص."
+        },
+        {
+          "speaker": "a",
+          "text": "المدارات اتغيرت والهواء بقى يتحرك برياح عاتية مش طبيعية لوحده."
+        },
+        {
+          "speaker": "b",
+          "text": "الرياح دي هتدمر أي مبنى قدامها حالا."
+        },
+        {
+          "speaker": "a",
+          "text": "مش هينفع نلعب كورة بالطريقة دي تاني أبدا."
+        }
+      ]
+    },
+    {
+      "label": "تصاعد العواقب",
+      "narration": "المحيطات سبت مكانها وراحت تغرق القارات بسرعة رهيبة جدا. المياة بتتحرك ناحية القطبين عشان مافيش قوة طرد مركزية دلوقتي. البلد كلها بقت بحر مالح في ثواني معدودة. السباحة مش هتنقذنا من الطوفان ده يا ابني. الموية بتعلا حوالينا ومفيش مكان ننط فيه.",
+      "evidence_quote": "المحيطات سبت مكانها وراحت تغرق القارات",
+      "diagram": "layers",
+      "labels": [
+        "المحيطات",
+        "طوفان",
+        "تغير المناخ"
+      ],
+      "visual_rationale": "water surges toward the poles away from the equator on a tilted globe diagram",
+      "cause": "centrifugal force disappears causing oceans to migrate toward the poles",
+      "attempt": "climb higher to escape the rising water levels",
+      "consequence": "huge masses of water flood the previously dry landmasses rapidly",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "المحيطات سبت مكانها وراحت تغرق القارات بسرعة رهيبة جدا."
+        },
+        {
+          "speaker": "b",
+          "text": "المياة بتتحرك ناحية القطبين عشان مافيش قوة طرد مركزية دلوقتي."
+        },
+        {
+          "speaker": "a",
+          "text": "البلد كلها بقت بحر مالح في ثواني معدودة."
+        },
+        {
+          "speaker": "b",
+          "text": "السباحة مش هتنقذنا من الطوفان ده يا ابني."
+        },
+        {
+          "speaker": "a",
+          "text": "الموية بتعلا حوالينا ومفيش مكان ننط فيه."
+        }
+      ]
+    },
+    {
+      "label": "فشل المحاولة",
+      "narration": "حاولنا نبني سد صغير بالرمل عشان نمنع الطوفان ده. السد اتقلب في هوا الشتاء ومقدرش يستحمل نقطة مية واحدة. المحاولة فشلت والرياح طارت الرمل في وشنا كلنا. الحجم ده من الضغط محتاج جيوش تحارب دمش شوية رمل. إحنا بندفن نفسنا بإيدينا من كتر الذكاء.",
+      "evidence_quote": "السد اتقلب في هوا الشتاء ومقدرش يستحمل",
+      "diagram": "cycle",
+      "labels": [
+        "سد رملي",
+        "فشل",
+        "ضغط المياة"
+      ],
+      "visual_rationale": "a small sand barrier crumbles instantly under rushing water and strong wind lines",
+      "cause": "sand structures cannot withstand high-velocity winds and surging water pressure",
+      "attempt": "build a small sand dam to stop the incoming flood",
+      "consequence": "the dam collapses immediately and blows sand into the characters faces",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "حاولنا نبني سد صغير بالرمل عشان نمنع الطوفان ده."
+        },
+        {
+          "speaker": "b",
+          "text": "السد اتقلب في هوا الشتاء ومقدرش يستحمل نقطة مية واحدة."
+        },
+        {
+          "speaker": "a",
+          "text": "المحاولة فشلت والرياح طارت الرمل في وشنا كلنا."
+        },
+        {
+          "speaker": "b",
+          "text": "الحجم ده من الضغط محتاج جيوش تحارب دمش شوية رمل."
+        },
+        {
+          "speaker": "a",
+          "text": "إحنا بندفن نفسنا بإيدينا من كتر الذكاء."
+        }
+      ]
+    },
+    {
+      "label": "الاكتشاف العلمي",
+      "narration": "النهار بقى سنة كاملة والليل بقى سنة كمان على الجهة التانية. نص الكوكب هيتولع من الشمس والنص التاني هيتتجمد تليج. دي مش ميزة سياحية دي كارثة بيئية كبرى بجد. النباتات هتموت من طول النهار والحرارة العالية. والحيوانات مش هتلحق تتأقلم مع الجو الغريب ده.",
+      "evidence_quote": "النهار بقى سنة كاملة والليل بقى سنة كمان",
+      "diagram": "compare",
+      "labels": [
+        "النهار الطويل",
+        "التجمد",
+        "الشمس"
+      ],
+      "visual_rationale": "split globe showing one scorching sunny side and one dark frozen side with temperature arrows",
+      "cause": "tidally locked Earth creates permanent day on one side and permanent night on the other",
+      "attempt": "observe the sun stationary in the sky for hours without setting",
+      "consequence": "realization that one hemisphere fries while the other freezes completely",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "النهار بقى سنة كاملة والليل بقى سنة كمان على الجهة التانية."
+        },
+        {
+          "speaker": "b",
+          "text": "نص الكوكب هيتولع من الشمس والنص التاني هيتتجمد تليج."
+        },
+        {
+          "speaker": "a",
+          "text": "دي مش ميزة سياحية دي كارثة بيئية كبرى بجد."
+        },
+        {
+          "speaker": "b",
+          "text": "النباتات هتموت من طول النهار والحرارة العالية."
+        },
+        {
+          "speaker": "a",
+          "text": "والحيوانات مش هتلحق تتأقلم مع الجو الغريب ده."
+        }
+      ]
+    },
+    {
+      "label": "التأقلم المؤقت",
+      "narration": "عشان كده لازم ننقل حياتنا للحد الفاصل بين النهار والليل. المنطقة دي هي المكان الوحيد اللي الجو فيه معتدل ومناسب لينا. هنعيش على الخط ده زي الخيمة بالظبط. كل ما الشمس تتحرك حركة بسيطة هنتحرك معاها خطوة بخطوة. الظروف الصعبة بتعلم الواحد يلف حوالين نفسه.",
+      "evidence_quote": "لازم ننقل حياتنا للحد الفاصل بين النهار والليل",
+      "diagram": "flow",
+      "labels": [
+        "خط الفاصل",
+        "تأقلم",
+        "اعتدال الجو"
+      ],
+      "visual_rationale": "stick figures setting up a tent right on the twilight terminator line of the globe",
+      "cause": "moderate temperatures exist only in the narrow zone between boiling sun and frozen night",
+      "attempt": "relocate permanently to the twilight zone of the planet",
+      "consequence": "characters establish a nomadic life constantly walking along the border line",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "عشان كده لازم ننقل حياتنا للحد الفاصل بين النهار والليل."
+        },
+        {
+          "speaker": "b",
+          "text": "المنطقة دي هي المكان الوحيد اللي الجو فيه معتدل ومناسب لينا."
+        },
+        {
+          "speaker": "a",
+          "text": "هنعيش على الخط ده زي الخيمة بالظبط."
+        },
+        {
+          "speaker": "b",
+          "text": "كل ما الشمس تتحرك حركة بسيطة هنتحرك معاها خطوة بخطوة."
+        },
+        {
+          "speaker": "a",
+          "text": "الظروف الصعبة بتعلم الواحد يلف حوالين نفسه."
+        }
+      ]
+    },
+    {
+      "label": "النتيجة النهائية",
+      "narration": "النتيجة إننا بقينا بشر بلا استقرار دائم على أرض ثابتة. الأرض كوكب عاجز عن الدوران تاني بأي شكل من الأشكال. القوانين الفيزيائية واضحة ومفيش زرار سحري هيشغل الموتور. مفيش رجوع للبيت القديم خلاص يا صاحبي. إحنا هنفضل ماشيين العمر كله على الحافة دي.",
+      "evidence_quote": "الأرض كوكب عاجز عن الدوران تاني بأي شكل",
+      "diagram": "layers",
+      "labels": [
+        "استنتاج علمي",
+        "فيزياء الأرض",
+        "نهاية الدوران"
+      ],
+      "visual_rationale": "globe standing completely still with static motion lines while stick figures walk endlessly",
+      "cause": "irreversible loss of rotational kinetic energy without external torque",
+      "attempt": "analyze the final physical state of the planet without intervention",
+      "consequence": "acknowledgment that Earth will remain stopped forever under strict physics",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "النتيجة إننا بقينا بشر بلا استقرار دائم على أرض ثابتة."
+        },
+        {
+          "speaker": "b",
+          "text": "الأرض كوكب عاجز عن الدوران تاني بأي شكل من الأشكال."
+        },
+        {
+          "speaker": "a",
+          "text": "القوانين الفيزيائية واضحة ومفيش زرار سحري هيشغل الموتور."
+        },
+        {
+          "speaker": "b",
+          "text": "مفيش رجوع للبيت القديم خلاص يا صاحبي."
+        },
+        {
+          "speaker": "a",
+          "text": "إحنا هنفضل ماشيين العمر كله على الحافة دي."
+        }
+      ]
+    },
+    {
+      "label": "المفاجأة الساخرة",
+      "narration": "بس استنى هو مين اصلا اللي طفى مفتاح الكون ده واحنا نايمين؟ تلاقيه طفل صغير كان بيتحكم في اللعبة من برا الكوكب كله. لو العيل ده داس تاني تفتكر هنطير لفوق خالص؟ يا رب ما يدوس على حاجة تانية أحسن نخلص خالص.",
+      "evidence_quote": "مين اصلا اللي طفى مفتاح الكون ده",
+      "diagram": "compare",
+      "labels": [
+        "مفتاح الكون",
+        "طفل صغير",
+        "سخرية"
+      ],
+      "visual_rationale": "giant cartoon hand reaching down to flick a massive switch labeled Earth while stick figures look up",
+      "cause": "hypothetical external control by an unseen giant entity playing with a cosmic switch",
+      "attempt": "look up into the sky and question who caused this impossible scenario",
+      "consequence": "comic realization that a giant hand might turn it off again at any second",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "بس استنى هو مين اصلا اللي طفى مفتاح الكون ده واحنا نايمين؟"
+        },
+        {
+          "speaker": "b",
+          "text": "تلاقيه طفل صغير كان بيتحكم في اللعبة من برا الكوكب كله."
+        },
+        {
+          "speaker": "a",
+          "text": "لو العيل ده داس تاني تفتكر هنطير لفوق خالص؟"
+        },
+        {
+          "speaker": "b",
+          "text": "يا رب ما يدوس على حاجة تانية أحسن نخلص خالص."
+        }
+      ]
+    }
+  ],
+  "cover_text": "الأرض وقفت فجأة",
+  "director_version": "v1"
+}
