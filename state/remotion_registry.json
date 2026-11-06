@@ -578,7 +578,7 @@
     "daily-remotion-2026-11-08-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-08T10:00:00Z",
-      "status": "authored",
+      "status": "voice_requested",
       "source_run": 42237927907,
       "created_at": "2026-11-06T14:53:26.888266+00:00",
       "source_selection": {
@@ -614,7 +614,8 @@
         "issues": [],
         "passed": true
       },
-      "story_sha256": "95c505b26a04112e32bd26169c10f7e727774f801c926ba1012dae76bf7a6358"
+      "story_sha256": "95c505b26a04112e32bd26169c10f7e727774f801c926ba1012dae76bf7a6358",
+      "voice_request_run": 42237927907
     }
   },
   "cutover_evidence": {
