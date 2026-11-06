@@ -613,7 +613,8 @@
         "visuals_match": true,
         "issues": [],
         "passed": true
-      }
+      },
+      "story_sha256": "95c505b26a04112e32bd26169c10f7e727774f801c926ba1012dae76bf7a6358"
     }
   },
   "cutover_evidence": {
