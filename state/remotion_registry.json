@@ -578,9 +578,24 @@
     "daily-remotion-2026-11-08-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-08T10:00:00Z",
-      "status": "author_pending",
+      "status": "author_requested",
       "source_run": 42237927907,
-      "created_at": "2026-11-06T14:53:26.888266+00:00"
+      "created_at": "2026-11-06T14:53:26.888266+00:00",
+      "source_selection": {
+        "title": "ماذا لو الزمن وقف وإنت الوحيد اللي بيتحرك؟",
+        "publisher": "افترض كده",
+        "canonical_subject": "stickman-whatif-freeze-consequences",
+        "scenario": "freeze",
+        "brief": "خيال صريح: ثبّت قاعدة أن الضوء والتنفس مستثنيان في عالم القصة لتجنب تناقض الرؤية. الشخصية تجرب حركة ساعة وكرات ثم تكتشف أثر العودة. لا تسوقه كعلم حقيقي. تسلسل المشاهد: impact ثم experiment ثم escalation ثم fail ثم discovery ثم adapt ثم solution ثم twist. لكل مشهد تحرك الشخصية وتتفاعل مع2–4 أشياء أو مفاهيم تُكتب في labels. كوميديا بصرية وتعليق مصري. لا تحول كل فرضية إلى غرفة هروب أو مفتاح، لا تستخدم أمثلة طبية كتعليمات. الشخصيتان تناقشان النتائج داخل تجربة ذهنية بقواعد ثابتة؛ لا نجاة سحرية من كارثة، ولا ضغط زر يعكس الفيزياء. المرحلة solution تعني النتيجة أو الاستنتاج، وليس اختراع حل للمشكلة. كل محاولة تغير ما يحدث بصريًا؛ الحوار ليس وصفًا لشخصيتين واقفتين."
+      },
+      "source": {
+        "url": null
+      },
+      "source_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-08-stickman-source-e3549cf99b76542a.json",
+        "sha256": "e3549cf99b76542a7b561e0ff1c777695f27a8c2a3b8b1f92585191b81fd8e5e"
+      },
+      "writer_run": 42237927907
     }
   },
   "cutover_evidence": {
