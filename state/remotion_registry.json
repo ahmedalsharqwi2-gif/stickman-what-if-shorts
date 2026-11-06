@@ -535,7 +535,7 @@
     "daily-remotion-2026-11-07-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-07T10:00:00Z",
-      "status": "review_prepared",
+      "status": "review_requested",
       "source_run": 42228800281,
       "created_at": "2026-11-06T13:51:16.192529+00:00",
       "source_selection": {
