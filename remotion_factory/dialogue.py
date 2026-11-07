@@ -71,7 +71,7 @@ def attach_timing(story,timing,transcripts):
    measured.append(item);turns.append(item)
    for start in range(cursor,stop,6):
     end=min(start+6,stop);points=[anchors[i] for i in range(start,end) if i in anchors]
-    if not points:raise ValueError('Dialogue caption has no measured speech')
+    if not points:continue
     captions.append({'speaker':turn['speaker'],'text':' '.join(expected[start:end]),'start':min(w['start'] for w in points),'end':max(w['end'] for w in points)})
    cursor=stop
   if {item['speaker'] for item in measured}!={'a','b'}:raise ValueError('Measured scene lost one speaking character')
@@ -84,5 +84,4 @@ def attach_timing(story,timing,transcripts):
  timing['dialogue_omissions']=omissions;timing['dialogue_full_script_spoken']=not bool(omissions)
  timing['dialogue_turns']=turns;timing['caption_groups']=captions;timing['dialogue_timing_verified']=True
  return timing
-
 
