@@ -771,6 +771,13 @@
       "draft_document": {
         "path": "state/remotion_documents/daily-remotion-2026-11-11-stickman-draft-14bcc63ccd1d001c.json",
         "sha256": "14bcc63ccd1d001c896715f11057c081bba7f5ad4a7840765df2d2018e4cce41"
+      },
+      "draft_repair": {
+        "phase": "requested",
+        "original_sha256": "42897b8f3ce7ed10c077bc7461ef1f377c84a806f29e3a04ac6b6f6e36b71c82",
+        "problem": "Each scene requires a real exchange between two unnamed speakers",
+        "maximum_requests": 1,
+        "voice_requests": 0
       }
     }
   },
