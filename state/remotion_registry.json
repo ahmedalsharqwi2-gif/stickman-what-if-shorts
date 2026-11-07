@@ -750,7 +750,7 @@
     "daily-remotion-2026-11-11-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-11T10:00:00Z",
-      "status": "review_requested",
+      "status": "authored",
       "source_run": 42423458959,
       "created_at": "2026-11-07T23:04:04.357700+00:00",
       "source_selection": {
@@ -801,7 +801,15 @@
         "sha256": "54c9ae70d1c8597e96d989344cddbed3801dd15338b3fb5159d364a80e8dcb4a"
       },
       "canonical_subject": "stickman-whatif-giant-consequences",
-      "title": "إزاي هتعيش لو طولك بقى قد عمارات مصر؟"
+      "title": "إزاي هتعيش لو طولك بقى قد عمارات مصر؟",
+      "editorial_review": {
+        "supported": true,
+        "engaging": true,
+        "novel": true,
+        "visuals_match": true,
+        "issues": [],
+        "passed": true
+      }
     }
   },
   "cutover_evidence": {
