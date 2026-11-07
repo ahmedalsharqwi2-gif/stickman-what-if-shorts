@@ -750,9 +750,24 @@
     "daily-remotion-2026-11-11-stickman": {
       "profile": "stickman",
       "due_at": "2026-11-11T10:00:00Z",
-      "status": "author_pending",
+      "status": "author_requested",
       "source_run": 42423458959,
-      "created_at": "2026-11-07T23:04:04.357700+00:00"
+      "created_at": "2026-11-07T23:04:04.357700+00:00",
+      "source_selection": {
+        "title": "ماذا لو بقيت أطول من العمارات؟",
+        "publisher": "افترض كده",
+        "canonical_subject": "stickman-whatif-giant-consequences",
+        "scenario": "giant",
+        "brief": "فرضية تغيير الحجم خيالية؛ الوزن يزداد أسرع من مساحة مقطع العظام، وحركة القدم تتطلب مساحة. تعامل مع السيارات الصغيرة والنوافذ، لا انتصار عنيف. تسلسل المشاهد: impact ثم experiment ثم escalation ثم fail ثم discovery ثم adapt ثم solution ثم twist. لكل مشهد تحرك الشخصية وتتفاعل مع2–4 أشياء أو مفاهيم تُكتب في labels. كوميديا بصرية وتعليق مصري. لا تحول كل فرضية إلى غرفة هروب أو مفتاح، لا تستخدم أمثلة طبية كتعليمات. الشخصيتان تناقشان النتائج داخل تجربة ذهنية بقواعد ثابتة؛ لا نجاة سحرية من كارثة، ولا ضغط زر يعكس الفيزياء. المرحلة solution تعني النتيجة أو الاستنتاج، وليس اختراع حل للمشكلة. كل محاولة تغير ما يحدث بصريًا؛ الحوار ليس وصفًا لشخصيتين واقفتين."
+      },
+      "source": {
+        "url": null
+      },
+      "source_document": {
+        "path": "state/remotion_documents/daily-remotion-2026-11-11-stickman-source-ed5e4fbb97979b13.json",
+        "sha256": "ed5e4fbb97979b13da294c0f1651c97ebcbc79d0e3b6e39cbfbc09694241c345"
+      },
+      "writer_run": 42423458959
     }
   },
   "cutover_evidence": {
