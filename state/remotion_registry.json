@@ -643,8 +643,8 @@
       },
       "writer_run": 42243420365,
       "draft_document": {
-        "path": "state/remotion_documents/daily-remotion-2026-11-09-stickman-draft-e0b95789d10b7ebb.json",
-        "sha256": "e0b95789d10b7ebb7ba65941d1c6e4fe0af31adc4c50e3234c8402af6319f5fd"
+        "path": "state/remotion_documents/daily-remotion-2026-11-09-stickman-draft-69b82ebe565a5801.json",
+        "sha256": "69b82ebe565a5801cf07adab5d88fa1e1242aa002c6b36a42140387613c09b28"
       },
       "draft_repair": {
         "phase": "rejected",
