@@ -1,6 +1,6 @@
 {
-  "publish_date": "2026-11-05",
-  "revision": "owner-retained-voice-measured-dialogue-recovery-v4",
+  "publish_date": "2026-11-07",
+  "revision": "design-v2-1-stickman-what-if-shorts-031126",
   "preserve_existing_posts": true,
-  "reason": "Resume original 127-second dialogue audio and existing ASR artifacts; retain voice/story SHA. Actual recognized speech only: omit one proven unspoken seven-word aside from captions/actor bubbles, record it explicitly; no repeated synthesis or invented timestamps."
+  "reason": "Owner: the repositories must produce the videos. Queue the next slot with the v2.1 pack."
 }
