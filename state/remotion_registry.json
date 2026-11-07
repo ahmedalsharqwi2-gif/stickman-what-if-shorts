@@ -809,7 +809,8 @@
         "visuals_match": true,
         "issues": [],
         "passed": true
-      }
+      },
+      "story_sha256": "54c9ae70d1c8597e96d989344cddbed3801dd15338b3fb5159d364a80e8dcb4a"
     }
   },
   "cutover_evidence": {
