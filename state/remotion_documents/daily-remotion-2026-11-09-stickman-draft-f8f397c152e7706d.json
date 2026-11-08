@@ -1,0 +1,246 @@
+{
+  "title": "ماذا لو الأرض وقفت دوران فجأة؟",
+  "canonical_subject": "stickman-whatif-earth-stop-consequences",
+  "hashtags": [
+    "stickman",
+    "افترض_كده",
+    "فيزياء",
+    "تجارب_ذهنية"
+  ],
+  "scenes": [
+    {
+      "label": "الوقفة المفاجئة",
+      "narration": "تخيل إن الأرض وقفت مكانها مرة واحدة وإحنا ماشيين. إحنا هنطير قدام بسرعة رهيبة عشان القصور الذاتي. ليه كل حاجة هتتطلوح في الهوا كده؟ عشان السرعة ثابتة والوقفة مفاجئة.",
+      "evidence_quote": "القصور الذاتي يجعل الأجسام تحتفظ بسرعتها الأصلية",
+      "diagram": "flow",
+      "labels": [
+        "قصور ذاتي",
+        "سرعة الأرض",
+        "توقف مفاجئ"
+      ],
+      "visual_rationale": "stick figures flying forward over a globe stopping instantly with motion lines",
+      "cause": "Earth stops rotating while its inhabitants and objects retain their forward momentum",
+      "attempt": "Trying to stand still on the pavement right when the rotation halts",
+      "consequence": "Both characters launch horizontally through the air due to inertia",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "يا نهار أسود الأرض ثبتت مكانها مرة واحدة!"
+        },
+        {
+          "speaker": "b",
+          "text": "إحنا بنطير في الهوا ليه كده بسرعة؟"
+        },
+        {
+          "speaker": "a",
+          "text": "القصور الذاتي يا فالح بيخلينا نكمل لوحدنا."
+        }
+      ]
+    },
+    {
+      "label": "تجربة الهواء",
+      "narration": "تعال نجرب نرمي تفاحة ونشوف إيه اللي هيحصل في الجو. الهواء نفسه هيفضل متحرك بسرعة ألف وستمائة كيلومتر في الساعة. عاصفة مرعبة هتطيح بكل اللي فوق الأرض.",
+      "evidence_quote": "استمرار الغلاف الجوي في الحركة يولد رياحا عاتية",
+      "diagram": "compare",
+      "labels": [
+        "رياح عاتية",
+        "غلاف جوي",
+        "تفاحة طائرة"
+      ],
+      "visual_rationale": "wind lines blowing away an apple and the characters clinging to the ground",
+      "cause": "Atmosphere maintains its high original momentum despite the stopped ground",
+      "attempt": "Releasing a floating apple to test the wind speed outdoors",
+      "consequence": "A hyper-sonic gale blows past them instantly, flattening everything",
+      "turns": [
+        {
+          "speaker": "b",
+          "text": "امسك في الشجرة كويس دي عاصفة تدمر الصخر."
+        },
+        {
+          "speaker": "a",
+          "text": "ده الهوا ماشي لوحده بنفس سرعة الأرض القديمة."
+        },
+        {
+          "speaker": "b",
+          "text": "التفاحة طارت من إيدي ودخلت في جدار السحابة."
+        }
+      ]
+    },
+    {
+      "label": "تسونامي المحيطات",
+      "narration": "المحيطات كمان مش هتقف بسهولة وهتندفع نحو القطبين بكل قوتها. المية هتغطي اليابسة وتعمل أمواج تسونامي عملاقة. ده مش هزار دي فيزياء بحتة ملهاش عاطفة.",
+      "evidence_quote": "حركة الكتلة المائية تستمر بفعل العطالة نحو الأقطاب",
+      "diagram": "layers",
+      "labels": [
+        "محيطات",
+        "تسونامي",
+        "قطب شمالي"
+      ],
+      "visual_rationale": "huge walls of ocean water rushing towards the poles on a stylized globe",
+      "cause": "Water bodies surge forward towards the poles due to unstopped momentum",
+      "attempt": "Climbing a high hill to escape the rising water levels",
+      "consequence": "Massive waves crash over continents, shifting global geography instantly",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "المية بتاعة البحر سبتنا ورايحة على القطب الشمالي!"
+        },
+        {
+          "speaker": "b",
+          "text": "اطلع فوق الجبل ده حالا قبل ما تغرقنا."
+        },
+        {
+          "speaker": "a",
+          "text": "دي أمواج أعلي من أي مبنى شوفناها قبل كده."
+        }
+      ]
+    },
+    {
+      "label": "فشل الاستقرار",
+      "narration": "حاولنا نثبت نفسنا بحبل طويل عشان نهرب من الحركة دي كلها. الحبل اتقطع من شدة القوة ومحدش قدر يتحكم في الوضع. الفيزياء أثبتت إن عضلاتنا أضعف بكتير.",
+      "evidence_quote": "القوى الناتجة عن التوقف تفوق تحمل المواد العادية",
+      "diagram": "flow",
+      "labels": [
+        "حبل مقطوع",
+        "فشل ذريع",
+        "قوة قاهرة"
+      ],
+      "visual_rationale": "a rope snapping in half while both stick figures tumble backwards",
+      "cause": "Extreme kinetic forces exceed the tensile strength of standard ropes",
+      "attempt": "Tying themselves to a massive rock pillar with a thick rope",
+      "consequence": "The rope snaps like a thread and sends them spinning away",
+      "turns": [
+        {
+          "speaker": "b",
+          "text": "اربط الحبل في الصخرة الكبيرة دي بسرعة."
+        },
+        {
+          "speaker": "a",
+          "text": "الحبل اتقطع كأنه خيط رفيع مش متحمل."
+        },
+        {
+          "speaker": "b",
+          "text": "إحنا بنتحرك مع الهوا ولا كأننا عملنا حاجة."
+        }
+      ]
+    },
+    {
+      "label": "اكتشاف النهار الطويل",
+      "narration": "اكتشفنا إن نص الكرة الأرضية هيفضل منور لمدة ست شهور كاملة. والشمس مش هتتحرك خطوة واحدة من مكانها في السما. النص التاني هيدخل في ظلام وتجمد أبدي ملوش نهاية.",
+      "evidence_quote": "توقف الدوران يلغي تعاقب الليل والنهار اليومي المعتاد",
+      "diagram": "compare",
+      "labels": [
+        "نهار دائم",
+        "ليل أبدي",
+        "شمس ثابتة"
+      ],
+      "visual_rationale": "globe split in half with one bright sunlit side and one dark frozen side",
+      "cause": "Locking one hemisphere facing the sun permanently without rotation",
+      "attempt": "Observing the sun's position in the sky over several hours",
+      "consequence": "The sun remains completely fixed, creating permanent day and night zones",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "بص الشمس من الصبح محركتش سنتي واحد."
+        },
+        {
+          "speaker": "b",
+          "text": "عشان النص ده بقى مواجه ليها للابد يا ذكي."
+        },
+        {
+          "speaker": "a",
+          "text": "والناحية التانية باينة سودا ومثلجة خالص."
+        }
+      ]
+    },
+    {
+      "label": "التكيف مع المناخ",
+      "narration": "اضطررنا نتحرك ونعيش في المنطقة الفاصلة بين النهار والليل عشان نقدر نستحمل. الجو هناك هو الوحيد اللي مقبول ومش حر أو برد زيادة عن اللزوم. إحنا بنحاول نلاقي مكان نقعد فيه.",
+      "evidence_quote": "منطقة الغلس بين النور والظلام هي الوحيدة المعتدلة مناخيا",
+      "diagram": "cycle",
+      "labels": [
+        "منطقة معتدلة",
+        "خط الفاصل",
+        "تكيف مؤقت"
+      ],
+      "visual_rationale": "stick figures walking to the twilight zone between light and dark sides",
+      "cause": "Extreme temperatures on permanent day and night sides force relocation",
+      "attempt": "Walking along the twilight boundary line to find habitable climate",
+      "consequence": "They find a narrow strip of land with moderate wind and temperature",
+      "turns": [
+        {
+          "speaker": "b",
+          "text": "تعال نمشي على الخط الفاصل بين النار والثلج."
+        },
+        {
+          "speaker": "a",
+          "text": "الجو هنا معتدل شوية ومش هيخلينا نتجمد."
+        },
+        {
+          "speaker": "b",
+          "text": "أحسن من القعاد في الشمس اللي حرقت كل حاجة."
+        }
+      ]
+    },
+    {
+      "label": "النتيجة النهائية",
+      "narration": "النتيجة الحتمية للي حصل هي دمار شامل لشكل الحياة اللي متعودين عليه زمان. الأرض بقت كوكب مقسوم نصين مفيش فيه حياة طبيعية تانية. القوانين الطبيعية مفيهاش يما عيني.",
+      "evidence_quote": "استقرار دوران الأرض شرط أساسي لاستمرار النظام البيئي",
+      "diagram": "flow",
+      "labels": [
+        "دمار بيئي",
+        "نظام مدمر",
+        "حقيقة علمية"
+      ],
+      "visual_rationale": "cracked split globe showing the permanent consequences of a stopped planet",
+      "cause": "Permanent cessation of planetary rotation alters all major Earth systems",
+      "attempt": "Reviewing the global status from our new spot on the twilight line",
+      "consequence": "Realizing that traditional daily life and ecosystems cannot possibly return",
+      "turns": [
+        {
+          "speaker": "a",
+          "text": "يعني خلاص مفيش تاني شروق وغروب زي زمان؟"
+        },
+        {
+          "speaker": "b",
+          "text": "الأرض اختارت تقف والكوكب اتغير للأبد خلاص."
+        },
+        {
+          "speaker": "a",
+          "text": "دي مشكلة كبيرة ملهاش أي حل بسيط."
+        }
+      ]
+    },
+    {
+      "label": "المفاجأة الساخرة",
+      "narration": "والمفاجأة إننا قاعدين زعلانين على دوران الأرض وإحنا أصلا نسونا الكوكب كله ومشينا. اكتشفنا إننا سبنا المفتاح جوه البيت المقفول على كوكب تاني خالص. ياللا بينا ندور على باب تاني.",
+      "evidence_quote": "نسيان الأساسيات هو الكوميديا الأزلية لكل مغامرة",
+      "diagram": "cycle",
+      "labels": [
+        "مفتاح ضايع",
+        "كوميديا سوداء",
+        "موقف غريب"
+      ],
+      "visual_rationale": "stick figures checking their pockets in confusion while looking at a floating door",
+      "cause": "Focusing so much on planetary physics while ignoring basic personal belongings",
+      "attempt": "Checking pockets for the door key after surviving the global catastrophe",
+      "consequence": "Realizing they left the key inside a house on a normal rotating Earth",
+      "turns": [
+        {
+          "speaker": "b",
+          "text": "استنى هنا.. هو إحنا سبنا مفتاح البيت فين أصلا؟"
+        },
+        {
+          "speaker": "a",
+          "text": "ده جوه الباب على الأرض القديمة اللي كانت بتلف!"
+        },
+        {
+          "speaker": "b",
+          "text": "يعني سيبنا الكوكب يقف عشان ندور على مفتاح ضايع؟"
+        }
+      ]
+    }
+  ],
+  "cover_text": "الأرض وقفت فجأة!",
+  "director_version": "v1"
+}
