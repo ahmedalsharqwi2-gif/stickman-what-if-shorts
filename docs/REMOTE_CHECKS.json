@@ -1,6 +1,9 @@
 {
-  "conclusion": "",
+  "conclusion": "failure",
   "databaseId": 43767720851,
-  "status": "in_progress",
-  "repo": "stickman-what-if-shorts"
+  "status": "completed",
+  "repo": "stickman-what-if-shorts",
+  "errors": [
+    "script: PROVIDER_HTTP_503"
+  ]
 }
