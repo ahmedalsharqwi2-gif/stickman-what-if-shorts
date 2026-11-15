@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-15T22-01-47-205Z",
+  "mode": "review",
+  "published": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.576
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 0.541
+    }
+  ],
+  "status": "failed",
+  "limitations": [
+    "Visual semantics, pronunciation, watermark absence and copyright require human review; metrics are not proof."
+  ],
+  "failedStage": "script",
+  "errorCode": "PROVIDER_HTTP_404"
+}
