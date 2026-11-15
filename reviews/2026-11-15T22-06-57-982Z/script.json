@@ -1,0 +1,179 @@
+{
+  "topicKey": "remotion-stickman-whatif-star-at2016blu",
+  "title": "ماذا لو شمسنا بقت نجم عملاق بينفجر؟",
+  "hook": "ماذا لو صحيت الصبح وفوجئت إن شمسنا الهادية اتبدلت بنجم مجنون وضخم جدا بيعمل انفجارات متكررة ومرعبة في الفضاء وصحاك من نومك على صدمة ملهاش أي حل؟",
+  "cta": "اشترك في القناة وشاركنا رأيك في التعليقات!",
+  "scenes": [
+    {
+      "title": "استيقاظ وسط فوضى فضائية",
+      "text": "ماذا لو صحيت الصبح وفوجئت إن شمسنا الهادية اتبدلت بنجم مجنون وضخم جدا بيعمل انفجارات متكررة ومرعبة في الفضاء وصحاك من نومك على صدمة ملهاش أي حل؟",
+      "summary": "تخيل استبدال الشمس بنجم مضطرب وكبير الحجم فجأة.",
+      "keyword": "شمس",
+      "template": "phenomenon",
+      "labels": [
+        "شمسنا",
+        "فضاء",
+        "انفجار"
+      ],
+      "values": [],
+      "claim": "تخيل استبدال شمسنا بنجم عملاق ومتقلب يطلق انفجارات مستمرة",
+      "sourceId": "e714212c4694",
+      "evidence": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026.",
+      "kind": "illustration",
+      "expression": 10,
+      "action": "jump"
+    },
+    {
+      "title": "انفجارات وموجات أشعة سينية",
+      "text": "أول حاجة هتحصل إنك هتجري تلبس نضارتك الشمسية وتفتح الشباك عشان تشرب الشاي، فتلاقي السما كلها بتولع بوميض أشعة سينية خارقة مخلية كل جيرانك في الشارع يجروا في كل اتجاه مرعوبين.",
+      "summary": "سماء مشتعلة بأشعة سينية تهز هدوء الصباح تماما.",
+      "keyword": "أشعة",
+      "template": "cause",
+      "labels": [
+        "أشعة سينية",
+        "شارع",
+        "ذعر"
+      ],
+      "values": [],
+      "claim": "انبعاثات الأشعة السينية الفائقة تملأ الأفق بمشهد مرعب",
+      "sourceId": "e714212c4694",
+      "evidence": "X-ray: NASA/CXC/Univ. of Virginia/M. Aghakhanloo et al.; Optical: SDSS; Image Processing: NASA/CXC/SAO/P. Edmonds",
+      "kind": "illustration",
+      "expression": 9,
+      "action": "run"
+    },
+    {
+      "title": "طيران وفقدان للسيطرة",
+      "text": "الجاذبية الرهيبة للنجم ده هتخليك مش عارف تقف على رجلك ووزنك هيتغير لدرجة إن سريرك نفسه هيطير من مكانه وأنت متعلق في النجفة وبتصرخ وبتتمنى ترجع لشمسك القديمة الوديعة.",
+      "summary": "اختلال الجاذبية وتعلق مؤلم داخل غرفتك المقلوبة.",
+      "keyword": "جاذبية",
+      "template": "steps",
+      "labels": [
+        "جاذبية",
+        "غرفة",
+        "طيران"
+      ],
+      "values": [],
+      "claim": "تغيرات الجاذبية الناتجة عن الكتلة الهائلة تقلب الحياة رأسا على عقب",
+      "sourceId": "e714212c4694",
+      "evidence": "Astronomers estimate the mass of this star is at least 33 times that of the Sun.",
+      "kind": "illustration",
+      "expression": 2,
+      "action": "hang"
+    },
+    {
+      "title": "العودة للواقع وتلسكوب شاندرا",
+      "text": "لكن لحسن حظك يا بطل، ده مجرد كابوس خيالي لأن النجم العملاق غير المستقر ده مش موجود جنبنا خالص، بل هو جرم كوني حقيقي بيرصده تلسكوب شاندرا الفضائي التابع لوكالة ناسا.",
+      "summary": "النجم الحقيقي يراقبه مرصد شاندرا بعيدا في الأعماق.",
+      "keyword": "شاندرا",
+      "template": "phenomenon",
+      "labels": [
+        "تلسكوب",
+        "ناسا",
+        "شاندرا"
+      ],
+      "values": [],
+      "claim": "مرصد شاندرا التابع لناسا يرصد هذا النجم العملاق غير المستقر",
+      "sourceId": "e714212c4694",
+      "evidence": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026.",
+      "kind": "fact",
+      "expression": 0,
+      "action": "walk"
+    },
+    {
+      "title": "اكتشاف أسباب ثورات النجم",
+      "text": "علماء الفلك قدروا باستخدام مرصد شاندرا للأشعة السينية يكتشفوا إيه السبب اللي بيعمل ثورات وانفجارات متكررة وضخمة جدا من هذا النجم العملاق وغير المستقر وفقا لبيانات رسمية أعلنتها ناسا.",
+      "summary": "الفلكيون يكتشفون سر الانفجارات المتكررة للنجم.",
+      "keyword": "انفجارات",
+      "template": "cause",
+      "labels": [
+        "علماء",
+        "اكتشاف",
+        "ثورات"
+      ],
+      "values": [],
+      "claim": "الفلكيون كشفوا سبب الثورات المتكررة لهذا النجم المتقلب",
+      "sourceId": "e714212c4694",
+      "evidence": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026.",
+      "kind": "fact",
+      "expression": 1,
+      "action": "point"
+    },
+    {
+      "title": "النجم المتقلب في مجرة بعيدة",
+      "text": "النجم المتقلب ده بيعرفه الفلكيون باسم AT 2016blu، وموجود جوه مجرة حلزونية مذهلة اسمها NGC 4559 بعيد جدا عن كوكب الأرض بمسافة بتوصل لحوالي ثلاثين مليون سنة ضوئية كاملة.",
+      "summary": "يقع النجم في مجرة حلزونية تبعد ملايين السنين الضوئية.",
+      "keyword": "مجرة",
+      "template": "map",
+      "labels": [
+        "AT 2016blu",
+        "NGC 4559",
+        "سنة ضوئية"
+      ],
+      "values": [],
+      "claim": "النجم AT 2016blu يقع في المجرة الحلزونية NGC 4559 على بعد 30 مليون سنة ضوئية",
+      "sourceId": "e714212c4694",
+      "evidence": "The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "turn"
+    },
+    {
+      "title": "كتلة هائلة تفوق الشمس",
+      "text": "الأرقام المرعبة بتبين إن كتلة النجم الضخم ده بتعادل على الأقل ثلاثة وتلاتين ضعف كتلة شمسنا الحالية، وده بيخليه وحش فضائي متقلب بيفرغ طاقته الهائلة باستمرار وبشكل دوري ملفت.",
+      "summary": "كتلة النجم تعادل 33 ضعف كتلة شمسنا على الأقل.",
+      "keyword": "كتلة",
+      "template": "comparison",
+      "labels": [
+        "كتلة",
+        "أضعاف الشمس",
+        "مقارنة"
+      ],
+      "values": [],
+      "claim": "كتلة النجم لا تقل عن 33 ضعف كتلة الشمس",
+      "sourceId": "e714212c4694",
+      "evidence": "Astronomers estimate the mass of this star is at least 33 times that of the Sun.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "point"
+    },
+    {
+      "title": "أمان كوكب الأرض من بعيد",
+      "text": "علشان كده نقدر نتنفس الصعداء ونطمن تماما، لأن بعده الهائل في الفضاء بيخلينا نتفرج على أسراره وانفجاراته العنيفة من بعيد بأمان كامل وبدون ما يسبب أي خطر على كوكبنا الجميل.",
+      "summary": "المسافة الشاسعة تضمن لنا مراقبة الظاهرة بأمان تام.",
+      "keyword": "أمان",
+      "template": "journey",
+      "labels": [
+        "أمان",
+        "كوكب الأرض",
+        "مراقبة"
+      ],
+      "values": [],
+      "claim": "البعد الشاسع للنجم يحمي الأرض من أي تأثير مباشر لانفجاراته",
+      "sourceId": "e714212c4694",
+      "evidence": "The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth.",
+      "kind": "fact",
+      "expression": 1,
+      "action": "walk"
+    },
+    {
+      "title": "استكشف أسرار الكون معنا",
+      "text": "لو بتحب أسرار الفضاء والكون المليان مفاجآت وعجائب علمية مدهشة، اعمل لايك واشترك في القناة حالا وشاركنا في التعليقات: تفتكر إيه أغرب حاجة ممكن تكتشفها التلسكوبات الحديثة في المستقبل؟",
+      "summary": "دعوة للتفاعل ومشاركة الآراء حول استكشاف الكون.",
+      "keyword": "متابعة",
+      "template": "steps",
+      "labels": [
+        "متابعة",
+        "اشتراك",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "دعوة المتابعين للاشتراك والتفاعل حول اكتشافات الفضاء",
+      "sourceId": "e714212c4694",
+      "evidence": "Read more about the discovery. Image credit: X-ray: NASA/CXC/Univ. of Virginia/M. Aghakhanloo et al.; Optical: SDSS; Image Processing: NASA/CXC/SAO/P. Edmonds",
+      "kind": "illustration",
+      "expression": 3,
+      "action": "point"
+    }
+  ]
+}
