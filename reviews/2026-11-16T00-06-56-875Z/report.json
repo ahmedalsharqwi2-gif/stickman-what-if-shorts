@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-16T00-06-56-875Z",
+  "attemptId": "2026-11-16T00-06-56-875Z",
+  "mode": "review",
+  "published": false,
+  "status": "failed",
+  "resumed": false,
+  "stages": [],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ],
+  "failedStage": "preflight",
+  "errorCode": "MISSING_REPOSITORY_SECRET_GEMINI_API_KEY",
+  "missingRepositorySecretNames": [
+    "GEMINI_API_KEY",
+    "GEMINI_TTS_API_KEY"
+  ],
+  "partial": {
+    "status": "rendered",
+    "path": "/workspace/work/repos/stickman-what-if-shorts/out/2026-11-16T00-06-56-875Z/incomplete/visual-preview-incomplete.mp4",
+    "incomplete": true
+  }
+}
