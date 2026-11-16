@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-15T22-22-59-184Z",
+  "attemptId": "2026-11-16T05-48-05-398Z",
+  "mode": "review",
+  "published": false,
+  "status": "failed",
+  "resumed": true,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.137
+    },
+    {
+      "name": "topics",
+      "status": "resumed_from_saved_source_manifest"
+    },
+    {
+      "name": "script",
+      "status": "resumed_from_hash_verified_script"
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ],
+  "failedStage": "voice",
+  "errorCode": "GEMINI_HTTP_429_EXHAUSTED",
+  "partial": {
+    "status": "rendered",
+    "path": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/out/2026-11-15T22-22-59-184Z/incomplete/visual-preview-incomplete.mp4",
+    "incomplete": true
+  }
+}
