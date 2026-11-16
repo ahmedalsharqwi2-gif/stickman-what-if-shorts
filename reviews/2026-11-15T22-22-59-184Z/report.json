@@ -1,6 +1,6 @@
 {
   "id": "2026-11-15T22-22-59-184Z",
-  "attemptId": "2026-11-16T05-48-05-398Z",
+  "attemptId": "2026-11-16T11-00-35-541Z",
   "mode": "review",
   "published": false,
   "status": "failed",
@@ -9,7 +9,7 @@
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.137
+      "seconds": 0.275
     },
     {
       "name": "topics",
@@ -18,16 +18,20 @@
     {
       "name": "script",
       "status": "resumed_from_hash_verified_script"
+    },
+    {
+      "name": "voice",
+      "status": "pass",
+      "seconds": 277.064
     }
   ],
   "limitations": [
     "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
   ],
-  "failedStage": "voice",
-  "errorCode": "GEMINI_HTTP_429_EXHAUSTED",
+  "failedStage": "align",
+  "errorCode": "ALIGNMENT_SPEECH_MISMATCH",
   "partial": {
-    "status": "rendered",
-    "path": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/out/2026-11-15T22-22-59-184Z/incomplete/visual-preview-incomplete.mp4",
-    "incomplete": true
+    "status": "failed",
+    "code": "PARTIAL_RENDER_FAILED"
   }
 }

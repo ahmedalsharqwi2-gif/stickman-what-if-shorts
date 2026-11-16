@@ -1,0 +1,209 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 15,
+    "text": "ماذا لو طلعت الفضاء ومعاك كاميرا عادية وقررت تصور نهر النيل والبحر الأحمر من فوق، ولقيت إن الصورة البسيطة دي هتقلب أبحاث كوكب الأرض كلها رأسًا على عقب؟",
+    "sha256": "00dbdfcac3bb930d716c26a7316750598a83aa599d8cc590f4906edff0ccc29e",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "05dda9abc691ecbdaf7b7da30726e06f397bc2b89c2795ec16455f7f1664ba00",
+        "sha256": "00dbdfcac3bb930d716c26a7316750598a83aa599d8cc590f4906edff0ccc29e",
+        "text_sha256": "764505169652df6f4dfbe378950334a975115a48ae15409990d0a07845338e27",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 720078,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 17.52,
+    "text": "تخيل عصام الاستيكمان واقف في كبسولة فضائية طايرة وبيحاول يظبط الكادر عشان ياخد سيلفي مع كوكب الأرض، وفجأة الكاميرا تسجل تفاصيل دقيقة للأنهار والبحار كانت مستخبية ومحدش قادر يشوفها من الأرض.",
+    "sha256": "ce3f154bbfc8294b2bdc6930a69015dfdba573b9f5569e17c89b2c43adae7623",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "9d5b8439c902ddb6aa54690de6403df396a979baf4b608008005320dd7ead0de",
+        "sha256": "ce3f154bbfc8294b2bdc6930a69015dfdba573b9f5569e17c89b2c43adae7623",
+        "text_sha256": "d53e4fd6078a97f290d92a0a1a72816620b3094ed848efde5f24881a2e69ac4f",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 841038,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 15.72,
+    "text": "الحكاية الحقيقية بدأت مع رواد فضاء ناسا جيمس لوفيل وباز ألدرين في رحلة جيميني اثنا عشر، لما داروا حوالين الأرض سنة ألف وتسعمية وستة وستين لمدة أربعة أيام ونفذوا مهمتهم بنجاح كبير.",
+    "sha256": "3e72b2a304a6716f12dea3f4410c6c13c368b6c27f6fa29549211d3251eb508d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "745367ab6d39de30e06e185aefeed926b5d9fffef6191dd0ba4f5d7b1c07faad",
+        "sha256": "3e72b2a304a6716f12dea3f4410c6c13c368b6c27f6fa29549211d3251eb508d",
+        "text_sha256": "ba0f3aa10855137dfe59363f9a708d9d8f6026edda3190451b417cb7bc7e8440",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 754638,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 15.08,
+    "text": "الرواد هناك ما كانوش بس بيعملوا مناورات التحام حيوية ومهمة للوصول للقمر، دول صوروا منطقة البحر الأحمر ووادي نهر النيل في أربعتاشر نوفمبر وفتحوا باب جديد لمراقبة الكوكب كله من مدار الفضاء.",
+    "sha256": "945cd634cd4d179fbee5453fda76c00c6c5019e15fb6d71664cbd1de6457933f",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "5e56163d561aa75ff45b53d206ea6cd253cea7de228e9f9133338073ac3d64b0",
+        "sha256": "945cd634cd4d179fbee5453fda76c00c6c5019e15fb6d71664cbd1de6457933f",
+        "text_sha256": "32929ac4725c03ba85a27470cf292ab3faf8fefc3317cefea7c185f4efbb4deb",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 723918,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 17.92,
+    "text": "الصور المدارية دي أثبتت للعلماء إن لقطات الفضاء ليها قيمة علمية جبارة لدراسة سطح الأرض، وخلت المسؤولين والباحثين يتحمسوا لفكرة إطلاق أقمار صناعية مخصصة مخصوص بس عشان تراقب موارد وطبيعة كوكبنا باستمرار.",
+    "sha256": "c6e3d98900d1501c26eb4305b9a9346366e6fe99c0e22be4bc77dc8856d50424",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "24796b0b05143298d3463e236cf8502b51a0c286e85af1334e9468c5f946b449",
+        "sha256": "c6e3d98900d1501c26eb4305b9a9346366e6fe99c0e22be4bc77dc8856d50424",
+        "text_sha256": "74b59049a1bc5a3a4faf06bbc3cbbb7ab149f8bae1966217226a2beb5c5f9efc",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 860238,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 15.24,
+    "text": "ويليام بيكورا مدير هيئة المساحة الجيولوجية الأمريكية كان من أشد الداعمين للفكرة دي، وأكد إن برنامج أقمار الموارد الأرضية اتبنى في الأساس على نجاح صور مهمات ميركوري وجيميني الفضائية العظيمة.",
+    "sha256": "4a9e5234594d19a06d6fc94b8f28895ecfab4e1792f8b6f99554eb0724c2c37c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "8bdc812c0d2b663ef0e8f819c047034e456e2c7322505ec55c07e1ef6d79b63c",
+        "sha256": "4a9e5234594d19a06d6fc94b8f28895ecfab4e1792f8b6f99554eb0724c2c37c",
+        "text_sha256": "54c19b9b0880ea86bb0cf0ac6ef746c7ffde7f4886bbfbf4fbc372a2a9e1bcc4",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 731598,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 15.44,
+    "text": "الحلم ده مهد الطريق لبرنامج لاندسات الشهير، واللي استمر أكتر من خمسين سنة بيقدم بيانات ومعلومات فضائية دقيقة بتفيد العالم كله وبتكشف كل التغيرات اللي بتحصل على سطح كوكب الأرض يوم ورا يوم.",
+    "sha256": "72606bbaf8682e9c29257c4269d1761e06250bc4dd3bdc0efc8438e9a3fd6f6d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "9a490e932d822519cf5a24bdb9630a5a7c5d0120e485e39d01b1fe13f516094c",
+        "sha256": "72606bbaf8682e9c29257c4269d1761e06250bc4dd3bdc0efc8438e9a3fd6f6d",
+        "text_sha256": "6d4797795b1a6d815649dcd79360c0b1a655d1f0e698a6fef1f6f51174ab7053",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 741198,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 17,
+    "text": "الأقمار دي حاليًا بتراقب المحاصيل الزراعية وحرائق الغابات والفيضانات وصحة الغطاء النباتي واستخدامات الأراضي، وبقت عيون الكوكب اللي بتحميه من الأخطار وتتابع بيئته الطبيعية بكل دقة واحتراف من الفضاء الواسع.",
+    "sha256": "182b029b07ca8051b67622a952f507b06414ef12bcfbb4fb4ca48b64c2344952",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "fa4228ac9ac9f5ebc8faeda8d0b7f9adda751b5dfb4f26c2cb5e4a43f08414a0",
+        "sha256": "182b029b07ca8051b67622a952f507b06414ef12bcfbb4fb4ca48b64c2344952",
+        "text_sha256": "6b11e798d4bcfe4f03c389235fd167afabba6dc67330b4e7885a054cea5c46b1",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 816078,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-8.wav",
+    "duration": 13.2,
+    "text": "فلو عجبك إزاي صورة واحدة غيرت مراقبة الأرض من الفضاء، اعمل لايك وشارك الفيديو واكتب في التعليقات تفتكر إيه أكتر ظاهرة طبيعية تستاهل تترصد بالقمر الصناعي دلوقتي؟",
+    "sha256": "338ead430042fcf20159d428564ef84502a3be542cdfdb19f0afbfea0b1bba79",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 8,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "81374289fc1a854056d61123a13ce86d99a92ee744f2bb6cea97859a22137741",
+        "sha256": "338ead430042fcf20159d428564ef84502a3be542cdfdb19f0afbfea0b1bba79",
+        "text_sha256": "b975154a4f46d59b27de599d04faeee24e88c0ef1cf916eef3375a2c2b4299fe",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 633678,
+        "reused": false
+      }
+    ]
+  }
+]

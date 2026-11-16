@@ -1,0 +1,38 @@
+{
+  "method": "stable-ts attention forced alignment; independent unprompted faster-whisper ASR",
+  "estimatedTiming": false,
+  "scenes": [
+    {
+      "scene": 0,
+      "passed": true,
+      "words": 28,
+      "characterSimilarity": 0.9539748953974896,
+      "wordCoverage": 0.7857142857142857,
+      "sourceWords": 28,
+      "recognizedWords": 27,
+      "missingNumerals": []
+    },
+    {
+      "scene": 1,
+      "passed": true,
+      "words": 31,
+      "characterSimilarity": 0.9581993569131833,
+      "wordCoverage": 0.7419354838709677,
+      "sourceWords": 31,
+      "recognizedWords": 32,
+      "missingNumerals": []
+    }
+  ],
+  "passed": false,
+  "code": "ALIGNMENT_SPEECH_MISMATCH",
+  "stage": "independent_asr",
+  "scene": 2,
+  "errorType": "AlignmentError",
+  "details": {
+    "characterSimilarity": 0.8208955223880597,
+    "wordCoverage": 0.40625,
+    "sourceWords": 32,
+    "recognizedWords": 29,
+    "missingNumerals": []
+  }
+}
