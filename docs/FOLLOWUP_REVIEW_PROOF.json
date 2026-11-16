@@ -13,7 +13,9 @@
     "complete": false,
     "approved": false,
     "contactSheet": "out/2026-11-16T00-06-56-875Z/incomplete/contact-sheet.jpg",
-    "thumbnail": "out/2026-11-16T00-06-56-875Z/incomplete/thumbnail.png"
+    "thumbnail": "out/2026-11-16T00-06-56-875Z/incomplete/thumbnail.png",
+    "publicVideo": "https://raw.githubusercontent.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/review-media/reviews/2026-11-16T00-06-56-875Z/incomplete/visual-preview-incomplete.mp4",
+    "publicContactSheet": "https://raw.githubusercontent.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/review-media/reviews/2026-11-16T00-06-56-875Z/incomplete/contact-sheet.jpg"
   },
   "logo": {
     "sha256": "29806778333572189dfe658c3fb4cd3b289b9d0a4c9c87f94d8758b4c66e934b",
@@ -28,5 +30,10 @@
   },
   "mockedTests": 33,
   "typeScript": "pass",
-  "actionsReview": "not yet run for this follow-up commit"
+  "actionsReview": {
+    "runId": 43812470824,
+    "verify": "success",
+    "review": "in_progress",
+    "url": "https://github.com/ahmedalsharqwi2-gif/stickman-what-if-shorts/actions/runs/43812470824"
+  }
 }
