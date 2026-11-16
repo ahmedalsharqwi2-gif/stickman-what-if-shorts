@@ -9,3 +9,8 @@ One daily.yml workflow runs checks and a review-only attempt on same-repository 
 Publication is deliberately unavailable: config/release.json has publish_enabled=false, publish mode errors even if config is edited, and /api/youtube/upload returns 403 after authentication. To enable later, owner review must approve the MP4 and an explicit publishing implementation/security review in a separate PR; changing a Boolean alone does not silently activate upload. Never merge this rebuild as production-ready until six complete review films, all required QA and exact original logos have been accepted.
 
 The rebuilt Nafhamha service changes /api/render to a review runner and removes legacy OAuth/media/voice routes. Dashboard integration compatibility is NOT established; do not deploy it over the existing service without adapting and testing callers. Docker build not assumed tested. Auth requires API_TOKEN at least 32 characters; health requires no token. Render lock excludes parallel jobs; no error dumps provider bodies, keys or headers.
+
+
+## Follow-up review artifacts
+
+`make review` still exits nonzero when the primary narrated review fails, but records the exact first failing stage and attempts a clearly labeled 96-second silent visual preview under `out/<run>/incomplete`. These files are not publication-eligible. `make visual-review` renders the same explicit incomplete design path directly. Successful voice chunks and source/script state resume; Actions saves their cache even after failure. `config/gemini.json` owns model order, discovery, retry/rate limits and Charon settings. Exact original logo bytes and public canonical alias are verified before rendering.

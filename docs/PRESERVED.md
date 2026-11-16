@@ -11,3 +11,13 @@ All listed bytes preserved at their original paths, except the Nafhamha identity
 | `remotion_motion/public/fonts/Arabic-Regular.ttf` | `504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e` |
 
 Original logo present in checkout: no. The owner subsequently supplied inline logo references. Their original file bytes have not been exposed by the upload tool; no replacement has been drawn. See config/logo-intake.json. Original font files and their available notices remain. Charon and intended 17:00 Africa/Cairo destination names remain in config. No .mp4 files were tracked on the cloned main snapshots; no approved media was deleted from remote media branches. Legacy scheduling files are in the backup, but the new branch has only one active workflow.
+
+## Follow-up original logo installation
+
+Source: Owner supplied logos.zip / stickman-what-if-shorts.jpg
+
+Canonical file: `brand/logo/logo.jpg`
+
+SHA-256: `29806778333572189dfe658c3fb4cd3b289b9d0a4c9c87f94d8758b4c66e934b`
+
+Byte-for-byte copy verified; no redraw, recolor, background removal, raster edit or vectorization. The public/brand/logo directory is a symlink to the canonical directory. Header, intro/outro and thumbnail use the same Logo component and source.

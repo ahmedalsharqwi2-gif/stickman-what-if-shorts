@@ -1,0 +1,32 @@
+{
+  "localReview": {
+    "fullReview": "failed at preflight",
+    "error": "MISSING_REPOSITORY_SECRET_GEMINI_API_KEY",
+    "partialVideo": "out/2026-11-16T00-06-56-875Z/incomplete/visual-preview-incomplete.mp4",
+    "sha256": "60584d9b0290d9746d1acc05221027260dc048b5669f6b0adbc62f9e855b3066",
+    "bytes": 8096904,
+    "duration": 96,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "audio": false,
+    "complete": false,
+    "approved": false,
+    "contactSheet": "out/2026-11-16T00-06-56-875Z/incomplete/contact-sheet.jpg",
+    "thumbnail": "out/2026-11-16T00-06-56-875Z/incomplete/thumbnail.png"
+  },
+  "logo": {
+    "sha256": "29806778333572189dfe658c3fb4cd3b289b9d0a4c9c87f94d8758b4c66e934b",
+    "canonical": "brand/logo/logo.jpg",
+    "renderedMeanAbsoluteRGBError": 6.471153846153847,
+    "threshold": 15
+  },
+  "layout": {
+    "passed": true,
+    "framesChecked": 26,
+    "boxesChecked": 156
+  },
+  "mockedTests": 33,
+  "typeScript": "pass",
+  "actionsReview": "not yet run for this follow-up commit"
+}

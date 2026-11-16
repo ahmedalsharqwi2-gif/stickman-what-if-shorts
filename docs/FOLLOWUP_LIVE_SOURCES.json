@@ -1,0 +1,35 @@
+{
+  "fetchedAt": "2026-11-15T22:56:20.739Z",
+  "sourceCount": 10,
+  "feeds": [
+    {
+      "url": "https://www.nasa.gov/feed/",
+      "items": 10,
+      "valid": 10,
+      "invalid": 0,
+      "future": 0,
+      "status": "ok",
+      "cache": "miss"
+    }
+  ],
+  "latest": [
+    {
+      "id": "e714212c4694",
+      "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+      "published": "2026-11-13T16:39:33.000Z",
+      "dateBasis": "item_publication_or_update"
+    },
+    {
+      "id": "43fbd5f391f2",
+      "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
+      "published": "2026-11-13T16:05:54.000Z",
+      "dateBasis": "item_publication_or_update"
+    },
+    {
+      "id": "f8746cf4ef0b",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
+      "published": "2026-11-13T05:05:00.000Z",
+      "dateBasis": "item_publication_or_update"
+    }
+  ]
+}

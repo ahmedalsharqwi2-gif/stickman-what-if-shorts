@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "purpose": "Engineering regression fingerprints of the existing independently authored SVG rig. Not a visual approval or comparison with the uploaded reference.",
+  "ownerApproved": false,
+  "referenceVideoParityAssessed": false,
+  "frames": [
+    0,
+    12,
+    24,
+    45,
+    75,
+    105
+  ],
+  "proportions": {
+    "headToTorsoHeight": 1.288888888888889,
+    "declaredLegLength": 150
+  },
+  "expressions": {
+    "smile": "c6feb363da4f328af3347ee0f95a68bceb9e3cfa96c116ebc30b7300fc81e3cc",
+    "shock": "24edc5c70c9e7757bde016e5937dfb53cfd374fcbd5fca7b44f526a40df58108",
+    "tired": "3c4d3ee176eb50634270ce3db74ad282e4fcf12b62a6c420fcc0306d05d0bda8",
+    "angry": "66aa62744099278b1d6f99f05d1057c0db989bd2319ce1547e5400fe26643d99",
+    "curious": "5981d3c84531b7c8d613bcecbd85e3db643a00852732ffc4b73922da2ce9f2bb",
+    "sad": "9c992714684177e7c3000d0a637e6ff1f4ba8210ba7d3343bec91dff814d8dd2",
+    "proud": "3e2a7650c7ecfc0151b9081d486c5386ee67ccb09b6e3a499f6845beffded73b",
+    "scared": "a782a030262272ece5ad40df117b5adb14b456ae7be819c097c99ec3195af25c",
+    "laugh": "a7d4132213f59fa315d2b81dd884e976311ef1eb52d5d9ac3964db4a44b2f168",
+    "wink": "257554f764ebe1fba32b607ac86ea088d8be0f98051a4baf5886cb566f0ac0cc",
+    "confused": "97abbb4355f12e97965b4e2ea594d99220bbe5c49486ac11a84b231ccd92c284",
+    "determined": "eeecaecfdffdf47a12503fe62839794d1874acae815fb16c0d7e9fb9664744aa"
+  },
+  "actions": {
+    "walk": "1093c7218e1dcea7fd615effab7f53fa83c03e0469284703cba55da1d8e6c050",
+    "run": "a2da873c7d4b1750405efb3427d6ed1ea1a834fda9437f4cc38583d4d7b08b8f",
+    "jump": "de8e8fb0c1c967d1a3cb4e56cf7d507954cf5374f0290bae056978201c96d26f",
+    "fall": "f0fd3b2b84c17409f709955b47d713dcc37396d3fd5cc38b47aac9d38a3abf41",
+    "point": "489e6c3f0813ec1604fb3b0c9c19e8c84b7f6d627100d8a46cc5176df2406fd4",
+    "turn": "e9428ede4aa84be7086a99289595d0a7e714567efa336da2f1e691f9a4e66092",
+    "hang": "1fe6b1b18e9c5553d86e667b5407d0d94db7e50c6f63036753854076c7f2223a",
+    "sleep": "8adb71a846de139f601e35e28412f3123dcbda50110082611845c8ff716e751d"
+  }
+}
