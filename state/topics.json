@@ -26,7 +26,13 @@
   {
     "topicKey": "remotion-stickman-whatif-iss-cargo",
     "value": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T13-46-10-019Z"
+  },
+  {
+    "topicKey": "remotion-stickman-whatif-voyager-light-day",
+    "value": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+    "status": "reserved",
+    "run": "2026-11-19T14-31-31-094Z"
   }
 ]

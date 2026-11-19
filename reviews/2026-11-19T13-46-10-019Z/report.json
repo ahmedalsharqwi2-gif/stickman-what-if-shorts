@@ -1,45 +1,18 @@
 {
   "id": "2026-11-19T13-46-10-019Z",
-  "attemptId": "2026-11-19T14-07-41-488Z",
+  "attemptId": "2026-11-19T14-31-31-094Z",
   "mode": "review",
   "published": false,
-  "status": "failed",
+  "status": "running",
   "resumed": true,
   "stages": [
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.524
-    },
-    {
-      "name": "topics",
-      "status": "resumed_from_saved_source_manifest"
-    },
-    {
-      "name": "script",
-      "status": "resumed_from_hash_verified_script"
-    },
-    {
-      "name": "voice",
-      "status": "pass",
-      "seconds": 546.831
-    },
-    {
-      "name": "voice-repair-1",
-      "status": "pass",
-      "seconds": 1.567
+      "seconds": 0.977
     }
   ],
   "limitations": [
-    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate.",
-    "align failed (ALIGNMENT_SPEECH_MISMATCH); re-narrating once with fresh synthesis",
-    "align repair failed (ALIGNMENT_SPEECH_MISMATCH); repair budget exhausted"
-  ],
-  "failedStage": "align-repair-1",
-  "errorCode": "ALIGNMENT_SPEECH_MISMATCH",
-  "partial": {
-    "status": "rendered",
-    "path": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/out/2026-11-19T13-46-10-019Z/incomplete-with-voice/review-with-voice-INCOMPLETE.mp4",
-    "incomplete": true
-  }
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ]
 }

@@ -1,0 +1,172 @@
+{
+  "topicKey": "remotion-stickman-whatif-voyager-light-day",
+  "title": "إزاي فويجر وصلت لمسافة يوم ضوئي؟",
+  "hook": "إزاي فويجر وصلت لمسافة يوم ضوئي؟ تخيل إنك بتبعت رسالة لصاحبك وبتاخد يوم كامل عشان توصل، ده اللي بيحصل بالظبط مع المركبة الفضائية فويجر واحد وهي بتبعد عننا مسافة خيالية في الفضاء العميق.",
+  "cta": "لو عجبك الفيديو، اشترك في القناة عشان تعرف أكتر عن أسرار الفضاء والرحلات اللي بتغير تاريخ البشرية، واستنونا في فيديوهات تانية كتير عن عجائب الكون اللي بنكتشفها كل يوم مع وكالة ناسا.",
+  "scenes": [
+    {
+      "title": "رحلة فويجر التاريخية",
+      "text": "فويجر واحد هي أبعد مركبة فضائية صنعها البشر، وبعد تسعة وأربعين سنة من السفر المستمر، قدرت توصل لمسافة يوم ضوئي كامل عن الأرض. الرقم ده بيعادل حوالي ستة وعشرين مليار كيلومتر في الفضاء.",
+      "summary": "فويجر واحد تقطع مسافة يوم ضوئي عن الأرض.",
+      "keyword": "فويجر",
+      "template": "phenomenon",
+      "labels": [
+        "فضاء",
+        "مركبة",
+        "رحلة"
+      ],
+      "values": [],
+      "claim": "Voyager 1 reached one light-day from Earth on Nov. 18, 2026.",
+      "sourceId": "b71681db2cca",
+      "evidence": "Voyager 1, depicted in this artist’s concept, reached one light-day from Earth on Nov. 18, 2026.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "walk",
+      "brollQuery": "spacecraft"
+    },
+    {
+      "title": "يعني إيه يوم ضوئي؟",
+      "text": "اليوم الضوئي هو المسافة اللي بيقطعها الضوء في أربع وعشرين ساعة. الضوء سريع جداً، بيسافر حوالي ثلاثمائة ألف كيلومتر في الثانية الواحدة، ومع ذلك المسافة دي ضخمة جداً لدرجة إنها بتاخد يوم كامل.",
+      "summary": "تعريف اليوم الضوئي كمسافة.",
+      "keyword": "ضوء",
+      "template": "comparison",
+      "labels": [
+        "سرعة",
+        "مسافة",
+        "ضوء"
+      ],
+      "values": [],
+      "claim": "A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers).",
+      "sourceId": "b71681db2cca",
+      "evidence": "A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers).",
+      "kind": "fact",
+      "expression": 2,
+      "action": "point",
+      "brollQuery": "light beam"
+    },
+    {
+      "title": "تأخير في التواصل",
+      "text": "بسبب المسافة دي، أي إشارة راديو بتبعتها فويجر للأرض بتاخد أربع وعشرين ساعة عشان توصلنا. يعني المهندسين في ناسا بيسمعوا أخبار المركبة بعد يوم كامل من إرسالها، وده تحدي كبير جداً في التواصل.",
+      "summary": "تأخير الإشارة الراديوية من فويجر.",
+      "keyword": "إشارة",
+      "template": "journey",
+      "labels": [
+        "راديو",
+        "تواصل",
+        "تأخير"
+      ],
+      "values": [],
+      "claim": "Signals now take 24 hours to reach the spacecraft and 24 hours to reach us.",
+      "sourceId": "b71681db2cca",
+      "evidence": "Even traveling at the speed of light, signals now take 24 hours to reach the spacecraft and 24 hours to reach us.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "turn",
+      "brollQuery": "radio antenna"
+    },
+    {
+      "title": "مهمة فويجر العظيمة",
+      "text": "المركبة دي انطلقت سنة ألف وتسعمائة وسبعة وسبعين عشان تستكشف الكواكب الخارجية زي المشتري وزحل. المهمة كانت عبارة عن جولة نادرة للكواكب، وساهمت بشكل كبير في فهمنا للنظام الشمسي وأقماره البعيدة والمختلفة.",
+      "summary": "بداية مهمة فويجر لاستكشاف الكواكب.",
+      "keyword": "كواكب",
+      "template": "steps",
+      "labels": [
+        "مشتري",
+        "زحل",
+        "استكشاف"
+      ],
+      "values": [],
+      "claim": "Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment.",
+      "sourceId": "b71681db2cca",
+      "evidence": "Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "jump",
+      "brollQuery": "planets"
+    },
+    {
+      "title": "البطارية النووية",
+      "text": "فويجر بتعتمد على مولد حراري نظائري، وده زي بطارية نووية بتحول حرارة البلوتونيوم لكهرباء. مع الوقت، إمدادات البلوتونيوم بتقل، والمركبة بتفقد حوالي أربعة وات من طاقتها كل سنة، لكنها لسه شغالة وبتبعت بيانات.",
+      "summary": "كيفية عمل بطارية فويجر النووية.",
+      "keyword": "بطارية",
+      "template": "cause",
+      "labels": [
+        "طاقة",
+        "بلوتونيوم",
+        "كهرباء"
+      ],
+      "values": [],
+      "claim": "Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity.",
+      "sourceId": "b71681db2cca",
+      "evidence": "Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity.",
+      "kind": "fact",
+      "expression": 1,
+      "action": "sleep",
+      "brollQuery": "battery"
+    },
+    {
+      "title": "رسالة للبشرية",
+      "text": "فويجر شايلة معاها سجل ذهبي، وهو أسطوانة نحاسية مطلية بالذهب عليها صور وأصوات من الأرض. دي رسالة لأي حضارة متقدمة ممكن تلاقي المركبة في المستقبل البعيد، بتعرفهم إننا كنا هنا وبنحب نستكشف.",
+      "summary": "السجل الذهبي على متن فويجر.",
+      "keyword": "سجل",
+      "template": "phenomenon",
+      "labels": [
+        "ذهب",
+        "رسالة",
+        "حضارة"
+      ],
+      "values": [],
+      "claim": "The Voyager probes carry a Golden Record, a gold-plated copper phonograph compiling images and sounds from Earth.",
+      "sourceId": "b71681db2cca",
+      "evidence": "the Voyager probes carry a Golden Record , a gold-plated copper phonograph compiling images and sounds from Earth, as a message to any advanced civilization that might one day find it.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point",
+      "brollQuery": "golden record"
+    },
+    {
+      "title": "مستقبل فويجر",
+      "text": "في يوم من الأيام، فويجر مش هتقدر تتواصل مع الأرض تاني، وهتتحول لسفير صامت للبشرية بين النجوم. الرحلة دي بتعكس روح الفضول الإنساني اللي بيخلينا دايماً عايزين نوصل لأبعد نقطة ممكنة في الكون.",
+      "summary": "مستقبل فويجر كسفير صامت للبشرية.",
+      "keyword": "سفير",
+      "template": "journey",
+      "labels": [
+        "نجوم",
+        "فضاء",
+        "مستقبل"
+      ],
+      "values": [],
+      "claim": "One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.",
+      "sourceId": "b71681db2cca",
+      "evidence": "One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "fall",
+      "brollQuery": "stars"
+    },
+    {
+      "title": "خاتمة الرحلة",
+      "text": "فويجر واحد بتثبت إننا نقدر نتغلب على التحديات ونوصل لأماكن مكنش حد يتخيلها. دي قصة نجاح هندسي وإنساني مستمر من خمسين سنة، وبنأمل إنها تكمل رحلتها وتجاوب على أسئلتنا عن الفضاء الخارجي.",
+      "summary": "خلاصة إنجاز فويجر التاريخي.",
+      "keyword": "نجاح",
+      "template": "phenomenon",
+      "labels": [
+        "إنجاز",
+        "هندسة",
+        "تاريخ"
+      ],
+      "values": [],
+      "claim": "Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery.",
+      "sourceId": "b71681db2cca",
+      "evidence": "Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery,",
+      "kind": "fact",
+      "expression": 11,
+      "action": "run",
+      "brollQuery": "space"
+    }
+  ],
+  "seriesLabel": "عجائب الفضاء",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

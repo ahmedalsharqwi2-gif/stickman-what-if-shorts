@@ -1,297 +1,287 @@
 {
   "schema": 1,
-  "id": "2026-11-19T13-46-10-019Z",
+  "id": "2026-11-19T14-31-31-094Z",
   "profile": "stickman",
   "episode": {
-    "topicKey": "remotion-stickman-whatif-iss-cargo",
-    "title": "إزاي بيوصل أكل لرواد الفضاء في المحطة؟",
-    "hook": "إزاي بيوصل أكل لرواد الفضاء في المحطة؟ افترض كده إنك محتاج تبعث أحد عشر ألف رطل من الإمدادات والأبحاث العلمية لرواد فضاء عايشين فوق في المدار، يا ترى إيه اللي ممكن يحصل؟",
-    "cta": "تابعونا عشان تعرفوا أكتر عن رحلات الفضاء اللي بتغير حياتنا، واعملوا اشتراك في القناة عشان يوصلكم كل جديد عن أبحاث ناسا والمهمات اللي جاية.",
+    "topicKey": "remotion-stickman-whatif-voyager-light-day",
+    "title": "إزاي فويجر وصلت لمسافة يوم ضوئي؟",
+    "hook": "إزاي فويجر وصلت لمسافة يوم ضوئي؟ تخيل إنك بتبعت رسالة لصاحبك وبتاخد يوم كامل عشان توصل، ده اللي بيحصل بالظبط مع المركبة الفضائية فويجر واحد وهي بتبعد عننا مسافة خيالية في الفضاء العميق.",
+    "cta": "لو عجبك الفيديو، اشترك في القناة عشان تعرف أكتر عن أسرار الفضاء والرحلات اللي بتغير تاريخ البشرية، واستنونا في فيديوهات تانية كتير عن عجائب الكون اللي بنكتشفها كل يوم مع وكالة ناسا.",
     "scenes": [
       {
-        "title": "رحلة الإمداد الفضائية",
-        "text": "تخيل صاروخ ضخم بيشيل حمولة وزنها أحد عشر ألف رطل من الأكل والأجهزة العلمية، الصاروخ ده هو سبيس إكس فالكون تسعة اللي بيشيل مركبة سيجنوس إكس إل في مهمة ناسا.",
-        "summary": "صاروخ فالكون تسعة يحمل مركبة سيجنوس إكس إل.",
-        "keyword": "صاروخ",
+        "title": "رحلة فويجر التاريخية",
+        "text": "فويجر واحد هي أبعد مركبة فضائية صنعها البشر، وبعد تسعة وأربعين سنة من السفر المستمر، قدرت توصل لمسافة يوم ضوئي كامل عن الأرض. الرقم ده بيعادل حوالي ستة وعشرين مليار كيلومتر في الفضاء.",
+        "summary": "فويجر واحد تقطع مسافة يوم ضوئي عن الأرض.",
+        "keyword": "فويجر",
         "template": "phenomenon",
         "labels": [
-          "صاروخ",
-          "حمولة",
-          "فضاء"
+          "فضاء",
+          "مركبة",
+          "رحلة"
         ],
         "values": [],
-        "claim": "NASA’s Northrop Grumman Commercial Resupply Services 25 mission will deliver approximately 11,000 pounds of science and supplies to the International Space Station.",
-        "sourceId": "162c5c6a72fe",
-        "evidence": "NASA’s Northrop Grumman Commercial Resupply Services 25 mission will deliver approximately 11,000 pounds of science and supplies to the International Space Station.",
+        "claim": "Voyager 1 reached one light-day from Earth on Nov. 18, 2026.",
+        "sourceId": "b71681db2cca",
+        "evidence": "Voyager 1, depicted in this artist’s concept, reached one light-day from Earth on Nov. 18, 2026.",
         "kind": "fact",
         "expression": 5,
-        "action": "point",
-        "brollQuery": "SpaceX Falcon 9 rocket"
-      },
-      {
-        "title": "تجهيز المهمة",
-        "text": "قبل الانطلاق، بيتم عقد مؤتمر صحفي عشان يوضحوا كل تفاصيل المهمة، والمشاركين بيشرحوا إزاي بيتم التخطيط لكل خطوة عشان يضمنوا وصول الإمدادات بأمان للمحطة الدولية في الموعد المحدد.",
-        "summary": "تنسيق دقيق للمهمة عبر مؤتمرات صحفية.",
-        "keyword": "مؤتمر",
-        "template": "steps",
-        "labels": [
-          "تخطيط",
-          "مؤتمر",
-          "ناسا"
-        ],
-        "values": [],
-        "claim": "The agency also will hold a prelaunch media teleconference on Monday, Nov. 23.",
-        "sourceId": "162c5c6a72fe",
-        "evidence": "The agency also will hold a prelaunch media teleconference on Monday, Nov. 23.",
-        "kind": "fact",
-        "expression": 2,
         "action": "walk",
-        "brollQuery": "NASA press conference"
-      },
-      {
-        "title": "لحظة الانطلاق",
-        "text": "في يوم تسعة وعشرين نوفمبر، بتبدأ لحظة الحقيقة، الصاروخ بينطلق من قاعدة كيب كانافيرال في فلوريدا، والكل بيتابع العد التنازلي عشان يشوفوا المركبة وهي بتشق طريقها نحو الفضاء الخارجي.",
-        "summary": "انطلاق الصاروخ من قاعدة كيب كانافيرال.",
-        "keyword": "انطلاق",
-        "template": "journey",
-        "labels": [
-          "انطلاق",
-          "فلوريدا",
-          "فضاء"
-        ],
-        "values": [],
-        "claim": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch.",
-        "sourceId": "162c5c6a72fe",
-        "evidence": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch",
-        "kind": "fact",
-        "expression": 8,
-        "action": "jump",
-        "brollQuery": "rocket launch"
-      },
-      {
-        "title": "الوصول للمحطة",
-        "text": "بعد أيام، المركبة بتوصل للمحطة، ورواد الفضاء جيسيكا واتكينز ولوك ديلاني بيستخدموا ذراع الروبوت كاندارم اتنين عشان يمسكوا المركبة ويضمموها لوحدة يونيتي، دي عملية دقيقة جداً ومحتاجة تركيز عالي.",
-        "summary": "استخدام ذراع الروبوت لالتقاط المركبة.",
-        "keyword": "روبوت",
-        "template": "steps",
-        "labels": [
-          "روبوت",
-          "محطة فضاء",
-          "التقاط"
-        ],
-        "values": [],
-        "claim": "NASA astronauts Jessica Watkins and Luke Delaney, who are living and working aboard the space station, will use the Canadarm2 robotic arm to capture the Cygnus XL.",
-        "sourceId": "162c5c6a72fe",
-        "evidence": "NASA astronauts Jessica Watkins and Luke Delaney, who are living and working aboard the space station, will use the Canadarm2 robotic arm to capture the Cygnus XL on Tuesday, Dec. 1.",
-        "kind": "fact",
-        "expression": 6,
-        "action": "point",
-        "brollQuery": "Canadarm2 robotic arm"
-      },
-      {
-        "title": "أبحاث في الفضاء",
-        "text": "الحمولة مش بس أكل، دي فيها تجارب علمية مهمة جداً، زي أبحاث عن علاج السرطان، وتحسين توصيل الأدوية، وتجارب تانية عشان نفهم إزاي نحافظ على صحة العضلات في ظروف انعدام الجاذبية.",
-        "summary": "تجارب علمية لتحسين صحة الإنسان.",
-        "keyword": "تجارب",
-        "template": "phenomenon",
-        "labels": [
-          "أبحاث",
-          "سرطان",
-          "عضلات"
-        ],
-        "values": [],
-        "claim": "Highlights of space station research include experiments to improve drug delivery for cancer and osteoarthritis, predict cancer spread, and advance treatments for muscle loss.",
-        "sourceId": "162c5c6a72fe",
-        "evidence": "Highlights of space station research and technology demonstrations being delivered aboard this Cygnus XL spacecraft include experiments to improve drug delivery for cancer and osteoarthritis",
-        "kind": "fact",
-        "expression": 4,
-        "action": "turn",
-        "brollQuery": "scientific experiment"
-      },
-      {
-        "title": "تكريم رائد فضاء",
-        "text": "المركبة دي متسمية باسم جيمس لوفيل، رائد فضاء سابق شارك في أربع مهمات تاريخية، منها أبولو ثمانية وأبولو ثلاثة عشر، وده تكريم لمسيرته العظيمة في استكشاف القمر والفضاء الواسع.",
-        "summary": "تسمية المركبة باسم رائد الفضاء جيمس لوفيل.",
-        "keyword": "مركبة",
-        "template": "journey",
-        "labels": [
-          "تكريم",
-          "أبولو",
-          "فضاء"
-        ],
-        "values": [],
-        "claim": "Northrop Grumman named the spacecraft the S.S. James Jim A. Lovell in honor of the former NASA astronaut.",
-        "sourceId": "162c5c6a72fe",
-        "evidence": "Northrop Grumman named the spacecraft the S.S. James Jim A. Lovell in honor of the former NASA astronaut. Lovell flew four missions, including Gemini VII, Gemini XII, Apollo 8, and the Apollo 13 mission around the Moon.",
-        "kind": "fact",
-        "expression": 9,
-        "action": "point",
         "brollQuery": "spacecraft"
       },
       {
-        "title": "نهاية المهمة",
-        "text": "المركبة هتفضل في المدار لحد مايو ألفين سبعة وعشرين، وبعدها هترجع محملة بالنفايات عشان تحترق بأمان في الغلاف الجوي، وبكده تكون انتهت رحلة تانية ناجحة من رحلات الإمداد الفضائية.",
-        "summary": "انتهاء المهمة واحتراق المركبة في الغلاف الجوي.",
-        "keyword": "غلاف",
-        "template": "phenomenon",
+        "title": "يعني إيه يوم ضوئي؟",
+        "text": "اليوم الضوئي هو المسافة اللي بيقطعها الضوء في أربع وعشرين ساعة. الضوء سريع جداً، بيسافر حوالي ثلاثمائة ألف كيلومتر في الثانية الواحدة، ومع ذلك المسافة دي ضخمة جداً لدرجة إنها بتاخد يوم كامل.",
+        "summary": "تعريف اليوم الضوئي كمسافة.",
+        "keyword": "ضوء",
+        "template": "comparison",
         "labels": [
-          "نهاية",
-          "غلاف جوي",
-          "نفايات"
+          "سرعة",
+          "مسافة",
+          "ضوء"
         ],
         "values": [],
-        "claim": "The spacecraft is scheduled to remain at the orbiting laboratory until May 2027, then depart with several thousand pounds of disposal items and other unneeded cargo, burning up harmlessly during re-entry.",
-        "sourceId": "162c5c6a72fe",
-        "evidence": "The spacecraft is scheduled to remain at the orbiting laboratory until May 2027, then depart with several thousand pounds of disposal items and other unneeded cargo, burning up harmlessly during re-entry.",
+        "claim": "A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers).",
+        "sourceId": "b71681db2cca",
+        "evidence": "A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers).",
         "kind": "fact",
-        "expression": 3,
-        "action": "fall",
-        "brollQuery": "reentry atmosphere"
+        "expression": 2,
+        "action": "point",
+        "brollQuery": "light beam"
       },
       {
-        "title": "شارك في التجربة",
-        "text": "تقدر كمان تشارك في المهمة دي افتراضياً من بيتك، ناسا بتوفر برنامج للجمهور عشان يتابعوا الإطلاق ويحصلوا على ختم في جواز سفر ناسا الافتراضي، تجربة ممتعة لكل محبي الفضاء.",
-        "summary": "برنامج ناسا الافتراضي للجمهور.",
-        "keyword": "جواز",
-        "template": "steps",
+        "title": "تأخير في التواصل",
+        "text": "بسبب المسافة دي، أي إشارة راديو بتبعتها فويجر للأرض بتاخد أربع وعشرين ساعة عشان توصلنا. يعني المهندسين في ناسا بيسمعوا أخبار المركبة بعد يوم كامل من إرسالها، وده تحدي كبير جداً في التواصل.",
+        "summary": "تأخير الإشارة الراديوية من فويجر.",
+        "keyword": "إشارة",
+        "template": "journey",
         "labels": [
-          "مشاركة",
-          "جمهور",
-          "ناسا"
+          "راديو",
+          "تواصل",
+          "تأخير"
         ],
         "values": [],
-        "claim": "Members of the public can register to attend this launch virtually. NASA’s virtual guest program for this mission also includes curated launch resources.",
-        "sourceId": "162c5c6a72fe",
-        "evidence": "Members of the public can register to attend this launch virtually. NASA’s virtual guest program for this mission also includes curated launch resources",
+        "claim": "Signals now take 24 hours to reach the spacecraft and 24 hours to reach us.",
+        "sourceId": "b71681db2cca",
+        "evidence": "Even traveling at the speed of light, signals now take 24 hours to reach the spacecraft and 24 hours to reach us.",
+        "kind": "fact",
+        "expression": 8,
+        "action": "turn",
+        "brollQuery": "radio antenna"
+      },
+      {
+        "title": "مهمة فويجر العظيمة",
+        "text": "المركبة دي انطلقت سنة ألف وتسعمائة وسبعة وسبعين عشان تستكشف الكواكب الخارجية زي المشتري وزحل. المهمة كانت عبارة عن جولة نادرة للكواكب، وساهمت بشكل كبير في فهمنا للنظام الشمسي وأقماره البعيدة والمختلفة.",
+        "summary": "بداية مهمة فويجر لاستكشاف الكواكب.",
+        "keyword": "كواكب",
+        "template": "steps",
+        "labels": [
+          "مشتري",
+          "زحل",
+          "استكشاف"
+        ],
+        "values": [],
+        "claim": "Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment.",
+        "sourceId": "b71681db2cca",
+        "evidence": "Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment.",
+        "kind": "fact",
+        "expression": 4,
+        "action": "jump",
+        "brollQuery": "planets"
+      },
+      {
+        "title": "البطارية النووية",
+        "text": "فويجر بتعتمد على مولد حراري نظائري، وده زي بطارية نووية بتحول حرارة البلوتونيوم لكهرباء. مع الوقت، إمدادات البلوتونيوم بتقل، والمركبة بتفقد حوالي أربعة وات من طاقتها كل سنة، لكنها لسه شغالة وبتبعت بيانات.",
+        "summary": "كيفية عمل بطارية فويجر النووية.",
+        "keyword": "بطارية",
+        "template": "cause",
+        "labels": [
+          "طاقة",
+          "بلوتونيوم",
+          "كهرباء"
+        ],
+        "values": [],
+        "claim": "Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity.",
+        "sourceId": "b71681db2cca",
+        "evidence": "Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity.",
+        "kind": "fact",
+        "expression": 1,
+        "action": "sleep",
+        "brollQuery": "battery"
+      },
+      {
+        "title": "رسالة للبشرية",
+        "text": "فويجر شايلة معاها سجل ذهبي، وهو أسطوانة نحاسية مطلية بالذهب عليها صور وأصوات من الأرض. دي رسالة لأي حضارة متقدمة ممكن تلاقي المركبة في المستقبل البعيد، بتعرفهم إننا كنا هنا وبنحب نستكشف.",
+        "summary": "السجل الذهبي على متن فويجر.",
+        "keyword": "سجل",
+        "template": "phenomenon",
+        "labels": [
+          "ذهب",
+          "رسالة",
+          "حضارة"
+        ],
+        "values": [],
+        "claim": "The Voyager probes carry a Golden Record, a gold-plated copper phonograph compiling images and sounds from Earth.",
+        "sourceId": "b71681db2cca",
+        "evidence": "the Voyager probes carry a Golden Record , a gold-plated copper phonograph compiling images and sounds from Earth, as a message to any advanced civilization that might one day find it.",
         "kind": "fact",
         "expression": 10,
         "action": "point",
-        "brollQuery": "virtual event"
+        "brollQuery": "golden record"
+      },
+      {
+        "title": "مستقبل فويجر",
+        "text": "في يوم من الأيام، فويجر مش هتقدر تتواصل مع الأرض تاني، وهتتحول لسفير صامت للبشرية بين النجوم. الرحلة دي بتعكس روح الفضول الإنساني اللي بيخلينا دايماً عايزين نوصل لأبعد نقطة ممكنة في الكون.",
+        "summary": "مستقبل فويجر كسفير صامت للبشرية.",
+        "keyword": "سفير",
+        "template": "journey",
+        "labels": [
+          "نجوم",
+          "فضاء",
+          "مستقبل"
+        ],
+        "values": [],
+        "claim": "One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.",
+        "sourceId": "b71681db2cca",
+        "evidence": "One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.",
+        "kind": "fact",
+        "expression": 7,
+        "action": "fall",
+        "brollQuery": "stars"
+      },
+      {
+        "title": "خاتمة الرحلة",
+        "text": "فويجر واحد بتثبت إننا نقدر نتغلب على التحديات ونوصل لأماكن مكنش حد يتخيلها. دي قصة نجاح هندسي وإنساني مستمر من خمسين سنة، وبنأمل إنها تكمل رحلتها وتجاوب على أسئلتنا عن الفضاء الخارجي.",
+        "summary": "خلاصة إنجاز فويجر التاريخي.",
+        "keyword": "نجاح",
+        "template": "phenomenon",
+        "labels": [
+          "إنجاز",
+          "هندسة",
+          "تاريخ"
+        ],
+        "values": [],
+        "claim": "Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery.",
+        "sourceId": "b71681db2cca",
+        "evidence": "Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery,",
+        "kind": "fact",
+        "expression": 11,
+        "action": "run",
+        "brollQuery": "space"
       }
     ],
-    "seriesLabel": "أخبار الفضاء",
+    "seriesLabel": "عجائب الفضاء",
     "editorialMode": "daily",
     "editorialLabel": null,
     "scriptModel": "gemini-3.1-flash-lite"
   },
   "topic": {
     "selected": {
-      "id": "162c5c6a72fe",
-      "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
-      "text": "NASA’s Northrop Grumman Commercial Resupply Services 24 mission launched Saturday, April 11, 2026, aboard the company’s Cygnus XL spacecraft atop a SpaceX Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. NASA’s Northrop Grumman Commercial Resupply Services 25 mission will deliver approximately 11,000 pounds of science and supplies to the International Space Station. Credit: Northrop Grumman NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus XL spacecraft, aboard a SpaceX Falcon 9 rocket, will launch from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, or Northrop Grumman CRS-25. After arriving at the International Space Station, NASA astronauts Jessica Watkins and Luke Delaney, who are living and working aboard the space station, will use the Canadarm2 robotic arm to capture the Cygnus XL on Tuesday, Dec. 1. Ground controllers then will install it to the Unity module’s Earth-facing port for cargo unloading. NASA’s live launch and docking coverage will stream through a variety of platforms. Learn where to watch online: https://www.nasa.gov/live Highlights of space station research and technology demonstrations being delivered aboard this Cygnus XL spacecraft include experiments to improve drug delivery for cancer and osteoarthritis, predict cancer spread, and advance treatments for muscle loss, as well as improve radiation sensing and advance food production for future long-duration missions. The spacecraft is scheduled to remain at the orbiting laboratory until May 2027, then depart with several thousand pounds of disposal items and other unneeded cargo, burning up harmlessly during re-entry. Northrop Grumman named the spacecraft the S.S. James Jim A. Lovell in honor of the former NASA astronaut. Lovell flew four missions, including Gemini VII, Gemini XII, Apollo 8, and the Apollo 13 mission around the Moon. Monday, Nov. 23 12 p.m.: Prelaunch teleconference will stream on NASA’s YouTube channel with the following participants: Gaurang Patel, operations integration manager, NASA’s Low Earth Orbit Program Jennifer Buchli, chief scientist, NASA’s Low Earth Orbit Program Dave Schiller, vice president, civil space and sciences, Northrop Grumman Jared Metter, director, flight reliability, SpaceX To participate in the teleconference, media must contact the NASA Johnson Space Center newsroom for call details by 11 a.m., Nov. 23, at: jsccommu@mail.nasa.gov or 281-483-5111. To ask questions, media must dial in no later than 10 minutes before the start of the call. The agency’s media credentialing policy is available online. Additional prelaunch updates will be available on NASA’s space station blog . Sunday, Nov. 29 10:25 a.m.: Launch coverage begins 10:47 a.m.: Launch Tuesday, Dec. 1 1:10 a.m.: Arrival coverage begins 2:35 a.m.: Capture NASA website launch coverage Launch day coverage of the mission will be available on the NASA website . Coverage will include live streaming and blog updates beginning no earlier than 10 a.m. on Nov. 29, as the countdown milestones occur. On-demand streaming video on NASA+ and photos of the launch will be available shortly after liftoff. For questions about countdown coverage, contact the NASA Kennedy Space Center newsroom at 321-867-2468. Follow countdown coverage on our International Space Station blog for updates. Attend launch virtually Members of the public can register to attend this launch virtually. NASA’s virtual guest program for this mission also includes curated launch resources, notifications about related opportunities or changes, and a stamp for the NASA virtual guest passport following launch. Watch, engage on social media Let people know you’re watching the mission on X, Facebook, and Instagram by following and tagging these accounts: X: @ NASA, @ NASAKennedy , @NASASpaceOps , @ Space_Station , @ ISS National Lab Facebook: NASA , NASAKennedy , ISS , ISS National Lab Instagram: @ NASA , @ NASAKennedy , @ ISS , @ ISSNationalLab Learn more about this commercial resupply services mission at: https://www.nasa.gov/mission/nasas-northrop-grumman-crs-25/ -end- Josh Finch / Jimi Russell Headquarters, Washington 202-358-1100 joshua.a.finch@nasa.gov / james.j.russell@nasa.gov Steven Siceloff Kennedy Space Center, Fla. 321-876-2468 steven.p.siceloff@nasa.gov Sandra Jones Johnson Space Center, Houston 281-483-5111 sandra.p.jones@nasa.gov Share Details Last Updated Nov 18, 2026 Editor Jessica Taveau Location NASA Headquarters Related Terms Northrop Grumman Commercial Resupply Commercial Resupply International Space Station (ISS) ISS Research Johnson Space Center Kennedy Space Center",
-      "published": "2026-11-18T22:19:17.000Z",
+      "id": "b71681db2cca",
+      "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "text": "Voyager 1, depicted in this artist’s concept, reached one light-day from Earth on Nov. 18, 2026. Credit: NASA/JPL-Caltech NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team members at NASA’s Jet Propulsion Laboratory in Southern California, managed by Caltech, heard from the probe 24 hours later, the time it took for the spacecraft’s radio signal traveling at the speed of light to reach Earth, early Thursday. “Traveling a light-day is a singular feat for a spacecraft, but Voyager is so much more than a distant traveler. The Voyager mission would be remarkable just for what it contributed to planetary science with the Grand Tour of the outer planets,” said Joe Westlake, director, Heliophysics Division at NASA Headquarters in Washington. “But it went on to become central to NASA’s fleet of heliophysics missions offering insights into the star that we all revolve around, the Sun.” Scientists use light to measure the vast distances of space. Light travels at about 186,000 miles (299,000 kilometers) a second in a vacuum. A ray of sunlight passing Earth takes about 1.3 seconds to reach the Moon, about four hours to reach Neptune, and another 20 hours to reach Voyager 1. For comparison, a light-year is 5.88 trillion miles (9.46 trillion kilometers). Even though the team has not received science and engineering data from Voyager 1 since Nov. 14, the spacecraft is sending what is called a carrier signal, which typically conveys that data to Earth. Mission engineers used the carrier signal and trajectory calculations to confirm the light-day milestone. They continue to analyze the issue impacting the science and engineering data. Humanity’s only probes in interstellar space, Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment. Managed by JPL, they were only the third and fourth spacecraft to visit Jupiter and Saturn, and the first to return high-resolution imagery, transforming our understanding of these worlds and their moons. Voyager 2 went on to study the ethereal ice giants, Neptune and Uranus. Both spacecraft continue to measure changes in the Sun’s magnetic field across vast distances. “Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery,” said Dave Gallagher, JPL director. “Above all, this milestone stands as a testament to the exceptional teams who built, programmed, and fly these spacecraft today, and who have overcome countless challenges to keep them connected to Earth across the vastness of space. As NASA pushes toward new frontiers in human and robotic exploration, Voyager and the people behind its success continue to inspire us to reach farther and dream bigger.” In addition to their suite of scientific instruments , the Voyager probes carry a Golden Record , a gold-plated copper phonograph compiling images and sounds from Earth, as a message to any advanced civilization that might one day find it. “Nearly half a century after leaving Earth, the Voyager mission continues to push the boundaries of human exploration. Its epic journey reflects the vision of Ed Stone, the Caltech physicist and JPL director who guided the mission for decades, and the curiosity and tenacity of generations of scientists and engineers who have carried that vision forward,” said Ray Jayawardhana, president, Caltech. “Beyond its immense contributions to science, Voyager also captures something profound about the human spirit. We may never know where its journey will ultimately lead, but it will venture on, an enduring affirmation that humanity was here and we yearned to explore.” Launched in 1977, Voyager 1 and its twin, Voyager 2, transformed our understanding of the solar system through their exploration of the outer planets. In 2012, Voyager 1 became the first human-made spacecraft to enter interstellar space. On Nov. 18, 2026, Voyager 1 reached one light-day from Earth. Milestones, challenges Traveling about 38,000 mph (61,155 kph), Voyager 1 in 2012 became the first spacecraft to leave the heliosphere , the bubble of particles and magnetic fields created by the Sun that deflects cosmic radiation, and enter interstellar space. Voyager 2, taking a different trajectory, crossed the boundary in 2018. “The Voyagers are revolutionizing our understanding of interstellar space, a previously unexplored region outside the heliosphere,” said Linda Spilker, Voyager project scientist at JPL. “One big surprise is the extent to which our Sun continues to affect interstellar space, all the way out to Voyager 1. Where does the Sun’s influence end and pristine interstellar space begin? Perhaps Voyager may endure long enough to answer that question.” Creative engineering solutions have enabled the probes to conserve energy and overcome challenges related to aging hardware, including clogged thrusters and a malfunctioning computer on the spacecraft. Earlier this year, engineers successfully turned off three devices on Voyager 1 and substituted them with three lower-power alternatives — a move not without risk — to help the spacecraft make the most of its 50-year-old radioisotope thermal generator . Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity. With the plutonium supply continually depleting, both Voyager probes lose about 4 watts of power each year. The latest energy-saving effort is expected to provide enough power for both spacecraft to keep their current suite of science instruments operating until at least their 50th launch anniversaries next summer. As with all NASA spacecraft that venture to and beyond the Moon, communication between Earth and the Voyager probes is managed by the agency’s Deep Space Network , large antennas located at three facilities around the world. “We listen to Voyager 1 every day and send commands to the spacecraft weekly. It just takes a little longer to communicate than it used to,” said Suzanne Dodd, Voyager project manager at JPL. “Even traveling at the speed of light, signals now take 24 hours to reach the spacecraft and 24 hours to reach us. One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.” For more information about NASA’s Voyager mission, visit: https://science.nasa.gov/mission/voyager/ -end- Abbey Interrante / Karen Fox Headquarters, Washington 202-358-1600 abbey.a.interrante@nasa.gov / karen.c.fox@nasa.gov Calla Cofield Jet Propulsion Laboratory, Pasadena, Calif. 626-808-2469 calla.e.cofield@jpl.nasa.gov Share Details Last Updated Nov 19, 2026 Editor Jessica Taveau Location NASA Headquarters Related Terms Voyager 1 Heliophysics Heliophysics Division Jet Propulsion Laboratory Science Mission Directorate The Solar System The Sun",
+      "published": "2026-11-19T14:31:15.000Z",
       "official": true,
       "dateBasis": "item_publication_or_update",
       "publisher": "www.nasa.gov",
       "primaryRefs": [
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?w=1920",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=300,200",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=768,512",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=1024,682",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=1536,1023",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=400,266",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=600,400",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=900,600",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=1200,799",
-        "https://www.nasa.gov/live",
-        "https://www.nasa.gov/live",
-        "https://www.youtube.com/@NASAgovVideo/streams",
-        "https://www.nasa.gov/reference/nasa-agencywide-media-accreditation-policy/",
-        "http://nasa.gov/blogs/spacestation",
-        "https://www.nasa.gov/live/",
-        "https://www.eventbrite.com/e/nasas-northrop-grumman-crs-25-launch-registration-2003421595924?aff=oddtdtcreator",
-        "https://twitter.com/NASA",
-        "https://twitter.com/NASAKennedy",
-        "https://x.com/NASASpaceOps?lang=en",
-        "https://twitter.com/Space_Station",
-        "https://twitter.com/ISS_CASIS",
-        "https://www.facebook.com/NASA/",
-        "https://www.facebook.com/NASAKennedy/",
-        "https://www.facebook.com/ISS/",
-        "https://www.facebook.com/ISSNATIONALLAB/",
-        "https://www.instagram.com/nasa/",
-        "https://www.instagram.com/nasakennedy/",
-        "https://www.instagram.com/iss/",
-        "https://www.instagram.com/issnationallab/",
-        "https://www.nasa.gov/mission/nasas-northrop-grumman-crs-25/",
-        "https://www.nasa.gov/mission/nasas-northrop-grumman-crs-25/",
-        "https://x.com/intent/tweet?via=NASA&#038;text=NASA%20Sets%20Coverage%20for%20Northrop%20Grumman%20CRS-25%20Launch%2C%20Prelaunch&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch%2F",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?w=2048",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=300,169",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=768,432",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1024,576",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1536,864",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=2048,1152",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=400,225",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=600,338",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=900,506",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1200,675",
+        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=2000,1125",
+        "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+        "https://science.nasa.gov/exoplanets/what-is-a-light-year/",
+        "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
+        "https://science.nasa.gov/mission/voyager/fact-sheet/",
+        "https://science.nasa.gov/mission/voyager/spacecraft/",
+        "https://science.nasa.gov/mission/voyager/voyager-golden-record-overview/",
+        "https://www.youtube.com/embed/0Ke0s62W4yY?feature=oembed",
+        "https://science.nasa.gov/heliophysics/focus-areas/heliosphere/",
+        "https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/",
+        "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
+        "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/",
+        "https://www.nasa.gov/communicating-with-missions/dsn/",
+        "https://science.nasa.gov/mission/voyager/",
+        "https://science.nasa.gov/mission/voyager/",
+        "https://x.com/intent/tweet?via=NASA&#038;text=NASA%E2%80%99s%20Voyager%201%20Makes%20History%20Reaching%20One%20Light-Day%20From%20Earth&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
         "http://www.w3.org/2000/svg",
-        "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch%2F",
+        "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
         "http://www.w3.org/2000/svg",
-        "https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch%2F",
+        "https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
         "http://www.w3.org/2000/svg",
         "http://www.w3.org/2000/svg",
         "https://www.nasa.gov/nasa-headquarters/",
-        "https://www.nasa.gov/commercial-resupply-services-overview/",
-        "https://www.nasa.gov/international-space-station/commercial-resupply/",
-        "https://www.nasa.gov/international-space-station/",
-        "https://www.nasa.gov/international-space-station/space-station-research-and-technology/",
-        "https://www.nasa.gov/johnson/",
-        "https://www.nasa.gov/kennedy-space-center/"
+        "https://science.nasa.gov/mission/voyager-1",
+        "https://science.nasa.gov/heliophysics/",
+        "https://science.nasa.gov/heliophysics/",
+        "https://www.nasa.gov/jpl/",
+        "https://science.nasa.gov/about-us/",
+        "https://science.nasa.gov/solar-system/",
+        "https://science.nasa.gov/sun/"
       ]
     },
     "sources": [
       {
-        "id": "162c5c6a72fe",
-        "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-        "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
-        "text": "NASA’s Northrop Grumman Commercial Resupply Services 24 mission launched Saturday, April 11, 2026, aboard the company’s Cygnus XL spacecraft atop a SpaceX Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. NASA’s Northrop Grumman Commercial Resupply Services 25 mission will deliver approximately 11,000 pounds of science and supplies to the International Space Station. Credit: Northrop Grumman NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus XL spacecraft, aboard a SpaceX Falcon 9 rocket, will launch from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, or Northrop Grumman CRS-25. After arriving at the International Space Station, NASA astronauts Jessica Watkins and Luke Delaney, who are living and working aboard the space station, will use the Canadarm2 robotic arm to capture the Cygnus XL on Tuesday, Dec. 1. Ground controllers then will install it to the Unity module’s Earth-facing port for cargo unloading. NASA’s live launch and docking coverage will stream through a variety of platforms. Learn where to watch online: https://www.nasa.gov/live Highlights of space station research and technology demonstrations being delivered aboard this Cygnus XL spacecraft include experiments to improve drug delivery for cancer and osteoarthritis, predict cancer spread, and advance treatments for muscle loss, as well as improve radiation sensing and advance food production for future long-duration missions. The spacecraft is scheduled to remain at the orbiting laboratory until May 2027, then depart with several thousand pounds of disposal items and other unneeded cargo, burning up harmlessly during re-entry. Northrop Grumman named the spacecraft the S.S. James Jim A. Lovell in honor of the former NASA astronaut. Lovell flew four missions, including Gemini VII, Gemini XII, Apollo 8, and the Apollo 13 mission around the Moon. Monday, Nov. 23 12 p.m.: Prelaunch teleconference will stream on NASA’s YouTube channel with the following participants: Gaurang Patel, operations integration manager, NASA’s Low Earth Orbit Program Jennifer Buchli, chief scientist, NASA’s Low Earth Orbit Program Dave Schiller, vice president, civil space and sciences, Northrop Grumman Jared Metter, director, flight reliability, SpaceX To participate in the teleconference, media must contact the NASA Johnson Space Center newsroom for call details by 11 a.m., Nov. 23, at: jsccommu@mail.nasa.gov or 281-483-5111. To ask questions, media must dial in no later than 10 minutes before the start of the call. The agency’s media credentialing policy is available online. Additional prelaunch updates will be available on NASA’s space station blog . Sunday, Nov. 29 10:25 a.m.: Launch coverage begins 10:47 a.m.: Launch Tuesday, Dec. 1 1:10 a.m.: Arrival coverage begins 2:35 a.m.: Capture NASA website launch coverage Launch day coverage of the mission will be available on the NASA website . Coverage will include live streaming and blog updates beginning no earlier than 10 a.m. on Nov. 29, as the countdown milestones occur. On-demand streaming video on NASA+ and photos of the launch will be available shortly after liftoff. For questions about countdown coverage, contact the NASA Kennedy Space Center newsroom at 321-867-2468. Follow countdown coverage on our International Space Station blog for updates. Attend launch virtually Members of the public can register to attend this launch virtually. NASA’s virtual guest program for this mission also includes curated launch resources, notifications about related opportunities or changes, and a stamp for the NASA virtual guest passport following launch. Watch, engage on social media Let people know you’re watching the mission on X, Facebook, and Instagram by following and tagging these accounts: X: @ NASA, @ NASAKennedy , @NASASpaceOps , @ Space_Station , @ ISS National Lab Facebook: NASA , NASAKennedy , ISS , ISS National Lab Instagram: @ NASA , @ NASAKennedy , @ ISS , @ ISSNationalLab Learn more about this commercial resupply services mission at: https://www.nasa.gov/mission/nasas-northrop-grumman-crs-25/ -end- Josh Finch / Jimi Russell Headquarters, Washington 202-358-1100 joshua.a.finch@nasa.gov / james.j.russell@nasa.gov Steven Siceloff Kennedy Space Center, Fla. 321-876-2468 steven.p.siceloff@nasa.gov Sandra Jones Johnson Space Center, Houston 281-483-5111 sandra.p.jones@nasa.gov Share Details Last Updated Nov 18, 2026 Editor Jessica Taveau Location NASA Headquarters Related Terms Northrop Grumman Commercial Resupply Commercial Resupply International Space Station (ISS) ISS Research Johnson Space Center Kennedy Space Center",
-        "published": "2026-11-18T22:19:17.000Z",
+        "id": "b71681db2cca",
+        "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+        "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+        "text": "Voyager 1, depicted in this artist’s concept, reached one light-day from Earth on Nov. 18, 2026. Credit: NASA/JPL-Caltech NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team members at NASA’s Jet Propulsion Laboratory in Southern California, managed by Caltech, heard from the probe 24 hours later, the time it took for the spacecraft’s radio signal traveling at the speed of light to reach Earth, early Thursday. “Traveling a light-day is a singular feat for a spacecraft, but Voyager is so much more than a distant traveler. The Voyager mission would be remarkable just for what it contributed to planetary science with the Grand Tour of the outer planets,” said Joe Westlake, director, Heliophysics Division at NASA Headquarters in Washington. “But it went on to become central to NASA’s fleet of heliophysics missions offering insights into the star that we all revolve around, the Sun.” Scientists use light to measure the vast distances of space. Light travels at about 186,000 miles (299,000 kilometers) a second in a vacuum. A ray of sunlight passing Earth takes about 1.3 seconds to reach the Moon, about four hours to reach Neptune, and another 20 hours to reach Voyager 1. For comparison, a light-year is 5.88 trillion miles (9.46 trillion kilometers). Even though the team has not received science and engineering data from Voyager 1 since Nov. 14, the spacecraft is sending what is called a carrier signal, which typically conveys that data to Earth. Mission engineers used the carrier signal and trajectory calculations to confirm the light-day milestone. They continue to analyze the issue impacting the science and engineering data. Humanity’s only probes in interstellar space, Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment. Managed by JPL, they were only the third and fourth spacecraft to visit Jupiter and Saturn, and the first to return high-resolution imagery, transforming our understanding of these worlds and their moons. Voyager 2 went on to study the ethereal ice giants, Neptune and Uranus. Both spacecraft continue to measure changes in the Sun’s magnetic field across vast distances. “Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery,” said Dave Gallagher, JPL director. “Above all, this milestone stands as a testament to the exceptional teams who built, programmed, and fly these spacecraft today, and who have overcome countless challenges to keep them connected to Earth across the vastness of space. As NASA pushes toward new frontiers in human and robotic exploration, Voyager and the people behind its success continue to inspire us to reach farther and dream bigger.” In addition to their suite of scientific instruments , the Voyager probes carry a Golden Record , a gold-plated copper phonograph compiling images and sounds from Earth, as a message to any advanced civilization that might one day find it. “Nearly half a century after leaving Earth, the Voyager mission continues to push the boundaries of human exploration. Its epic journey reflects the vision of Ed Stone, the Caltech physicist and JPL director who guided the mission for decades, and the curiosity and tenacity of generations of scientists and engineers who have carried that vision forward,” said Ray Jayawardhana, president, Caltech. “Beyond its immense contributions to science, Voyager also captures something profound about the human spirit. We may never know where its journey will ultimately lead, but it will venture on, an enduring affirmation that humanity was here and we yearned to explore.” Launched in 1977, Voyager 1 and its twin, Voyager 2, transformed our understanding of the solar system through their exploration of the outer planets. In 2012, Voyager 1 became the first human-made spacecraft to enter interstellar space. On Nov. 18, 2026, Voyager 1 reached one light-day from Earth. Milestones, challenges Traveling about 38,000 mph (61,155 kph), Voyager 1 in 2012 became the first spacecraft to leave the heliosphere , the bubble of particles and magnetic fields created by the Sun that deflects cosmic radiation, and enter interstellar space. Voyager 2, taking a different trajectory, crossed the boundary in 2018. “The Voyagers are revolutionizing our understanding of interstellar space, a previously unexplored region outside the heliosphere,” said Linda Spilker, Voyager project scientist at JPL. “One big surprise is the extent to which our Sun continues to affect interstellar space, all the way out to Voyager 1. Where does the Sun’s influence end and pristine interstellar space begin? Perhaps Voyager may endure long enough to answer that question.” Creative engineering solutions have enabled the probes to conserve energy and overcome challenges related to aging hardware, including clogged thrusters and a malfunctioning computer on the spacecraft. Earlier this year, engineers successfully turned off three devices on Voyager 1 and substituted them with three lower-power alternatives — a move not without risk — to help the spacecraft make the most of its 50-year-old radioisotope thermal generator . Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity. With the plutonium supply continually depleting, both Voyager probes lose about 4 watts of power each year. The latest energy-saving effort is expected to provide enough power for both spacecraft to keep their current suite of science instruments operating until at least their 50th launch anniversaries next summer. As with all NASA spacecraft that venture to and beyond the Moon, communication between Earth and the Voyager probes is managed by the agency’s Deep Space Network , large antennas located at three facilities around the world. “We listen to Voyager 1 every day and send commands to the spacecraft weekly. It just takes a little longer to communicate than it used to,” said Suzanne Dodd, Voyager project manager at JPL. “Even traveling at the speed of light, signals now take 24 hours to reach the spacecraft and 24 hours to reach us. One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.” For more information about NASA’s Voyager mission, visit: https://science.nasa.gov/mission/voyager/ -end- Abbey Interrante / Karen Fox Headquarters, Washington 202-358-1600 abbey.a.interrante@nasa.gov / karen.c.fox@nasa.gov Calla Cofield Jet Propulsion Laboratory, Pasadena, Calif. 626-808-2469 calla.e.cofield@jpl.nasa.gov Share Details Last Updated Nov 19, 2026 Editor Jessica Taveau Location NASA Headquarters Related Terms Voyager 1 Heliophysics Heliophysics Division Jet Propulsion Laboratory Science Mission Directorate The Solar System The Sun",
+        "published": "2026-11-19T14:31:15.000Z",
         "official": true,
         "dateBasis": "item_publication_or_update",
         "publisher": "www.nasa.gov",
         "primaryRefs": [
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?w=1920",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=300,200",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=768,512",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=1024,682",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=1536,1023",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=400,266",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=600,400",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=900,600",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/ksc-20260411-ph-nrg01-0009large.jpg?resize=1200,799",
-          "https://www.nasa.gov/live",
-          "https://www.nasa.gov/live",
-          "https://www.youtube.com/@NASAgovVideo/streams",
-          "https://www.nasa.gov/reference/nasa-agencywide-media-accreditation-policy/",
-          "http://nasa.gov/blogs/spacestation",
-          "https://www.nasa.gov/live/",
-          "https://www.eventbrite.com/e/nasas-northrop-grumman-crs-25-launch-registration-2003421595924?aff=oddtdtcreator",
-          "https://twitter.com/NASA",
-          "https://twitter.com/NASAKennedy",
-          "https://x.com/NASASpaceOps?lang=en",
-          "https://twitter.com/Space_Station",
-          "https://twitter.com/ISS_CASIS",
-          "https://www.facebook.com/NASA/",
-          "https://www.facebook.com/NASAKennedy/",
-          "https://www.facebook.com/ISS/",
-          "https://www.facebook.com/ISSNATIONALLAB/",
-          "https://www.instagram.com/nasa/",
-          "https://www.instagram.com/nasakennedy/",
-          "https://www.instagram.com/iss/",
-          "https://www.instagram.com/issnationallab/",
-          "https://www.nasa.gov/mission/nasas-northrop-grumman-crs-25/",
-          "https://www.nasa.gov/mission/nasas-northrop-grumman-crs-25/",
-          "https://x.com/intent/tweet?via=NASA&#038;text=NASA%20Sets%20Coverage%20for%20Northrop%20Grumman%20CRS-25%20Launch%2C%20Prelaunch&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch%2F",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?w=2048",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=300,169",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=768,432",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1024,576",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1536,864",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=2048,1152",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=400,225",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=600,338",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=900,506",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1200,675",
+          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=2000,1125",
+          "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+          "https://science.nasa.gov/exoplanets/what-is-a-light-year/",
+          "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
+          "https://science.nasa.gov/mission/voyager/fact-sheet/",
+          "https://science.nasa.gov/mission/voyager/spacecraft/",
+          "https://science.nasa.gov/mission/voyager/voyager-golden-record-overview/",
+          "https://www.youtube.com/embed/0Ke0s62W4yY?feature=oembed",
+          "https://science.nasa.gov/heliophysics/focus-areas/heliosphere/",
+          "https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/",
+          "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
+          "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/",
+          "https://www.nasa.gov/communicating-with-missions/dsn/",
+          "https://science.nasa.gov/mission/voyager/",
+          "https://science.nasa.gov/mission/voyager/",
+          "https://x.com/intent/tweet?via=NASA&#038;text=NASA%E2%80%99s%20Voyager%201%20Makes%20History%20Reaching%20One%20Light-Day%20From%20Earth&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
           "http://www.w3.org/2000/svg",
-          "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch%2F",
+          "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
           "http://www.w3.org/2000/svg",
-          "https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch%2F",
+          "https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
           "http://www.w3.org/2000/svg",
           "http://www.w3.org/2000/svg",
           "https://www.nasa.gov/nasa-headquarters/",
-          "https://www.nasa.gov/commercial-resupply-services-overview/",
-          "https://www.nasa.gov/international-space-station/commercial-resupply/",
-          "https://www.nasa.gov/international-space-station/",
-          "https://www.nasa.gov/international-space-station/space-station-research-and-technology/",
-          "https://www.nasa.gov/johnson/",
-          "https://www.nasa.gov/kennedy-space-center/"
+          "https://science.nasa.gov/mission/voyager-1",
+          "https://science.nasa.gov/heliophysics/",
+          "https://science.nasa.gov/heliophysics/",
+          "https://www.nasa.gov/jpl/",
+          "https://science.nasa.gov/about-us/",
+          "https://science.nasa.gov/solar-system/",
+          "https://science.nasa.gov/sun/"
         ]
       }
     ],
@@ -300,10 +290,10 @@
     "windowHours": 168,
     "verification": [
       {
-        "id": "162c5c6a72fe",
+        "id": "b71681db2cca",
         "basis": "official_primary_source",
         "sourceIds": [
-          "162c5c6a72fe"
+          "b71681db2cca"
         ]
       }
     ],
@@ -320,181 +310,89 @@
     ],
     "trend": [
       {
-        "id": "b41c4de3e0f2",
-        "title": "El Niño Rains Paint the Atacama",
-        "demand": 8,
-        "recency": 0.885,
+        "id": "b71681db2cca",
+        "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+        "demand": 2,
+        "recency": 1,
         "matches": [
           {
             "kind": "google_trend",
             "label": "سعر الفراخ البيضاء اليوم",
             "weight": 2
-          },
-          {
-            "kind": "google_trend",
-            "label": "kuwait",
-            "weight": 4
-          },
-          {
-            "kind": "google_trend",
-            "label": "19 نوفمبر",
-            "weight": 2
           }
         ],
-        "score": 8.442661642272038
+        "score": 2.4999629045397214
       },
       {
-        "id": "162c5c6a72fe",
-        "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-        "demand": 12,
-        "recency": 0.807,
+        "id": "b41c4de3e0f2",
+        "title": "El Niño Rains Paint the Atacama",
+        "demand": 2,
+        "recency": 0.876,
         "matches": [
           {
             "kind": "google_trend",
             "label": "سعر الفراخ البيضاء اليوم",
             "weight": 2
-          },
-          {
-            "kind": "google_trend",
-            "label": "kuwait",
-            "weight": 6
-          },
-          {
-            "kind": "google_trend",
-            "label": "دينا الشربيني",
-            "weight": 2
-          },
-          {
-            "kind": "google_trend",
-            "label": "19 نوفمبر",
-            "weight": 2
           }
         ],
-        "score": 12.403447837136953
+        "score": 2.438035566201489
       },
       {
         "id": "9d57f4dbe2e3",
         "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
-        "demand": 2,
-        "recency": 0.77,
-        "matches": [
-          {
-            "kind": "google_trend",
-            "label": "kuwait",
-            "weight": 2
-          }
-        ],
-        "score": 2.3851211676065978
+        "demand": 0,
+        "recency": 0.762,
+        "matches": [],
+        "score": 0.38109642354117007
       },
       {
         "id": "946586051f9f",
         "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-        "demand": 6,
-        "recency": 0.762,
+        "demand": 2,
+        "recency": 0.754,
         "matches": [
           {
             "kind": "google_trend",
             "label": "سعر الفراخ البيضاء اليوم",
             "weight": 2
-          },
-          {
-            "kind": "google_trend",
-            "label": "دينا الشربيني",
-            "weight": 2
-          },
-          {
-            "kind": "google_trend",
-            "label": "19 نوفمبر",
-            "weight": 2
           }
         ],
-        "score": 6.381049446598736
+        "score": 2.377067254426948
       },
       {
         "id": "0cb2e3ffdc8f",
         "title": "Empire State Building Goes Gold for Voyager",
-        "demand": 4,
-        "recency": 0.758,
+        "demand": 2,
+        "recency": 0.75,
         "matches": [
           {
             "kind": "google_trend",
             "label": "سعر الفراخ البيضاء اليوم",
             "weight": 2
-          },
-          {
-            "kind": "google_trend",
-            "label": "19 نوفمبر",
-            "weight": 2
           }
         ],
-        "score": 4.379105074113784
+        "score": 2.3751432017848866
       },
       {
         "id": "413bc2a06dfb",
         "title": "What Is the Moon Base?",
-        "demand": 6,
-        "recency": 0.756,
-        "matches": [
-          {
-            "kind": "google_trend",
-            "label": "kuwait",
-            "weight": 4
-          },
-          {
-            "kind": "google_trend",
-            "label": "دينا الشربيني",
-            "weight": 2
-          }
-        ],
-        "score": 6.377844952066841
+        "demand": 0,
+        "recency": 0.748,
+        "matches": [],
+        "score": 0.37389624875890914
       },
       {
         "id": "4294d968436d",
         "title": "Thank You for Doing NASA Science!",
-        "demand": 4,
-        "recency": 0.755,
-        "matches": [
-          {
-            "kind": "google_trend",
-            "label": "kuwait",
-            "weight": 4
-          }
-        ],
-        "score": 4.377566627211299
-      },
-      {
-        "id": "0806628fa243",
-        "title": "APOD: 2026 November 18 – A Medium-Sized Solar Flare",
-        "demand": 6,
-        "recency": 0.635,
-        "matches": [
-          {
-            "kind": "google_trend",
-            "label": "سعر الفراخ البيضاء اليوم",
-            "weight": 2
-          },
-          {
-            "kind": "google_trend",
-            "label": "kuwait",
-            "weight": 2
-          },
-          {
-            "kind": "google_trend",
-            "label": "19 نوفمبر",
-            "weight": 2
-          }
-        ],
-        "score": 6.317548246760442
+        "demand": 0,
+        "recency": 0.747,
+        "matches": [],
+        "score": 0.3736208325627829
       }
     ],
     "scoring": "Source authority, verified freshness and unused canonical source URL; no invented trend-volume metric.",
     "trendDiagnostics": {
       "sources": [
-        {
-          "source": "trends",
-          "status": "ok",
-          "items": 10
-        },
         {
           "source": "suggestions",
           "status": "ok",
@@ -524,185 +422,103 @@
           "source": "reddit",
           "status": "unavailable",
           "code": "FEED_HTTP_403"
+        },
+        {
+          "source": "trends",
+          "status": "ok",
+          "items": 10
         }
       ],
       "degraded": false,
       "decisions": [
         {
-          "id": "b41c4de3e0f2",
-          "title": "El Niño Rains Paint the Atacama",
-          "demand": 8,
-          "recency": 0.885,
+          "id": "b71681db2cca",
+          "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+          "demand": 2,
+          "recency": 1,
           "matches": [
             {
               "kind": "google_trend",
               "label": "سعر الفراخ البيضاء اليوم",
               "weight": 2
-            },
-            {
-              "kind": "google_trend",
-              "label": "kuwait",
-              "weight": 4
-            },
-            {
-              "kind": "google_trend",
-              "label": "19 نوفمبر",
-              "weight": 2
             }
           ],
-          "score": 8.442661642272038
+          "score": 2.4999629045397214
         },
         {
-          "id": "162c5c6a72fe",
-          "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-          "demand": 12,
-          "recency": 0.807,
+          "id": "b41c4de3e0f2",
+          "title": "El Niño Rains Paint the Atacama",
+          "demand": 2,
+          "recency": 0.876,
           "matches": [
             {
               "kind": "google_trend",
               "label": "سعر الفراخ البيضاء اليوم",
               "weight": 2
-            },
-            {
-              "kind": "google_trend",
-              "label": "kuwait",
-              "weight": 6
-            },
-            {
-              "kind": "google_trend",
-              "label": "دينا الشربيني",
-              "weight": 2
-            },
-            {
-              "kind": "google_trend",
-              "label": "19 نوفمبر",
-              "weight": 2
             }
           ],
-          "score": 12.403447837136953
+          "score": 2.438035566201489
         },
         {
           "id": "9d57f4dbe2e3",
           "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
-          "demand": 2,
-          "recency": 0.77,
-          "matches": [
-            {
-              "kind": "google_trend",
-              "label": "kuwait",
-              "weight": 2
-            }
-          ],
-          "score": 2.3851211676065978
+          "demand": 0,
+          "recency": 0.762,
+          "matches": [],
+          "score": 0.38109642354117007
         },
         {
           "id": "946586051f9f",
           "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-          "demand": 6,
-          "recency": 0.762,
+          "demand": 2,
+          "recency": 0.754,
           "matches": [
             {
               "kind": "google_trend",
               "label": "سعر الفراخ البيضاء اليوم",
               "weight": 2
-            },
-            {
-              "kind": "google_trend",
-              "label": "دينا الشربيني",
-              "weight": 2
-            },
-            {
-              "kind": "google_trend",
-              "label": "19 نوفمبر",
-              "weight": 2
             }
           ],
-          "score": 6.381049446598736
+          "score": 2.377067254426948
         },
         {
           "id": "0cb2e3ffdc8f",
           "title": "Empire State Building Goes Gold for Voyager",
-          "demand": 4,
-          "recency": 0.758,
+          "demand": 2,
+          "recency": 0.75,
           "matches": [
             {
               "kind": "google_trend",
               "label": "سعر الفراخ البيضاء اليوم",
               "weight": 2
-            },
-            {
-              "kind": "google_trend",
-              "label": "19 نوفمبر",
-              "weight": 2
             }
           ],
-          "score": 4.379105074113784
+          "score": 2.3751432017848866
         },
         {
           "id": "413bc2a06dfb",
           "title": "What Is the Moon Base?",
-          "demand": 6,
-          "recency": 0.756,
-          "matches": [
-            {
-              "kind": "google_trend",
-              "label": "kuwait",
-              "weight": 4
-            },
-            {
-              "kind": "google_trend",
-              "label": "دينا الشربيني",
-              "weight": 2
-            }
-          ],
-          "score": 6.377844952066841
+          "demand": 0,
+          "recency": 0.748,
+          "matches": [],
+          "score": 0.37389624875890914
         },
         {
           "id": "4294d968436d",
           "title": "Thank You for Doing NASA Science!",
-          "demand": 4,
-          "recency": 0.755,
-          "matches": [
-            {
-              "kind": "google_trend",
-              "label": "kuwait",
-              "weight": 4
-            }
-          ],
-          "score": 4.377566627211299
-        },
-        {
-          "id": "0806628fa243",
-          "title": "APOD: 2026 November 18 – A Medium-Sized Solar Flare",
-          "demand": 6,
-          "recency": 0.635,
-          "matches": [
-            {
-              "kind": "google_trend",
-              "label": "سعر الفراخ البيضاء اليوم",
-              "weight": 2
-            },
-            {
-              "kind": "google_trend",
-              "label": "kuwait",
-              "weight": 2
-            },
-            {
-              "kind": "google_trend",
-              "label": "19 نوفمبر",
-              "weight": 2
-            }
-          ],
-          "score": 6.317548246760442
+          "demand": 0,
+          "recency": 0.747,
+          "matches": [],
+          "score": 0.3736208325627829
         }
       ]
     }
   },
-  "scriptSha256": "c24c1c47756c31dcf3f43dc6cfb940c2792edba5228a6f1c8929ff7891fa1cc4",
+  "scriptSha256": "f91b90ab42d775420bb8663a9a35ca72eff33d82c948a8465f5191324b9cb506",
   "state": "failed",
   "lastFailure": {
     "stage": "align-repair-1",
-    "code": "ALIGNMENT_SPEECH_MISMATCH",
-    "repeat": 1
+    "code": "ALIGNMENT_INVALID_MEASURED_SPAN",
+    "repeat": 0
   }
 }
