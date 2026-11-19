@@ -1,36 +1,28 @@
 {
   "id": "2026-11-19T08-33-14-992Z",
-  "attemptId": "2026-11-19T08-33-14-992Z",
+  "attemptId": "2026-11-19T09-33-35-386Z",
   "mode": "review",
   "published": false,
   "status": "failed",
-  "resumed": false,
+  "resumed": true,
   "stages": [
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.297
+      "seconds": 0.15
     },
     {
       "name": "topics",
-      "status": "pass",
-      "seconds": 2.208
+      "status": "resumed_from_saved_source_manifest"
     },
     {
       "name": "script",
-      "status": "pass",
-      "seconds": 68.333
+      "status": "resumed_from_hash_verified_script"
     }
   ],
   "limitations": [
     "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
   ],
-  "retiredEpisode": {
-    "id": "2026-11-19T06-41-31-270Z",
-    "stage": "voice",
-    "code": "GEMINI_HTTP_429_EXHAUSTED",
-    "reason": "Same stage and code failed on consecutive resumed attempts; retained audio and hash-locked script are immutable, so the deterministic failure cannot clear. Episode retired; a fresh episode is rolled through the same gates."
-  },
   "failedStage": "voice",
   "errorCode": "GEMINI_HTTP_429_EXHAUSTED",
   "partial": {

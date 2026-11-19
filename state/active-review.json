@@ -674,6 +674,6 @@
   "lastFailure": {
     "stage": "voice",
     "code": "GEMINI_HTTP_429_EXHAUSTED",
-    "repeat": 0
+    "repeat": 1
   }
 }
