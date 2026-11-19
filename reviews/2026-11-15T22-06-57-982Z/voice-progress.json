@@ -13,7 +13,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 712398,
       "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/f926e2db28b07cc2cfe4754f57c46804e35e773e2f074afce0b528e7f4953cc2.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 1,
@@ -27,7 +27,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 789198,
       "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/3b69afc067ac15fb646e9e57247f292972262ae4abd108cf86fae460a09defe4.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 2,
@@ -41,7 +41,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 702798,
       "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/52b07e3675ca13d1c053149c97a78fdfbca193aa1a54c5f4164d60b733771f01.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 3,
@@ -55,7 +55,7 @@
       "model": "gemini-2.5-flash-preview-tts",
       "bytes": 762844,
       "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/52c20af47889c6b05e3f1d3467c78f668586445024fd175360fc01584ba88a9f.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 4,
@@ -69,7 +69,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 714318,
       "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/b3db5f4715cf5a428b91111454b9620038c960b144be89813caa9aba5beb2e5b.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 5,
@@ -83,7 +83,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 988878,
       "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/3057744eaefd420a7e5562fcbd4041a1da9b5bf9198cc4d2abf26f2cd6272075.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 6,
@@ -97,7 +97,7 @@
       "model": "gemini-3.1-flash-tts-preview",
       "bytes": 737358,
       "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/b28c47a1fbac1c5c78ad598f0b4320882c171505ddd3a52b2a6c903c3457b2d1.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 7,
@@ -111,7 +111,7 @@
       "model": "gemini-2.5-flash-preview-tts",
       "bytes": 737884,
       "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/1dbcc6d199bd114a122633fce35584d0b986a5eb026d6d6bac6c3f50809ec00d.wav",
-      "reused": false
+      "reused": true
     },
     {
       "scene": 8,
@@ -125,7 +125,7 @@
       "model": "gemini-2.5-flash-preview-tts",
       "bytes": 613084,
       "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/61ce451f848fd3e86a01afc4d2fd16e32b22759a25f2cdfa3368c60c920b4a21.wav",
-      "reused": false
+      "reused": true
     }
   ]
 }
