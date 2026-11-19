@@ -1,0 +1,187 @@
+{
+  "title": "إزاي بيوصل أكل لرواد الفضاء في المحطة؟",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "رحلة الإمداد الفضائية",
+      "text": "تخيل صاروخ ضخم بيشيل حمولة وزنها أحد عشر ألف رطل من الأكل والأجهزة العلمية، الصاروخ ده هو سبيس إكس فالكون تسعة اللي بيشيل مركبة سيجنوس إكس إل في مهمة ناسا.",
+      "summary": "صاروخ فالكون تسعة يحمل مركبة سيجنوس إكس إل.",
+      "keyword": "صاروخ",
+      "template": "phenomenon",
+      "labels": [
+        "صاروخ",
+        "حمولة",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "NASA’s Northrop Grumman Commercial Resupply Services 25 mission will deliver approximately 11,000 pounds of science and supplies to the International Space Station.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "NASA’s Northrop Grumman Commercial Resupply Services 25 mission will deliver approximately 11,000 pounds of science and supplies to the International Space Station.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "SpaceX Falcon 9 rocket",
+      "duration": 12.850958,
+      "words": []
+    },
+    {
+      "title": "تجهيز المهمة",
+      "text": "قبل الانطلاق، بيتم عقد مؤتمر صحفي عشان يوضحوا كل تفاصيل المهمة، والمشاركين بيشرحوا إزاي بيتم التخطيط لكل خطوة عشان يضمنوا وصول الإمدادات بأمان للمحطة الدولية في الموعد المحدد.",
+      "summary": "تنسيق دقيق للمهمة عبر مؤتمرات صحفية.",
+      "keyword": "مؤتمر",
+      "template": "steps",
+      "labels": [
+        "تخطيط",
+        "مؤتمر",
+        "ناسا"
+      ],
+      "values": [],
+      "claim": "The agency also will hold a prelaunch media teleconference on Monday, Nov. 23.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "The agency also will hold a prelaunch media teleconference on Monday, Nov. 23.",
+      "kind": "fact",
+      "expression": 2,
+      "action": "walk",
+      "brollQuery": "NASA press conference",
+      "duration": 15.64,
+      "words": []
+    },
+    {
+      "title": "لحظة الانطلاق",
+      "text": "في يوم تسعة وعشرين نوفمبر، بتبدأ لحظة الحقيقة، الصاروخ بينطلق من قاعدة كيب كانافيرال في فلوريدا، والكل بيتابع العد التنازلي عشان يشوفوا المركبة وهي بتشق طريقها نحو الفضاء الخارجي.",
+      "summary": "انطلاق الصاروخ من قاعدة كيب كانافيرال.",
+      "keyword": "انطلاق",
+      "template": "journey",
+      "labels": [
+        "انطلاق",
+        "فلوريدا",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump",
+      "brollQuery": "rocket launch",
+      "duration": 14.92,
+      "words": []
+    },
+    {
+      "title": "الوصول للمحطة",
+      "text": "بعد أيام، المركبة بتوصل للمحطة، ورواد الفضاء جيسيكا واتكينز ولوك ديلاني بيستخدموا ذراع الروبوت كاندارم اتنين عشان يمسكوا المركبة ويضمموها لوحدة يونيتي، دي عملية دقيقة جداً ومحتاجة تركيز عالي.",
+      "summary": "استخدام ذراع الروبوت لالتقاط المركبة.",
+      "keyword": "روبوت",
+      "template": "steps",
+      "labels": [
+        "روبوت",
+        "محطة فضاء",
+        "التقاط"
+      ],
+      "values": [],
+      "claim": "NASA astronauts Jessica Watkins and Luke Delaney, who are living and working aboard the space station, will use the Canadarm2 robotic arm to capture the Cygnus XL.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "NASA astronauts Jessica Watkins and Luke Delaney, who are living and working aboard the space station, will use the Canadarm2 robotic arm to capture the Cygnus XL on Tuesday, Dec. 1.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "point",
+      "brollQuery": "Canadarm2 robotic arm",
+      "duration": 17.92,
+      "words": []
+    },
+    {
+      "title": "أبحاث في الفضاء",
+      "text": "الحمولة مش بس أكل، دي فيها تجارب علمية مهمة جداً، زي أبحاث عن علاج السرطان، وتحسين توصيل الأدوية، وتجارب تانية عشان نفهم إزاي نحافظ على صحة العضلات في ظروف انعدام الجاذبية.",
+      "summary": "تجارب علمية لتحسين صحة الإنسان.",
+      "keyword": "تجارب",
+      "template": "phenomenon",
+      "labels": [
+        "أبحاث",
+        "سرطان",
+        "عضلات"
+      ],
+      "values": [],
+      "claim": "Highlights of space station research include experiments to improve drug delivery for cancer and osteoarthritis, predict cancer spread, and advance treatments for muscle loss.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "Highlights of space station research and technology demonstrations being delivered aboard this Cygnus XL spacecraft include experiments to improve drug delivery for cancer and osteoarthritis",
+      "kind": "fact",
+      "expression": 4,
+      "action": "turn",
+      "brollQuery": "scientific experiment",
+      "duration": 14.730958,
+      "words": []
+    },
+    {
+      "title": "تكريم رائد فضاء",
+      "text": "المركبة دي متسمية باسم جيمس لوفيل، رائد فضاء سابق شارك في أربع مهمات تاريخية، منها أبولو ثمانية وأبولو ثلاثة عشر، وده تكريم لمسيرته العظيمة في استكشاف القمر والفضاء الواسع.",
+      "summary": "تسمية المركبة باسم رائد الفضاء جيمس لوفيل.",
+      "keyword": "مركبة",
+      "template": "journey",
+      "labels": [
+        "تكريم",
+        "أبولو",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "Northrop Grumman named the spacecraft the S.S. James Jim A. Lovell in honor of the former NASA astronaut.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "Northrop Grumman named the spacecraft the S.S. James Jim A. Lovell in honor of the former NASA astronaut. Lovell flew four missions, including Gemini VII, Gemini XII, Apollo 8, and the Apollo 13 mission around the Moon.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point",
+      "brollQuery": "spacecraft",
+      "duration": 12.930958,
+      "words": []
+    },
+    {
+      "title": "نهاية المهمة",
+      "text": "المركبة هتفضل في المدار لحد مايو ألفين سبعة وعشرين، وبعدها هترجع محملة بالنفايات عشان تحترق بأمان في الغلاف الجوي، وبكده تكون انتهت رحلة تانية ناجحة من رحلات الإمداد الفضائية.",
+      "summary": "انتهاء المهمة واحتراق المركبة في الغلاف الجوي.",
+      "keyword": "غلاف",
+      "template": "phenomenon",
+      "labels": [
+        "نهاية",
+        "غلاف جوي",
+        "نفايات"
+      ],
+      "values": [],
+      "claim": "The spacecraft is scheduled to remain at the orbiting laboratory until May 2027, then depart with several thousand pounds of disposal items and other unneeded cargo, burning up harmlessly during re-entry.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "The spacecraft is scheduled to remain at the orbiting laboratory until May 2027, then depart with several thousand pounds of disposal items and other unneeded cargo, burning up harmlessly during re-entry.",
+      "kind": "fact",
+      "expression": 3,
+      "action": "fall",
+      "brollQuery": "reentry atmosphere",
+      "duration": 13.96,
+      "words": []
+    },
+    {
+      "title": "شارك في التجربة",
+      "text": "تقدر كمان تشارك في المهمة دي افتراضياً من بيتك، ناسا بتوفر برنامج للجمهور عشان يتابعوا الإطلاق ويحصلوا على ختم في جواز سفر ناسا الافتراضي، تجربة ممتعة لكل محبي الفضاء.",
+      "summary": "برنامج ناسا الافتراضي للجمهور.",
+      "keyword": "جواز",
+      "template": "steps",
+      "labels": [
+        "مشاركة",
+        "جمهور",
+        "ناسا"
+      ],
+      "values": [],
+      "claim": "Members of the public can register to attend this launch virtually. NASA’s virtual guest program for this mission also includes curated launch resources.",
+      "sourceId": "162c5c6a72fe",
+      "evidence": "Members of the public can register to attend this launch virtually. NASA’s virtual guest program for this mission also includes curated launch resources",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point",
+      "brollQuery": "virtual event",
+      "duration": 13.92,
+      "words": []
+    }
+  ],
+  "durationInFrames": 3507,
+  "audio": "generated/2026-11-19T13-46-10-019Z/audio.wav",
+  "incompleteMode": "unaligned_narration",
+  "preview": true,
+  "incomplete": true
+}

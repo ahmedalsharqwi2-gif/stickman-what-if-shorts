@@ -1,0 +1,186 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 12.850958,
+    "text": "تخيل صاروخ ضخم بيشيل حمولة وزنها أحد عشر ألف رطل من الأكل والأجهزة العلمية، الصاروخ ده هو سبيس إكس فالكون تسعة اللي بيشيل مركبة سيجنوس إكس إل في مهمة ناسا.",
+    "sha256": "00fa6ba2a9627f5dc6ce9b73348a6ed79840c87bee4b4c2e3c9e6e637f6b11d1",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "e01c7a7c5bde5fe5b758861a8b8a68e54716cb8a4ca8b8cd2f4aac2dd436a8cc",
+        "sha256": "00fa6ba2a9627f5dc6ce9b73348a6ed79840c87bee4b4c2e3c9e6e637f6b11d1",
+        "text_sha256": "f3acac6204cc7c2654e0256f126b54071e9fa4640a568f37c0c5ef4e43c8a8b9",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 616924,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 15.64,
+    "text": "قبل الانطلاق، بيتم عقد مؤتمر صحفي عشان يوضحوا كل تفاصيل المهمة، والمشاركين بيشرحوا إزاي بيتم التخطيط لكل خطوة عشان يضمنوا وصول الإمدادات بأمان للمحطة الدولية في الموعد المحدد.",
+    "sha256": "e7807dca0de3e13f2a3226275cf261c287cc8a0428b4c8c624aabc5691184cdd",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "321d6f435a26c695b8530890211e8371297baf979c3b06d90b7ed668ec1c2cd3",
+        "sha256": "e7807dca0de3e13f2a3226275cf261c287cc8a0428b4c8c624aabc5691184cdd",
+        "text_sha256": "b4dbe7e4b5005d6d02b5cbd330c313b80d534a2d562148616819a56739490f5a",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 750798,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 14.92,
+    "text": "في يوم تسعة وعشرين نوفمبر، بتبدأ لحظة الحقيقة، الصاروخ بينطلق من قاعدة كيب كانافيرال في فلوريدا، والكل بيتابع العد التنازلي عشان يشوفوا المركبة وهي بتشق طريقها نحو الفضاء الخارجي.",
+    "sha256": "d8fb5b5ac27d1f12ec6df999f85eeee00011c87a4f2c64c76e16003709047249",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "9feebf76b7da53264d10f72527992089696e412aaf373963a1afc73e69ba7f33",
+        "sha256": "d8fb5b5ac27d1f12ec6df999f85eeee00011c87a4f2c64c76e16003709047249",
+        "text_sha256": "5c24c31df707ec25b125bf6e6262ebc03ec8383ae91dab2896d34207809c5b98",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 716238,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 17.92,
+    "text": "بعد أيام، المركبة بتوصل للمحطة، ورواد الفضاء جيسيكا واتكينز ولوك ديلاني بيستخدموا ذراع الروبوت كاندارم اتنين عشان يمسكوا المركبة ويضمموها لوحدة يونيتي، دي عملية دقيقة جداً ومحتاجة تركيز عالي.",
+    "sha256": "6b6956142d67bf7740fa758b0c7523a856248617de4f48ce4eec77e0e99cf450",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b9d63325a1dc64a571defeca16f11699a6e07d83835fdc51f5c35b9231b6ed86",
+        "sha256": "6b6956142d67bf7740fa758b0c7523a856248617de4f48ce4eec77e0e99cf450",
+        "text_sha256": "0e3501e94a0dadaa3c689c03d20d430e6dda3752f0c6ae2e990721e0e6598f8f",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 860238,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 14.730958,
+    "text": "الحمولة مش بس أكل، دي فيها تجارب علمية مهمة جداً، زي أبحاث عن علاج السرطان، وتحسين توصيل الأدوية، وتجارب تانية عشان نفهم إزاي نحافظ على صحة العضلات في ظروف انعدام الجاذبية.",
+    "sha256": "b09d277e4222ff30b127150eb6aadcf0bece7f5f850bea06a7dcb1fc9d75f921",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "d0e3c4b65dc8c769cc43bc0ba18578fc1a67f05e0f9a8f71409372afd9a524e9",
+        "sha256": "b09d277e4222ff30b127150eb6aadcf0bece7f5f850bea06a7dcb1fc9d75f921",
+        "text_sha256": "1531462c1c5d9ed474149890f1a1e0ae9d9207db6683766e64af480bb8b07e4b",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 707164,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 12.930958,
+    "text": "المركبة دي متسمية باسم جيمس لوفيل، رائد فضاء سابق شارك في أربع مهمات تاريخية، منها أبولو ثمانية وأبولو ثلاثة عشر، وده تكريم لمسيرته العظيمة في استكشاف القمر والفضاء الواسع.",
+    "sha256": "48c86c66a79851606add886827f155bbdaa7e1ab0ba66ddbad482f57985e2e2c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "0a5999ac0fffe2e792cf87a5aa09baabbe2e544f2ec838675c5b33c7e97f1c6b",
+        "sha256": "48c86c66a79851606add886827f155bbdaa7e1ab0ba66ddbad482f57985e2e2c",
+        "text_sha256": "87cdccff98ede0bf745d3e0bec0212dc608f174ea0eadf4fcb721316c6267c4a",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 620764,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 13.96,
+    "text": "المركبة هتفضل في المدار لحد مايو ألفين سبعة وعشرين، وبعدها هترجع محملة بالنفايات عشان تحترق بأمان في الغلاف الجوي، وبكده تكون انتهت رحلة تانية ناجحة من رحلات الإمداد الفضائية.",
+    "sha256": "ec5802075fb720d7da452394f88886027e0eb3efd6184f35e4a78c2ee9ced6a6",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "adb9ac2e5cbce7600ba1de0b91ccd13d28560779c77a59af488b22a9528b8409",
+        "sha256": "ec5802075fb720d7da452394f88886027e0eb3efd6184f35e4a78c2ee9ced6a6",
+        "text_sha256": "520d4fba9c9cd69985d3fc22b46b9b61afff1cfff57d0626ea1781907b1a247c",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 670158,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 13.92,
+    "text": "تقدر كمان تشارك في المهمة دي افتراضياً من بيتك، ناسا بتوفر برنامج للجمهور عشان يتابعوا الإطلاق ويحصلوا على ختم في جواز سفر ناسا الافتراضي، تجربة ممتعة لكل محبي الفضاء.",
+    "sha256": "6111193d392e38897fb630c68eebfdb11428f4f943a46feffb8af920bdc1754c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f0499d435e08f257945c5ef98c8e2bcfe4f5962c596dbb7cce6d520a0c5b0bae",
+        "sha256": "6111193d392e38897fb630c68eebfdb11428f4f943a46feffb8af920bdc1754c",
+        "text_sha256": "84e3ac6db97f2354d44239c630f2287de25e630b32112eb4b7c5c7fa063096d6",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 668238,
+        "reused": true
+      }
+    ]
+  }
+]
