@@ -87,7 +87,7 @@ export async function review({mode='review',scheduled=false,topicReservationPath
     if(partialProps)await layoutQA(partialProps,partialOut);const result=await partialReview(partialOut,config,{episode,reason:report.errorCode,narration,alignmentReady:report.stages.some(stage=>stage.name==='align'&&stage.status==='pass')});report.partial={status:'rendered',path:result.file,incomplete:true};
    }catch(partialError){report.partial={status:'failed',code:/^[A-Z_]{3,100}$/.test(partialError.message)?partialError.message:'PARTIAL_RENDER_FAILED'};}
   }
-  await checkpoint();throw Error(`${stageName}: ${report.errorCode}`);
+  await checkpoint();console.error('PROVIDER_EVENTS '+JSON.stringify(providerDiagnostics().events.map(x=>({t:x.type,m:x.model,a:x.attempt,s:x.status,r:x.reason})).slice(-80)));throw Error(`${stageName}: ${report.errorCode}`);
  }finally{await save(out+'/attempt-'+attemptId+'.json',report);if(rollingNow){rollingNow=false;}else if(lock){await lock.close();await rm('.pipeline.lock',{force:true});}}
 }
 }
