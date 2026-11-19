@@ -1,0 +1,89 @@
+{
+  "complete": false,
+  "chunks": [
+    {
+      "scene": 0,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "822743c8b791b1e035d4f68940e629fd0d54d0b0ff870e5ef479e9395876a860",
+      "sha256": "9ff382c808d0fff26b51194316aea64d9b20beb40d187d444a412b2518981518",
+      "text_sha256": "c1aae2e451fc680f10fdb2de973001eebce265386c53848859db585f07b6a353",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-3.1-flash-tts-preview",
+      "bytes": 706638,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/822743c8b791b1e035d4f68940e629fd0d54d0b0ff870e5ef479e9395876a860.wav",
+      "reused": false
+    },
+    {
+      "scene": 1,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "455de9c9758b70dbc9618d7114604ba90d77505581485dd9c6d38ed73365c4bd",
+      "sha256": "c5ef2d5b03fae873f993e0fe55a64a9be0c9655884cf4dcafac8ae7163b25d9e",
+      "text_sha256": "dcef757445de8b2993594024e2f733eacac639aaa1c5402b40059efe899f196f",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-3.1-flash-tts-preview",
+      "bytes": 681678,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/455de9c9758b70dbc9618d7114604ba90d77505581485dd9c6d38ed73365c4bd.wav",
+      "reused": false
+    },
+    {
+      "scene": 2,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "b4942a5bee18373119bb68145af4d676f3a7e60703ecfab68b2be669f79b3a15",
+      "sha256": "19a57d6a69e98b21a366d23cc945da8e21a86d19d8c3e1897696708b7dec3fc2",
+      "text_sha256": "8f9524b2504ed18f2aa9c8a020ed388874c6717e9eb40f7ed2fd6d7560520c15",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-3.1-flash-tts-preview",
+      "bytes": 695118,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/b4942a5bee18373119bb68145af4d676f3a7e60703ecfab68b2be669f79b3a15.wav",
+      "reused": false
+    },
+    {
+      "scene": 3,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "008b76265f67376c85f4578b781e0c336687252469fd4f08d75655fdf3615fb9",
+      "sha256": "6aa6516857825ef56f9049cb7f03848f1ef1232489ffa63523c43b88b77aeace",
+      "text_sha256": "0b5e5b18c099e75832b3c8c2e0c9695af2d9b217458a7e3c6e9ddaafd81171da",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash-preview-tts",
+      "bytes": 799324,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/008b76265f67376c85f4578b781e0c336687252469fd4f08d75655fdf3615fb9.wav",
+      "reused": false
+    },
+    {
+      "scene": 4,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "5827402fb1bb9d9d87c4da3b8f368754791774e5175408c393556cb1377919b7",
+      "sha256": "fc8cccb871e7e2bbec94e93d0af93cd6f4d74ead9aa6164b23183145c2612aa3",
+      "text_sha256": "4c8c2a7f1f6b59a62e7e04094163f6132cace48367f1a3ecc828d2299dce3ce5",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash-preview-tts",
+      "bytes": 620764,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/5827402fb1bb9d9d87c4da3b8f368754791774e5175408c393556cb1377919b7.wav",
+      "reused": false
+    },
+    {
+      "scene": 5,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "7147fe8fe664b643551c181271aa084040394e2c917d3449da54252d3a9bd362",
+      "sha256": "351d5622cb81ba41e7aa4e0ec57ac71be7fedf4844d4c22634de62cada935c81",
+      "text_sha256": "c1a79a97b005868116970d35e7749fe188232f7e7b57088782b6e2dd6e8f3491",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash-preview-tts",
+      "bytes": 632284,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/7147fe8fe664b643551c181271aa084040394e2c917d3449da54252d3a9bd362.wav",
+      "reused": false
+    }
+  ]
+}

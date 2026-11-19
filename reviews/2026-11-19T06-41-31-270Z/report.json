@@ -1,25 +1,23 @@
 {
   "id": "2026-11-19T06-41-31-270Z",
-  "attemptId": "2026-11-19T06-41-31-270Z",
+  "attemptId": "2026-11-19T07-33-17-874Z",
   "mode": "review",
   "published": false,
   "status": "failed",
-  "resumed": false,
+  "resumed": true,
   "stages": [
     {
       "name": "preflight",
       "status": "pass",
-      "seconds": 0.194
+      "seconds": 0.474
     },
     {
       "name": "topics",
-      "status": "pass",
-      "seconds": 2.23
+      "status": "resumed_from_saved_source_manifest"
     },
     {
       "name": "script",
-      "status": "pass",
-      "seconds": 36.953
+      "status": "resumed_from_hash_verified_script"
     }
   ],
   "limitations": [
