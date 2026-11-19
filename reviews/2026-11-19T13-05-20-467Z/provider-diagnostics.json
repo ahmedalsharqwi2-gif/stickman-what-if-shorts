@@ -1,0 +1,275 @@
+{
+  "events": [
+    {
+      "type": "models_resolved",
+      "kind": "text",
+      "models": [
+        "gemini-3.1-flash-lite-preview",
+        "gemini-3-flash-preview",
+        "gemini-2.5-flash",
+        "gemini-omni-flash-preview",
+        "gemini-omni-1.2-flash",
+        "gemini-omni-1.1-flash",
+        "gemini-flash-lite-latest",
+        "gemini-flash-latest",
+        "gemini-3.8-flash",
+        "gemini-3.7-flash",
+        "gemini-3.6-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.5-flash",
+        "gemini-3.1-flash-lite",
+        "gemini-2.5-flash-lite"
+      ],
+      "at": 1795093523201
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-3.1-flash-lite-preview",
+      "attempt": 1,
+      "totalAttempt": 1,
+      "status": 400,
+      "at": 1795093553748
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-3-flash-preview",
+      "attempt": 1,
+      "totalAttempt": 2,
+      "status": 400,
+      "at": 1795093586402
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-2.5-flash",
+      "attempt": 1,
+      "totalAttempt": 3,
+      "status": 404,
+      "at": 1795093613334
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "attempt": 1,
+      "totalAttempt": 4,
+      "status": 429,
+      "at": 1795093643335
+    },
+    {
+      "type": "backoff",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "status": 429,
+      "waitMs": 3821.87723786252,
+      "retryAfterMs": 0,
+      "at": 1795093643335
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "attempt": 2,
+      "totalAttempt": 5,
+      "status": 429,
+      "at": 1795093673316
+    },
+    {
+      "type": "backoff",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "status": 429,
+      "waitMs": 7277.327965246452,
+      "retryAfterMs": 0,
+      "at": 1795093673316
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "attempt": 3,
+      "totalAttempt": 6,
+      "status": 429,
+      "at": 1795093703343
+    },
+    {
+      "type": "key_rotation",
+      "kind": "text",
+      "keyId": "a2a76904fc3a",
+      "reason": "GEMINI_HTTP_429_EXHAUSTED",
+      "at": 1795093703343
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-3.1-flash-lite-preview",
+      "attempt": 1,
+      "totalAttempt": 1,
+      "status": 400,
+      "at": 1795093733913
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-3-flash-preview",
+      "attempt": 1,
+      "totalAttempt": 2,
+      "status": 400,
+      "at": 1795093766054
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-2.5-flash",
+      "attempt": 1,
+      "totalAttempt": 3,
+      "status": 404,
+      "at": 1795093793423
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "attempt": 1,
+      "totalAttempt": 4,
+      "status": 429,
+      "at": 1795093823408
+    },
+    {
+      "type": "backoff",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "status": 429,
+      "waitMs": 3204.056662599547,
+      "retryAfterMs": 0,
+      "at": 1795093823409
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "attempt": 2,
+      "totalAttempt": 5,
+      "status": 429,
+      "at": 1795093853446
+    },
+    {
+      "type": "backoff",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "status": 429,
+      "waitMs": 7056.096810216228,
+      "retryAfterMs": 0,
+      "at": 1795093853446
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "attempt": 3,
+      "totalAttempt": 6,
+      "status": 429,
+      "at": 1795093883465
+    },
+    {
+      "type": "key_rotation",
+      "kind": "text",
+      "keyId": "ba22daa1706f",
+      "reason": "GEMINI_HTTP_429_EXHAUSTED",
+      "at": 1795093883465
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-3.1-flash-lite-preview",
+      "attempt": 1,
+      "totalAttempt": 1,
+      "status": 400,
+      "at": 1795093913991
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-3-flash-preview",
+      "attempt": 1,
+      "totalAttempt": 2,
+      "status": 400,
+      "at": 1795093946608
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-2.5-flash",
+      "attempt": 1,
+      "totalAttempt": 3,
+      "status": 404,
+      "at": 1795093973527
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "attempt": 1,
+      "totalAttempt": 4,
+      "status": 429,
+      "at": 1795094003548
+    },
+    {
+      "type": "backoff",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "status": 429,
+      "waitMs": 3630.4104766069177,
+      "retryAfterMs": 0,
+      "at": 1795094003548
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "attempt": 2,
+      "totalAttempt": 5,
+      "status": 429,
+      "at": 1795094033525
+    },
+    {
+      "type": "backoff",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "status": 429,
+      "waitMs": 6003.23916774076,
+      "retryAfterMs": 0,
+      "at": 1795094033525
+    },
+    {
+      "type": "attempt",
+      "kind": "text",
+      "model": "gemini-omni-flash-preview",
+      "attempt": 3,
+      "totalAttempt": 6,
+      "status": 429,
+      "at": 1795094063595
+    }
+  ],
+  "resolvedModels": {
+    "text": [
+      "gemini-3.1-flash-lite-preview",
+      "gemini-3-flash-preview",
+      "gemini-2.5-flash",
+      "gemini-omni-flash-preview",
+      "gemini-omni-1.2-flash",
+      "gemini-omni-1.1-flash",
+      "gemini-flash-lite-latest",
+      "gemini-flash-latest",
+      "gemini-3.8-flash",
+      "gemini-3.7-flash",
+      "gemini-3.6-flash",
+      "gemini-3.5-flash-lite",
+      "gemini-3.5-flash",
+      "gemini-3.1-flash-lite",
+      "gemini-2.5-flash-lite"
+    ]
+  }
+}
