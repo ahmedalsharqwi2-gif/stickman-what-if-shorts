@@ -1,4 +1,4 @@
-import {assertEvidence,duplicate} from './policy.mjs';import {provider} from './provider-client.mjs';import {produceVoice} from './voice-store.mjs';
+import {assertEvidence,duplicate} from './policy.mjs';import {provider} from './provider-client.mjs';import {produceVoice} from './voice-store.mjs';import {loadStickmanStyle,readReferenceImage,buildSceneRequest} from './stickman-style.mjs';
 import {writeFile} from 'node:fs/promises';
 export {selectTopic} from './topics.mjs';
 export async function script(topic,config,history){
@@ -18,12 +18,15 @@ export async function script(topic,config,history){
 export async function voice(episode,publicDir,{progressPath}={}){const client=await provider();return produceVoice(episode,publicDir,{client,settings:client.config.voice,progressPath});}
 export async function backgrounds(episode,config,publicDir){
  if(config.profile!=='stickman')return [];const client=await provider(),files=[];
+ const style=await loadStickmanStyle();const reference=style?.enabled?await readReferenceImage(style):null;
  for(let i=0;i<episode.scenes.length;i++){
-  const scene=episode.scenes[i];const prompt=`Original cinematic realistic portrait environment background for an Egyptian Arabic science comedy. No people, no text, no logos, no watermark. Leave a clear foreground for the separately animated character. Scene: ${scene.title}. ${scene.summary}. Warm editorial lighting, coherent environment, high quality.`;
-  const response=await client.generate('image',{contents:[{parts:[{text:prompt}]}],generationConfig:{responseModalities:['TEXT','IMAGE']}},{settings:{styleVersion:2,aspectRatio:'9:16'}});
+  const scene=episode.scenes[i];
+  const request=reference?buildSceneRequest(style,scene,reference):{contents:[{parts:[{text:`Original cinematic realistic portrait environment background for an Egyptian Arabic science comedy. No people, no text, no logos, no watermark. Leave a clear foreground for the separately animated character. Scene: ${scene.title}. ${scene.summary}. Warm editorial lighting, coherent environment, high quality.`}]}],generationConfig:{responseModalities:['TEXT','IMAGE']}};
+  const response=await client.generate('image',request,{settings:{styleVersion:reference?3:2,aspectRatio:'9:16'}});
   const part=response.candidates[0].content.parts.find(p=>p.inlineData?.mimeType?.startsWith('image/'))?.inlineData;
   if(!part||!['image/png','image/jpeg','image/webp'].includes(part.mimeType))throw Error('BACKGROUND_PROVIDER_NO_SUPPORTED_IMAGE');
   const ext={'image/png':'.png','image/jpeg':'.jpg','image/webp':'.webp'}[part.mimeType],file='background-'+i+ext;await writeFile(publicDir+'/'+file,Buffer.from(part.data,'base64'));
-  scene.background='generated/'+publicDir.split('/').at(-1)+'/'+file;files.push({path:file,source:'Gemini original generation',model:response._pipeline.model,cacheKey:response._pipeline.cacheKey,license:'Gemini provider terms apply; not asserted CC0'});
+  scene.background='generated/'+publicDir.split('/').at(-1)+'/'+file;if(reference)scene.backgroundWithCharacter=true;
+  files.push({path:file,source:reference?'Gemini scene generation with locked character reference':'Gemini original generation',model:response._pipeline.model,cacheKey:response._pipeline.cacheKey,license:'Gemini provider terms apply; not asserted CC0'});
  }return files;
 }

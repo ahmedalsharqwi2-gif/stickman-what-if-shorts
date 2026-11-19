@@ -4,9 +4,11 @@ import {BrandLogo} from './Logo';
 import {ScientificDiagram} from './ScientificDiagrams';
 import {scientificSubject} from '../pipeline/subject-policy.mjs';
 import {Character} from './Character';
+import {SubtleMotion} from './SubtleMotion';
 import config from '../config/channel.json';
+import stickmanStyle from '../config/stickman-style.json';
 type Word={text:string;start:number;end:number};
-type Scene={title:string;text:string;summary:string;keyword:string;template:string;labels:string[];values:number[];kind:string;diagramKind?:'galaxy'|'star'|'cluster'|'planet'|'concept'|'light';sourceUrl?:string;sourceLabel?:string;duration:number;words:Word[];background?:string;expression:number;action:string};
+type Scene={title:string;text:string;summary:string;keyword:string;template:string;labels:string[];values:number[];kind:string;diagramKind?:'galaxy'|'star'|'cluster'|'planet'|'concept'|'light';sourceUrl?:string;sourceLabel?:string;duration:number;words:Word[];background?:string;backgroundWithCharacter?:boolean;expression:number;action:string};
 export type EpisodeProps={title:string;scenes:Scene[];audio?:string;durationInFrames:number;preview?:boolean;incomplete?:boolean;editorialLabel?:string|null;incompleteMode?:'silent'|'unaligned_narration'|'review_incomplete'};
 const W=1080,H=1920;
 const tokens={ink:'#15343a',cream:'#fff0d0',sage:'#b6dbc1',blue:'#45bce6',violet:'#ae7ff0',amber:'#f4a561'};
@@ -28,17 +30,17 @@ function Shot({scene,index,count,incomplete,editorialLabel,incompleteMode}:{scen
  const f=useCurrentFrame(),time=f/30,entrance=interpolate(f,[0,16],[0,1],{extrapolateRight:'clamp'}),beat=Math.floor(f/90);
  const palettes=[['#152c36','#28453e'],['#252239','#535072'],['#183a35','#34655b'],['#493a36','#916453']];const palette=palettes[index%4];
  const active=scene.words.findIndex(w=>time>=w.start&&time<w.end);const start=active<0?0:Math.floor(active/5)*5;const visible=scene.words.slice(start,start+5);
- const horror=config.profile==='horror';
+ const horror=config.profile==='horror';const highlight=config.profile==='stickman'?stickmanStyle.captionHighlight||'#ffda34':tokens.amber;
  return <AbsoluteFill style={{background:`linear-gradient(155deg,${horror?'#080d11':palette[0]},${horror?'#24322e':palette[1]})`,fontFamily:'ChannelArabic',color:'white',direction:'rtl',overflow:'hidden'}}>
- {scene.background&&<Img src={staticFile(scene.background)} style={{width:'100%',height:'100%',objectFit:'cover',opacity:.58,transform:`scale(${1+time*.002})`}}/>}
+ {scene.background&&(scene.backgroundWithCharacter?<SubtleMotion src={scene.background} kenBurnsPct={stickmanStyle.motion?.kenBurnsPct??4} jitterPx={stickmanStyle.motion?.jitterPx??1} motionLines={stickmanStyle.motion?.motionLines!==false}/>:<Img src={staticFile(scene.background)} style={{width:'100%',height:'100%',objectFit:'cover',opacity:.58,transform:`scale(${1+time*.002})`}}/>)}
  <div style={{position:'absolute',top:170,left:80,right:80,display:'flex',justifyContent:'space-between',alignItems:'center',fontSize:26,color:tokens.cream}} data-text-box>
  <BrandLogo/>
  <span>{config.counter} · {index+1}/{count}</span></div>
  {(incomplete||editorialLabel)&&<div data-text-box style={{position:'absolute',top:310,left:95,right:95,textAlign:'center',fontSize:24,color:'#fff0d0'}}>{incomplete?(incompleteMode==='unaligned_narration'?'معاينة بصوت شارون • محاذاة الكلمات غير مكتملة':incompleteMode==='review_incomplete'?'معاينة بصوت شارون • لم تجتز المراجعة الكاملة':'معاينة غير مكتملة • بدون صوت'):editorialLabel}</div>}
  <div style={{position:'absolute',top:350,left:95,right:95,fontSize:58,fontWeight:800,lineHeight:1.4,opacity:entrance,transform:`translateY(${(1-entrance)*20}px)`,textAlign:'center'}} data-text-box>{scene.title}</div>
- <div style={{position:'absolute',inset:0,transform:`scale(${1+(beat%2)*.025})`,transition:'none'}}>{config.profile==='stickman'?<svg width={W} height={H}><Character frame={f} expression={scene.expression} action={scene.action}/><text x="540" y="1350" fill="white" textAnchor="middle" fontSize="44">{scene.labels[beat%scene.labels.length]}</text></svg>:<Diagram scene={scene} index={index}/>}</div>
+ <div style={{position:'absolute',inset:0,transform:`scale(${1+(beat%2)*.025})`,transition:'none'}}>{config.profile==='stickman'?(scene.backgroundWithCharacter?<div style={{position:'absolute',top:1330,left:0,right:0,textAlign:'center',fontSize:44,color:'white'}} data-text-box>{scene.labels[beat%scene.labels.length]}</div>:<svg width={W} height={H}><Character frame={f} expression={scene.expression} action={scene.action}/><text x="540" y="1350" fill="white" textAnchor="middle" fontSize="44">{scene.labels[beat%scene.labels.length]}</text></svg>):<Diagram scene={scene} index={index}/>}</div>
  <div style={{position:'absolute',top:1380,left:100,right:100,height:174,boxSizing:'border-box',borderRadius:22,padding:'22px 30px',background:'#102c30ed',boxShadow:'0 10px 30px #0003',fontSize:visible.map(w=>w.text).join(' ').length>65?30:40,fontWeight:800,textAlign:'center',lineHeight:1.35,overflowWrap:'anywhere'}} data-text-box>
- {visible.length?visible.map((word,i)=><React.Fragment key={i}><span style={{color:start+i===active?tokens.amber:'white'}}>{word.text}</span>{' '}</React.Fragment>):scene.summary}</div>
+ {visible.length?visible.map((word,i)=><React.Fragment key={i}><span style={{color:start+i===active?highlight:'white'}}>{word.text}</span>{' '}</React.Fragment>):scene.summary}</div>
  <div style={{position:'absolute',top:1600,left:100,right:100,fontSize:21,color:'#eee',textAlign:'center'}} data-text-box>{scene.kind==='legend'?'أسطورة — مش واقعة مؤكدة':scene.kind==='illustration'?'سيناريو تخيّلي للتوضيح':'المصدر: '+(scene.sourceLabel||'موثّق في بيانات الحلقة')}</div>
  </AbsoluteFill>;
 }

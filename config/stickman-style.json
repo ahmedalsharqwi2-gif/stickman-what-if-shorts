@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "referenceImage": "character/reference.png",
+  "expressionsSheet": "character/expressions.png",
+  "posesSheet": "character/poses.png",
+  "lockedStylePrompt": "Match the attached character reference exactly: a 2D cartoon character with a big round sky-blue head and thin blue stick body, two big white oval eyes with small black pupils, a wide toothy white grin, a yellow t-shirt with a jagged zigzag collar, red sneakers with white toes. Thick black outlines, bold flat colors, playful exaggerated cartoon style, subtle white sticker outline around the character. Plain very light background, generous empty space, one simple prop telling the story, vertical 9:16 composition, no text, no watermark.",
+  "expressionNames": ["smile", "shock", "tired", "angry", "curious", "sad", "proud", "scared", "laugh", "wink", "confused", "determined"],
+  "motion": {
+    "kenBurnsPct": 4,
+    "jitterPx": 1,
+    "motionLines": true,
+    "expressionSwap": false
+  },
+  "captionHighlight": "#ffda34"
+}
