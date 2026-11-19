@@ -1,0 +1,188 @@
+{
+  "title": "إزاي بنشوف البحيرة من الفضاء؟",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "المحطة الدولية",
+      "text": "محطة الفضاء الدولية بتلف حول الأرض بسرعة كبيرة جداً، ومن هناك رواد الفضاء بيقدروا يشوفوا تفاصيل مذهلة على سطح الكوكب، زي البحيرات والجبال، وكل ده بيتم باستخدام معدات تصوير متطورة جداً ومميزة.",
+      "summary": "المحطة الدولية بتلف حول الأرض وتصور تفاصيل مذهلة.",
+      "keyword": "محطة",
+      "template": "phenomenon",
+      "labels": [
+        "محطة فضاء",
+        "تصوير",
+        "أرض"
+      ],
+      "values": [],
+      "claim": "المحطة الدولية منصة فريدة لمراقبة الأرض.",
+      "sourceId": "72ab3b40ae04",
+      "evidence": "The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "space station",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "تصوير البحيرة",
+      "text": "في لقطة مميزة، رائد فضاء قدر يصور بحيرة بيلكو وهي بتبان في نص الصورة، واللقطة دي بتورينا قد إيه الكاميرات اللي معاهم قوية وبتقدر تسجل ظواهر طبيعية بتحصل في وقتها الحقيقي بدقة.",
+      "summary": "رائد فضاء يصور بحيرة بيلكو من المدار.",
+      "keyword": "بحيرة",
+      "template": "phenomenon",
+      "labels": [
+        "بحيرة بيلكو",
+        "تصوير",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "الرواد سجلوا ظواهر في وقتها الحقيقي.",
+      "sourceId": "72ab3b40ae04",
+      "evidence": "These images record phenomena in real time and support research and disaster relief.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk",
+      "brollQuery": "lake from space",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "مئات الآلاف من الصور",
+      "text": "رواد الفضاء مش بس بيصوروا لقطة واحدة، دول صوروا مئات الآلاف من الصور خلال وجودهم فوق، الصور دي مش مجرد ذكريات، دي بيانات علمية مهمة بتساعدنا نفهم التغيرات اللي بتحصل على كوكبنا.",
+      "summary": "رواد الفضاء صوروا مئات الآلاف من الصور.",
+      "keyword": "صور",
+      "template": "chart",
+      "labels": [
+        "أبحاث",
+        "بيانات",
+        "صور"
+      ],
+      "values": [
+        100
+      ],
+      "claim": "طاقم المحطة أنتج مئات الآلاف من الصور.",
+      "sourceId": "72ab3b40ae04",
+      "evidence": "Station crew members have produced hundreds of thousands of images.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn",
+      "brollQuery": "astronaut photography",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "أهمية المراقبة",
+      "text": "الصور اللي بتيجي من الفضاء بتدعم أبحاث علمية كتير، وكمان بتساعد في عمليات الإغاثة من الكوارث، يعني العين اللي فوق دي بتحمينا وبتحمي كوكبنا من خلال مراقبة كل حاجة بتحصل على السطح.",
+      "summary": "الصور تدعم الأبحاث والإغاثة من الكوارث.",
+      "keyword": "كوارث",
+      "template": "cause",
+      "labels": [
+        "إغاثة",
+        "أبحاث",
+        "كوارث"
+      ],
+      "values": [],
+      "claim": "الصور تدعم الأبحاث والإغاثة من الكوارث.",
+      "sourceId": "72ab3b40ae04",
+      "evidence": "These images record phenomena in real time and support research and disaster relief.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump",
+      "brollQuery": "earth disaster relief",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "معدات يدوية وآلية",
+      "text": "عشان يصوروا الحاجات دي، الرواد بيستخدموا معدات يدوية بيتحكموا فيها بنفسهم، ومعدات تانية آلية بتشتغل لوحدها، المزيج ده هو اللي بيخلينا نشوف الأرض بالشكل الواضح والمبهر اللي بنشوفه في الصور دي دايماً.",
+      "summary": "استخدام معدات يدوية وآلية للتصوير.",
+      "keyword": "معدات",
+      "template": "steps",
+      "labels": [
+        "تكنولوجيا",
+        "تصوير",
+        "معدات"
+      ],
+      "values": [],
+      "claim": "المحطة تستخدم معدات يدوية وآلية.",
+      "sourceId": "72ab3b40ae04",
+      "evidence": "The International Space Station serves as a unique platform for observing Earth with both hands-on and automated equipment.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "point",
+      "brollQuery": "camera equipment",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "موقع بحيرة بيلكو",
+      "text": "بحيرة بيلكو موجودة في منطقة مميزة، واللقطة اللي اتصورت ليها بتورينا موقعها بالنسبة للمناطق اللي حواليها، وده بيساعد العلماء يدرسوا طبيعة المنطقة دي وتغيراتها الجغرافية مع مرور الوقت بشكل دقيق جداً.",
+      "summary": "بحيرة بيلكو وتغيراتها الجغرافية.",
+      "keyword": "موقع",
+      "template": "map",
+      "labels": [
+        "جغرافيا",
+        "بحيرة",
+        "دراسة"
+      ],
+      "values": [],
+      "claim": "بحيرة بيلكو تظهر بوضوح في الصور.",
+      "sourceId": "72ab3b40ae04",
+      "evidence": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "walk",
+      "brollQuery": "lake geography",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "مهمة الرواد",
+      "text": "رائد الفضاء اللي صور البحيرة دي كان في مهمة علمية، والمهمة دي بتورينا إن حياة الرواد مش بس تجارب جوه المحطة، لكن كمان مراقبة الأرض وتوثيق جمالها وتغيراتها اللي بتحصل كل يوم.",
+      "summary": "مهمة الرواد في مراقبة الأرض.",
+      "keyword": "مهمة",
+      "template": "journey",
+      "labels": [
+        "مهمة",
+        "رواد",
+        "توثيق"
+      ],
+      "values": [],
+      "claim": "الرواد يوثقون جمال وتغيرات الأرض.",
+      "sourceId": "72ab3b40ae04",
+      "evidence": "An astronaut on the International Space Station captured this photograph of Lake Pelku (near center) as the station orbited above Asia.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "run",
+      "brollQuery": "astronaut mission",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "خاتمة",
+      "text": "في النهاية، الصور دي بتفكرنا إن كوكبنا جميل ومحتاج نحافظ عليه، ومن خلال عيون الرواد فوق، بنقدر نشوف العالم من منظور جديد تماماً يخلينا نقدر قيمة كل بحيرة وكل شبر في أرضنا.",
+      "summary": "الصور تذكرنا بجمال كوكبنا.",
+      "keyword": "كوكب",
+      "template": "phenomenon",
+      "labels": [
+        "أرض",
+        "جمال",
+        "حفاظ"
+      ],
+      "values": [],
+      "claim": "الصور تظهر جمال كوكب الأرض.",
+      "sourceId": "72ab3b40ae04",
+      "evidence": "Station crew members have produced hundreds of thousands of images.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "sleep",
+      "brollQuery": "planet earth",
+      "duration": 12,
+      "words": []
+    }
+  ],
+  "durationInFrames": 2880,
+  "incompleteMode": "silent",
+  "preview": true,
+  "incomplete": true
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T17-20-39-700Z/scene-0.wav",
+    "duration": 15.52,
+    "text": "في مركز ستينيس التابع لوكالة ناسا، المهندسين بيعملوا اختبارات قوية جداً لمحركات الصواريخ، الاختبار ده بيتم على منصة مخصصة عشان يتأكدوا إن كل حاجة ماشية تمام قبل ما الصاروخ يطلع فعلاً للفضاء.",
+    "sha256": "e73b7fdf4e3fab66d5b3aa9a0c8184537b3332ab9a642fcc97684f02ba8192e3",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "5bd90389a275d0cfc38f80e795c1f1a03d7c462a70f797adbc40113878992db6",
+        "sha256": "e73b7fdf4e3fab66d5b3aa9a0c8184537b3332ab9a642fcc97684f02ba8192e3",
+        "text_sha256": "9582698e7e8c9aae388866814d2f5289c94ba22e8f8055424e74fda0dbea89e7",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 745038,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T17-20-39-700Z/scene-1.wav",
+    "duration": 15.88,
+    "text": "فريق العمل بيشغل المحرك لمدة مائتين ثانية كاملة، يعني حوالي ثلاث دقائق وعشرين ثانية من النار والقوة، الوقت ده كافي جداً عشان يجمعوا بيانات مهمة عن أداء المحرك ومدى اعتماديته في الرحلات.",
+    "sha256": "0b3d43812ebb7588a84aadf6ef2c3f58cca9376329a57285b7ef0e9ef16e8d8d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "88a3923855f4cb8d368713e2fc0d39bd079b26710bbfa4228aab4185897d3e67",
+        "sha256": "0b3d43812ebb7588a84aadf6ef2c3f58cca9376329a57285b7ef0e9ef16e8d8d",
+        "text_sha256": "cbf202054978dcc1c9ea15a8e9728ab2645dbaa16dd7d6c67992421fba4da1ec",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 762318,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T17-20-39-700Z/scene-2.wav",
+    "duration": 17.16,
+    "text": "الهدف من الاختبار ده مش الطيران، لكنه توفير بيانات دقيقة جداً للوكالة وشركائهم، البيانات دي بتساعد في تحسين أداء المحرك وتطويره عشان يكون أكثر أماناً وموثوقية في المهمات الفضائية القادمة لأرتميس.",
+    "sha256": "cfaff55f708a9e7ebec58176a51536070b68847f7d255792e4116a581d9c0561",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "79626d6e7a527c1b72ff17eb49e089bdec586e63ebc244d650a9ce860bd4f5cb",
+        "sha256": "cfaff55f708a9e7ebec58176a51536070b68847f7d255792e4116a581d9c0561",
+        "text_sha256": "75ae0dd98a3812ed4581c44a26e509f78c01ceb4b5f4f8db1df0cbe3e0a85986",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 823758,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T17-20-39-700Z/scene-3.wav",
+    "duration": 16.92,
+    "text": "في عام 2028، ناسا بتخطط لمهمة أرتميس الرابعة للهبوط على القمر، المهمة دي هتستخدم صاروخ قوي جداً عشان يوصل رواد الفضاء لسطح القمر، وده جزء من خطة أكبر لاستكشاف الفضاء العميق.",
+    "sha256": "94ef8a76cd1557ce1dda727272194368838422f1dcead2d6c7dce32389903e18",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "d6e8a2c85e9a282b5db1836a226a40c2c61e56b4a20d06fa39562c0278560f6c",
+        "sha256": "94ef8a76cd1557ce1dda727272194368838422f1dcead2d6c7dce32389903e18",
+        "text_sha256": "46d544299b4f20ef89d79d6399aced989fcdca695f62c5aadd56cbea338a9ced",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 812238,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T17-20-39-700Z/scene-4.wav",
+    "duration": 14.88,
+    "text": "هل تتخيل إن أربعة محركات من نوع آر إس خمسة وعشرين بتنتج قوة دفع بتوصل لمليوني رطل؟ القوة دي هي اللي بتساعد الصاروخ الضخم إنه يخرج من جاذبية الأرض ويوصل للفضاء.",
+    "sha256": "50296a907f4972310a7752d496c28b9102758779b3dbf7fb644f7bf9dedfce84",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b633644ba01d285f7c2435df89c914abf4cdecaa7b2bc38f04a668176bd5fb3d",
+        "sha256": "50296a907f4972310a7752d496c28b9102758779b3dbf7fb644f7bf9dedfce84",
+        "text_sha256": "9cc087ba26a7b59899a5e3e94db0d67049cac8aba528df795d76bf06c2773b01",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 714318,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T17-20-39-700Z/scene-5.wav",
+    "duration": 14.56,
+    "text": "الهدف مش بس الهبوط، لكن بناء وجود بشري مستدام على سطح القمر، ده بيعتبر خطوة أساسية عشان ناسا تقدر تبني قاعدة قوية لأول رحلة بشرية هتروح كوكب المريخ في المستقبل البعيد.",
+    "sha256": "adc7424714715537a795e4b991c647c98db1fccc0a4b46b3d23dad36034a7f39",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "0f63444c6f5149e59c7507ca6898350d9fc6625f1dada1e4d4f7ca503fc0091b",
+        "sha256": "adc7424714715537a795e4b991c647c98db1fccc0a4b46b3d23dad36034a7f39",
+        "text_sha256": "368f476c8a039ee75983c15b352bc33d22cf6b20a9ffdb1970f74764617b45ed",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 698958,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T17-20-39-700Z/scene-6.wav",
+    "duration": 14.28,
+    "text": "الاختبارات دي بتتم بمشاركة فريق كبير من المشغلين من ناسا وشركات خاصة، كل واحد فيهم بيشتغل بدقة عشان يضمن إن المحركات جاهزة تماماً قبل ما يتم استخدامها في أي رحلة فضائية حقيقية.",
+    "sha256": "368ba686460ec899f5326789828aafbe4f83286fe4c1ff84cee1811984c53039",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "d0fafe85be421bd10e53566658fe9848768ce4b100b95d89fd5016babb31e7b7",
+        "sha256": "368ba686460ec899f5326789828aafbe4f83286fe4c1ff84cee1811984c53039",
+        "text_sha256": "f51280fb198a8303906d75db483cffcaa00b195181fdf8503190f6b60dc1524c",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 685518,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T17-20-39-700Z/scene-7.wav",
+    "duration": 14.410958,
+    "text": "في النهاية، كل اختبار صغير بيتعمل على الأرض هو حجر أساس لرحلة كبيرة في الفضاء، بفضل المجهود ده، بنقدر نضمن سلامة الرواد ونجاح المهمات اللي بتغير نظرتنا للكون ومكاننا فيه.",
+    "sha256": "2db102f9f7d14123eb7635d6d00612f074f7cf7958f28307112330da17a14834",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "5338f9f0318bce62e57dd7c9c00fda0cdb879b0424c4c6f0738e46e5ea8be2b5",
+        "sha256": "2db102f9f7d14123eb7635d6d00612f074f7cf7958f28307112330da17a14834",
+        "text_sha256": "fbcf7abd9b59aefe31901b2beb237aa69784d058abfe960e9a3c2fc98846f935",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 691804,
+        "reused": true
+      }
+    ]
+  }
+]

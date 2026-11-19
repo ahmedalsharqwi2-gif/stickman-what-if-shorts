@@ -1,0 +1,70 @@
+{
+  "sources": [
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "reddit",
+      "status": "unavailable",
+      "code": "FEED_HTTP_403"
+    },
+    {
+      "source": "trends",
+      "status": "ok",
+      "items": 10
+    }
+  ],
+  "degraded": false,
+  "decisions": [
+    {
+      "id": "72ab3b40ae04",
+      "title": "Lake Pelku",
+      "demand": 2,
+      "recency": 0.968,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "anthropic stock",
+          "weight": 2
+        }
+      ],
+      "score": 2.484188505945024
+    },
+    {
+      "id": "9d57f4dbe2e3",
+      "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
+      "demand": 2,
+      "recency": 0.728,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "anthropic stock",
+          "weight": 2
+        }
+      ],
+      "score": 2.3638638872356843
+    }
+  ]
+}

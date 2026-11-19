@@ -1,0 +1,19 @@
+{
+  "code": "SCRIPT_SCHEMA_INVALID",
+  "attempt": 2,
+  "zodIssues": [
+    {
+      "origin": "string",
+      "code": "too_small",
+      "minimum": 15,
+      "inclusive": true,
+      "path": [
+        "scenes",
+        4,
+        "evidence"
+      ],
+      "message": "Too small: expected string to have >=15 characters"
+    }
+  ],
+  "detail": "scenes.4.evidence: Too small: expected string to have >=15 characters"
+}

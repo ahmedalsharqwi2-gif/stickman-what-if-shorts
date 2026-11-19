@@ -1,0 +1,174 @@
+{
+  "topicKey": "remotion-stickman-whatif-artemis-engine",
+  "title": "إزاي المحرك بيشغل الصاروخ؟",
+  "hook": "إزاي المحرك بيشغل الصاروخ؟ افترض كده إننا بنجرب أقوى محركات في العالم عشان نطلع القمر، يا ترى إيه اللي بيحصل جوه الاختبارات دي وإزاي بنضمن إنها هتكون جاهزة للرحلة الكبيرة اللي جاية؟",
+  "cta": "لو حابب تعرف أكتر عن رحلات الفضاء ومستقبل البشر على القمر، تابعنا واشترك في القناة عشان يوصلك كل جديد عن مغامرات ناسا في الفضاء البعيد، استنونا في الحلقات اللي جاية يا أبطال.",
+  "scenes": [
+    {
+      "title": "اختبار المحرك",
+      "text": "في مركز ستينيس التابع لوكالة ناسا، المهندسين بيعملوا اختبارات قوية جداً لمحركات الصواريخ، الاختبار ده بيتم على منصة مخصصة عشان يتأكدوا إن كل حاجة ماشية تمام قبل ما الصاروخ يطلع فعلاً للفضاء.",
+      "summary": "اختبار محركات ناسا في مركز ستينيس.",
+      "keyword": "محرك",
+      "template": "phenomenon",
+      "labels": [
+        "ناسا",
+        "اختبار",
+        "محرك"
+      ],
+      "values": [],
+      "claim": "NASA conducts a hot fire test of RS-25 engine No. 10001 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, on Nov. 18, 2026.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "NASA conducts a hot fire test of RS-25 engine No. 10001 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, on Nov. 18, 2026.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "rocket engine test"
+    },
+    {
+      "title": "مدة الاختبار",
+      "text": "فريق العمل بيشغل المحرك لمدة مائتين ثانية كاملة، يعني حوالي ثلاث دقائق وعشرين ثانية من النار والقوة، الوقت ده كافي جداً عشان يجمعوا بيانات مهمة عن أداء المحرك ومدى اعتماديته في الرحلات.",
+      "summary": "تشغيل المحرك لمدة مائتين ثانية.",
+      "keyword": "ثانية",
+      "template": "steps",
+      "labels": [
+        "وقت",
+        "اختبار",
+        "بيانات"
+      ],
+      "values": [],
+      "claim": "Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds).",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "Test teams fired the developmental engine for the planned duration of three minutes and 20 seconds (200 seconds).",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk",
+      "brollQuery": "rocket engine fire"
+    },
+    {
+      "title": "أهمية البيانات",
+      "text": "الهدف من الاختبار ده مش الطيران، لكنه توفير بيانات دقيقة جداً للوكالة وشركائهم، البيانات دي بتساعد في تحسين أداء المحرك وتطويره عشان يكون أكثر أماناً وموثوقية في المهمات الفضائية القادمة لأرتميس.",
+      "summary": "جمع بيانات لتحسين أداء المحرك.",
+      "keyword": "بيانات",
+      "template": "cause",
+      "labels": [
+        "تطوير",
+        "أداء",
+        "أرتميس"
+      ],
+      "values": [],
+      "claim": "the hot fire test provides NASA and NASA’s prime contractor L3Harris Technologies with the capability to capture critical data to improve engine performance and reliability for future Artemis missions.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "the hot fire test provides NASA and NASA’s prime contractor L3Harris Technologies with the capability to capture critical data to improve engine performance and reliability for future Artemis missions.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn",
+      "brollQuery": "data analysis"
+    },
+    {
+      "title": "مهمة أرتميس",
+      "text": "في عام 2028، ناسا بتخطط لمهمة أرتميس الرابعة للهبوط على القمر، المهمة دي هتستخدم صاروخ قوي جداً عشان يوصل رواد الفضاء لسطح القمر، وده جزء من خطة أكبر لاستكشاف الفضاء العميق.",
+      "summary": "الاستعداد لمهمة أرتميس الرابعة.",
+      "keyword": "القمر",
+      "template": "journey",
+      "labels": [
+        "أرتميس",
+        "قمر",
+        "صاروخ"
+      ],
+      "values": [],
+      "claim": "For the Artemis IV Moon landing mission in 2028, the SLS rocket will launch astronauts aboard the Orion spacecraft from NASA s Kennedy Space Center in Florida.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "For the Artemis IV Moon landing mission in 2028, the SLS rocket will launch astronauts aboard the Orion spacecraft from NASA s Kennedy Space Center in Florida.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "jump",
+      "brollQuery": "moon landing"
+    },
+    {
+      "title": "قوة الدفع",
+      "text": "هل تتخيل إن أربعة محركات من نوع آر إس خمسة وعشرين بتنتج قوة دفع بتوصل لمليوني رطل؟ القوة دي هي اللي بتساعد الصاروخ الضخم إنه يخرج من جاذبية الأرض ويوصل للفضاء.",
+      "summary": "قوة دفع المحركات تصل لمليوني رطل.",
+      "keyword": "دفع",
+      "template": "comparison",
+      "labels": [
+        "قوة",
+        "صاروخ",
+        "محركات"
+      ],
+      "values": [
+        2
+      ],
+      "claim": "For each Artemis mission, four RS-25 engines produce up to 2 million pounds of combined thrust to help launch the SLS rocket.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "For each Artemis mission, four RS-25 engines produce up to 2 million pounds of combined thrust to help launch the SLS rocket.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "fall",
+      "brollQuery": "rocket launch"
+    },
+    {
+      "title": "التواجد البشري",
+      "text": "الهدف مش بس الهبوط، لكن بناء وجود بشري مستدام على سطح القمر، ده بيعتبر خطوة أساسية عشان ناسا تقدر تبني قاعدة قوية لأول رحلة بشرية هتروح كوكب المريخ في المستقبل البعيد.",
+      "summary": "بناء وجود بشري مستدام على القمر.",
+      "keyword": "المريخ",
+      "template": "journey",
+      "labels": [
+        "استكشاف",
+        "مريخ",
+        "قمر"
+      ],
+      "values": [],
+      "claim": "This mission will be a key step in the agency’s broader goals to explore the lunar South Pole, establish an enduring human presence on the lunar surface, and build on the agency’s foundation for the first crewed mission to Mars.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "This mission will be a key step in the agency’s broader goals to explore the lunar South Pole, establish an enduring human presence on the lunar surface, and build on the agency’s foundation for the first crewed mission to Mars.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "hang",
+      "brollQuery": "mars planet"
+    },
+    {
+      "title": "فريق العمل",
+      "text": "الاختبارات دي بتتم بمشاركة فريق كبير من المشغلين من ناسا وشركات خاصة، كل واحد فيهم بيشتغل بدقة عشان يضمن إن المحركات جاهزة تماماً قبل ما يتم استخدامها في أي رحلة فضائية حقيقية.",
+      "summary": "تعاون فرق العمل لاختبار المحركات.",
+      "keyword": "فريق",
+      "template": "phenomenon",
+      "labels": [
+        "تعاون",
+        "ناسا",
+        "عمل"
+      ],
+      "values": [],
+      "claim": "Tests are conducted by a team of operators from NASA, L3Harris, and Nova Space Solutions.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "Tests are conducted by a team of operators from NASA, L3Harris, and Nova Space Solutions.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "sleep",
+      "brollQuery": "engineers working"
+    },
+    {
+      "title": "الخلاصة",
+      "text": "في النهاية، كل اختبار صغير بيتعمل على الأرض هو حجر أساس لرحلة كبيرة في الفضاء، بفضل المجهود ده، بنقدر نضمن سلامة الرواد ونجاح المهمات اللي بتغير نظرتنا للكون ومكاننا فيه.",
+      "summary": "الاختبارات هي حجر الأساس للنجاح.",
+      "keyword": "فضاء",
+      "template": "phenomenon",
+      "labels": [
+        "نجاح",
+        "فضاء",
+        "مستقبل"
+      ],
+      "values": [],
+      "claim": "All RS-25 engines are tested and proven flightworthy at NASA Stennis prior to use.",
+      "sourceId": "4ed2e9bef49f",
+      "evidence": "All RS-25 engines are tested and proven flightworthy at NASA Stennis prior to use.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "point",
+      "brollQuery": "space exploration"
+    }
+  ],
+  "seriesLabel": "علوم الفضاء",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

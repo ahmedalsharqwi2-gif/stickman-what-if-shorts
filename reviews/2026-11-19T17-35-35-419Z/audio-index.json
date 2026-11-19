@@ -1,0 +1,186 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 14.84,
+    "text": "سفينة فضائية اسمها فوياجر واحد قدرت توصل لمسافة بعيدة جداً، مسافة مفيش أي حاجة صنعها الإنسان قبل كده قدرت توصلها، وهي مسافة يوم ضوئي كامل بعيد عن كوكب الأرض بتاعنا يا أصحاب.",
+    "sha256": "f855869f27ff72455453f30182a334e680749c084b024647f325415737b8f95f",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "bd557b9dc6d02b83185333dbee5ace41676fe9bbbc1d982eb46568a9bc7e2c2f",
+        "sha256": "f855869f27ff72455453f30182a334e680749c084b024647f325415737b8f95f",
+        "text_sha256": "a80e66804a34664d6a12b3f56c4d3c9d31451dd42bb5e663da36d2b6b8cd3cc5",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 712398,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 16.48,
+    "text": "عشان يحتفلوا بالإنجاز التاريخي ده، مبنى الإمباير ستيت في نيويورك قرر ينور باللون الدهبي، واللون ده مش مجرد اختيار عشوائي، ده رمز مهم جداً لقطعة تكنولوجية موجودة جوه السفينة الفضائية دي حالياً.",
+    "sha256": "e3d3279c77b92fa463b53702e84bb009d5f1cd2c8bd5e47ba5ab9c1757516c54",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "2e95f748732d736550c90495b167f67083a7a63188452fb263f04a7fca09abd6",
+        "sha256": "e3d3279c77b92fa463b53702e84bb009d5f1cd2c8bd5e47ba5ab9c1757516c54",
+        "text_sha256": "5088f2da518145d596900bcd15ec04a5f5d6568e4cf47b841d6686263b3c39b8",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 791118,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 15.530958,
+    "text": "اللون الدهبي ده بيمثل الأسطوانة النحاسية المطلية بالدهب اللي بتطير جوه السفينة، والأسطوانة دي جواها تسجيلات صوتية وصور مختارة بعناية عشان تعبر عن تنوع الحياة والثقافة اللي موجودة على كوكب الأرض بتاعنا.",
+    "sha256": "aa2232dab87e31e7375ad00c2137be5ed36c9ff21bc7a8ba316d38b1afcb8637",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "5b4a39b6e8a552d8b90ef584883d189b2250504ec7994040eda0e598083fecba",
+        "sha256": "aa2232dab87e31e7375ad00c2137be5ed36c9ff21bc7a8ba316d38b1afcb8637",
+        "text_sha256": "137759449902063040eeb46d25c021819bd45e6124f4f02d6f17e4f4bc0b4660",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 745564,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 15.490958,
+    "text": "تخيل إن فيه أسطوانة بتلف في الفراغ، شايلة ضحكاتنا، ومزيكتنا، وصورنا، وكل حاجة بتميزنا كبشر، والهدف منها إن لو أي حضارة تانية قابلتها، تعرف مين هما سكان الكوكب الأزرق الجميل ده يا أصدقاء.",
+    "sha256": "83991da5b16536ad09de1fdd2851c2ec4126bc5325d83a27167682eaddc98426",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "600ee57f2b20b280159f660ea15bbae97b25bbf85e7a25a15705419ad9c55e6d",
+        "sha256": "83991da5b16536ad09de1fdd2851c2ec4126bc5325d83a27167682eaddc98426",
+        "text_sha256": "82dcef0a466c5d3d3fd3ba51edf624213ebbb6ad8e38cbbf6ae15a1442356ac3",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 743644,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 15.050958,
+    "text": "مفيش أي جسم صنعه الإنسان قبل كده قدر يوصل للمسافة دي، ده معناه إننا كبشر قدرنا نبعت جزء من تاريخنا وثقافتنا لمكان بعيد جداً، لدرجة إن الضوء نفسه بياخد يوم كامل عشان يوصله.",
+    "sha256": "4ab13b60506ff3fe51bade34d6bca59d7f3225fbdad2d17e4c432463f5219831",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "86b937901ca5472394604324ed1a399df549d701ef33633a095a86ee5aa654e2",
+        "sha256": "4ab13b60506ff3fe51bade34d6bca59d7f3225fbdad2d17e4c432463f5219831",
+        "text_sha256": "a556b883922b02728fea1aad195dfd53114f90e2df0b8f3519f1fba95b24bacd",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 722524,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 14.810958,
+    "text": "لما نبص على مبنى الإمباير ستيت وهو منور بالدهب، لازم نفتكر إننا جزء من حاجة أكبر بكتير، وإن طموحنا كبشر ملوش حدود، حتى لو كانت المسافات بين النجوم كبيرة جداً ومحتاجة سنين.",
+    "sha256": "6587bdeea4bc081b8442095e604240fc1f066b30875eaffbf7147b5f2f2a013a",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "5cfd159e6c75f53f591045015acbbaab368d5441476cda49ff385002b8b1e6a2",
+        "sha256": "6587bdeea4bc081b8442095e604240fc1f066b30875eaffbf7147b5f2f2a013a",
+        "text_sha256": "f899b6e55062cb9284d5d4ae30ca9b98fece29bd949b9c840acbdb2aeab4e595",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 711004,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 14.930958,
+    "text": "الرحلة دي لسه مستمرة، وكل يوم بنتعلم حاجة جديدة عن الكون اللي حوالينا، والأسطوانة الدهبية دي هتفضل شاهدة على وجودنا، بتلف في صمت الفضاء، شايلة ذكرياتنا لكل ركن بعيد في هذا الكون.",
+    "sha256": "b78a6128334e71741dbe55ecaa7d44b85eaea1ee40da2d5090e9cfa062724a2f",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "c19691ff882b4fa4f9e52255c8adaf8e5c05a307a1fcd50b429eab4fed901597",
+        "sha256": "b78a6128334e71741dbe55ecaa7d44b85eaea1ee40da2d5090e9cfa062724a2f",
+        "text_sha256": "5fa56f15df210ddab7dcdf688e07c321cbb9156464c50eabf5aabd0b48e8d3aa",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 716764,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 14.010958,
+    "text": "دي كانت حكاية السفينة اللي سافرت أبعد من أي حاجة تانية، ومبنى الإمباير ستيت اللي نور عشان يحتفل بيها، شاركونا في التعليقات، إيه أكتر حاجة تحبوا تبعتوها في رسالة للفضاء الخارجي يا أصدقاء؟",
+    "sha256": "e54550caef28a3e65729900406ee9a25bf9b712477bc67c022c507fafd722339",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "e1cbe6e210dabc22d609dd6f7eae4cb93da35a75d83346ae5368d937a1f27d34",
+        "sha256": "e54550caef28a3e65729900406ee9a25bf9b712477bc67c022c507fafd722339",
+        "text_sha256": "55b37326bde366d8d077dcd2a04a59fb175ea130566f9078ace8a9d6e147efc8",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 672604,
+        "reused": true
+      }
+    ]
+  }
+]

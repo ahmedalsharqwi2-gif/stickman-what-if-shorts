@@ -52,5 +52,23 @@
     "status": "retired",
     "reason": "GEMINI_HTTP_503_EXHAUSTED",
     "run": "2026-11-19T16-55-13-591Z"
+  },
+  {
+    "topicKey": "remotion-stickman-whatif-artemis-engine",
+    "value": "https://www.nasa.gov/image-article/latest-rs-25-engine-test-in-support-of-future-artemis-missions/",
+    "status": "retired",
+    "run": "2026-11-19T17-20-39-700Z"
+  },
+  {
+    "topicKey": "remotion-stickman-whatif-voyager-gold",
+    "value": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
+    "status": "retired",
+    "run": "2026-11-19T17-35-35-419Z"
+  },
+  {
+    "topicKey": "remotion-stickman-whatif-lake-pelku",
+    "value": "https://www.nasa.gov/image-article/lake-pelku/",
+    "status": "reserved",
+    "run": "2026-11-19T17-51-25-822Z"
   }
 ]

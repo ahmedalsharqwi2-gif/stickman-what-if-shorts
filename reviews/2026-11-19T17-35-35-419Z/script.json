@@ -1,0 +1,172 @@
+{
+  "topicKey": "remotion-stickman-whatif-voyager-gold",
+  "title": "إزاي مبنى الإمباير ستيت نور بالدهب؟",
+  "hook": "إزاي مبنى الإمباير ستيت نور باللون الدهبي؟ تخيل إن فيه رسالة من البشر مسافرة في الفضاء البعيد، والناس قررت تحتفل بيها بطريقة تخلي كل اللي في نيويورك يبصوا للسما ويفتكروا الرحلة دي.",
+  "cta": "لو عايز تعرف أكتر عن رحلات الفضاء اللي بتغير نظرتنا للكون، تابعنا واشترك في القناة عشان يوصلك كل جديد عن أسرار الفضاء والعلوم اللي بتحصل حوالينا كل يوم في عالمنا المذهل.",
+  "scenes": [
+    {
+      "title": "رحلة في الفضاء",
+      "text": "سفينة فضائية اسمها فوياجر واحد قدرت توصل لمسافة بعيدة جداً، مسافة مفيش أي حاجة صنعها الإنسان قبل كده قدرت توصلها، وهي مسافة يوم ضوئي كامل بعيد عن كوكب الأرض بتاعنا يا أصحاب.",
+      "summary": "سفينة فوياجر واحد وصلت لمسافة يوم ضوئي بعيد عن الأرض.",
+      "keyword": "سفينة",
+      "template": "journey",
+      "labels": [
+        "سفينة",
+        "فضاء",
+        "رحلة"
+      ],
+      "values": [],
+      "claim": "Voyager 1 spacecraft as it was about to pass one light-day away from Earth",
+      "sourceId": "0cb2e3ffdc8f",
+      "evidence": "NASA s Voyager 1 spacecraft as it was about to pass one light-day away from Earth, a distance reached by no other human-made object",
+      "kind": "fact",
+      "expression": 5,
+      "action": "walk",
+      "brollQuery": "spacecraft"
+    },
+    {
+      "title": "الاحتفال باللون الدهبي",
+      "text": "عشان يحتفلوا بالإنجاز التاريخي ده، مبنى الإمباير ستيت في نيويورك قرر ينور باللون الدهبي، واللون ده مش مجرد اختيار عشوائي، ده رمز مهم جداً لقطعة تكنولوجية موجودة جوه السفينة الفضائية دي حالياً.",
+      "summary": "مبنى الإمباير ستيت نور باللون الدهبي احتفالاً بالرحلة.",
+      "keyword": "مبنى",
+      "template": "phenomenon",
+      "labels": [
+        "مبنى",
+        "نيويورك",
+        "احتفال"
+      ],
+      "values": [],
+      "claim": "The Empire State Building is seen illuminated in gold to celebrate NASA s Voyager 1 spacecraft",
+      "sourceId": "0cb2e3ffdc8f",
+      "evidence": "The Empire State Building is seen illuminated in gold to celebrate NASA s Voyager 1 spacecraft as it was about to pass one light-day away from Earth",
+      "kind": "fact",
+      "expression": 8,
+      "action": "point",
+      "brollQuery": "Empire State Building"
+    },
+    {
+      "title": "الأسطوانة النحاسية",
+      "text": "اللون الدهبي ده بيمثل الأسطوانة النحاسية المطلية بالدهب اللي بتطير جوه السفينة، والأسطوانة دي جواها تسجيلات صوتية وصور مختارة بعناية عشان تعبر عن تنوع الحياة والثقافة اللي موجودة على كوكب الأرض بتاعنا.",
+      "summary": "الأسطوانة النحاسية المطلية بالدهب تحمل أصوات وصور الأرض.",
+      "keyword": "أسطوانة",
+      "template": "phenomenon",
+      "labels": [
+        "أسطوانة",
+        "نحاس",
+        "دهب"
+      ],
+      "values": [],
+      "claim": "The color gold represents the gold-plated copper phonograph record that is flying on Voyager",
+      "sourceId": "0cb2e3ffdc8f",
+      "evidence": "The color gold represents the gold-plated copper phonograph record that is flying on Voyager; the Golden Record contains sounds and images selected to portray the diversity of life and culture on Earth.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "turn",
+      "brollQuery": "golden record"
+    },
+    {
+      "title": "رسالة للبشرية",
+      "text": "تخيل إن فيه أسطوانة بتلف في الفراغ، شايلة ضحكاتنا، ومزيكتنا، وصورنا، وكل حاجة بتميزنا كبشر، والهدف منها إن لو أي حضارة تانية قابلتها، تعرف مين هما سكان الكوكب الأزرق الجميل ده يا أصدقاء.",
+      "summary": "الأسطوانة تحمل رسالة تعريفية عن البشر لأي حضارة فضائية.",
+      "keyword": "رسالة",
+      "template": "phenomenon",
+      "labels": [
+        "رسالة",
+        "حضارة",
+        "بشر"
+      ],
+      "values": [],
+      "claim": "the Golden Record contains sounds and images selected to portray the diversity of life and culture on Earth",
+      "sourceId": "0cb2e3ffdc8f",
+      "evidence": "the Golden Record contains sounds and images selected to portray the diversity of life and culture on Earth.",
+      "kind": "illustration",
+      "expression": 9,
+      "action": "jump",
+      "brollQuery": "space message"
+    },
+    {
+      "title": "إنجاز تاريخي",
+      "text": "مفيش أي جسم صنعه الإنسان قبل كده قدر يوصل للمسافة دي، ده معناه إننا كبشر قدرنا نبعت جزء من تاريخنا وثقافتنا لمكان بعيد جداً، لدرجة إن الضوء نفسه بياخد يوم كامل عشان يوصله.",
+      "summary": "فوياجر واحد هي أبعد جسم من صنع الإنسان في الفضاء.",
+      "keyword": "إنجاز",
+      "template": "comparison",
+      "labels": [
+        "إنجاز",
+        "تاريخ",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "a distance reached by no other human-made object",
+      "sourceId": "0cb2e3ffdc8f",
+      "evidence": "a distance reached by no other human-made object, Nov. 17, 2026.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "run",
+      "brollQuery": "deep space"
+    },
+    {
+      "title": "تأمل في الكون",
+      "text": "لما نبص على مبنى الإمباير ستيت وهو منور بالدهب، لازم نفتكر إننا جزء من حاجة أكبر بكتير، وإن طموحنا كبشر ملوش حدود، حتى لو كانت المسافات بين النجوم كبيرة جداً ومحتاجة سنين.",
+      "summary": "الاحتفال يذكرنا بطموح البشر في استكشاف الكون.",
+      "keyword": "طموح",
+      "template": "phenomenon",
+      "labels": [
+        "طموح",
+        "نجوم",
+        "كون"
+      ],
+      "values": [],
+      "claim": "The Empire State Building is seen illuminated in gold to celebrate NASA s Voyager 1 spacecraft",
+      "sourceId": "0cb2e3ffdc8f",
+      "evidence": "The Empire State Building is seen illuminated in gold to celebrate NASA s Voyager 1 spacecraft as it was about to pass one light-day away from Earth",
+      "kind": "illustration",
+      "expression": 7,
+      "action": "hang",
+      "brollQuery": "night city"
+    },
+    {
+      "title": "مستقبل الاستكشاف",
+      "text": "الرحلة دي لسه مستمرة، وكل يوم بنتعلم حاجة جديدة عن الكون اللي حوالينا، والأسطوانة الدهبية دي هتفضل شاهدة على وجودنا، بتلف في صمت الفضاء، شايلة ذكرياتنا لكل ركن بعيد في هذا الكون.",
+      "summary": "رحلة فوياجر مستمرة في الفضاء كشاهد على وجود البشر.",
+      "keyword": "استكشاف",
+      "template": "journey",
+      "labels": [
+        "استكشاف",
+        "مستقبل",
+        "كون"
+      ],
+      "values": [],
+      "claim": "Voyager 1 spacecraft as it was about to pass one light-day away from Earth",
+      "sourceId": "0cb2e3ffdc8f",
+      "evidence": "NASA s Voyager 1 spacecraft as it was about to pass one light-day away from Earth, a distance reached by no other human-made object",
+      "kind": "fact",
+      "expression": 11,
+      "action": "sleep",
+      "brollQuery": "stars"
+    },
+    {
+      "title": "خاتمة",
+      "text": "دي كانت حكاية السفينة اللي سافرت أبعد من أي حاجة تانية، ومبنى الإمباير ستيت اللي نور عشان يحتفل بيها، شاركونا في التعليقات، إيه أكتر حاجة تحبوا تبعتوها في رسالة للفضاء الخارجي يا أصدقاء؟",
+      "summary": "خاتمة عن رحلة فوياجر وسؤال للمتابعين.",
+      "keyword": "رسالة",
+      "template": "phenomenon",
+      "labels": [
+        "رسالة",
+        "فضاء",
+        "سؤال"
+      ],
+      "values": [],
+      "claim": "The Empire State Building is seen illuminated in gold to celebrate NASA s Voyager 1 spacecraft",
+      "sourceId": "0cb2e3ffdc8f",
+      "evidence": "The Empire State Building is seen illuminated in gold to celebrate NASA s Voyager 1 spacecraft as it was about to pass one light-day away from Earth",
+      "kind": "illustration",
+      "expression": 4,
+      "action": "point",
+      "brollQuery": "space"
+    }
+  ],
+  "seriesLabel": "أسرار الفضاء",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

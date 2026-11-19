@@ -1,0 +1,75 @@
+{
+  "complete": false,
+  "chunks": [
+    {
+      "scene": 0,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "1a99db273b88cf8fa86fca190e82ca5493aea10edfd8355fbff48d8ce9f1b2f2",
+      "sha256": "e8235143cd6459d6bfeb04b20ad893e46e4e4d790f451291437b39ec3b6cc3a1",
+      "text_sha256": "19eb51f35ed18f42d49a03407e974f0b60ee5d1b2e6433e336497844511bda85",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash-preview-tts",
+      "bytes": 833884,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/1a99db273b88cf8fa86fca190e82ca5493aea10edfd8355fbff48d8ce9f1b2f2.wav",
+      "reused": false
+    },
+    {
+      "scene": 1,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "32477839e9bb36d38b0b3fa3602f6bc9bd0e2a9effd54135849e2abd198eb8c1",
+      "sha256": "5f523f997445e25e2b1618a9f7e21d2363941fdc17cfb7c5044fb6c276e79b75",
+      "text_sha256": "ce1b43fc56da210170b2ba7c07042a5b1b53d454441f2f0cf2cf1f7bca008a1c",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash-preview-tts",
+      "bytes": 626524,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/32477839e9bb36d38b0b3fa3602f6bc9bd0e2a9effd54135849e2abd198eb8c1.wav",
+      "reused": false
+    },
+    {
+      "scene": 2,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "2abd60d98a42bc39226ace3b8b43edbe851eb1888e5db3f9f09eb6ee428e2303",
+      "sha256": "38f13977fea60966a975e6a6423546f8b222562bc443f1a80395a2d23ace7549",
+      "text_sha256": "136521d87b5c13dec72eed16d28a693eab7c3864621ae50f8a1f3898095cd883",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash-preview-tts",
+      "bytes": 735964,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/2abd60d98a42bc39226ace3b8b43edbe851eb1888e5db3f9f09eb6ee428e2303.wav",
+      "reused": false
+    },
+    {
+      "scene": 3,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "afa84cc9b9bf540c59b9ca654139f28f7f8609fdf1b9c2d4a027ea61baf9c3be",
+      "sha256": "1c496d9e8672c2dd689174dacd25806022b2cc87d699f6d8637fde03434e04b1",
+      "text_sha256": "c134b3db1a11220c85fec19e7053b22cfae558673f332c5393a07cf9b82434a3",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash-preview-tts",
+      "bytes": 657244,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/afa84cc9b9bf540c59b9ca654139f28f7f8609fdf1b9c2d4a027ea61baf9c3be.wav",
+      "reused": false
+    },
+    {
+      "scene": 4,
+      "chunk": 0,
+      "schema": 1,
+      "cacheKey": "5d0f4cf7d6683a6f0737e004f7f1dd43fb1adec2c300dba234e1944217c65e88",
+      "sha256": "ed349745eefd7fc0e016e6877a7059c946b055d0551d929981cdcefa1b72fcaf",
+      "text_sha256": "1cfd49eac2fd9af075a86e9a3d6de6d0feb7a8a86681050007bc7802949a7cdd",
+      "voice": "Charon",
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash-preview-tts",
+      "bytes": 757084,
+      "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/.cache/voice/5d0f4cf7d6683a6f0737e004f7f1dd43fb1adec2c300dba234e1944217c65e88.wav",
+      "reused": false
+    }
+  ]
+}
