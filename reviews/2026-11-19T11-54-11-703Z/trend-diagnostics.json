@@ -1,0 +1,204 @@
+{
+  "sources": [
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "reddit",
+      "status": "unavailable",
+      "code": "FEED_HTTP_403"
+    },
+    {
+      "source": "trends",
+      "status": "ok",
+      "items": 10
+    }
+  ],
+  "degraded": false,
+  "decisions": [
+    {
+      "id": "b41c4de3e0f2",
+      "title": "El Niño Rains Paint the Atacama",
+      "demand": 4,
+      "recency": 0.909,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "سعر الفراخ البيضاء اليوم",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        }
+      ],
+      "score": 4.454279222928356
+    },
+    {
+      "id": "162c5c6a72fe",
+      "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+      "demand": 12,
+      "recency": 0.828,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "سعر الفراخ البيضاء اليوم",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "kuwait",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "دينا الشربيني",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        }
+      ],
+      "score": 12.414036258045751
+    },
+    {
+      "id": "9d57f4dbe2e3",
+      "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
+      "demand": 6,
+      "recency": 0.79,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "kuwait",
+          "weight": 6
+        }
+      ],
+      "score": 6.395228608143258
+    },
+    {
+      "id": "946586051f9f",
+      "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+      "demand": 10,
+      "recency": 0.782,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "سعر الفراخ البيضاء اليوم",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "kuwait",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "دينا الشربيني",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        }
+      ],
+      "score": 10.391050025499553
+    },
+    {
+      "id": "0cb2e3ffdc8f",
+      "title": "Empire State Building Goes Gold for Voyager",
+      "demand": 4,
+      "recency": 0.778,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "سعر الفراخ البيضاء اليوم",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        }
+      ],
+      "score": 4.3890546232844105
+    },
+    {
+      "id": "413bc2a06dfb",
+      "title": "What Is the Moon Base?",
+      "demand": 8,
+      "recency": 0.776,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "kuwait",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "دينا الشربيني",
+          "weight": 2
+        }
+      ],
+      "score": 8.387761429545415
+    },
+    {
+      "id": "4294d968436d",
+      "title": "Thank You for Doing NASA Science!",
+      "demand": 6,
+      "recency": 0.775,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "kuwait",
+          "weight": 6
+        }
+      ],
+      "score": 6.387475800100658
+    },
+    {
+      "id": "0806628fa243",
+      "title": "APOD: 2026 November 18 – A Medium-Sized Solar Flare",
+      "demand": 4,
+      "recency": 0.652,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "سعر الفراخ البيضاء اليوم",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "خضار",
+          "weight": 2
+        }
+      ],
+      "score": 4.325882247307851
+    }
+  ]
+}
