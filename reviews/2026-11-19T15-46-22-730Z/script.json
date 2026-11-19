@@ -1,0 +1,172 @@
+{
+  "topicKey": "remotion-stickman-whatif-pulsar-discovery",
+  "title": "إزاي العلماء بيلاقوا نجم ميت وسط الفضاء؟",
+  "hook": "إزاي العلماء بيلاقوا نجم ميت وسط الفضاء؟ افترض كده إنك بتدور على إبرة في كومة قش، بس الإبرة دي بتلف بسرعة خيالية، والكومة هي الكون كله اللي مليان ضوضاء وإشارات غامضة.",
+  "cta": "لو حابب تعرف أكتر عن أسرار النجوم والمهمات الفضائية، تابعنا واشترك في القناة عشان يوصلك كل جديد عن الكون اللي بنعيش فيه، وخليك دايماً متابع معانا كل اللي بيحصل في الفضاء.",
+  "scenes": [
+    {
+      "title": "لغز النجوم الميتة",
+      "text": "النجوم الميتة اللي بنسميها النجوم النيوترونية هي بقايا نجوم انفجرت زمان، وبتلف بسرعة رهيبة وبتبعت إشارات زي المنارة بالظبط، بس المشكلة إننا مش بنشوفها بسهولة وسط زحمة الإشارات اللي في الفضاء.",
+      "summary": "النجوم النيوترونية هي بقايا نجوم انفجرت وتدور بسرعة.",
+      "keyword": "نجم",
+      "template": "phenomenon",
+      "labels": [
+        "نجم نيوتروني",
+        "إشارات",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "A pulsar is a rapidly spinning neutron star that sweeps beams of radiation toward Earth, much like a lighthouse.",
+      "sourceId": "016ac8483c20",
+      "evidence": "A pulsar is a rapidly spinning neutron star that sweeps beams of radiation toward Earth, much like a lighthouse.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "pulsar neutron star"
+    },
+    {
+      "title": "صعوبة البحث",
+      "text": "عشان نلاقي نجم واحد، العلماء بيحتاجوا يحللوا كميات ضخمة من البيانات اللي بيجمعها تلسكوب فيرمي، والموضوع ده كان بياخد سنين طويلة من الحسابات المعقدة عشان نقدر نحدد سرعة دوران النجم ومكانه.",
+      "summary": "البحث عن النجوم يتطلب تحليل بيانات ضخمة ومعقدة.",
+      "keyword": "بيانات",
+      "template": "cause",
+      "labels": [
+        "تلسكوب فيرمي",
+        "حسابات",
+        "بيانات"
+      ],
+      "values": [],
+      "claim": "Finding pulsars in gamma-ray data is extraordinarily difficult because Fermi detects only a tiny number of photons from a given pulsar, mixed in with background noise.",
+      "sourceId": "016ac8483c20",
+      "evidence": "Finding pulsars in gamma-ray data is extraordinarily difficult because Fermi detects only a tiny number of photons from a given pulsar, mixed in with background noise from other gamma-ray-emitting sources and the broader universe.",
+      "kind": "fact",
+      "expression": 2,
+      "action": "walk",
+      "brollQuery": "space telescope data"
+    },
+    {
+      "title": "طريقة قديمة بطيئة",
+      "text": "زمان كان العلماء بيوزعوا البيانات دي على متطوعين من كل حتة في العالم عشان يستخدموا كمبيوتراتهم الشخصية في التحليل، ومع ذلك كان الموضوع بياخد مئات السنين من وقت الكمبيوتر عشان نلاقي نجم واحد.",
+      "summary": "الطرق التقليدية كانت تعتمد على متطوعين وتستغرق وقتاً طويلاً.",
+      "keyword": "كمبيوتر",
+      "template": "comparison",
+      "labels": [
+        "متطوعين",
+        "تحليل",
+        "وقت"
+      ],
+      "values": [],
+      "claim": "Even with these volunteers contributing their computers’ unused processing power to run searches, it typically took the equivalent of hundreds of computer-years to identify a single pulsar.",
+      "sourceId": "016ac8483c20",
+      "evidence": "Even with these volunteers contributing their computers’ unused processing power to run searches, it typically took the equivalent of hundreds of computer-years to identify a single pulsar.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "run",
+      "brollQuery": "computer network"
+    },
+    {
+      "title": "فكرة عبقرية",
+      "text": "باحثين من معهد وايزمان فكروا يحلوا المشكلة دي بطريقة تانية خالص، حولوا البحث عن النجوم لمسألة هندسية بتعتمد على خوارزميات التشفير، ودي نفس الطريقة اللي بتستخدم عشان نكسر شفرات الكمبيوترات المستقبلية القوية.",
+      "summary": "استخدام خوارزميات التشفير لحل مشكلة البحث عن النجوم.",
+      "keyword": "تشفير",
+      "template": "steps",
+      "labels": [
+        "خوارزميات",
+        "هندسة",
+        "تشفير"
+      ],
+      "values": [],
+      "claim": "Gazith and Zackay realized that the search could be transformed into a geometry problem: finding the shortest vector in a high-dimensional lattice, or a regularly spaced array of points.",
+      "sourceId": "016ac8483c20",
+      "evidence": "Gazith and Zackay realized that the search could be transformed into a geometry problem: finding the shortest vector in a high-dimensional lattice, or a regularly spaced array of points.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "turn",
+      "brollQuery": "algorithm code"
+    },
+    {
+      "title": "سرعة خيالية",
+      "text": "الطريقة الجديدة دي خلتنا نلاقي النجوم أسرع بمليون مرة من قبل كده، تخيل إن عملية كانت بتاخد ستمائة سنة، دلوقتي بقت بتخلص في عشر ساعات بس على كمبيوتر عادي، ده إنجاز علمي حقيقي.",
+      "summary": "الطريقة الجديدة أسرع بمليون مرة من الطرق السابقة.",
+      "keyword": "سرعة",
+      "template": "chart",
+      "labels": [
+        "سرعة",
+        "إنجاز",
+        "تكنولوجيا"
+      ],
+      "values": [],
+      "claim": "An international team of scientists has developed a method that can find pulsars in publicly available NASA data about a million times faster than before.",
+      "sourceId": "016ac8483c20",
+      "evidence": "An international team of scientists has developed a method that can find pulsars in publicly available NASA data about a million times faster than before.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "jump",
+      "brollQuery": "fast computing"
+    },
+    {
+      "title": "اكتشاف النجم",
+      "text": "الفريق قدر يكتشف النجم المسمى بي إس آر جي ألف وستمائة واثنين وعشرين، وهو نجم بيلف مائتين وواحد وستين مرة في الثانية الواحدة، وده كان مستحيل نلاقيه بالطرق القديمة اللي كانت بتفشل تماماً.",
+      "summary": "اكتشاف نجم يدور بسرعة كبيرة باستخدام الطريقة الجديدة.",
+      "keyword": "نجم",
+      "template": "phenomenon",
+      "labels": [
+        "اكتشاف",
+        "نجم",
+        "سرعة"
+      ],
+      "values": [],
+      "claim": "the team found PSR J1622−7204, an isolated pulsar spinning 261 times per second, using the equivalent of 10 hours of computing time on a standard computer processor.",
+      "sourceId": "016ac8483c20",
+      "evidence": "the team found PSR J1622−7204, an isolated pulsar spinning 261 times per second, using the equivalent of 10 hours of computing time on a standard computer processor.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point",
+      "brollQuery": "spinning star"
+    },
+    {
+      "title": "بيانات مفتوحة",
+      "text": "كل ده حصل بفضل سياسة ناسا إنها بتخلي بياناتها متاحة للكل، فبدل ما فريق واحد يشتغل، أي حد عنده فكرة جديدة يقدر يحلل البيانات ويطلع اكتشافات مذهلة تخدم العلم وتطور فهمنا للكون.",
+      "summary": "سياسة البيانات المفتوحة في ناسا تساعد في الاكتشافات.",
+      "keyword": "بيانات",
+      "template": "journey",
+      "labels": [
+        "ناسا",
+        "بيانات",
+        "علم"
+      ],
+      "values": [],
+      "claim": "The discovery would not have happened without NASA’s longstanding, Gold Standard Science policy of making its science data, including data from Fermi, freely available to anyone.",
+      "sourceId": "016ac8483c20",
+      "evidence": "The discovery would not have happened without NASA’s longstanding, Gold Standard Science policy of making its science data, including data from Fermi, freely available to anyone.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "walk",
+      "brollQuery": "nasa data"
+    },
+    {
+      "title": "مستقبل البحث",
+      "text": "الهدف الجاي هو البحث عن نجوم في أنظمة ثنائية، ودي نجوم بتلف حوالين نجوم تانية، والعلماء متوقعين إن فيه مئات النجوم لسه مستنيانا في البيانات اللي ناسا بتنشرها كل يوم، فاستنوا اكتشافات تانية قريبة.",
+      "summary": "الهدف القادم هو اكتشاف نجوم في أنظمة ثنائية.",
+      "keyword": "نجوم",
+      "template": "map",
+      "labels": [
+        "مستقبل",
+        "نجوم",
+        "اكتشاف"
+      ],
+      "values": [],
+      "claim": "We know that there are probably tens or maybe even hundreds of these pulsars in the data set that we just couldn’t find.",
+      "sourceId": "016ac8483c20",
+      "evidence": "We know that there are probably tens or maybe even hundreds of these pulsars in the data set that we just couldn’t find.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "point",
+      "brollQuery": "binary star system"
+    }
+  ],
+  "seriesLabel": "عجائب الفضاء",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 15.84,
+    "text": "النجوم الميتة اللي بنسميها النجوم النيوترونية هي بقايا نجوم انفجرت زمان، وبتلف بسرعة رهيبة وبتبعت إشارات زي المنارة بالظبط، بس المشكلة إننا مش بنشوفها بسهولة وسط زحمة الإشارات اللي في الفضاء.",
+    "sha256": "5d11db273bdf47d4e2e32809cd6dc5ac7a7e80eeb1fc57dafdc1a78d5625adfc",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f74d50b7f2e7181e6f3749bd0418a551a0d9cf35502eada47e6700b9a10df5d7",
+        "sha256": "5d11db273bdf47d4e2e32809cd6dc5ac7a7e80eeb1fc57dafdc1a78d5625adfc",
+        "text_sha256": "aa222a7ba94ff768c280c5cac2edbcb7654ba3f1bb20c37e8abf61a30367b4e8",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 760398,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 15.44,
+    "text": "عشان نلاقي نجم واحد، العلماء بيحتاجوا يحللوا كميات ضخمة من البيانات اللي بيجمعها تلسكوب فيرمي، والموضوع ده كان بياخد سنين طويلة من الحسابات المعقدة عشان نقدر نحدد سرعة دوران النجم ومكانه.",
+    "sha256": "ae62c36c2bf367cb042bbd1485adb064f97b742338997bb56865a5ebb46e8141",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "21aa2091bfae042ebf3c5721f351ef1a4743afb9c8936f2a0269ee5ebbdaad11",
+        "sha256": "ae62c36c2bf367cb042bbd1485adb064f97b742338997bb56865a5ebb46e8141",
+        "text_sha256": "1083a138ef392b7225de148904f34570915929dbb78c0d2c8820e9b59c1539f0",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 741198,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 15.84,
+    "text": "زمان كان العلماء بيوزعوا البيانات دي على متطوعين من كل حتة في العالم عشان يستخدموا كمبيوتراتهم الشخصية في التحليل، ومع ذلك كان الموضوع بياخد مئات السنين من وقت الكمبيوتر عشان نلاقي نجم واحد.",
+    "sha256": "2147738e00527aa5409832d0f80ead87e62b8a63f6bc1819b7dc361e272ad3a4",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "7196ce0e718c9b4622efc5b03a330c2f708047c92d118b0ad271a9c09b9904e2",
+        "sha256": "2147738e00527aa5409832d0f80ead87e62b8a63f6bc1819b7dc361e272ad3a4",
+        "text_sha256": "cfa3e5f9c30308124eac086921be63f5f702900ec90f6e9dc62a98bbf77292af",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 760398,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 16.6,
+    "text": "باحثين من معهد وايزمان فكروا يحلوا المشكلة دي بطريقة تانية خالص، حولوا البحث عن النجوم لمسألة هندسية بتعتمد على خوارزميات التشفير، ودي نفس الطريقة اللي بتستخدم عشان نكسر شفرات الكمبيوترات المستقبلية القوية.",
+    "sha256": "b0dc06cb4efeeec74ab129c8a0a4b19bf9279cf47278212d28aab4d34630f418",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f49e1a4758641608cb2aa37e93b1ac7b7cc8ed880f83b70e4b7adf87c8947f10",
+        "sha256": "b0dc06cb4efeeec74ab129c8a0a4b19bf9279cf47278212d28aab4d34630f418",
+        "text_sha256": "849c987fd210e0cc72acf001e6b26b5637ec00638dc674397796df220b2f4ba0",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 796878,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 12.770958,
+    "text": "الطريقة الجديدة دي خلتنا نلاقي النجوم أسرع بمليون مرة من قبل كده، تخيل إن عملية كانت بتاخد ستمائة سنة، دلوقتي بقت بتخلص في عشر ساعات بس على كمبيوتر عادي، ده إنجاز علمي حقيقي.",
+    "sha256": "1a56c49ddb435635ee5d6be67ce7aec220e688b5e3ba7dac924798b6fd88a913",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "889a150abfcb26271b37608abe3c8593ea3691a8ec21e810d61ae19ae7bb4b1a",
+        "sha256": "1a56c49ddb435635ee5d6be67ce7aec220e688b5e3ba7dac924798b6fd88a913",
+        "text_sha256": "b83e684c03418ae9fcead1dff5401e524ee91128252223f43ed031904afd3251",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 613084,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 16.52,
+    "text": "الفريق قدر يكتشف النجم المسمى بي إس آر جي ألف وستمائة واثنين وعشرين، وهو نجم بيلف مائتين وواحد وستين مرة في الثانية الواحدة، وده كان مستحيل نلاقيه بالطرق القديمة اللي كانت بتفشل تماماً.",
+    "sha256": "bca8c00c2d5ad4d38c8d18493b4019ac2e1f6f34b874af88b6d280624586ba51",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "9e85bb9aafbd0a18d64e52a1c10273025626cca41602700c8be7fb53fa83badc",
+        "sha256": "bca8c00c2d5ad4d38c8d18493b4019ac2e1f6f34b874af88b6d280624586ba51",
+        "text_sha256": "058e67c7c7a6131fa2930891e9a22652ecdf047e27dae283ed8a0c368b4d65d2",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 793038,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 13.330958,
+    "text": "كل ده حصل بفضل سياسة ناسا إنها بتخلي بياناتها متاحة للكل، فبدل ما فريق واحد يشتغل، أي حد عنده فكرة جديدة يقدر يحلل البيانات ويطلع اكتشافات مذهلة تخدم العلم وتطور فهمنا للكون.",
+    "sha256": "b28b000dede03c5c3308046ab3ae032c36114beab50d5adc34c6b3729bafd6b5",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "a80b6bdd854872d0ffee66708549696aafc0a3c1af7ec16de45483b4ba912447",
+        "sha256": "b28b000dede03c5c3308046ab3ae032c36114beab50d5adc34c6b3729bafd6b5",
+        "text_sha256": "7d06ace95dadb05a4d410a2bc48f057c38476b65fbcb6f4724ed2bde731d1c4e",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 639964,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 16.010958,
+    "text": "الهدف الجاي هو البحث عن نجوم في أنظمة ثنائية، ودي نجوم بتلف حوالين نجوم تانية، والعلماء متوقعين إن فيه مئات النجوم لسه مستنيانا في البيانات اللي ناسا بتنشرها كل يوم، فاستنوا اكتشافات تانية قريبة.",
+    "sha256": "971b03be75725df20de37af7917b29798490681db84028c0a5803e51eb1fc04f",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "7675992d357a416b99a98d68a967a9a326ac7abf5546e2459069ac6b26731ffb",
+        "sha256": "971b03be75725df20de37af7917b29798490681db84028c0a5803e51eb1fc04f",
+        "text_sha256": "8f11d827886bd6c33ba59573dbe6e6d9d1912b112832d8a7c4b008e776bf9a2e",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 768604,
+        "reused": true
+      }
+    ]
+  }
+]

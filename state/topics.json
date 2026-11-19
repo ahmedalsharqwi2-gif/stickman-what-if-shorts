@@ -32,7 +32,13 @@
   {
     "topicKey": "remotion-stickman-whatif-voyager-light-day",
     "value": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T14-31-31-094Z"
+  },
+  {
+    "topicKey": "remotion-stickman-whatif-pulsar-discovery",
+    "value": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+    "status": "reserved",
+    "run": "2026-11-19T15-46-22-730Z"
   }
 ]

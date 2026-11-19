@@ -1,0 +1,255 @@
+{
+  "sources": [
+    {
+      "source": "trends",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "reddit",
+      "status": "unavailable",
+      "code": "FEED_HTTP_403"
+    }
+  ],
+  "degraded": false,
+  "decisions": [
+    {
+      "id": "016ac8483c20",
+      "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+      "demand": 34,
+      "recency": 0.997,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "anthropic stock",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "gta vice city",
+          "weight": 16
+        },
+        {
+          "kind": "google_trend",
+          "label": "اذان المغرب",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "سعر كيلو الفراخ البيضاء",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "red dead redemption",
+          "weight": 10
+        }
+      ],
+      "score": 34.498545330054405
+    },
+    {
+      "id": "72ab3b40ae04",
+      "title": "Lake Pelku",
+      "demand": 10,
+      "recency": 0.997,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "anthropic stock",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "gta vice city",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "red dead redemption",
+          "weight": 4
+        }
+      ],
+      "score": 10.498399173068112
+    },
+    {
+      "id": "4ed2e9bef49f",
+      "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
+      "demand": 16,
+      "recency": 0.986,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "gta vice city",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "اذان المغرب",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "سعر كيلو الفراخ البيضاء",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "red dead redemption",
+          "weight": 6
+        }
+      ],
+      "score": 16.492892056229476
+    },
+    {
+      "id": "b41c4de3e0f2",
+      "title": "El Niño Rains Paint the Atacama",
+      "demand": 30,
+      "recency": 0.861,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "anthropic stock",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "gta vice city",
+          "weight": 18
+        },
+        {
+          "kind": "google_trend",
+          "label": "اذان المغرب",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "سعر كيلو الفراخ البيضاء",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "red dead redemption",
+          "weight": 6
+        }
+      ],
+      "score": 30.43050311044765
+    },
+    {
+      "id": "9d57f4dbe2e3",
+      "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
+      "demand": 30,
+      "recency": 0.749,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "anthropic stock",
+          "weight": 10
+        },
+        {
+          "kind": "google_trend",
+          "label": "gta vice city",
+          "weight": 12
+        },
+        {
+          "kind": "google_trend",
+          "label": "red dead redemption",
+          "weight": 8
+        }
+      ],
+      "score": 30.374543092785032
+    },
+    {
+      "id": "946586051f9f",
+      "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
+      "demand": 24,
+      "recency": 0.741,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "gta vice city",
+          "weight": 12
+        },
+        {
+          "kind": "google_trend",
+          "label": "عمرو سعد",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "اذان المغرب",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "سعر كيلو الفراخ البيضاء",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "red dead redemption",
+          "weight": 6
+        }
+      ],
+      "score": 24.370583209227554
+    },
+    {
+      "id": "0cb2e3ffdc8f",
+      "title": "Empire State Building Goes Gold for Voyager",
+      "demand": 14,
+      "recency": 0.737,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "anthropic stock",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "gta vice city",
+          "weight": 4
+        },
+        {
+          "kind": "google_trend",
+          "label": "اذان المغرب",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "سعر كيلو الفراخ البيضاء",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "red dead redemption",
+          "weight": 4
+        }
+      ],
+      "score": 14.368692242577847
+    }
+  ]
+}

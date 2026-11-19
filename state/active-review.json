@@ -1,172 +1,172 @@
 {
   "schema": 1,
-  "id": "2026-11-19T14-31-31-094Z",
+  "id": "2026-11-19T15-46-22-730Z",
   "profile": "stickman",
   "episode": {
-    "topicKey": "remotion-stickman-whatif-voyager-light-day",
-    "title": "إزاي فويجر وصلت لمسافة يوم ضوئي؟",
-    "hook": "إزاي فويجر وصلت لمسافة يوم ضوئي؟ تخيل إنك بتبعت رسالة لصاحبك وبتاخد يوم كامل عشان توصل، ده اللي بيحصل بالظبط مع المركبة الفضائية فويجر واحد وهي بتبعد عننا مسافة خيالية في الفضاء العميق.",
-    "cta": "لو عجبك الفيديو، اشترك في القناة عشان تعرف أكتر عن أسرار الفضاء والرحلات اللي بتغير تاريخ البشرية، واستنونا في فيديوهات تانية كتير عن عجائب الكون اللي بنكتشفها كل يوم مع وكالة ناسا.",
+    "topicKey": "remotion-stickman-whatif-pulsar-discovery",
+    "title": "إزاي العلماء بيلاقوا نجم ميت وسط الفضاء؟",
+    "hook": "إزاي العلماء بيلاقوا نجم ميت وسط الفضاء؟ افترض كده إنك بتدور على إبرة في كومة قش، بس الإبرة دي بتلف بسرعة خيالية، والكومة هي الكون كله اللي مليان ضوضاء وإشارات غامضة.",
+    "cta": "لو حابب تعرف أكتر عن أسرار النجوم والمهمات الفضائية، تابعنا واشترك في القناة عشان يوصلك كل جديد عن الكون اللي بنعيش فيه، وخليك دايماً متابع معانا كل اللي بيحصل في الفضاء.",
     "scenes": [
       {
-        "title": "رحلة فويجر التاريخية",
-        "text": "فويجر واحد هي أبعد مركبة فضائية صنعها البشر، وبعد تسعة وأربعين سنة من السفر المستمر، قدرت توصل لمسافة يوم ضوئي كامل عن الأرض. الرقم ده بيعادل حوالي ستة وعشرين مليار كيلومتر في الفضاء.",
-        "summary": "فويجر واحد تقطع مسافة يوم ضوئي عن الأرض.",
-        "keyword": "فويجر",
+        "title": "لغز النجوم الميتة",
+        "text": "النجوم الميتة اللي بنسميها النجوم النيوترونية هي بقايا نجوم انفجرت زمان، وبتلف بسرعة رهيبة وبتبعت إشارات زي المنارة بالظبط، بس المشكلة إننا مش بنشوفها بسهولة وسط زحمة الإشارات اللي في الفضاء.",
+        "summary": "النجوم النيوترونية هي بقايا نجوم انفجرت وتدور بسرعة.",
+        "keyword": "نجم",
         "template": "phenomenon",
         "labels": [
-          "فضاء",
-          "مركبة",
-          "رحلة"
+          "نجم نيوتروني",
+          "إشارات",
+          "فضاء"
         ],
         "values": [],
-        "claim": "Voyager 1 reached one light-day from Earth on Nov. 18, 2026.",
-        "sourceId": "b71681db2cca",
-        "evidence": "Voyager 1, depicted in this artist’s concept, reached one light-day from Earth on Nov. 18, 2026.",
+        "claim": "A pulsar is a rapidly spinning neutron star that sweeps beams of radiation toward Earth, much like a lighthouse.",
+        "sourceId": "016ac8483c20",
+        "evidence": "A pulsar is a rapidly spinning neutron star that sweeps beams of radiation toward Earth, much like a lighthouse.",
         "kind": "fact",
         "expression": 5,
-        "action": "walk",
-        "brollQuery": "spacecraft"
-      },
-      {
-        "title": "يعني إيه يوم ضوئي؟",
-        "text": "اليوم الضوئي هو المسافة اللي بيقطعها الضوء في أربع وعشرين ساعة. الضوء سريع جداً، بيسافر حوالي ثلاثمائة ألف كيلومتر في الثانية الواحدة، ومع ذلك المسافة دي ضخمة جداً لدرجة إنها بتاخد يوم كامل.",
-        "summary": "تعريف اليوم الضوئي كمسافة.",
-        "keyword": "ضوء",
-        "template": "comparison",
-        "labels": [
-          "سرعة",
-          "مسافة",
-          "ضوء"
-        ],
-        "values": [],
-        "claim": "A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers).",
-        "sourceId": "b71681db2cca",
-        "evidence": "A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers).",
-        "kind": "fact",
-        "expression": 2,
         "action": "point",
-        "brollQuery": "light beam"
+        "brollQuery": "pulsar neutron star"
       },
       {
-        "title": "تأخير في التواصل",
-        "text": "بسبب المسافة دي، أي إشارة راديو بتبعتها فويجر للأرض بتاخد أربع وعشرين ساعة عشان توصلنا. يعني المهندسين في ناسا بيسمعوا أخبار المركبة بعد يوم كامل من إرسالها، وده تحدي كبير جداً في التواصل.",
-        "summary": "تأخير الإشارة الراديوية من فويجر.",
-        "keyword": "إشارة",
-        "template": "journey",
-        "labels": [
-          "راديو",
-          "تواصل",
-          "تأخير"
-        ],
-        "values": [],
-        "claim": "Signals now take 24 hours to reach the spacecraft and 24 hours to reach us.",
-        "sourceId": "b71681db2cca",
-        "evidence": "Even traveling at the speed of light, signals now take 24 hours to reach the spacecraft and 24 hours to reach us.",
-        "kind": "fact",
-        "expression": 8,
-        "action": "turn",
-        "brollQuery": "radio antenna"
-      },
-      {
-        "title": "مهمة فويجر العظيمة",
-        "text": "المركبة دي انطلقت سنة ألف وتسعمائة وسبعة وسبعين عشان تستكشف الكواكب الخارجية زي المشتري وزحل. المهمة كانت عبارة عن جولة نادرة للكواكب، وساهمت بشكل كبير في فهمنا للنظام الشمسي وأقماره البعيدة والمختلفة.",
-        "summary": "بداية مهمة فويجر لاستكشاف الكواكب.",
-        "keyword": "كواكب",
-        "template": "steps",
-        "labels": [
-          "مشتري",
-          "زحل",
-          "استكشاف"
-        ],
-        "values": [],
-        "claim": "Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment.",
-        "sourceId": "b71681db2cca",
-        "evidence": "Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment.",
-        "kind": "fact",
-        "expression": 4,
-        "action": "jump",
-        "brollQuery": "planets"
-      },
-      {
-        "title": "البطارية النووية",
-        "text": "فويجر بتعتمد على مولد حراري نظائري، وده زي بطارية نووية بتحول حرارة البلوتونيوم لكهرباء. مع الوقت، إمدادات البلوتونيوم بتقل، والمركبة بتفقد حوالي أربعة وات من طاقتها كل سنة، لكنها لسه شغالة وبتبعت بيانات.",
-        "summary": "كيفية عمل بطارية فويجر النووية.",
-        "keyword": "بطارية",
+        "title": "صعوبة البحث",
+        "text": "عشان نلاقي نجم واحد، العلماء بيحتاجوا يحللوا كميات ضخمة من البيانات اللي بيجمعها تلسكوب فيرمي، والموضوع ده كان بياخد سنين طويلة من الحسابات المعقدة عشان نقدر نحدد سرعة دوران النجم ومكانه.",
+        "summary": "البحث عن النجوم يتطلب تحليل بيانات ضخمة ومعقدة.",
+        "keyword": "بيانات",
         "template": "cause",
         "labels": [
-          "طاقة",
-          "بلوتونيوم",
-          "كهرباء"
+          "تلسكوب فيرمي",
+          "حسابات",
+          "بيانات"
         ],
         "values": [],
-        "claim": "Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity.",
-        "sourceId": "b71681db2cca",
-        "evidence": "Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity.",
+        "claim": "Finding pulsars in gamma-ray data is extraordinarily difficult because Fermi detects only a tiny number of photons from a given pulsar, mixed in with background noise.",
+        "sourceId": "016ac8483c20",
+        "evidence": "Finding pulsars in gamma-ray data is extraordinarily difficult because Fermi detects only a tiny number of photons from a given pulsar, mixed in with background noise from other gamma-ray-emitting sources and the broader universe.",
         "kind": "fact",
-        "expression": 1,
-        "action": "sleep",
-        "brollQuery": "battery"
+        "expression": 2,
+        "action": "walk",
+        "brollQuery": "space telescope data"
       },
       {
-        "title": "رسالة للبشرية",
-        "text": "فويجر شايلة معاها سجل ذهبي، وهو أسطوانة نحاسية مطلية بالذهب عليها صور وأصوات من الأرض. دي رسالة لأي حضارة متقدمة ممكن تلاقي المركبة في المستقبل البعيد، بتعرفهم إننا كنا هنا وبنحب نستكشف.",
-        "summary": "السجل الذهبي على متن فويجر.",
-        "keyword": "سجل",
-        "template": "phenomenon",
+        "title": "طريقة قديمة بطيئة",
+        "text": "زمان كان العلماء بيوزعوا البيانات دي على متطوعين من كل حتة في العالم عشان يستخدموا كمبيوتراتهم الشخصية في التحليل، ومع ذلك كان الموضوع بياخد مئات السنين من وقت الكمبيوتر عشان نلاقي نجم واحد.",
+        "summary": "الطرق التقليدية كانت تعتمد على متطوعين وتستغرق وقتاً طويلاً.",
+        "keyword": "كمبيوتر",
+        "template": "comparison",
         "labels": [
-          "ذهب",
-          "رسالة",
-          "حضارة"
+          "متطوعين",
+          "تحليل",
+          "وقت"
         ],
         "values": [],
-        "claim": "The Voyager probes carry a Golden Record, a gold-plated copper phonograph compiling images and sounds from Earth.",
-        "sourceId": "b71681db2cca",
-        "evidence": "the Voyager probes carry a Golden Record , a gold-plated copper phonograph compiling images and sounds from Earth, as a message to any advanced civilization that might one day find it.",
+        "claim": "Even with these volunteers contributing their computers’ unused processing power to run searches, it typically took the equivalent of hundreds of computer-years to identify a single pulsar.",
+        "sourceId": "016ac8483c20",
+        "evidence": "Even with these volunteers contributing their computers’ unused processing power to run searches, it typically took the equivalent of hundreds of computer-years to identify a single pulsar.",
+        "kind": "fact",
+        "expression": 8,
+        "action": "run",
+        "brollQuery": "computer network"
+      },
+      {
+        "title": "فكرة عبقرية",
+        "text": "باحثين من معهد وايزمان فكروا يحلوا المشكلة دي بطريقة تانية خالص، حولوا البحث عن النجوم لمسألة هندسية بتعتمد على خوارزميات التشفير، ودي نفس الطريقة اللي بتستخدم عشان نكسر شفرات الكمبيوترات المستقبلية القوية.",
+        "summary": "استخدام خوارزميات التشفير لحل مشكلة البحث عن النجوم.",
+        "keyword": "تشفير",
+        "template": "steps",
+        "labels": [
+          "خوارزميات",
+          "هندسة",
+          "تشفير"
+        ],
+        "values": [],
+        "claim": "Gazith and Zackay realized that the search could be transformed into a geometry problem: finding the shortest vector in a high-dimensional lattice, or a regularly spaced array of points.",
+        "sourceId": "016ac8483c20",
+        "evidence": "Gazith and Zackay realized that the search could be transformed into a geometry problem: finding the shortest vector in a high-dimensional lattice, or a regularly spaced array of points.",
         "kind": "fact",
         "expression": 10,
-        "action": "point",
-        "brollQuery": "golden record"
+        "action": "turn",
+        "brollQuery": "algorithm code"
       },
       {
-        "title": "مستقبل فويجر",
-        "text": "في يوم من الأيام، فويجر مش هتقدر تتواصل مع الأرض تاني، وهتتحول لسفير صامت للبشرية بين النجوم. الرحلة دي بتعكس روح الفضول الإنساني اللي بيخلينا دايماً عايزين نوصل لأبعد نقطة ممكنة في الكون.",
-        "summary": "مستقبل فويجر كسفير صامت للبشرية.",
-        "keyword": "سفير",
-        "template": "journey",
+        "title": "سرعة خيالية",
+        "text": "الطريقة الجديدة دي خلتنا نلاقي النجوم أسرع بمليون مرة من قبل كده، تخيل إن عملية كانت بتاخد ستمائة سنة، دلوقتي بقت بتخلص في عشر ساعات بس على كمبيوتر عادي، ده إنجاز علمي حقيقي.",
+        "summary": "الطريقة الجديدة أسرع بمليون مرة من الطرق السابقة.",
+        "keyword": "سرعة",
+        "template": "chart",
         "labels": [
-          "نجوم",
-          "فضاء",
-          "مستقبل"
-        ],
-        "values": [],
-        "claim": "One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.",
-        "sourceId": "b71681db2cca",
-        "evidence": "One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.",
-        "kind": "fact",
-        "expression": 7,
-        "action": "fall",
-        "brollQuery": "stars"
-      },
-      {
-        "title": "خاتمة الرحلة",
-        "text": "فويجر واحد بتثبت إننا نقدر نتغلب على التحديات ونوصل لأماكن مكنش حد يتخيلها. دي قصة نجاح هندسي وإنساني مستمر من خمسين سنة، وبنأمل إنها تكمل رحلتها وتجاوب على أسئلتنا عن الفضاء الخارجي.",
-        "summary": "خلاصة إنجاز فويجر التاريخي.",
-        "keyword": "نجاح",
-        "template": "phenomenon",
-        "labels": [
+          "سرعة",
           "إنجاز",
-          "هندسة",
-          "تاريخ"
+          "تكنولوجيا"
         ],
         "values": [],
-        "claim": "Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery.",
-        "sourceId": "b71681db2cca",
-        "evidence": "Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery,",
+        "claim": "An international team of scientists has developed a method that can find pulsars in publicly available NASA data about a million times faster than before.",
+        "sourceId": "016ac8483c20",
+        "evidence": "An international team of scientists has developed a method that can find pulsars in publicly available NASA data about a million times faster than before.",
         "kind": "fact",
         "expression": 11,
-        "action": "run",
-        "brollQuery": "space"
+        "action": "jump",
+        "brollQuery": "fast computing"
+      },
+      {
+        "title": "اكتشاف النجم",
+        "text": "الفريق قدر يكتشف النجم المسمى بي إس آر جي ألف وستمائة واثنين وعشرين، وهو نجم بيلف مائتين وواحد وستين مرة في الثانية الواحدة، وده كان مستحيل نلاقيه بالطرق القديمة اللي كانت بتفشل تماماً.",
+        "summary": "اكتشاف نجم يدور بسرعة كبيرة باستخدام الطريقة الجديدة.",
+        "keyword": "نجم",
+        "template": "phenomenon",
+        "labels": [
+          "اكتشاف",
+          "نجم",
+          "سرعة"
+        ],
+        "values": [],
+        "claim": "the team found PSR J1622−7204, an isolated pulsar spinning 261 times per second, using the equivalent of 10 hours of computing time on a standard computer processor.",
+        "sourceId": "016ac8483c20",
+        "evidence": "the team found PSR J1622−7204, an isolated pulsar spinning 261 times per second, using the equivalent of 10 hours of computing time on a standard computer processor.",
+        "kind": "fact",
+        "expression": 9,
+        "action": "point",
+        "brollQuery": "spinning star"
+      },
+      {
+        "title": "بيانات مفتوحة",
+        "text": "كل ده حصل بفضل سياسة ناسا إنها بتخلي بياناتها متاحة للكل، فبدل ما فريق واحد يشتغل، أي حد عنده فكرة جديدة يقدر يحلل البيانات ويطلع اكتشافات مذهلة تخدم العلم وتطور فهمنا للكون.",
+        "summary": "سياسة البيانات المفتوحة في ناسا تساعد في الاكتشافات.",
+        "keyword": "بيانات",
+        "template": "journey",
+        "labels": [
+          "ناسا",
+          "بيانات",
+          "علم"
+        ],
+        "values": [],
+        "claim": "The discovery would not have happened without NASA’s longstanding, Gold Standard Science policy of making its science data, including data from Fermi, freely available to anyone.",
+        "sourceId": "016ac8483c20",
+        "evidence": "The discovery would not have happened without NASA’s longstanding, Gold Standard Science policy of making its science data, including data from Fermi, freely available to anyone.",
+        "kind": "fact",
+        "expression": 7,
+        "action": "walk",
+        "brollQuery": "nasa data"
+      },
+      {
+        "title": "مستقبل البحث",
+        "text": "الهدف الجاي هو البحث عن نجوم في أنظمة ثنائية، ودي نجوم بتلف حوالين نجوم تانية، والعلماء متوقعين إن فيه مئات النجوم لسه مستنيانا في البيانات اللي ناسا بتنشرها كل يوم، فاستنوا اكتشافات تانية قريبة.",
+        "summary": "الهدف القادم هو اكتشاف نجوم في أنظمة ثنائية.",
+        "keyword": "نجوم",
+        "template": "map",
+        "labels": [
+          "مستقبل",
+          "نجوم",
+          "اكتشاف"
+        ],
+        "values": [],
+        "claim": "We know that there are probably tens or maybe even hundreds of these pulsars in the data set that we just couldn’t find.",
+        "sourceId": "016ac8483c20",
+        "evidence": "We know that there are probably tens or maybe even hundreds of these pulsars in the data set that we just couldn’t find.",
+        "kind": "fact",
+        "expression": 6,
+        "action": "point",
+        "brollQuery": "binary star system"
       }
     ],
     "seriesLabel": "عجائب الفضاء",
@@ -176,112 +176,210 @@
   },
   "topic": {
     "selected": {
-      "id": "b71681db2cca",
-      "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-      "text": "Voyager 1, depicted in this artist’s concept, reached one light-day from Earth on Nov. 18, 2026. Credit: NASA/JPL-Caltech NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team members at NASA’s Jet Propulsion Laboratory in Southern California, managed by Caltech, heard from the probe 24 hours later, the time it took for the spacecraft’s radio signal traveling at the speed of light to reach Earth, early Thursday. “Traveling a light-day is a singular feat for a spacecraft, but Voyager is so much more than a distant traveler. The Voyager mission would be remarkable just for what it contributed to planetary science with the Grand Tour of the outer planets,” said Joe Westlake, director, Heliophysics Division at NASA Headquarters in Washington. “But it went on to become central to NASA’s fleet of heliophysics missions offering insights into the star that we all revolve around, the Sun.” Scientists use light to measure the vast distances of space. Light travels at about 186,000 miles (299,000 kilometers) a second in a vacuum. A ray of sunlight passing Earth takes about 1.3 seconds to reach the Moon, about four hours to reach Neptune, and another 20 hours to reach Voyager 1. For comparison, a light-year is 5.88 trillion miles (9.46 trillion kilometers). Even though the team has not received science and engineering data from Voyager 1 since Nov. 14, the spacecraft is sending what is called a carrier signal, which typically conveys that data to Earth. Mission engineers used the carrier signal and trajectory calculations to confirm the light-day milestone. They continue to analyze the issue impacting the science and engineering data. Humanity’s only probes in interstellar space, Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment. Managed by JPL, they were only the third and fourth spacecraft to visit Jupiter and Saturn, and the first to return high-resolution imagery, transforming our understanding of these worlds and their moons. Voyager 2 went on to study the ethereal ice giants, Neptune and Uranus. Both spacecraft continue to measure changes in the Sun’s magnetic field across vast distances. “Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery,” said Dave Gallagher, JPL director. “Above all, this milestone stands as a testament to the exceptional teams who built, programmed, and fly these spacecraft today, and who have overcome countless challenges to keep them connected to Earth across the vastness of space. As NASA pushes toward new frontiers in human and robotic exploration, Voyager and the people behind its success continue to inspire us to reach farther and dream bigger.” In addition to their suite of scientific instruments , the Voyager probes carry a Golden Record , a gold-plated copper phonograph compiling images and sounds from Earth, as a message to any advanced civilization that might one day find it. “Nearly half a century after leaving Earth, the Voyager mission continues to push the boundaries of human exploration. Its epic journey reflects the vision of Ed Stone, the Caltech physicist and JPL director who guided the mission for decades, and the curiosity and tenacity of generations of scientists and engineers who have carried that vision forward,” said Ray Jayawardhana, president, Caltech. “Beyond its immense contributions to science, Voyager also captures something profound about the human spirit. We may never know where its journey will ultimately lead, but it will venture on, an enduring affirmation that humanity was here and we yearned to explore.” Launched in 1977, Voyager 1 and its twin, Voyager 2, transformed our understanding of the solar system through their exploration of the outer planets. In 2012, Voyager 1 became the first human-made spacecraft to enter interstellar space. On Nov. 18, 2026, Voyager 1 reached one light-day from Earth. Milestones, challenges Traveling about 38,000 mph (61,155 kph), Voyager 1 in 2012 became the first spacecraft to leave the heliosphere , the bubble of particles and magnetic fields created by the Sun that deflects cosmic radiation, and enter interstellar space. Voyager 2, taking a different trajectory, crossed the boundary in 2018. “The Voyagers are revolutionizing our understanding of interstellar space, a previously unexplored region outside the heliosphere,” said Linda Spilker, Voyager project scientist at JPL. “One big surprise is the extent to which our Sun continues to affect interstellar space, all the way out to Voyager 1. Where does the Sun’s influence end and pristine interstellar space begin? Perhaps Voyager may endure long enough to answer that question.” Creative engineering solutions have enabled the probes to conserve energy and overcome challenges related to aging hardware, including clogged thrusters and a malfunctioning computer on the spacecraft. Earlier this year, engineers successfully turned off three devices on Voyager 1 and substituted them with three lower-power alternatives — a move not without risk — to help the spacecraft make the most of its 50-year-old radioisotope thermal generator . Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity. With the plutonium supply continually depleting, both Voyager probes lose about 4 watts of power each year. The latest energy-saving effort is expected to provide enough power for both spacecraft to keep their current suite of science instruments operating until at least their 50th launch anniversaries next summer. As with all NASA spacecraft that venture to and beyond the Moon, communication between Earth and the Voyager probes is managed by the agency’s Deep Space Network , large antennas located at three facilities around the world. “We listen to Voyager 1 every day and send commands to the spacecraft weekly. It just takes a little longer to communicate than it used to,” said Suzanne Dodd, Voyager project manager at JPL. “Even traveling at the speed of light, signals now take 24 hours to reach the spacecraft and 24 hours to reach us. One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.” For more information about NASA’s Voyager mission, visit: https://science.nasa.gov/mission/voyager/ -end- Abbey Interrante / Karen Fox Headquarters, Washington 202-358-1600 abbey.a.interrante@nasa.gov / karen.c.fox@nasa.gov Calla Cofield Jet Propulsion Laboratory, Pasadena, Calif. 626-808-2469 calla.e.cofield@jpl.nasa.gov Share Details Last Updated Nov 19, 2026 Editor Jessica Taveau Location NASA Headquarters Related Terms Voyager 1 Heliophysics Heliophysics Division Jet Propulsion Laboratory Science Mission Directorate The Solar System The Sun",
-      "published": "2026-11-19T14:31:15.000Z",
+      "id": "016ac8483c20",
+      "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+      "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+      "text": "5 min read NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars NASA’s Fermi Gamma-ray Space Telescope, illustrated here, scans the entire sky every three hours as it orbits Earth. Its publicly available data helps scientists find the rapidly spinning cores of dead stars, known as pulsars. NASA’s Goddard Space Flight Center/Chris Smith (USRA/GESTAR) An international team of scientists has developed a method that can find pulsars in publicly available NASA data about a million times faster than before. This opens the door to discovering many more of these rapidly spinning objects. A paper describing the results published Thursday in the Physical Review Letters. Using 15 years of data from NASA’s Fermi Gamma-ray Space Telescope and a cryptography-based method developed by study co-authors Dotan Gazith and Barak Zackay from the Weizmann Institute of Science in Israel, the team found PSR J1622−7204, an isolated pulsar spinning 261 times per second, using the equivalent of 10 hours of computing time on a standard computer processor. By comparison, the previous best method failed to find the pulsar, despite using enough computing power that a standard processor would take 600 years to perform the calculation. A pulsar is a rapidly spinning neutron star that sweeps beams of radiation toward Earth, much like a lighthouse. Finding pulsars in gamma-ray data is extraordinarily difficult because Fermi detects only a tiny number of photons from a given pulsar, mixed in with background noise from other gamma-ray-emitting sources and the broader universe. To find the signal, researchers must accurately guess several unknowns at once: how fast the star spins, how quickly the spin is slowing down, and precisely where it sits in the sky. Searching every possible combination would require an impossible number of computations. “We don’t see every rotation from the pulsar, and we can’t just count the rotations to work out where the photon came from,” said lead author Daniel Pook-Kolb, a scientist at the Max Planck Institute for Gravitational Physics (Albert Einstein Institute) in Germany. “We have a four-dimensional grid, and we must search each direction with millions of trials in it. There’s just not enough computing power on Earth to do it.” This artist’s concept shows a pulsar, which emits light in regular pulses as it rotates, like a cosmic lighthouse. Pulsars are dense remnants of exploded stars, and are part of a class of objects called neutron stars. Openly available data from NASA’s Fermi space telescope can help scientists spot pulsars in the gamma-ray spectrum. NASA/JPL-Caltech Traditionally, scientists have searched for these pulsars by breaking Fermi data into smaller chunks and analyzing them by crowdsourcing computing power from volunteers around the world. Even with these volunteers contributing their computers’ unused processing power to run searches, it typically took the equivalent of hundreds of computer-years to identify a single pulsar. Gazith and Zackay realized that the search could be transformed into a geometry problem: finding the shortest vector in a high-dimensional lattice, or a regularly spaced array of points. This lattice technique draws on algorithms developed by cryptographers trying to break encryption systems designed to resist code-breaking by future quantum computers . The method has also been used to help make satellite navigation systems more efficient. “We have nothing to do with cryptography in our analysis here, but those algorithms can help us solve the problem of searching for pulsars in our data,” Gazith said. Each trial run of the algorithm took about five minutes on a single computer core — easily doable on a standard laptop, which usually has between two and eight cores. Once the lattice method identified a pulsar candidate, the researchers confirmed it by feeding in the full Fermi data set, revealing a signal so strong it could not be a chance occurrence. The team’s next goal is even more ambitious: finding pulsars in binary systems, where a pulsar orbits a star. These discoveries have long been considered out of reach because a companion star’s gravity distorts the signal in ways that have made these pulsars essentially impossible to discover with traditional methods. “We know that there are probably tens or maybe even hundreds of these pulsars in the data set that we just couldn’t find,” said Colin Clark, an astrophysicist at the Max Planck Institute who co-authored the study. “The next goal is to extend the searches and use the combination of the new algorithm and the crowdsourced computing power from volunteers in our Einstein@Home program to hopefully find many new pulsars that we think should be there.” This view of the gamma-ray sky is constructed from one year of Fermi Large Area Telescope (LAT) observations. The map shows the rate at which the LAT instrument detects gamma rays with energies above 300 million electron volts — about 120 million times the energy of visible light — from different sky directions. Brighter colors equal higher rates. Fermi’s openly available data archive contains a wealth of information that has supercharged scientific studies about the extreme universe. NASA/DOE/Fermi LAT Collaboration The discovery would not have happened without NASA’s longstanding, Gold Standard Science policy of making its science data, including data from Fermi, freely available to anyone. Launched in 2008, Fermi surveys the entire sky every three hours, observing the universe in gamma rays — the highest-energy form of light. After an initial one-year calibration period, all Fermi data became fully public and continues to be released as soon as it is processed. “The nice thing about NASA data is it’s all open,” Clark said. “All 18 years of Fermi data have been made public, and the data just keeps growing.” That openness allowed researchers from outside the Fermi mission, including the cryptography-inspired team, to apply a completely new approach to the dataset. NASA’s support for the science community, through open software and tools such as NASA’s Fermitools , enabled the team to prepare their dataset before beginning their analysis. The Fermi mission has grown its catalog from a few hundred gamma ray sources to thousands, with new findings emerging as scientists apply fresh ideas to the same data. “Any search that one team is doing, another team can just go and do that and check the search,” said Elizabeth Hays, Fermi project scientist at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. “It’s made all of the science better.” For more information about NASA’s Fermi mission, visit: https://www.nasa.gov/fermi By Amanda Moon Adams Communications Lead for the Office of the Chief Science Data Officer Share Details Last Updated Nov 19, 2026 Related Terms Open Science Fermi Gamma-Ray Space Telescope Pulsars Explore More 2 min read NASA Space Apps Challenge Breaks Global Hackathon Records Article 2 days ago 4 min read NASA Welcomes All Ages, Experience Levels for Space Apps Challenge Article 1 month ago 5 min read NASA-JAXA XRISM Mission Sees Pulsar Gathering Companion’s ‘Wind’ Article 2 months ago Keep Exploring Discover Related Topics Missions Humans in Space Climate Change Solar System",
+      "published": "2026-11-19T15:33:55.000Z",
       "official": true,
       "dateBasis": "item_publication_or_update",
       "publisher": "www.nasa.gov",
       "primaryRefs": [
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?w=2048",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=300,169",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=768,432",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1024,576",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1536,864",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=2048,1152",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=400,225",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=600,338",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=900,506",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1200,675",
-        "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=2000,1125",
-        "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
-        "https://science.nasa.gov/exoplanets/what-is-a-light-year/",
-        "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
-        "https://science.nasa.gov/mission/voyager/fact-sheet/",
-        "https://science.nasa.gov/mission/voyager/spacecraft/",
-        "https://science.nasa.gov/mission/voyager/voyager-golden-record-overview/",
-        "https://www.youtube.com/embed/0Ke0s62W4yY?feature=oembed",
-        "https://science.nasa.gov/heliophysics/focus-areas/heliosphere/",
-        "https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/",
-        "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
-        "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/",
-        "https://www.nasa.gov/communicating-with-missions/dsn/",
-        "https://science.nasa.gov/mission/voyager/",
-        "https://science.nasa.gov/mission/voyager/",
-        "https://x.com/intent/tweet?via=NASA&#038;text=NASA%E2%80%99s%20Voyager%201%20Makes%20History%20Reaching%20One%20Light-Day%20From%20Earth&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
+        "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1652&#038;h=928&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1652&#038;h=928&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=150&#038;h=150&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=300&#038;h=300&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=768&#038;h=928&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1024&#038;h=928&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1536&#038;h=928&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=50&#038;h=50&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=100&#038;h=100&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=200&#038;h=200&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=400&#038;h=400&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=600&#038;h=600&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=900&#038;h=900&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1200&#038;h=928&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1568&#038;h=928&#038;fit=clip",
+        "https://link.aps.org/doi/10.1103/vlt2-xzgk",
+        "https://science.nasa.gov/mission/fermi/",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1920&#038;h=1080&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1920&#038;h=1080&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1920&#038;h=1080&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=300&#038;h=169&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=768&#038;h=432&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1024&#038;h=576&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1536&#038;h=864&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=400&#038;h=225&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=600&#038;h=338&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=900&#038;h=506&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1200&#038;h=675&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+        "https://www.nasa.gov/technology/computing/what-is-quantum-computing/",
+        "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002215/GSFC_20171208_Archive_e002215~large.jpg?w=1920&#038;h=1145&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+        "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002215/GSFC_20171208_Archive_e002215~large.jpg?w=1920&#038;h=1145&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+        "https://fermi.gsfc.nasa.gov/ssc/data/analysis/",
+        "https://www.nasa.gov/fermi",
+        "https://www.nasa.gov/fermi",
+        "https://science.nasa.gov/about-us/ocsdo/",
+        "https://x.com/intent/tweet?via=NASA&#038;text=NASA%20Science%20Data%20Powers%20New%20Method%20to%20Discover%20Hard-to-Find%20Pulsars&#038;url=https%3A%2F%2Fscience.nasa.gov%2Fopen-science%2Ffermi-data-pulsar-discovery%2F",
         "http://www.w3.org/2000/svg",
-        "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
+        "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.nasa.gov%2Fopen-science%2Ffermi-data-pulsar-discovery%2F",
         "http://www.w3.org/2000/svg",
-        "https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
+        "https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fscience.nasa.gov%2Fopen-science%2Ffermi-data-pulsar-discovery%2F",
         "http://www.w3.org/2000/svg",
         "http://www.w3.org/2000/svg",
-        "https://www.nasa.gov/nasa-headquarters/",
-        "https://science.nasa.gov/mission/voyager-1",
-        "https://science.nasa.gov/heliophysics/",
-        "https://science.nasa.gov/heliophysics/",
-        "https://www.nasa.gov/jpl/",
-        "https://science.nasa.gov/about-us/",
-        "https://science.nasa.gov/solar-system/",
-        "https://science.nasa.gov/sun/"
+        "https://science.nasa.gov/open-science/",
+        "https://science.nasa.gov/mission/fermi",
+        "https://science.nasa.gov/category/universe/stars/neutron-stars/pulsars/",
+        "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=300&#038;h=300&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=300&#038;h=300&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=150&#038;h=150&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=768&#038;h=1706&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=1024&#038;h=1024&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=1536&#038;h=1536&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=2048&#038;h=1706&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=50&#038;h=50&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=100&#038;h=100&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=200&#038;h=200&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=400&#038;h=400&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=600&#038;h=600&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=900&#038;h=900&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=1200&#038;h=1200&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=2000&#038;h=1706&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=1568&#038;h=1706&#038;fit=clip",
+        "http://www.w3.org/2000/svg",
+        "http://www.w3.org/1999/xlink",
+        "https://science.nasa.gov/universe/nasa-welcomes-all-ages-experience-levels-for-space-apps-challenge/",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/s/spherex.jpg?w=300&#038;h=300&#038;fit=clip",
+        "http://www.w3.org/2000/svg",
+        "http://www.w3.org/1999/xlink",
+        "https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=300&#038;h=300&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=300&#038;h=300&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=150&#038;h=150&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=768&#038;h=576&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=50&#038;h=50&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=100&#038;h=100&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=200&#038;h=200&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=400&#038;h=400&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=600&#038;h=576&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=900&#038;h=576&#038;fit=clip",
+        "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=1024&#038;h=576&#038;fit=clip",
+        "http://www.w3.org/2000/svg",
+        "http://www.w3.org/1999/xlink",
+        "http://www.w3.org/2000/svg",
+        "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
+        "http://www.w3.org/2000/svg",
+        "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
+        "http://www.w3.org/2000/svg",
+        "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
+        "http://www.w3.org/2000/svg",
+        "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg"
       ]
     },
     "sources": [
       {
-        "id": "b71681db2cca",
-        "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-        "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-        "text": "Voyager 1, depicted in this artist’s concept, reached one light-day from Earth on Nov. 18, 2026. Credit: NASA/JPL-Caltech NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team members at NASA’s Jet Propulsion Laboratory in Southern California, managed by Caltech, heard from the probe 24 hours later, the time it took for the spacecraft’s radio signal traveling at the speed of light to reach Earth, early Thursday. “Traveling a light-day is a singular feat for a spacecraft, but Voyager is so much more than a distant traveler. The Voyager mission would be remarkable just for what it contributed to planetary science with the Grand Tour of the outer planets,” said Joe Westlake, director, Heliophysics Division at NASA Headquarters in Washington. “But it went on to become central to NASA’s fleet of heliophysics missions offering insights into the star that we all revolve around, the Sun.” Scientists use light to measure the vast distances of space. Light travels at about 186,000 miles (299,000 kilometers) a second in a vacuum. A ray of sunlight passing Earth takes about 1.3 seconds to reach the Moon, about four hours to reach Neptune, and another 20 hours to reach Voyager 1. For comparison, a light-year is 5.88 trillion miles (9.46 trillion kilometers). Even though the team has not received science and engineering data from Voyager 1 since Nov. 14, the spacecraft is sending what is called a carrier signal, which typically conveys that data to Earth. Mission engineers used the carrier signal and trajectory calculations to confirm the light-day milestone. They continue to analyze the issue impacting the science and engineering data. Humanity’s only probes in interstellar space, Voyager 1 and its twin, Voyager 2, launched in 1977 to take advantage of a rare planetary alignment. Managed by JPL, they were only the third and fourth spacecraft to visit Jupiter and Saturn, and the first to return high-resolution imagery, transforming our understanding of these worlds and their moons. Voyager 2 went on to study the ethereal ice giants, Neptune and Uranus. Both spacecraft continue to measure changes in the Sun’s magnetic field across vast distances. “Voyager 1 crossing the light-day threshold is yet another historic feat on an extraordinary voyage of discovery,” said Dave Gallagher, JPL director. “Above all, this milestone stands as a testament to the exceptional teams who built, programmed, and fly these spacecraft today, and who have overcome countless challenges to keep them connected to Earth across the vastness of space. As NASA pushes toward new frontiers in human and robotic exploration, Voyager and the people behind its success continue to inspire us to reach farther and dream bigger.” In addition to their suite of scientific instruments , the Voyager probes carry a Golden Record , a gold-plated copper phonograph compiling images and sounds from Earth, as a message to any advanced civilization that might one day find it. “Nearly half a century after leaving Earth, the Voyager mission continues to push the boundaries of human exploration. Its epic journey reflects the vision of Ed Stone, the Caltech physicist and JPL director who guided the mission for decades, and the curiosity and tenacity of generations of scientists and engineers who have carried that vision forward,” said Ray Jayawardhana, president, Caltech. “Beyond its immense contributions to science, Voyager also captures something profound about the human spirit. We may never know where its journey will ultimately lead, but it will venture on, an enduring affirmation that humanity was here and we yearned to explore.” Launched in 1977, Voyager 1 and its twin, Voyager 2, transformed our understanding of the solar system through their exploration of the outer planets. In 2012, Voyager 1 became the first human-made spacecraft to enter interstellar space. On Nov. 18, 2026, Voyager 1 reached one light-day from Earth. Milestones, challenges Traveling about 38,000 mph (61,155 kph), Voyager 1 in 2012 became the first spacecraft to leave the heliosphere , the bubble of particles and magnetic fields created by the Sun that deflects cosmic radiation, and enter interstellar space. Voyager 2, taking a different trajectory, crossed the boundary in 2018. “The Voyagers are revolutionizing our understanding of interstellar space, a previously unexplored region outside the heliosphere,” said Linda Spilker, Voyager project scientist at JPL. “One big surprise is the extent to which our Sun continues to affect interstellar space, all the way out to Voyager 1. Where does the Sun’s influence end and pristine interstellar space begin? Perhaps Voyager may endure long enough to answer that question.” Creative engineering solutions have enabled the probes to conserve energy and overcome challenges related to aging hardware, including clogged thrusters and a malfunctioning computer on the spacecraft. Earlier this year, engineers successfully turned off three devices on Voyager 1 and substituted them with three lower-power alternatives — a move not without risk — to help the spacecraft make the most of its 50-year-old radioisotope thermal generator . Essentially a nuclear battery, the generator converts heat from decaying plutonium into electricity. With the plutonium supply continually depleting, both Voyager probes lose about 4 watts of power each year. The latest energy-saving effort is expected to provide enough power for both spacecraft to keep their current suite of science instruments operating until at least their 50th launch anniversaries next summer. As with all NASA spacecraft that venture to and beyond the Moon, communication between Earth and the Voyager probes is managed by the agency’s Deep Space Network , large antennas located at three facilities around the world. “We listen to Voyager 1 every day and send commands to the spacecraft weekly. It just takes a little longer to communicate than it used to,” said Suzanne Dodd, Voyager project manager at JPL. “Even traveling at the speed of light, signals now take 24 hours to reach the spacecraft and 24 hours to reach us. One day in the future, when it can no longer communicate with Earth, Voyager 1 will become humanity s silent ambassador to the stars.” For more information about NASA’s Voyager mission, visit: https://science.nasa.gov/mission/voyager/ -end- Abbey Interrante / Karen Fox Headquarters, Washington 202-358-1600 abbey.a.interrante@nasa.gov / karen.c.fox@nasa.gov Calla Cofield Jet Propulsion Laboratory, Pasadena, Calif. 626-808-2469 calla.e.cofield@jpl.nasa.gov Share Details Last Updated Nov 19, 2026 Editor Jessica Taveau Location NASA Headquarters Related Terms Voyager 1 Heliophysics Heliophysics Division Jet Propulsion Laboratory Science Mission Directorate The Solar System The Sun",
-        "published": "2026-11-19T14:31:15.000Z",
+        "id": "016ac8483c20",
+        "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+        "url": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
+        "text": "5 min read NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars NASA’s Fermi Gamma-ray Space Telescope, illustrated here, scans the entire sky every three hours as it orbits Earth. Its publicly available data helps scientists find the rapidly spinning cores of dead stars, known as pulsars. NASA’s Goddard Space Flight Center/Chris Smith (USRA/GESTAR) An international team of scientists has developed a method that can find pulsars in publicly available NASA data about a million times faster than before. This opens the door to discovering many more of these rapidly spinning objects. A paper describing the results published Thursday in the Physical Review Letters. Using 15 years of data from NASA’s Fermi Gamma-ray Space Telescope and a cryptography-based method developed by study co-authors Dotan Gazith and Barak Zackay from the Weizmann Institute of Science in Israel, the team found PSR J1622−7204, an isolated pulsar spinning 261 times per second, using the equivalent of 10 hours of computing time on a standard computer processor. By comparison, the previous best method failed to find the pulsar, despite using enough computing power that a standard processor would take 600 years to perform the calculation. A pulsar is a rapidly spinning neutron star that sweeps beams of radiation toward Earth, much like a lighthouse. Finding pulsars in gamma-ray data is extraordinarily difficult because Fermi detects only a tiny number of photons from a given pulsar, mixed in with background noise from other gamma-ray-emitting sources and the broader universe. To find the signal, researchers must accurately guess several unknowns at once: how fast the star spins, how quickly the spin is slowing down, and precisely where it sits in the sky. Searching every possible combination would require an impossible number of computations. “We don’t see every rotation from the pulsar, and we can’t just count the rotations to work out where the photon came from,” said lead author Daniel Pook-Kolb, a scientist at the Max Planck Institute for Gravitational Physics (Albert Einstein Institute) in Germany. “We have a four-dimensional grid, and we must search each direction with millions of trials in it. There’s just not enough computing power on Earth to do it.” This artist’s concept shows a pulsar, which emits light in regular pulses as it rotates, like a cosmic lighthouse. Pulsars are dense remnants of exploded stars, and are part of a class of objects called neutron stars. Openly available data from NASA’s Fermi space telescope can help scientists spot pulsars in the gamma-ray spectrum. NASA/JPL-Caltech Traditionally, scientists have searched for these pulsars by breaking Fermi data into smaller chunks and analyzing them by crowdsourcing computing power from volunteers around the world. Even with these volunteers contributing their computers’ unused processing power to run searches, it typically took the equivalent of hundreds of computer-years to identify a single pulsar. Gazith and Zackay realized that the search could be transformed into a geometry problem: finding the shortest vector in a high-dimensional lattice, or a regularly spaced array of points. This lattice technique draws on algorithms developed by cryptographers trying to break encryption systems designed to resist code-breaking by future quantum computers . The method has also been used to help make satellite navigation systems more efficient. “We have nothing to do with cryptography in our analysis here, but those algorithms can help us solve the problem of searching for pulsars in our data,” Gazith said. Each trial run of the algorithm took about five minutes on a single computer core — easily doable on a standard laptop, which usually has between two and eight cores. Once the lattice method identified a pulsar candidate, the researchers confirmed it by feeding in the full Fermi data set, revealing a signal so strong it could not be a chance occurrence. The team’s next goal is even more ambitious: finding pulsars in binary systems, where a pulsar orbits a star. These discoveries have long been considered out of reach because a companion star’s gravity distorts the signal in ways that have made these pulsars essentially impossible to discover with traditional methods. “We know that there are probably tens or maybe even hundreds of these pulsars in the data set that we just couldn’t find,” said Colin Clark, an astrophysicist at the Max Planck Institute who co-authored the study. “The next goal is to extend the searches and use the combination of the new algorithm and the crowdsourced computing power from volunteers in our Einstein@Home program to hopefully find many new pulsars that we think should be there.” This view of the gamma-ray sky is constructed from one year of Fermi Large Area Telescope (LAT) observations. The map shows the rate at which the LAT instrument detects gamma rays with energies above 300 million electron volts — about 120 million times the energy of visible light — from different sky directions. Brighter colors equal higher rates. Fermi’s openly available data archive contains a wealth of information that has supercharged scientific studies about the extreme universe. NASA/DOE/Fermi LAT Collaboration The discovery would not have happened without NASA’s longstanding, Gold Standard Science policy of making its science data, including data from Fermi, freely available to anyone. Launched in 2008, Fermi surveys the entire sky every three hours, observing the universe in gamma rays — the highest-energy form of light. After an initial one-year calibration period, all Fermi data became fully public and continues to be released as soon as it is processed. “The nice thing about NASA data is it’s all open,” Clark said. “All 18 years of Fermi data have been made public, and the data just keeps growing.” That openness allowed researchers from outside the Fermi mission, including the cryptography-inspired team, to apply a completely new approach to the dataset. NASA’s support for the science community, through open software and tools such as NASA’s Fermitools , enabled the team to prepare their dataset before beginning their analysis. The Fermi mission has grown its catalog from a few hundred gamma ray sources to thousands, with new findings emerging as scientists apply fresh ideas to the same data. “Any search that one team is doing, another team can just go and do that and check the search,” said Elizabeth Hays, Fermi project scientist at NASA’s Goddard Space Flight Center in Greenbelt, Maryland. “It’s made all of the science better.” For more information about NASA’s Fermi mission, visit: https://www.nasa.gov/fermi By Amanda Moon Adams Communications Lead for the Office of the Chief Science Data Officer Share Details Last Updated Nov 19, 2026 Related Terms Open Science Fermi Gamma-Ray Space Telescope Pulsars Explore More 2 min read NASA Space Apps Challenge Breaks Global Hackathon Records Article 2 days ago 4 min read NASA Welcomes All Ages, Experience Levels for Space Apps Challenge Article 1 month ago 5 min read NASA-JAXA XRISM Mission Sees Pulsar Gathering Companion’s ‘Wind’ Article 2 months ago Keep Exploring Discover Related Topics Missions Humans in Space Climate Change Solar System",
+        "published": "2026-11-19T15:33:55.000Z",
         "official": true,
         "dateBasis": "item_publication_or_update",
         "publisher": "www.nasa.gov",
         "primaryRefs": [
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?w=2048",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=300,169",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=768,432",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1024,576",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1536,864",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=2048,1152",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=400,225",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=600,338",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=900,506",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=1200,675",
-          "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-light-day-horizontal.png?resize=2000,1125",
-          "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
-          "https://science.nasa.gov/exoplanets/what-is-a-light-year/",
-          "https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/",
-          "https://science.nasa.gov/mission/voyager/fact-sheet/",
-          "https://science.nasa.gov/mission/voyager/spacecraft/",
-          "https://science.nasa.gov/mission/voyager/voyager-golden-record-overview/",
-          "https://www.youtube.com/embed/0Ke0s62W4yY?feature=oembed",
-          "https://science.nasa.gov/heliophysics/focus-areas/heliosphere/",
-          "https://www.jpl.nasa.gov/news/nasas-voyager-1-resumes-sending-engineering-updates-to-earth/",
-          "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
-          "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/",
-          "https://www.nasa.gov/communicating-with-missions/dsn/",
-          "https://science.nasa.gov/mission/voyager/",
-          "https://science.nasa.gov/mission/voyager/",
-          "https://x.com/intent/tweet?via=NASA&#038;text=NASA%E2%80%99s%20Voyager%201%20Makes%20History%20Reaching%20One%20Light-Day%20From%20Earth&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
+          "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1652&#038;h=928&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1652&#038;h=928&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=150&#038;h=150&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=300&#038;h=300&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=768&#038;h=928&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1024&#038;h=928&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1536&#038;h=928&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=50&#038;h=50&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=100&#038;h=100&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=200&#038;h=200&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=400&#038;h=400&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=600&#038;h=600&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=900&#038;h=900&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1200&#038;h=928&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/05/screenshot-2023-06-06-at-2.57.05-pm.png?w=1568&#038;h=928&#038;fit=clip",
+          "https://link.aps.org/doi/10.1103/vlt2-xzgk",
+          "https://science.nasa.gov/mission/fermi/",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1920&#038;h=1080&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1920&#038;h=1080&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1920&#038;h=1080&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=300&#038;h=169&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=768&#038;h=432&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1024&#038;h=576&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1536&#038;h=864&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=400&#038;h=225&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=600&#038;h=338&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=900&#038;h=506&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/PIA21085/PIA21085~large.jpg?w=1200&#038;h=675&#038;fit=crop&#038;crop=faces%2Cfocalpoint",
+          "https://www.nasa.gov/technology/computing/what-is-quantum-computing/",
+          "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002215/GSFC_20171208_Archive_e002215~large.jpg?w=1920&#038;h=1145&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+          "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002215/GSFC_20171208_Archive_e002215~large.jpg?w=1920&#038;h=1145&#038;fit=clip&#038;crop=faces%2Cfocalpoint",
+          "https://fermi.gsfc.nasa.gov/ssc/data/analysis/",
+          "https://www.nasa.gov/fermi",
+          "https://www.nasa.gov/fermi",
+          "https://science.nasa.gov/about-us/ocsdo/",
+          "https://x.com/intent/tweet?via=NASA&#038;text=NASA%20Science%20Data%20Powers%20New%20Method%20to%20Discover%20Hard-to-Find%20Pulsars&#038;url=https%3A%2F%2Fscience.nasa.gov%2Fopen-science%2Ffermi-data-pulsar-discovery%2F",
           "http://www.w3.org/2000/svg",
-          "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
+          "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.nasa.gov%2Fopen-science%2Ffermi-data-pulsar-discovery%2F",
           "http://www.w3.org/2000/svg",
-          "https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fwww.nasa.gov%2Fnews-release%2Fnasas-voyager-1-makes-history-reaching-one-light-day-from-earth%2F",
+          "https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fscience.nasa.gov%2Fopen-science%2Ffermi-data-pulsar-discovery%2F",
           "http://www.w3.org/2000/svg",
           "http://www.w3.org/2000/svg",
-          "https://www.nasa.gov/nasa-headquarters/",
-          "https://science.nasa.gov/mission/voyager-1",
-          "https://science.nasa.gov/heliophysics/",
-          "https://science.nasa.gov/heliophysics/",
-          "https://www.nasa.gov/jpl/",
-          "https://science.nasa.gov/about-us/",
-          "https://science.nasa.gov/solar-system/",
-          "https://science.nasa.gov/sun/"
+          "https://science.nasa.gov/open-science/",
+          "https://science.nasa.gov/mission/fermi",
+          "https://science.nasa.gov/category/universe/stars/neutron-stars/pulsars/",
+          "https://science.nasa.gov/open-science/nasa-space-apps-challenge-breaks-global-hackathon-records/",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=300&#038;h=300&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=300&#038;h=300&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=150&#038;h=150&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=768&#038;h=1706&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=1024&#038;h=1024&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=1536&#038;h=1536&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=2048&#038;h=1706&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=50&#038;h=50&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=100&#038;h=100&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=200&#038;h=200&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=400&#038;h=400&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=600&#038;h=600&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=900&#038;h=900&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=1200&#038;h=1200&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=2000&#038;h=1706&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/open-science/Space%20Apps%20Challenge%202026%20Brazil.jpeg?w=1568&#038;h=1706&#038;fit=clip",
+          "http://www.w3.org/2000/svg",
+          "http://www.w3.org/1999/xlink",
+          "https://science.nasa.gov/universe/nasa-welcomes-all-ages-experience-levels-for-space-apps-challenge/",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/s/spherex.jpg?w=300&#038;h=300&#038;fit=clip",
+          "http://www.w3.org/2000/svg",
+          "http://www.w3.org/1999/xlink",
+          "https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=300&#038;h=300&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=300&#038;h=300&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=150&#038;h=150&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=768&#038;h=576&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=50&#038;h=50&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=100&#038;h=100&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=200&#038;h=200&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=400&#038;h=400&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=600&#038;h=576&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=900&#038;h=576&#038;fit=clip",
+          "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=1024&#038;h=576&#038;fit=clip",
+          "http://www.w3.org/2000/svg",
+          "http://www.w3.org/1999/xlink",
+          "http://www.w3.org/2000/svg",
+          "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
+          "http://www.w3.org/2000/svg",
+          "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
+          "http://www.w3.org/2000/svg",
+          "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
+          "http://www.w3.org/2000/svg",
+          "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg"
         ]
       }
     ],
@@ -290,10 +388,10 @@
     "windowHours": 168,
     "verification": [
       {
-        "id": "b71681db2cca",
+        "id": "016ac8483c20",
         "basis": "official_primary_source",
         "sourceIds": [
-          "b71681db2cca"
+          "016ac8483c20"
         ]
       }
     ],
@@ -310,89 +408,227 @@
     ],
     "trend": [
       {
-        "id": "b71681db2cca",
-        "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-        "demand": 2,
-        "recency": 1,
+        "id": "016ac8483c20",
+        "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+        "demand": 34,
+        "recency": 0.997,
         "matches": [
           {
             "kind": "google_trend",
-            "label": "سعر الفراخ البيضاء اليوم",
+            "label": "anthropic stock",
+            "weight": 4
+          },
+          {
+            "kind": "google_trend",
+            "label": "gta vice city",
+            "weight": 16
+          },
+          {
+            "kind": "google_trend",
+            "label": "اذان المغرب",
             "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "سعر كيلو الفراخ البيضاء",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "red dead redemption",
+            "weight": 10
           }
         ],
-        "score": 2.4999629045397214
+        "score": 34.498545330054405
+      },
+      {
+        "id": "72ab3b40ae04",
+        "title": "Lake Pelku",
+        "demand": 10,
+        "recency": 0.997,
+        "matches": [
+          {
+            "kind": "google_trend",
+            "label": "anthropic stock",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "gta vice city",
+            "weight": 4
+          },
+          {
+            "kind": "google_trend",
+            "label": "red dead redemption",
+            "weight": 4
+          }
+        ],
+        "score": 10.498399173068112
+      },
+      {
+        "id": "4ed2e9bef49f",
+        "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
+        "demand": 16,
+        "recency": 0.986,
+        "matches": [
+          {
+            "kind": "google_trend",
+            "label": "gta vice city",
+            "weight": 6
+          },
+          {
+            "kind": "google_trend",
+            "label": "اذان المغرب",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "سعر كيلو الفراخ البيضاء",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "red dead redemption",
+            "weight": 6
+          }
+        ],
+        "score": 16.492892056229476
       },
       {
         "id": "b41c4de3e0f2",
         "title": "El Niño Rains Paint the Atacama",
-        "demand": 2,
-        "recency": 0.876,
+        "demand": 30,
+        "recency": 0.861,
         "matches": [
           {
             "kind": "google_trend",
-            "label": "سعر الفراخ البيضاء اليوم",
+            "label": "anthropic stock",
             "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "gta vice city",
+            "weight": 18
+          },
+          {
+            "kind": "google_trend",
+            "label": "اذان المغرب",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "سعر كيلو الفراخ البيضاء",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "red dead redemption",
+            "weight": 6
           }
         ],
-        "score": 2.438035566201489
+        "score": 30.43050311044765
       },
       {
         "id": "9d57f4dbe2e3",
         "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
-        "demand": 0,
-        "recency": 0.762,
-        "matches": [],
-        "score": 0.38109642354117007
+        "demand": 30,
+        "recency": 0.749,
+        "matches": [
+          {
+            "kind": "google_trend",
+            "label": "anthropic stock",
+            "weight": 10
+          },
+          {
+            "kind": "google_trend",
+            "label": "gta vice city",
+            "weight": 12
+          },
+          {
+            "kind": "google_trend",
+            "label": "red dead redemption",
+            "weight": 8
+          }
+        ],
+        "score": 30.374543092785032
       },
       {
         "id": "946586051f9f",
         "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-        "demand": 2,
-        "recency": 0.754,
+        "demand": 24,
+        "recency": 0.741,
         "matches": [
           {
             "kind": "google_trend",
-            "label": "سعر الفراخ البيضاء اليوم",
+            "label": "gta vice city",
+            "weight": 12
+          },
+          {
+            "kind": "google_trend",
+            "label": "عمرو سعد",
             "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "اذان المغرب",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "سعر كيلو الفراخ البيضاء",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "red dead redemption",
+            "weight": 6
           }
         ],
-        "score": 2.377067254426948
+        "score": 24.370583209227554
       },
       {
         "id": "0cb2e3ffdc8f",
         "title": "Empire State Building Goes Gold for Voyager",
-        "demand": 2,
-        "recency": 0.75,
+        "demand": 14,
+        "recency": 0.737,
         "matches": [
           {
             "kind": "google_trend",
-            "label": "سعر الفراخ البيضاء اليوم",
+            "label": "anthropic stock",
             "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "gta vice city",
+            "weight": 4
+          },
+          {
+            "kind": "google_trend",
+            "label": "اذان المغرب",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "سعر كيلو الفراخ البيضاء",
+            "weight": 2
+          },
+          {
+            "kind": "google_trend",
+            "label": "red dead redemption",
+            "weight": 4
           }
         ],
-        "score": 2.3751432017848866
-      },
-      {
-        "id": "413bc2a06dfb",
-        "title": "What Is the Moon Base?",
-        "demand": 0,
-        "recency": 0.748,
-        "matches": [],
-        "score": 0.37389624875890914
-      },
-      {
-        "id": "4294d968436d",
-        "title": "Thank You for Doing NASA Science!",
-        "demand": 0,
-        "recency": 0.747,
-        "matches": [],
-        "score": 0.3736208325627829
+        "score": 14.368692242577847
       }
     ],
     "scoring": "Source authority, verified freshness and unused canonical source URL; no invented trend-volume metric.",
     "trendDiagnostics": {
       "sources": [
+        {
+          "source": "trends",
+          "status": "ok",
+          "items": 10
+        },
         {
           "source": "suggestions",
           "status": "ok",
@@ -422,103 +658,231 @@
           "source": "reddit",
           "status": "unavailable",
           "code": "FEED_HTTP_403"
-        },
-        {
-          "source": "trends",
-          "status": "ok",
-          "items": 10
         }
       ],
       "degraded": false,
       "decisions": [
         {
-          "id": "b71681db2cca",
-          "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-          "demand": 2,
-          "recency": 1,
+          "id": "016ac8483c20",
+          "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+          "demand": 34,
+          "recency": 0.997,
           "matches": [
             {
               "kind": "google_trend",
-              "label": "سعر الفراخ البيضاء اليوم",
+              "label": "anthropic stock",
+              "weight": 4
+            },
+            {
+              "kind": "google_trend",
+              "label": "gta vice city",
+              "weight": 16
+            },
+            {
+              "kind": "google_trend",
+              "label": "اذان المغرب",
               "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "سعر كيلو الفراخ البيضاء",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "red dead redemption",
+              "weight": 10
             }
           ],
-          "score": 2.4999629045397214
+          "score": 34.498545330054405
+        },
+        {
+          "id": "72ab3b40ae04",
+          "title": "Lake Pelku",
+          "demand": 10,
+          "recency": 0.997,
+          "matches": [
+            {
+              "kind": "google_trend",
+              "label": "anthropic stock",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "gta vice city",
+              "weight": 4
+            },
+            {
+              "kind": "google_trend",
+              "label": "red dead redemption",
+              "weight": 4
+            }
+          ],
+          "score": 10.498399173068112
+        },
+        {
+          "id": "4ed2e9bef49f",
+          "title": "NASA Conducts Latest RS-25 Engine Test in Support of Future Artemis Missions",
+          "demand": 16,
+          "recency": 0.986,
+          "matches": [
+            {
+              "kind": "google_trend",
+              "label": "gta vice city",
+              "weight": 6
+            },
+            {
+              "kind": "google_trend",
+              "label": "اذان المغرب",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "سعر كيلو الفراخ البيضاء",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "red dead redemption",
+              "weight": 6
+            }
+          ],
+          "score": 16.492892056229476
         },
         {
           "id": "b41c4de3e0f2",
           "title": "El Niño Rains Paint the Atacama",
-          "demand": 2,
-          "recency": 0.876,
+          "demand": 30,
+          "recency": 0.861,
           "matches": [
             {
               "kind": "google_trend",
-              "label": "سعر الفراخ البيضاء اليوم",
+              "label": "anthropic stock",
               "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "gta vice city",
+              "weight": 18
+            },
+            {
+              "kind": "google_trend",
+              "label": "اذان المغرب",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "سعر كيلو الفراخ البيضاء",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "red dead redemption",
+              "weight": 6
             }
           ],
-          "score": 2.438035566201489
+          "score": 30.43050311044765
         },
         {
           "id": "9d57f4dbe2e3",
           "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
-          "demand": 0,
-          "recency": 0.762,
-          "matches": [],
-          "score": 0.38109642354117007
+          "demand": 30,
+          "recency": 0.749,
+          "matches": [
+            {
+              "kind": "google_trend",
+              "label": "anthropic stock",
+              "weight": 10
+            },
+            {
+              "kind": "google_trend",
+              "label": "gta vice city",
+              "weight": 12
+            },
+            {
+              "kind": "google_trend",
+              "label": "red dead redemption",
+              "weight": 8
+            }
+          ],
+          "score": 30.374543092785032
         },
         {
           "id": "946586051f9f",
           "title": "NASA Announces Mid-Power Electric Rocket Challenge for US Companies",
-          "demand": 2,
-          "recency": 0.754,
+          "demand": 24,
+          "recency": 0.741,
           "matches": [
             {
               "kind": "google_trend",
-              "label": "سعر الفراخ البيضاء اليوم",
+              "label": "gta vice city",
+              "weight": 12
+            },
+            {
+              "kind": "google_trend",
+              "label": "عمرو سعد",
               "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "اذان المغرب",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "سعر كيلو الفراخ البيضاء",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "red dead redemption",
+              "weight": 6
             }
           ],
-          "score": 2.377067254426948
+          "score": 24.370583209227554
         },
         {
           "id": "0cb2e3ffdc8f",
           "title": "Empire State Building Goes Gold for Voyager",
-          "demand": 2,
-          "recency": 0.75,
+          "demand": 14,
+          "recency": 0.737,
           "matches": [
             {
               "kind": "google_trend",
-              "label": "سعر الفراخ البيضاء اليوم",
+              "label": "anthropic stock",
               "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "gta vice city",
+              "weight": 4
+            },
+            {
+              "kind": "google_trend",
+              "label": "اذان المغرب",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "سعر كيلو الفراخ البيضاء",
+              "weight": 2
+            },
+            {
+              "kind": "google_trend",
+              "label": "red dead redemption",
+              "weight": 4
             }
           ],
-          "score": 2.3751432017848866
-        },
-        {
-          "id": "413bc2a06dfb",
-          "title": "What Is the Moon Base?",
-          "demand": 0,
-          "recency": 0.748,
-          "matches": [],
-          "score": 0.37389624875890914
-        },
-        {
-          "id": "4294d968436d",
-          "title": "Thank You for Doing NASA Science!",
-          "demand": 0,
-          "recency": 0.747,
-          "matches": [],
-          "score": 0.3736208325627829
+          "score": 14.368692242577847
         }
       ]
     }
   },
-  "scriptSha256": "f91b90ab42d775420bb8663a9a35ca72eff33d82c948a8465f5191324b9cb506",
+  "scriptSha256": "1c35fc96294edb5fae33bf26ea73d5829b943c5edb83650efd137ab646d44cab",
   "state": "failed",
   "lastFailure": {
     "stage": "align-repair-1",
-    "code": "ALIGNMENT_INVALID_MEASURED_SPAN",
-    "repeat": 1
+    "code": "ALIGNMENT_SPEECH_MISMATCH",
+    "repeat": 0
   }
 }

@@ -1,0 +1,21 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 122.368,
+  "geometryPassed": true,
+  "logo": {
+    "path": "brand/logo/logo.jpg",
+    "sha256": "29806778333572189dfe658c3fb4cd3b289b9d0a4c9c87f94d8758b4c66e934b",
+    "bytes": 190803,
+    "original": true,
+    "renderedPixelsChecked": true
+  },
+  "watermark": {
+    "knownTextScan": "no_known_foreign_watermark_detected",
+    "assetPolicy": "Only original vectors, owner-supplied immutable logos and documented generated backgrounds; listening/visual approval remains separate."
+  },
+  "audioRequired": false,
+  "complete": false,
+  "approved": false
+}
