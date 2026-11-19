@@ -21,7 +21,7 @@
       "expression": 5,
       "action": "point",
       "brollQuery": "SpaceX Falcon 9 rocket",
-      "duration": 12.850958,
+      "duration": 13.76,
       "words": []
     },
     {
@@ -43,7 +43,7 @@
       "expression": 2,
       "action": "walk",
       "brollQuery": "NASA press conference",
-      "duration": 15.64,
+      "duration": 14.130958,
       "words": []
     },
     {
@@ -65,7 +65,7 @@
       "expression": 8,
       "action": "jump",
       "brollQuery": "rocket launch",
-      "duration": 14.92,
+      "duration": 14.44,
       "words": []
     },
     {
@@ -87,7 +87,7 @@
       "expression": 6,
       "action": "point",
       "brollQuery": "Canadarm2 robotic arm",
-      "duration": 17.92,
+      "duration": 19.48,
       "words": []
     },
     {
@@ -109,7 +109,7 @@
       "expression": 4,
       "action": "turn",
       "brollQuery": "scientific experiment",
-      "duration": 14.730958,
+      "duration": 15.56,
       "words": []
     },
     {
@@ -131,7 +131,7 @@
       "expression": 9,
       "action": "point",
       "brollQuery": "spacecraft",
-      "duration": 12.930958,
+      "duration": 13.92,
       "words": []
     },
     {
@@ -175,11 +175,11 @@
       "expression": 10,
       "action": "point",
       "brollQuery": "virtual event",
-      "duration": 13.92,
+      "duration": 13.28,
       "words": []
     }
   ],
-  "durationInFrames": 3507,
+  "durationInFrames": 3556,
   "audio": "generated/2026-11-19T13-46-10-019Z/audio.wav",
   "incompleteMode": "unaligned_narration",
   "preview": true,
