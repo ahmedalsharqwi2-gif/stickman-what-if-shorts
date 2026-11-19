@@ -1,6 +1,7 @@
 import path from 'node:path';import {fileURLToPath,pathToFileURL} from 'node:url';import {readFile,writeFile,mkdir,open,rm,copyFile} from 'node:fs/promises';
 import {assertReviewMode,assertTiming,assertMedia,dueInCairo,digest,episodeSchema,sourceSchema} from './policy.mjs';
 import {json,save,run,probe} from './io.mjs';import {selectTopic,script,voice,backgrounds} from './providers.mjs';
+import {drawplan} from './drawplan.mjs';
 import {preflight} from './preflight.mjs';import {providerDiagnostics} from './provider-client.mjs';import {renderEpisode,visualQA,partialReview} from './render.mjs';import {layoutQA} from './layout-qa.mjs';
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 async function optionalJSON(p,fallback){try{return await json(p);}catch(e){if(e.code!=='ENOENT')throw e;return fallback;}}
@@ -42,7 +43,11 @@ export async function review({mode='review',scheduled=false,topicReservationPath
   await save(out+'/audio-index.json',audioIndex);
   await stage('align',async()=>{try{await run(process.env.PYTHON||'python',['pipeline/align.py',out+'/segments.json',out+'/alignment.json'],{timeout:1800000,maxBuffer:2000000});}catch{const diagnostic=await optionalJSON(out+'/alignment-diagnostics.json',null);throw Error(diagnostic?.code||'ALIGNMENT_PROCESS_FAILED');}const aligned=await json(out+'/alignment.json');segments.forEach((s,i)=>assertTiming(aligned[i],s.duration,s.text));episode.scenes.forEach((s,i)=>{s.words=aligned[i];s.duration=segments[i].duration;});});
   await stage('assets',async()=>{for(const s of episode.scenes){const source=topic.sources.find(v=>v.id===s.sourceId);s.sourceUrl=source.url;s.sourceLabel=new URL(source.url).hostname;}const assets=await backgrounds(episode,config,pub);await save(out+'/assets.json',assets);await writeFile(out+'/ATTRIBUTIONS.md','# Asset rights\n\nOriginal vector motion and FFmpeg synthesized bed; immutable owner logo at config/logo.json with SHA256. Fonts and provider terms: docs/LICENSES.md. Individual generated image models and cache keys are recorded in assets.json. Research sources are in sources.json and are not blanket image licenses.\n');});
-  const duration=await stage('mix',()=>mix(segments,pub,out+'/mix-diagnostics.json'));const props={...episode,audio:'generated/'+id+'/audio.wav',durationInFrames:Math.ceil(duration*30)};await save(out+'/props.json',props);
+  // Paper mode: plan the persistent drawing spec. Failure falls back to the
+  // classic renderer so chain validation continues while paper stabilizes.
+  let paperPlan=null;
+  if(config.paper){try{const planned=await stage('drawplan',async()=>{const r=await drawplan(episode,config,{diagnosticsPath:out+'/drawplan-diagnostics.json'});await save(out+'/drawplan.json',{schema:1,plan:r.plan,drawModel:r.drawModel});return r.plan;});paperPlan=planned;}catch(e){report.limitations.push('drawplan failed ('+String(e&&e.message||e)+'); rendered with the classic template instead.');}}
+  const duration=await stage('mix',()=>mix(segments,pub,out+'/mix-diagnostics.json'));const props={...episode,channelName:config.name,audio:'generated/'+id+'/audio.wav',durationInFrames:Math.ceil(duration*30),...(paperPlan?{paper:{plan:paperPlan}}:{})};await save(out+'/props.json',props);
   await stage('layout-qa',()=>layoutQA(props,out));await stage('render',()=>renderEpisode(props,out));
   const qa=await stage('qa',async()=>{
    const p=await probe(out+'/review.mp4');assertMedia(p);const v=await visualQA(out,'review.mp4');const levels=await run('ffmpeg',['-hide_banner','-i',out+'/review.mp4','-af','loudnorm=I=-14:TP=-1.5:LRA=9:print_format=json','-f','null','-'],{timeout:120000});const qaLoud=levels.stderr.slice(levels.stderr.lastIndexOf('{'));const m=JSON.parse(qaLoud.slice(0,qaLoud.lastIndexOf('}')+1));
