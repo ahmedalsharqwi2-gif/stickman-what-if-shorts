@@ -1,74 +1,209 @@
 [
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-15T22-06-57-982Z/scene-0.wav",
-    "duration": 13.690958,
+    "duration": 14.84,
     "text": "ماذا لو صحيت الصبح وفوجئت إن شمسنا الهادية اتبدلت بنجم مجنون وضخم جدا بيعمل انفجارات متكررة ومرعبة في الفضاء وصحاك من نومك على صدمة ملهاش أي حل؟",
-    "sha256": "65e976d841deefc0ebd2906a54751755cf357f5d395e7666b565e50f747df9fe",
+    "sha256": "c16ec76029d79e4cbe9d919d60d8a2e661e633dcbe9dba5791f8e500963e28f2",
     "provider": "Gemini",
-    "voice": "Charon"
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f926e2db28b07cc2cfe4754f57c46804e35e773e2f074afce0b528e7f4953cc2",
+        "sha256": "c16ec76029d79e4cbe9d919d60d8a2e661e633dcbe9dba5791f8e500963e28f2",
+        "text_sha256": "0876a435aaa0537f4ea5c54cbbe5c9ee568a8ae68b827d3563740c43ace0b66f",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 712398,
+        "reused": false
+      }
+    ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-15T22-06-57-982Z/scene-1.wav",
-    "duration": 14.410958,
+    "duration": 16.44,
     "text": "أول حاجة هتحصل إنك هتجري تلبس نضارتك الشمسية وتفتح الشباك عشان تشرب الشاي، فتلاقي السما كلها بتولع بوميض أشعة سينية خارقة مخلية كل جيرانك في الشارع يجروا في كل اتجاه مرعوبين.",
-    "sha256": "0c914005357665b78ff9435a76bb4f6f57262d648168fdebd07f045e2224d5eb",
+    "sha256": "45b879c3d91509b7f7236d9d5dc6c16122e6c07db89c6e4e64b35becc9073d9d",
     "provider": "Gemini",
-    "voice": "Charon"
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3b69afc067ac15fb646e9e57247f292972262ae4abd108cf86fae460a09defe4",
+        "sha256": "45b879c3d91509b7f7236d9d5dc6c16122e6c07db89c6e4e64b35becc9073d9d",
+        "text_sha256": "c4d60ee2e2bfa75cd581fac1d221650d895067ec0a5a36918f5db17b9fdb7832",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 789198,
+        "reused": false
+      }
+    ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-15T22-06-57-982Z/scene-2.wav",
-    "duration": 15.210958,
+    "duration": 14.64,
     "text": "الجاذبية الرهيبة للنجم ده هتخليك مش عارف تقف على رجلك ووزنك هيتغير لدرجة إن سريرك نفسه هيطير من مكانه وأنت متعلق في النجفة وبتصرخ وبتتمنى ترجع لشمسك القديمة الوديعة.",
-    "sha256": "3a1c563deff8f15ae828040f2face5333a462bc1e39877fd88b4980f26c2d4d9",
+    "sha256": "9adb2aa091124a872f8ca3803bd0fb90b355303dfbe774543fda4021d7a13663",
     "provider": "Gemini",
-    "voice": "Charon"
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "52b07e3675ca13d1c053149c97a78fdfbca193aa1a54c5f4164d60b733771f01",
+        "sha256": "9adb2aa091124a872f8ca3803bd0fb90b355303dfbe774543fda4021d7a13663",
+        "text_sha256": "dc2c04063fcd6fc64999d6184df63aa8ae37ac573f50edf74fad0ad8e0bf8b2f",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 702798,
+        "reused": false
+      }
+    ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-15T22-06-57-982Z/scene-3.wav",
-    "duration": 15.090958,
+    "duration": 15.890958,
     "text": "لكن لحسن حظك يا بطل، ده مجرد كابوس خيالي لأن النجم العملاق غير المستقر ده مش موجود جنبنا خالص، بل هو جرم كوني حقيقي بيرصده تلسكوب شاندرا الفضائي التابع لوكالة ناسا.",
-    "sha256": "71eb38555517a7de124ed77a75747fb695bbe95db34da9931bd871168219058b",
+    "sha256": "804f63bec9a3351e5fc1427eb29ee2f864fdc3028c7f1ffb7c22b06f39032318",
     "provider": "Gemini",
-    "voice": "Charon"
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "52c20af47889c6b05e3f1d3467c78f668586445024fd175360fc01584ba88a9f",
+        "sha256": "804f63bec9a3351e5fc1427eb29ee2f864fdc3028c7f1ffb7c22b06f39032318",
+        "text_sha256": "fd49c8c46442d0b4ea876a4462718fbdb698ceb63f6ee2616ecf383cc5cef99b",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 762844,
+        "reused": false
+      }
+    ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-15T22-06-57-982Z/scene-4.wav",
-    "duration": 15.610958,
+    "duration": 14.88,
     "text": "علماء الفلك قدروا باستخدام مرصد شاندرا للأشعة السينية يكتشفوا إيه السبب اللي بيعمل ثورات وانفجارات متكررة وضخمة جدا من هذا النجم العملاق وغير المستقر وفقا لبيانات رسمية أعلنتها ناسا.",
-    "sha256": "08acd923395dbb0670600e975ce4b7d78732f1895f26d81eaf7f41ce35d95b85",
+    "sha256": "3f9ad70f9b46e451dec5b34e471ab22320e2bde618c25c5d561b310f76c1e79b",
     "provider": "Gemini",
-    "voice": "Charon"
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b3db5f4715cf5a428b91111454b9620038c960b144be89813caa9aba5beb2e5b",
+        "sha256": "3f9ad70f9b46e451dec5b34e471ab22320e2bde618c25c5d561b310f76c1e79b",
+        "text_sha256": "4752c3cd1151992f34b9d9c7e537f8ba464ccf92b013a4717b99d83afe5589ec",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 714318,
+        "reused": false
+      }
+    ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-15T22-06-57-982Z/scene-5.wav",
-    "duration": 18.890958,
+    "duration": 20.6,
     "text": "النجم المتقلب ده بيعرفه الفلكيون باسم AT 2016blu، وموجود جوه مجرة حلزونية مذهلة اسمها NGC 4559 بعيد جدا عن كوكب الأرض بمسافة بتوصل لحوالي ثلاثين مليون سنة ضوئية كاملة.",
-    "sha256": "42936f2f54224a63b23f013a24d2b1c4e85aa6548c3e3acc5a317c158d99f519",
+    "sha256": "c796fa5fb0008487decd19c93309d52ebdadc1cd063542a30fbb52392b561f2e",
     "provider": "Gemini",
-    "voice": "Charon"
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3057744eaefd420a7e5562fcbd4041a1da9b5bf9198cc4d2abf26f2cd6272075",
+        "sha256": "c796fa5fb0008487decd19c93309d52ebdadc1cd063542a30fbb52392b561f2e",
+        "text_sha256": "dbe6ebe9314e10731354cb7a61e84e09582f30fbb6446c6ef5603cf082ee2e86",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 988878,
+        "reused": false
+      }
+    ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-15T22-06-57-982Z/scene-6.wav",
-    "duration": 16.530958,
+    "duration": 15.36,
     "text": "الأرقام المرعبة بتبين إن كتلة النجم الضخم ده بتعادل على الأقل ثلاثة وتلاتين ضعف كتلة شمسنا الحالية، وده بيخليه وحش فضائي متقلب بيفرغ طاقته الهائلة باستمرار وبشكل دوري ملفت.",
-    "sha256": "73666bef81a41fa5dccedb97bbf7f1dd69d38c46c8dc8e4fa52ba85bd092521c",
+    "sha256": "316c387e38945012a92bde399b5ec335300f2fe1b4e6ec9e4b8cfe11087909bb",
     "provider": "Gemini",
-    "voice": "Charon"
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b28c47a1fbac1c5c78ad598f0b4320882c171505ddd3a52b2a6c903c3457b2d1",
+        "sha256": "316c387e38945012a92bde399b5ec335300f2fe1b4e6ec9e4b8cfe11087909bb",
+        "text_sha256": "3a08df4d3d9e52124f8d191cc925236f25431392b121d521b770d86a59822790",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 737358,
+        "reused": false
+      }
+    ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-15T22-06-57-982Z/scene-7.wav",
-    "duration": 14.370958,
+    "duration": 15.370958,
     "text": "علشان كده نقدر نتنفس الصعداء ونطمن تماما، لأن بعده الهائل في الفضاء بيخلينا نتفرج على أسراره وانفجاراته العنيفة من بعيد بأمان كامل وبدون ما يسبب أي خطر على كوكبنا الجميل.",
-    "sha256": "612f7f20ea495424d697d28e0fabb6e32bd78466ceb9c407b7ed5cab1197f027",
+    "sha256": "05f15efafcb40dd52b342f735021ec2b5493a537d5ee06f457a79800d06cb5cc",
     "provider": "Gemini",
-    "voice": "Charon"
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "1dbcc6d199bd114a122633fce35584d0b986a5eb026d6d6bac6c3f50809ec00d",
+        "sha256": "05f15efafcb40dd52b342f735021ec2b5493a537d5ee06f457a79800d06cb5cc",
+        "text_sha256": "18648fb31154e2bcd6b997d4554cee50318626f3e64f395e9427ca45dd14e995",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 737884,
+        "reused": false
+      }
+    ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-15T22-06-57-982Z/scene-8.wav",
-    "duration": 13.650958,
+    "duration": 12.770958,
     "text": "لو بتحب أسرار الفضاء والكون المليان مفاجآت وعجائب علمية مدهشة، اعمل لايك واشترك في القناة حالا وشاركنا في التعليقات: تفتكر إيه أغرب حاجة ممكن تكتشفها التلسكوبات الحديثة في المستقبل؟",
-    "sha256": "a5dd42650a3662d102542f65b684dd2b4562c1221c6625e34dfa037cdf12f3d1",
+    "sha256": "9afe80e19587301dc21a0ab02459eb9fb9872d141ef532e2c861dfa62c6d324f",
     "provider": "Gemini",
-    "voice": "Charon"
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 8,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "61ce451f848fd3e86a01afc4d2fd16e32b22759a25f2cdfa3368c60c920b4a21",
+        "sha256": "9afe80e19587301dc21a0ab02459eb9fb9872d141ef532e2c861dfa62c6d324f",
+        "text_sha256": "bedbfa7fed4c180b72c9f56a76a6d519d00c6f6aa0cf41e127019bfe93f2e466",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 613084,
+        "reused": false
+      }
+    ]
   }
 ]
