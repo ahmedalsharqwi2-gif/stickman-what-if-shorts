@@ -1,0 +1,186 @@
+[
+  {
+    "file": "audio/scene-0.wav",
+    "duration": 13.28,
+    "text": "في العادي الصواريخ بتحتاج كميات وقود ضخمة جداً عشان تقدر تخرج من جاذبية الأرض وتكمل رحلتها، وده بيخلي وزن الصاروخ تقيل ومكلف جداً في كل رحلة فضاء بنحاول نطلعها.",
+    "sha256": "8859648f6c8bf9b7e4afd5db058caab803ce8fb236ca0ef742dc3206230367e3",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "eed307ae63f2e54262bf098751d35803be99281bebb1988fbc1a950b883f60f6",
+        "sha256": "8859648f6c8bf9b7e4afd5db058caab803ce8fb236ca0ef742dc3206230367e3",
+        "text_sha256": "7fe371edb6816c152c3286d2586e9a9030e153133bc3c5df5bbd3634cde6d2d1",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 637518,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-1.wav",
+    "duration": 15.610958,
+    "text": "دلوقتي فيه تكنولوجيا جديدة اسمها محرك تأثير هول، وده نوع من أنظمة الدفع الكهربائي بيستخدم مجال كهربائي عشان يسرع غاز معين، وبكده بنقدر ننتج دفع قوي جداً وبكفاءة عالية.",
+    "sha256": "269d711f6c6c796bde8fe9d304a6bbed1576993b2d51ab6741a93f3f2305652b",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "5c6715215db73aea0b9b7b11d1011245da0f58a46215e5a57835661220a682df",
+        "sha256": "269d711f6c6c796bde8fe9d304a6bbed1576993b2d51ab6741a93f3f2305652b",
+        "text_sha256": "5d00f0fdcc247d8ce86d716d6af974b458a77d7e1959a4ac7818515c07f0d7c2",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 749404,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-2.wav",
+    "duration": 13.08,
+    "text": "الميزة العظيمة هنا إن النظام ده بيستخدم وقود أقل بعشر مرات من الصواريخ الكيميائية العادية، وده بيفتح الباب لرحلات طويلة المدى في الفضاء العميق من غير ما نشيل أوزان وقود ضخمة.",
+    "sha256": "3d0ec508367bee5bd7db723a8aa4c6a692b6b8614a5ffc56cb5d49691abd7763",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "4a897674b921e26a5418b26cdb0caa6dfe4774feb3aefc33da56604393522970",
+        "sha256": "3d0ec508367bee5bd7db723a8aa4c6a692b6b8614a5ffc56cb5d49691abd7763",
+        "text_sha256": "f4437ad862f7d5467c8dbaf312524a1865a5965f263f268dcc26dc1e9ea48775",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 627918,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-3.wav",
+    "duration": 14.210958,
+    "text": "وكالة الفضاء الأمريكية أطلقت مسابقة جديدة بتشجع الشركات إنها تطور نماذج أولية للمحركات دي، والهدف هو تسريع نضج التكنولوجيا دي عشان نستخدمها في المهام الفضائية المستقبلية والتجارية بشكل أوسع.",
+    "sha256": "27136a237fbfe823a853e490b2aa65cb02072166a199cf1ccf0458320153d9ac",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ff0d64f7b2f98cb36067fa42013fb7a7dd3db720b834669e1893d515b8a083ef",
+        "sha256": "27136a237fbfe823a853e490b2aa65cb02072166a199cf1ccf0458320153d9ac",
+        "text_sha256": "cab3bddeeaab50d54e3894f64946fe4eee4c6593fe89d6a3be959c4f5db507e3",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 682204,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-4.wav",
+    "duration": 15.48,
+    "text": "المسابقة بتقدم خمسمائة ألف دولار للشركات الفايزة، وده بيساعد في تسريع تطوير الأنظمة اللي ممكن تكون أساس لمهام الفضاء الجاية، وكمان بتدي الشركات فرصة تستخدم مرافق الوكالة وخبراتها المتطورة.",
+    "sha256": "a9ca99e895f7cd57c11031c7c292577fb8ed9132104367a93274df8dd81213d1",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3f2e827a8ef9aa9f9982c229497f6b4193ab9c1831227d8edafceadcb20d26dd",
+        "sha256": "a9ca99e895f7cd57c11031c7c292577fb8ed9132104367a93274df8dd81213d1",
+        "text_sha256": "6fb480f15bf09f34601bcf02729268e5314c78e579d1a0d43ba09ac11fce0699",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 743118,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-5.wav",
+    "duration": 15.8,
+    "text": "المسابقة بتمر بتلات مراحل، بتبدأ بتقديم تصميمات وخطط تصنيع، وبعدين اختيار فايزين لتطوير نماذج أولية، وفي المرحلة الأخيرة بيتم اختبار النماذج دي في مرافق الوكالة عشان نتأكد من كفاءتها.",
+    "sha256": "c398338fc2ba044dce71f168452409c026944d137b9483c34ed2bb62e4eedc36",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "393ee28fbf82cb6fb41ec46a0d08af0089916c5064f0c8a5c946bb2ef1da7a7a",
+        "sha256": "c398338fc2ba044dce71f168452409c026944d137b9483c34ed2bb62e4eedc36",
+        "text_sha256": "20858365e629ec63bcec5b4c293e98e25a687f7f467df9b0ca2ab3a702226d84",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 758478,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-6.wav",
+    "duration": 15.72,
+    "text": "النماذج دي بتستخدم غاز الكريبتون كوقود، والشركات اللي هتفوز هتاخد فرصة الوصول لتكنولوجيا الوكالة من غير تكاليف ترخيص، وده بيشجع الابتكار وبيقلل العوائق قدام الشركات الناشئة في مجال الفضاء.",
+    "sha256": "00ab171888eb18130967acd6a6739c1ac26f1dfbfcc4dc9720fd2a336455e451",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "38818bcc8aee5ef55f622eddb41678f368daa4735777dfd023f5531fdaec72c9",
+        "sha256": "00ab171888eb18130967acd6a6739c1ac26f1dfbfcc4dc9720fd2a336455e451",
+        "text_sha256": "9fdb999d5ce0a05e19a8a5a5b8d4f5497b9e03159f4d8fa2b9ad46657e6dec04",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 754638,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "audio/scene-7.wav",
+    "duration": 14.12,
+    "text": "تخيل إننا نقدر نبعث مركبات روبوتية لأماكن بعيدة جداً في الفضاء بتكلفة أقل وبكفاءة أعلى، ده مش بس بيوفر فلوس، ده كمان بيخلينا نستكشف أسرار الكون اللي كانت صعبة قبل كده.",
+    "sha256": "f41e2ce55918231fb302075ecf5d3bcc23381d670f27b1e716b5bcfb7c75d7b6",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b55d817f4c22e6c000fd83bca04cd9fd69b8d98e39445f7b61446da92aa78e07",
+        "sha256": "f41e2ce55918231fb302075ecf5d3bcc23381d670f27b1e716b5bcfb7c75d7b6",
+        "text_sha256": "a0f4137b97149513e876a10591f1d68fc459fecbed7b643ceeb7d96c5055efb4",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 677838,
+        "reused": true
+      }
+    ]
+  }
+]

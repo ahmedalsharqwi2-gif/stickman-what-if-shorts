@@ -38,7 +38,19 @@
   {
     "topicKey": "remotion-stickman-whatif-pulsar-discovery",
     "value": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T15-46-22-730Z"
+  },
+  {
+    "topicKey": "remotion-stickman-whatif-hall-thruster",
+    "value": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
+    "status": "retired",
+    "run": "2026-11-19T16-39-18-413Z"
+  },
+  {
+    "value": "https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/",
+    "status": "retired",
+    "reason": "GEMINI_HTTP_503_EXHAUSTED",
+    "run": "2026-11-19T16-55-13-591Z"
   }
 ]

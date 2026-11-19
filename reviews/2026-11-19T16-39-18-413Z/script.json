@@ -1,0 +1,169 @@
+{
+  "topicKey": "remotion-stickman-whatif-hall-thruster",
+  "title": "إزاي الصاروخ بيتحرك في الفضاء من غير وقود كتير؟",
+  "hook": "إزاي الصاروخ بيتحرك في الفضاء من غير وقود كتير؟ افترض كده إننا قدرنا نغير طريقة السفر للفضاء ونوفر الوقود التقليدي اللي بيحرق كميات ضخمة، ونستخدم تكنولوجيا جديدة بتعتمد على الكهرباء بدل الحرق.",
+  "cta": "لو حابب تعرف أكتر عن تكنولوجيا الفضاء ومستقبل السفر بين الكواكب، تابعنا واشترك في القناة عشان يوصلك كل جديد عن رحلاتنا للفضاء واكتشافات العلماء اللي بتغير شكل حياتنا في المستقبل.",
+  "scenes": [
+    {
+      "title": "مشكلة الوقود في الفضاء",
+      "text": "في العادي الصواريخ بتحتاج كميات وقود ضخمة جداً عشان تقدر تخرج من جاذبية الأرض وتكمل رحلتها، وده بيخلي وزن الصاروخ تقيل ومكلف جداً في كل رحلة فضاء بنحاول نطلعها.",
+      "summary": "الصواريخ التقليدية بتحتاج وقود كتير ووزنها تقيل.",
+      "keyword": "صاروخ",
+      "template": "phenomenon",
+      "labels": [
+        "وزن الصاروخ",
+        "تكلفة الوقود"
+      ],
+      "values": [],
+      "claim": "الصواريخ التقليدية تستهلك وقوداً كثيراً.",
+      "sourceId": "946586051f9f",
+      "evidence": "The Hall thruster is part of an Solar Electric Propulsion (SEP) system that uses 10 times less propellant than equivalent chemical rockets.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "walk",
+      "brollQuery": "space rocket launch"
+    },
+    {
+      "title": "تكنولوجيا المحرك الكهربائي",
+      "text": "دلوقتي فيه تكنولوجيا جديدة اسمها محرك تأثير هول، وده نوع من أنظمة الدفع الكهربائي بيستخدم مجال كهربائي عشان يسرع غاز معين، وبكده بنقدر ننتج دفع قوي جداً وبكفاءة عالية.",
+      "summary": "محرك تأثير هول بيستخدم الكهرباء لدفع الصاروخ.",
+      "keyword": "محرك",
+      "template": "phenomenon",
+      "labels": [
+        "دفع كهربائي",
+        "مجال كهربائي"
+      ],
+      "values": [],
+      "claim": "محركات تأثير هول تستخدم الكهرباء للدفع.",
+      "sourceId": "946586051f9f",
+      "evidence": "Hall effect thrusters use an electric field to accelerate a propellant gas, producing efficient thrust for long-duration missions.",
+      "kind": "fact",
+      "expression": 8,
+      "action": "point",
+      "brollQuery": "electric propulsion engine"
+    },
+    {
+      "title": "توفير الوقود",
+      "text": "الميزة العظيمة هنا إن النظام ده بيستخدم وقود أقل بعشر مرات من الصواريخ الكيميائية العادية، وده بيفتح الباب لرحلات طويلة المدى في الفضاء العميق من غير ما نشيل أوزان وقود ضخمة.",
+      "summary": "توفير الوقود بمقدار عشر مرات.",
+      "keyword": "وقود",
+      "template": "comparison",
+      "labels": [
+        "وقود كيميائي",
+        "وقود كهربائي"
+      ],
+      "values": [
+        10
+      ],
+      "claim": "المحركات الكهربائية توفر الوقود بعشر مرات.",
+      "sourceId": "946586051f9f",
+      "evidence": "The Hall thruster is part of an Solar Electric Propulsion (SEP) system that uses 10 times less propellant than equivalent chemical rockets.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "jump",
+      "brollQuery": "space fuel tank"
+    },
+    {
+      "title": "تحدي وكالة الفضاء",
+      "text": "وكالة الفضاء الأمريكية أطلقت مسابقة جديدة بتشجع الشركات إنها تطور نماذج أولية للمحركات دي، والهدف هو تسريع نضج التكنولوجيا دي عشان نستخدمها في المهام الفضائية المستقبلية والتجارية بشكل أوسع.",
+      "summary": "وكالة الفضاء بتدعم تطوير المحركات الكهربائية.",
+      "keyword": "وكالة",
+      "template": "steps",
+      "labels": [
+        "تطوير نماذج",
+        "مسابقة تقنية"
+      ],
+      "values": [],
+      "claim": "وكالة الفضاء تدعم تطوير محركات هول.",
+      "sourceId": "946586051f9f",
+      "evidence": "NASA launched a new competition inviting U.S. companies to produce prototypes of mid-power Hall effect thrusters",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn",
+      "brollQuery": "NASA logo space"
+    },
+    {
+      "title": "جوائز المسابقة",
+      "text": "المسابقة بتقدم خمسمائة ألف دولار للشركات الفايزة، وده بيساعد في تسريع تطوير الأنظمة اللي ممكن تكون أساس لمهام الفضاء الجاية، وكمان بتدي الشركات فرصة تستخدم مرافق الوكالة وخبراتها المتطورة.",
+      "summary": "جوائز مالية لدعم الابتكار في المحركات.",
+      "keyword": "جوائز",
+      "template": "chart",
+      "labels": [
+        "دعم مالي",
+        "خبرة تقنية"
+      ],
+      "values": [],
+      "claim": "المسابقة تقدم جوائز مالية للشركات.",
+      "sourceId": "946586051f9f",
+      "evidence": "NASA’s Advanced Mid-Power Electric Rocket (AMPERE) Challenge is offering $500,000, split between two winning U.S. companies",
+      "kind": "fact",
+      "expression": 10,
+      "action": "fall",
+      "brollQuery": "money prize"
+    },
+    {
+      "title": "مراحل المسابقة",
+      "text": "المسابقة بتمر بتلات مراحل، بتبدأ بتقديم تصميمات وخطط تصنيع، وبعدين اختيار فايزين لتطوير نماذج أولية، وفي المرحلة الأخيرة بيتم اختبار النماذج دي في مرافق الوكالة عشان نتأكد من كفاءتها.",
+      "summary": "ثلاث مراحل لتطوير المحركات.",
+      "keyword": "مراحل",
+      "template": "steps",
+      "labels": [
+        "تصميم",
+        "تطوير",
+        "اختبار"
+      ],
+      "values": [
+        3
+      ],
+      "claim": "المسابقة تتكون من ثلاث مراحل.",
+      "sourceId": "946586051f9f",
+      "evidence": "The competition includes three phases.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "walk",
+      "brollQuery": "rocket testing"
+    },
+    {
+      "title": "استخدام غاز الكريبتون",
+      "text": "النماذج دي بتستخدم غاز الكريبتون كوقود، والشركات اللي هتفوز هتاخد فرصة الوصول لتكنولوجيا الوكالة من غير تكاليف ترخيص، وده بيشجع الابتكار وبيقلل العوائق قدام الشركات الناشئة في مجال الفضاء.",
+      "summary": "استخدام الكريبتون كوقود في المحركات.",
+      "keyword": "كريبتون",
+      "template": "phenomenon",
+      "labels": [
+        "غاز",
+        "تكنولوجيا"
+      ],
+      "values": [],
+      "claim": "المحركات تستخدم الكريبتون كوقود.",
+      "sourceId": "946586051f9f",
+      "evidence": "Through no-cost licensing, these teams can gain early access to NASA-developed Hall effect thruster technologies that use krypton as a propellant.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "gas science"
+    },
+    {
+      "title": "مستقبل الفضاء",
+      "text": "تخيل إننا نقدر نبعث مركبات روبوتية لأماكن بعيدة جداً في الفضاء بتكلفة أقل وبكفاءة أعلى، ده مش بس بيوفر فلوس، ده كمان بيخلينا نستكشف أسرار الكون اللي كانت صعبة قبل كده.",
+      "summary": "المحركات الكهربائية تفتح آفاق استكشاف الفضاء.",
+      "keyword": "استكشاف",
+      "template": "journey",
+      "labels": [
+        "فضاء عميق",
+        "مركبات روبوتية"
+      ],
+      "values": [],
+      "claim": "المحركات الكهربائية تسهل استكشاف الفضاء.",
+      "sourceId": "946586051f9f",
+      "evidence": "Used for propelling satellites and deep space robotic vehicles, Hall effect thruster systems are critical technology.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "run",
+      "brollQuery": "deep space exploration"
+    }
+  ],
+  "seriesLabel": "تكنولوجيا الفضاء",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}
