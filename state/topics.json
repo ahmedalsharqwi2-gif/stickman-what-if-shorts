@@ -68,7 +68,13 @@
   {
     "topicKey": "remotion-stickman-whatif-lake-pelku",
     "value": "https://www.nasa.gov/image-article/lake-pelku/",
-    "status": "reserved",
+    "status": "retired",
     "run": "2026-11-19T17-51-25-822Z"
+  },
+  {
+    "topicKey": "remotion-stickman-whatif-holiday-stress",
+    "value": "https://www.nasa.gov/centers-and-facilities/michoud/maf-eap/maf-eap-holidays-how-to-manage-the-bah-humbug-that-tries-to-sneak-in/",
+    "status": "retired",
+    "run": "2026-11-19T19-01-54-028Z"
   }
 ]

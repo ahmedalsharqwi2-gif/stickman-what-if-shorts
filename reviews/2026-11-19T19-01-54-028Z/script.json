@@ -1,0 +1,166 @@
+{
+  "topicKey": "remotion-stickman-whatif-holiday-stress",
+  "title": "إزاي تتخلص من ضغوط الـ عيد؟",
+  "hook": "إزاي تتخلص من ضغوط الـ عيد لو حسيت إنك مش قادر تكمل وسط كل الزحمة والمسؤوليات اللي بتزيد عليك فجأة؟ تعالوا نشوف إزاي ممكن نتعامل مع المشاعر دي ونحافظ على هدوء أعصابنا.",
+  "cta": "جرب دلوقتي تاخد نفس عميق وتحدد إيه اللي فعلاً يهمك، وكلم حد بتحبه لو حسيت إنك محتاج مساعدة، لأنك دايماً تستحق إنك تكون بخير ومرتاح في كل وقت وفي أي مناسبة.",
+  "scenes": [
+    {
+      "title": "بداية التوتر في الأعياد",
+      "text": "تخيل إنك صحيت الصبح لقيت جدولك مليان التزامات، زي عزايم العيلة وشراء الهدايا وتجهيز الأكل، وكل ده بيضغط عليك لدرجة إنك حاسس بـ ضيق، وكأن العيد بقى حمل تقيل بدل ما يكون وقت للراحة.",
+      "summary": "الضغط النفسي في الأعياد",
+      "keyword": "عيد",
+      "template": "phenomenon",
+      "labels": [
+        "ضغط",
+        "مسؤولية"
+      ],
+      "values": [],
+      "claim": "الأعياد قد تسبب ضغوطاً نفسية وتحديات مختلفة.",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Everyone has stress about something – some people love the holidays, and some people are holiday-avoidant… and some live in the middle.",
+      "kind": "illustration",
+      "expression": 2,
+      "action": "walk",
+      "brollQuery": "holiday stress"
+    },
+    {
+      "title": "تحديد الأولويات",
+      "text": "عشان تهرب من دوامة التوتر، لازم تكتب كل اللي وراك في ورقة، وتحدد إيه الضروري وإيه اللي ممكن تأجله، ده هيساعدك تاخد قرارات أسهل وتعرف تقول لا من غير ما تحس بأي ذنب.",
+      "summary": "تنظيم المهام والالتزامات",
+      "keyword": "ورقة",
+      "template": "steps",
+      "labels": [
+        "تنظيم",
+        "تخطيط"
+      ],
+      "values": [],
+      "claim": "كتابة المهام تساعد في تقليل التوتر.",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Having the majority of activities written down will help you not overbook, help you plan ahead, make it easier to say no, spend within your budget.",
+      "kind": "fact",
+      "expression": 5,
+      "action": "point",
+      "brollQuery": "writing list"
+    },
+    {
+      "title": "ميزانية العيد",
+      "text": "مش بس الوقت اللي بيضغطنا، المصاريف كمان بتزيد، فكر في ميزانية الأكل والهدايا والسفر، واكتب كل قرش بتصرفه عشان متتفاجئش بـ فاتورة الكهرباء أو مصاريف إضافية تانية تبوظ عليك فرحة العيد وتزود قلقك.",
+      "summary": "إدارة ميزانية العيد",
+      "keyword": "ميزانية",
+      "template": "chart",
+      "labels": [
+        "مال",
+        "توفير"
+      ],
+      "values": [
+        100
+      ],
+      "claim": "يجب التخطيط للميزانية لتجنب الضغوط المالية.",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Prepare your budget – We often budget for gifts but forget that we will be buying more groceries for those special meals and favorite dishes….",
+      "kind": "fact",
+      "expression": 3,
+      "action": "turn",
+      "brollQuery": "budgeting money"
+    },
+    {
+      "title": "الاهتمام بالنفس",
+      "text": "أهم حاجة هي إنك تهتم بنفسك، حافظ على نومك وكُل أكل صحي، ولو حسيت بـ ضغط، خد وقت لنفسك بعيد عن الدوشة، ده حقك الطبيعي عشان تقدر تكمل وتستمتع باللحظات الحلوة مع اللي بتحبهم.",
+      "summary": "العناية بالصحة النفسية",
+      "keyword": "نفس",
+      "template": "journey",
+      "labels": [
+        "راحة",
+        "صحة"
+      ],
+      "values": [],
+      "claim": "يجب تخصيص وقت للراحة والاهتمام بالنفس.",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "In addition to your list/calendar, remember to prioritize time for yourself. Keep your regular sleep schedule as much as possible, eat well",
+      "kind": "fact",
+      "expression": 8,
+      "action": "sleep",
+      "brollQuery": "relaxing"
+    },
+    {
+      "title": "التعامل مع الغضب",
+      "text": "لو حسيت بـ غضب وسط العيلة، انسحب فوراً وخد بريك، مش لازم ترد على كل حاجة، اللي بيغضب الأول هو اللي بيخسر، خليك أنت الكسبان في اللحظة دي وحافظ على هدوءك وسلامك الداخلي.",
+      "summary": "التحكم في الغضب",
+      "keyword": "غضب",
+      "template": "cause",
+      "labels": [
+        "هدوء",
+        "تحكم"
+      ],
+      "values": [],
+      "claim": "الانسحاب عند الغضب يساعد في تنظيم المشاعر.",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Angry – walk away for a moment, take a break, give yourself as long as you need to regulate these feelings, know that whoever gets angry first loses…be the winner in the moment.",
+      "kind": "fact",
+      "expression": 1,
+      "action": "run",
+      "brollQuery": "angry person"
+    },
+    {
+      "title": "التركيز على اللحظة",
+      "text": "بلاش تفكر في اللي فات أو تقلق من اللي جاي، ركز في اللحظة اللي أنت فيها دلوقتي، دور على الحاجات البسيطة اللي بتفرحك، زي ضحكة طفل أو ذكرى حلوة، ده هيغير مودك تماماً.",
+      "summary": "العيش في الحاضر",
+      "keyword": "لحظة",
+      "template": "phenomenon",
+      "labels": [
+        "تركيز",
+        "سعادة"
+      ],
+      "values": [],
+      "claim": "التركيز على الحاضر يقلل القلق والاكتئاب.",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Ultimately, we want to move away from focusing on the future (It causes anxiety) or overthinking about the past (it causes depression) ….and find yourself in the here and now",
+      "kind": "fact",
+      "expression": 9,
+      "action": "jump",
+      "brollQuery": "happy moment"
+    },
+    {
+      "title": "طلب المساعدة",
+      "text": "لو حسيت إنك مش قادر تتحمل، اطلب مساعدة من صديق أو متخصص، مفيش عيب إنك تعترف إنك محتاج دعم، فيه خطوط مساعدة متاحة دايماً عشان تسمعك وتساعدك تعدي اللحظات الصعبة دي بسلام وأمان.",
+      "summary": "أهمية طلب الدعم",
+      "keyword": "مساعدة",
+      "template": "steps",
+      "labels": [
+        "دعم",
+        "صداقة"
+      ],
+      "values": [],
+      "claim": "طلب المساعدة ضروري عند الشعور بالإرهاق الشديد.",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "Call a trusted friend or your therapist if you feel overwhelmed for longer than a day….and, please call 988 if you feel overwhelmed to an extreme.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "hang",
+      "brollQuery": "phone call"
+    },
+    {
+      "title": "الخلاصة",
+      "text": "في النهاية، العيد مش لازم يكون مثالي، المهم إنك تكون مرتاح ومقدر نفسك، ادي لنفسك مساحة تغلط وتجرب، وركز على الحاجات اللي بتخليك تحس إنك بخير، لأن ده هو جوهر العيد الحقيقي.",
+      "summary": "الخلاصة والرسالة النهائية",
+      "keyword": "عيد",
+      "template": "phenomenon",
+      "labels": [
+        "راحة",
+        "سلام"
+      ],
+      "values": [],
+      "claim": "الكمال ليس مطلوباً في الأعياد.",
+      "sourceId": "9d57f4dbe2e3",
+      "evidence": "We know that not everything is optional and traditions will continue but none of it has to be perfect…minor stress and family friction can be normal.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "walk",
+      "brollQuery": "peaceful holiday"
+    }
+  ],
+  "seriesLabel": "صحة نفسية",
+  "editorialMode": "daily",
+  "editorialLabel": null,
+  "scriptModel": "gemini-3.1-flash-lite"
+}

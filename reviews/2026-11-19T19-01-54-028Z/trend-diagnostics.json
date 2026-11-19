@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "reddit",
+      "status": "unavailable",
+      "code": "FEED_HTTP_403"
+    },
+    {
+      "source": "trends",
+      "status": "ok",
+      "items": 10
+    }
+  ],
+  "degraded": false,
+  "decisions": [
+    {
+      "id": "9d57f4dbe2e3",
+      "title": "MAF EAP Holidays – How to manage the BAH HUMBUG that tries to sneak in",
+      "demand": 8,
+      "recency": 0.716,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "fifa u-17 world cup",
+          "weight": 8
+        }
+      ],
+      "score": 8.35797650707055
+    }
+  ]
+}

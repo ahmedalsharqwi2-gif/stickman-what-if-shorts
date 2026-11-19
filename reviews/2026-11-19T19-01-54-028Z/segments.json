@@ -1,0 +1,186 @@
+[
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T19-01-54-028Z/scene-0.wav",
+    "duration": 15.6,
+    "text": "تخيل إنك صحيت الصبح لقيت جدولك مليان التزامات، زي عزايم العيلة وشراء الهدايا وتجهيز الأكل، وكل ده بيضغط عليك لدرجة إنك حاسس بـ ضيق، وكأن العيد بقى حمل تقيل بدل ما يكون وقت للراحة.",
+    "sha256": "e69ade6d93141163cfd4b9bb872b9028697fa5a7cadd52ebe6adec41ae319d99",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "178c1493ba6b4a1d4b9d16b969e4d98da8a51adff8b14975243057f12bd410df",
+        "sha256": "e69ade6d93141163cfd4b9bb872b9028697fa5a7cadd52ebe6adec41ae319d99",
+        "text_sha256": "96f8af84b30db0748f42058c6095bcba1397a9d32fd37d9215e87f39f06797be",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 748878,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T19-01-54-028Z/scene-1.wav",
+    "duration": 13.76,
+    "text": "عشان تهرب من دوامة التوتر، لازم تكتب كل اللي وراك في ورقة، وتحدد إيه الضروري وإيه اللي ممكن تأجله، ده هيساعدك تاخد قرارات أسهل وتعرف تقول لا من غير ما تحس بأي ذنب.",
+    "sha256": "cbdd50bfad8fc173d28511ab12877bda3e7acc6ffc655e82e57d7504399b6d70",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "342e8999d4c3c0ac8c0e9cd81b779a8e544ea4ed49dbb6c1aa6163a09a7885db",
+        "sha256": "cbdd50bfad8fc173d28511ab12877bda3e7acc6ffc655e82e57d7504399b6d70",
+        "text_sha256": "f11f023666fd4268085bb11eff3da925efae1bbcfa0ab44a600c68005779561c",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 660558,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T19-01-54-028Z/scene-2.wav",
+    "duration": 17.2,
+    "text": "مش بس الوقت اللي بيضغطنا، المصاريف كمان بتزيد، فكر في ميزانية الأكل والهدايا والسفر، واكتب كل قرش بتصرفه عشان متتفاجئش بـ فاتورة الكهرباء أو مصاريف إضافية تانية تبوظ عليك فرحة العيد وتزود قلقك.",
+    "sha256": "d9289ada041dd351e351f3b6dd3b15a62c8fbd010517191be6ba3881d5e9dcdc",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "b9964102f16242d6d26fd0b59f31870e17ced8dbcabd243718e72c54a77cd7c6",
+        "sha256": "d9289ada041dd351e351f3b6dd3b15a62c8fbd010517191be6ba3881d5e9dcdc",
+        "text_sha256": "24a148f909d2e579747da8c74710af7d6f2075883a13c735527253deebba64bf",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 825678,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T19-01-54-028Z/scene-3.wav",
+    "duration": 16.4,
+    "text": "أهم حاجة هي إنك تهتم بنفسك، حافظ على نومك وكُل أكل صحي، ولو حسيت بـ ضغط، خد وقت لنفسك بعيد عن الدوشة، ده حقك الطبيعي عشان تقدر تكمل وتستمتع باللحظات الحلوة مع اللي بتحبهم.",
+    "sha256": "831ba5662e5d375dc92e005f5d49bc9b43d35cfc9e799d55d975229787cdd017",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "d722d5489e61076ca6f285530491631b29c29841a16c665126ecce8643b642f2",
+        "sha256": "831ba5662e5d375dc92e005f5d49bc9b43d35cfc9e799d55d975229787cdd017",
+        "text_sha256": "ec664b1d7dc28c60b1361c018cc6b70a104826fc7a66b0800235d4eaaa129f85",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 787278,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T19-01-54-028Z/scene-4.wav",
+    "duration": 14.6,
+    "text": "لو حسيت بـ غضب وسط العيلة، انسحب فوراً وخد بريك، مش لازم ترد على كل حاجة، اللي بيغضب الأول هو اللي بيخسر، خليك أنت الكسبان في اللحظة دي وحافظ على هدوءك وسلامك الداخلي.",
+    "sha256": "33e606d17b18ff1b0f7bac4d08c1d12cbbd90b87e91215847a7b11244afe1ad8",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "ea854e87d6c6ea6d4d1740b15a793a836bcbc4c3e39172b9bd50421d1df09829",
+        "sha256": "33e606d17b18ff1b0f7bac4d08c1d12cbbd90b87e91215847a7b11244afe1ad8",
+        "text_sha256": "83cda9c049db4f23f319a80adaa5d6b49c86b85134fe31b5247627557f00614e",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 700878,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T19-01-54-028Z/scene-5.wav",
+    "duration": 14.88,
+    "text": "بلاش تفكر في اللي فات أو تقلق من اللي جاي، ركز في اللحظة اللي أنت فيها دلوقتي، دور على الحاجات البسيطة اللي بتفرحك، زي ضحكة طفل أو ذكرى حلوة، ده هيغير مودك تماماً.",
+    "sha256": "645dc15cb3981c6da970ce2f1cdaadd7dce2122a64143ed7b5de38271878a76c",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "48c982fe1de0a9369fc6325a4c816a97d68a024c7b9f27d4d2ac7209ff694e48",
+        "sha256": "645dc15cb3981c6da970ce2f1cdaadd7dce2122a64143ed7b5de38271878a76c",
+        "text_sha256": "aae16de691e62dfa78111013077a0a03db4d85f086e1552ff91301bb719841e2",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 714318,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T19-01-54-028Z/scene-6.wav",
+    "duration": 16.28,
+    "text": "لو حسيت إنك مش قادر تتحمل، اطلب مساعدة من صديق أو متخصص، مفيش عيب إنك تعترف إنك محتاج دعم، فيه خطوط مساعدة متاحة دايماً عشان تسمعك وتساعدك تعدي اللحظات الصعبة دي بسلام وأمان.",
+    "sha256": "b053a88aa1eafa2dce3d564b598433baf161ad818709528e52d537f5c8fd8769",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "cfa7458f36e467a9ab86a276c52148611ecded23e6178da37cc5dfbc9548fd3f",
+        "sha256": "b053a88aa1eafa2dce3d564b598433baf161ad818709528e52d537f5c8fd8769",
+        "text_sha256": "33275a3319efadbdc2991e79fbb5dd71de6436d503f9e5c366eb38a1edd4e8fe",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 781518,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T19-01-54-028Z/scene-7.wav",
+    "duration": 16.170958,
+    "text": "في النهاية، العيد مش لازم يكون مثالي، المهم إنك تكون مرتاح ومقدر نفسك، ادي لنفسك مساحة تغلط وتجرب، وركز على الحاجات اللي بتخليك تحس إنك بخير، لأن ده هو جوهر العيد الحقيقي.",
+    "sha256": "4ee88a3e78e8136121427444725e7fced5138123e0bf9b2ef0d23fc13859b027",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "1d8f7c36bd5a32116243c88953c592c538a1959faeb2477fa3f3576c39e1f3fa",
+        "sha256": "4ee88a3e78e8136121427444725e7fced5138123e0bf9b2ef0d23fc13859b027",
+        "text_sha256": "9cb92fea7a0d84817720c84d9907fdd92bcfbcc10c23d1d6010fba103d3c0682",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 776284,
+        "reused": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "id": "2026-11-19T19-12-58-704Z",
+  "attemptId": "2026-11-19T18-57-23-302Z",
+  "mode": "review",
+  "published": false,
+  "status": "failed",
+  "resumed": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.167
+    },
+    {
+      "name": "topics",
+      "status": "resumed_from_saved_source_manifest"
+    },
+    {
+      "name": "script",
+      "status": "resumed_from_hash_verified_script"
+    },
+    {
+      "name": "voice",
+      "status": "pass",
+      "seconds": 159.181
+    },
+    {
+      "name": "voice-repair-1",
+      "status": "pass",
+      "seconds": 1.35
+    },
+    {
+      "name": "roll",
+      "status": "rolled_fresh_topic",
+      "roll": 1,
+      "fromStage": "align-repair-1",
+      "code": "ALIGNMENT_INVALID_MEASURED_SPAN"
+    },
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.034
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 2.233
+    },
+    {
+      "name": "script",
+      "status": "pass",
+      "seconds": 68.188
+    },
+    {
+      "name": "voice",
+      "status": "pass",
+      "seconds": 481.063
+    },
+    {
+      "name": "voice-repair-1",
+      "status": "pass",
+      "seconds": 1.387
+    },
+    {
+      "name": "roll",
+      "status": "rolled_fresh_topic",
+      "roll": 2,
+      "fromStage": "align-repair-1",
+      "code": "ALIGNMENT_INVALID_MEASURED_SPAN"
+    },
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.036
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate.",
+    "align failed (ALIGNMENT_INVALID_MEASURED_SPAN); re-narrating once with fresh synthesis",
+    "align repair failed (ALIGNMENT_INVALID_MEASURED_SPAN); repair budget exhausted",
+    "align failed (ALIGNMENT_INVALID_MEASURED_SPAN); re-narrating once with fresh synthesis",
+    "align repair failed (ALIGNMENT_INVALID_MEASURED_SPAN); repair budget exhausted"
+  ],
+  "rolled": [
+    {
+      "id": "2026-11-19T17-51-25-822Z",
+      "stage": "align-repair-1",
+      "code": "ALIGNMENT_INVALID_MEASURED_SPAN",
+      "roll": 1
+    },
+    {
+      "id": "2026-11-19T19-01-54-028Z",
+      "stage": "align-repair-1",
+      "code": "ALIGNMENT_INVALID_MEASURED_SPAN",
+      "roll": 2
+    }
+  ],
+  "failedStage": "topics",
+  "errorCode": "NO_CURRENT_VERIFIED_SOURCES",
+  "sourceDiagnostics": {
+    "feeds": [
+      {
+        "url": "https://www.nasa.gov/feed/",
+        "items": 10,
+        "valid": 10,
+        "invalid": 0,
+        "future": 0,
+        "status": "ok",
+        "cache": "hit"
+      }
+    ],
+    "windowHours": 168,
+    "weeklyWindowHours": null,
+    "parsed": 10,
+    "reasons": [
+      "No unused, dated, corroborated or official source inside the permitted windows."
+    ]
+  },
+  "partial": {
+    "status": "rendered",
+    "path": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/out/2026-11-19T19-12-58-704Z/incomplete/visual-preview-incomplete.mp4",
+    "incomplete": true
+  }
+}
