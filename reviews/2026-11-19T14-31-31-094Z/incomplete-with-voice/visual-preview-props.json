@@ -21,7 +21,7 @@
       "expression": 5,
       "action": "walk",
       "brollQuery": "spacecraft",
-      "duration": 16.4,
+      "duration": 17.24,
       "words": []
     },
     {
@@ -43,7 +43,7 @@
       "expression": 2,
       "action": "point",
       "brollQuery": "light beam",
-      "duration": 17.64,
+      "duration": 16.450958,
       "words": []
     },
     {
@@ -65,7 +65,7 @@
       "expression": 8,
       "action": "turn",
       "brollQuery": "radio antenna",
-      "duration": 16.4,
+      "duration": 16.56,
       "words": []
     },
     {
@@ -87,7 +87,7 @@
       "expression": 4,
       "action": "jump",
       "brollQuery": "planets",
-      "duration": 16.970958,
+      "duration": 17.56,
       "words": []
     },
     {
@@ -109,7 +109,7 @@
       "expression": 1,
       "action": "sleep",
       "brollQuery": "battery",
-      "duration": 18.52,
+      "duration": 17.610958,
       "words": []
     },
     {
@@ -131,7 +131,7 @@
       "expression": 10,
       "action": "point",
       "brollQuery": "golden record",
-      "duration": 17.44,
+      "duration": 17.72,
       "words": []
     },
     {
@@ -153,7 +153,7 @@
       "expression": 7,
       "action": "fall",
       "brollQuery": "stars",
-      "duration": 17.08,
+      "duration": 16.330958,
       "words": []
     },
     {
@@ -175,11 +175,11 @@
       "expression": 11,
       "action": "run",
       "brollQuery": "space",
-      "duration": 17.050958,
+      "duration": 16.44,
       "words": []
     }
   ],
-  "durationInFrames": 4126,
+  "durationInFrames": 4078,
   "audio": "generated/2026-11-19T14-31-31-094Z/audio.wav",
   "incompleteMode": "unaligned_narration",
   "preview": true,
