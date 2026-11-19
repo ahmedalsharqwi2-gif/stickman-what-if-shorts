@@ -1,0 +1,178 @@
+{
+  "title": "ماذا لو سافرت لسديم رأس الحصان؟",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "بداية الرحلة الكونية",
+      "text": "تخيل إننا بنركب مركبة فضائية وبنطير بعيد جداً عن الأرض. إحنا رايحين لمكان مميز في كوكبة الجبار، مكان بيسموه سديم رأس الحصان، شكل خيالي وسط الفضاء الواسع والغامض.",
+      "summary": "رحلة خيالية لسديم رأس الحصان",
+      "keyword": "سديم",
+      "template": "journey",
+      "labels": [
+        "فضاء",
+        "سديم",
+        "رحلة"
+      ],
+      "values": [],
+      "claim": "سديم رأس الحصان يقع على بعد ألف وخمسمائة سنة ضوئية.",
+      "sourceId": "2e20115a6100",
+      "evidence": "It is about five light-years tall and lies approximately 1,500 light-years away.",
+      "kind": "illustration",
+      "expression": 5,
+      "action": "walk",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "نجم النطاق العملاق",
+      "text": "في طريقنا بنشوف نجم النطاق، وهو جزء من حزام الجبار. النجم ده مش مجرد نقطة منورة، ده نظام ثلاثي النجوم، ولونه أزرق ولامع جداً، بيعتبر من أشهر النجوم في السماء.",
+      "summary": "نجم النطاق في حزام الجبار",
+      "keyword": "النطاق",
+      "template": "phenomenon",
+      "labels": [
+        "نجم",
+        "جبار",
+        "نظام ثلاثي"
+      ],
+      "values": [],
+      "claim": "النطاق هو ألمع نجم في حزام الجبار.",
+      "sourceId": "2e20115a6100",
+      "evidence": "The brightest star, left of the center, is blue Alnitak (the Girdle): a triple star system best known for being the easternmost star in Orion’s Belt",
+      "kind": "fact",
+      "expression": 8,
+      "action": "point",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "شكل رأس الحصان",
+      "text": "وصلنا لشكل رأس الحصان الشهير. ده سديم مظلم، طوله حوالي خمس سنوات ضوئية. هو عبارة عن سحابة كثيفة من الغبار والغاز بتحجب الضوء الأحمر اللي جاي من وراها.",
+      "summary": "وصف سديم رأس الحصان",
+      "keyword": "رأس الحصان",
+      "template": "phenomenon",
+      "labels": [
+        "سديم",
+        "غبار",
+        "غاز"
+      ],
+      "values": [],
+      "claim": "سديم رأس الحصان طوله خمس سنوات ضوئية.",
+      "sourceId": "2e20115a6100",
+      "evidence": "The instantly recognizable shape of a dark horse’s head at the center is the aptly named Horsehead Nebula . It is about five light-years tall",
+      "kind": "fact",
+      "expression": 7,
+      "action": "jump",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "سر التوهج الأحمر",
+      "text": "ليه السديم ده منور بالأحمر؟ الحقيقة إن غاز الهيدروجين بيتعرض لتأين بسبب نجم سيجما الجبار اللي موجود فوق. ده اللي بيخلي الخلفية تبان متوهجة وجميلة جداً في صور التلسكوبات.",
+      "summary": "سبب توهج السديم بالأحمر",
+      "keyword": "هيدروجين",
+      "template": "cause",
+      "labels": [
+        "هيدروجين",
+        "تأين",
+        "توهج"
+      ],
+      "values": [],
+      "claim": "توهج الهيدروجين سببه نجم سيجما الجبار.",
+      "sourceId": "2e20115a6100",
+      "evidence": "It is made of dust and gas that obscure the red glow behind it, which is caused by hydrogen gas being ionized by the bright star Sigma Orionis at the top.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "turn",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "سديم اللهب البرتقالي",
+      "text": "على الشمال بنشوف سديم اللهب، لونه برتقالي وفيه خيوط مظلمة. المنظر ده بيخلينا نحس إننا جوه لوحة فنية مرسومة بدقة، رغم إنها ظواهر فيزيائية حقيقية بتحصل في أعماق الكون.",
+      "summary": "مشاهدة سديم اللهب",
+      "keyword": "سديم اللهب",
+      "template": "phenomenon",
+      "labels": [
+        "سديم",
+        "خيوط",
+        "فضاء"
+      ],
+      "values": [],
+      "claim": "سديم اللهب يتميز بلون برتقالي وخيوط مظلمة.",
+      "sourceId": "2e20115a6100",
+      "evidence": "The orange nebula with dark filaments on the left is the Flame Nebula",
+      "kind": "fact",
+      "expression": 9,
+      "action": "walk",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "ولادة نجوم جديدة",
+      "text": "قريب من رأس الحصان، فيه سديم انعكاسي اسمه إن جي سي ألفين وثلاثة وعشرين. المكان ده نشيط جداً، وفيه نجوم جديدة بتتولد حالياً، كأننا بنشوف مصنع للنجوم في الفضاء.",
+      "summary": "تكون النجوم في سديم إن جي سي",
+      "keyword": "نجوم",
+      "template": "phenomenon",
+      "labels": [
+        "نجوم",
+        "تكون",
+        "سديم"
+      ],
+      "values": [],
+      "claim": "سديم إن جي سي ألفين وثلاثة وعشرين يشهد تكون نجوم.",
+      "sourceId": "2e20115a6100",
+      "evidence": "Closer to the Horsehead, the blue reflection nebula NGC 2023 is actively forming stars.",
+      "kind": "fact",
+      "expression": 10,
+      "action": "point",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "تصوير من مسافات بعيدة",
+      "text": "عارف إن الصورة دي اتصورت من مرصد في يوتا؟ المصور كان قاعد في بيته في إلينوي، على بعد أكتر من ألفين كيلومتر، وبيتحكم في التلسكوب عن بعد عشان يجمع البيانات.",
+      "summary": "كيفية التقاط صورة السديم",
+      "keyword": "تصوير",
+      "template": "steps",
+      "labels": [
+        "مرصد",
+        "تحكم",
+        "تصوير"
+      ],
+      "values": [],
+      "claim": "تم التحكم في معدات التصوير من مسافة ألفين كيلومتر.",
+      "sourceId": "2e20115a6100",
+      "evidence": "the equipment was remotely controlled by the astrophotographer from his home, over 2,000 km away in Illinois",
+      "kind": "fact",
+      "expression": 4,
+      "action": "fall",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "ختام الرحلة",
+      "text": "الكون مليان عجايب زي سديم رأس الحصان، وكل يوم بنكتشف حاجة جديدة بفضل التكنولوجيا. إيه رأيك في المنظر ده؟ لو عجبك الفيديو، ما تنساش تعمل لايك وتشاركنا رأيك في التعليقات.",
+      "summary": "دعوة للمتابعة والتفاعل",
+      "keyword": "فضاء",
+      "template": "journey",
+      "labels": [
+        "فضاء",
+        "نجوم",
+        "اشتراك"
+      ],
+      "values": [],
+      "claim": "الكون يحتوي على ظواهر مذهلة مثل السدم.",
+      "sourceId": "2e20115a6100",
+      "evidence": "Each day a different image or photograph of our fascinating universe is featured",
+      "kind": "illustration",
+      "expression": 11,
+      "action": "sleep",
+      "duration": 12,
+      "words": []
+    }
+  ],
+  "durationInFrames": 2880,
+  "incompleteMode": "silent",
+  "preview": true,
+  "incomplete": true
+}
