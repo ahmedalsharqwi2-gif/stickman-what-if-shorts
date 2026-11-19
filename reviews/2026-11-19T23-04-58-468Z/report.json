@@ -1,0 +1,68 @@
+{
+  "id": "2026-11-19T23-04-58-468Z",
+  "attemptId": "2026-11-19T22-54-53-109Z",
+  "mode": "review",
+  "published": false,
+  "status": "failed",
+  "resumed": false,
+  "stages": [
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.363
+    },
+    {
+      "name": "topics",
+      "status": "pass",
+      "seconds": 4.443
+    },
+    {
+      "name": "roll",
+      "status": "rolled_fresh_topic",
+      "roll": 1,
+      "fromStage": "script",
+      "code": "STAGE_FAILED_SEE_RUNBOOK"
+    },
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.043
+    },
+    {
+      "name": "roll",
+      "status": "rolled_fresh_topic",
+      "roll": 2,
+      "fromStage": "topics",
+      "code": "GEMINI_HTTP_429_EXHAUSTED"
+    },
+    {
+      "name": "preflight",
+      "status": "pass",
+      "seconds": 0.043
+    }
+  ],
+  "limitations": [
+    "Incomplete visual previews never pass narrated-film acceptance. Human pronunciation and art-direction approval are separate."
+  ],
+  "rolled": [
+    {
+      "id": "2026-11-19T22-54-53-109Z",
+      "stage": "script",
+      "code": "STAGE_FAILED_SEE_RUNBOOK",
+      "roll": 1
+    },
+    {
+      "id": "2026-11-19T22-56-04-246Z",
+      "stage": "topics",
+      "code": "GEMINI_HTTP_429_EXHAUSTED",
+      "roll": 2
+    }
+  ],
+  "failedStage": "topics",
+  "errorCode": "GEMINI_HTTP_429_EXHAUSTED",
+  "partial": {
+    "status": "rendered",
+    "path": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/out/2026-11-19T23-04-58-468Z/incomplete/visual-preview-incomplete.mp4",
+    "incomplete": true
+  }
+}
