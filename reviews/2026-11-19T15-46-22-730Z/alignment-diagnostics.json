@@ -6,8 +6,8 @@
       "scene": 0,
       "passed": true,
       "words": 31,
-      "characterSimilarity": 0.9904761904761905,
-      "wordCoverage": 0.9354838709677419,
+      "characterSimilarity": 0.9936708860759493,
+      "wordCoverage": 0.967741935483871,
       "sourceWords": 31,
       "recognizedWords": 31,
       "missingNumerals": []
@@ -36,10 +36,10 @@
       "scene": 3,
       "passed": true,
       "words": 32,
-      "characterSimilarity": 0.9497206703910615,
+      "characterSimilarity": 0.9941860465116279,
       "wordCoverage": 0.9375,
       "sourceWords": 32,
-      "recognizedWords": 35,
+      "recognizedWords": 32,
       "missingNumerals": []
     },
     {
@@ -59,8 +59,8 @@
   "scene": 5,
   "errorType": "AlignmentError",
   "details": {
-    "characterSimilarity": 0.7680608365019012,
-    "wordCoverage": 0.5757575757575758,
+    "characterSimilarity": 0.7786259541984732,
+    "wordCoverage": 0.6363636363636364,
     "sourceWords": 33,
     "recognizedWords": 24,
     "missingNumerals": []

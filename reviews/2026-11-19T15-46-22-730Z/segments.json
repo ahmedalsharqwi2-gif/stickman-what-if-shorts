@@ -1,9 +1,9 @@
 [
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T15-46-22-730Z/scene-0.wav",
-    "duration": 15.84,
+    "duration": 16,
     "text": "النجوم الميتة اللي بنسميها النجوم النيوترونية هي بقايا نجوم انفجرت زمان، وبتلف بسرعة رهيبة وبتبعت إشارات زي المنارة بالظبط، بس المشكلة إننا مش بنشوفها بسهولة وسط زحمة الإشارات اللي في الفضاء.",
-    "sha256": "5d11db273bdf47d4e2e32809cd6dc5ac7a7e80eeb1fc57dafdc1a78d5625adfc",
+    "sha256": "b9ae6b6719bcc55c4efed79cd99d26e0673c7307db62678e5f6249fce973b6d0",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -12,21 +12,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "f74d50b7f2e7181e6f3749bd0418a551a0d9cf35502eada47e6700b9a10df5d7",
-        "sha256": "5d11db273bdf47d4e2e32809cd6dc5ac7a7e80eeb1fc57dafdc1a78d5625adfc",
+        "sha256": "b9ae6b6719bcc55c4efed79cd99d26e0673c7307db62678e5f6249fce973b6d0",
         "text_sha256": "aa222a7ba94ff768c280c5cac2edbcb7654ba3f1bb20c37e8abf61a30367b4e8",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 760398,
+        "bytes": 768078,
         "reused": true
       }
     ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T15-46-22-730Z/scene-1.wav",
-    "duration": 15.44,
+    "duration": 14.930958,
     "text": "عشان نلاقي نجم واحد، العلماء بيحتاجوا يحللوا كميات ضخمة من البيانات اللي بيجمعها تلسكوب فيرمي، والموضوع ده كان بياخد سنين طويلة من الحسابات المعقدة عشان نقدر نحدد سرعة دوران النجم ومكانه.",
-    "sha256": "ae62c36c2bf367cb042bbd1485adb064f97b742338997bb56865a5ebb46e8141",
+    "sha256": "a5ff30602a2dabaa52356c624fb6fdf02fac5c78f4457178105b6a133be89bb8",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -35,21 +35,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "21aa2091bfae042ebf3c5721f351ef1a4743afb9c8936f2a0269ee5ebbdaad11",
-        "sha256": "ae62c36c2bf367cb042bbd1485adb064f97b742338997bb56865a5ebb46e8141",
+        "sha256": "a5ff30602a2dabaa52356c624fb6fdf02fac5c78f4457178105b6a133be89bb8",
         "text_sha256": "1083a138ef392b7225de148904f34570915929dbb78c0d2c8820e9b59c1539f0",
         "voice": "Charon",
         "provider": "Gemini",
-        "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 741198,
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 716764,
         "reused": true
       }
     ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T15-46-22-730Z/scene-2.wav",
-    "duration": 15.84,
+    "duration": 15,
     "text": "زمان كان العلماء بيوزعوا البيانات دي على متطوعين من كل حتة في العالم عشان يستخدموا كمبيوتراتهم الشخصية في التحليل، ومع ذلك كان الموضوع بياخد مئات السنين من وقت الكمبيوتر عشان نلاقي نجم واحد.",
-    "sha256": "2147738e00527aa5409832d0f80ead87e62b8a63f6bc1819b7dc361e272ad3a4",
+    "sha256": "e3b06c86d2bf8892744d0905e8dea2b7ce58a11bc54eb4cbfe59d4915a913328",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -58,21 +58,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "7196ce0e718c9b4622efc5b03a330c2f708047c92d118b0ad271a9c09b9904e2",
-        "sha256": "2147738e00527aa5409832d0f80ead87e62b8a63f6bc1819b7dc361e272ad3a4",
+        "sha256": "e3b06c86d2bf8892744d0905e8dea2b7ce58a11bc54eb4cbfe59d4915a913328",
         "text_sha256": "cfa3e5f9c30308124eac086921be63f5f702900ec90f6e9dc62a98bbf77292af",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 760398,
+        "bytes": 720078,
         "reused": true
       }
     ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T15-46-22-730Z/scene-3.wav",
-    "duration": 16.6,
+    "duration": 16.410958,
     "text": "باحثين من معهد وايزمان فكروا يحلوا المشكلة دي بطريقة تانية خالص، حولوا البحث عن النجوم لمسألة هندسية بتعتمد على خوارزميات التشفير، ودي نفس الطريقة اللي بتستخدم عشان نكسر شفرات الكمبيوترات المستقبلية القوية.",
-    "sha256": "b0dc06cb4efeeec74ab129c8a0a4b19bf9279cf47278212d28aab4d34630f418",
+    "sha256": "b0b58b1bec472d8f08f680ce731422648488d8716783d2b99fd7756a71b1766e",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -81,21 +81,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "f49e1a4758641608cb2aa37e93b1ac7b7cc8ed880f83b70e4b7adf87c8947f10",
-        "sha256": "b0dc06cb4efeeec74ab129c8a0a4b19bf9279cf47278212d28aab4d34630f418",
+        "sha256": "b0b58b1bec472d8f08f680ce731422648488d8716783d2b99fd7756a71b1766e",
         "text_sha256": "849c987fd210e0cc72acf001e6b26b5637ec00638dc674397796df220b2f4ba0",
         "voice": "Charon",
         "provider": "Gemini",
-        "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 796878,
+        "model": "gemini-2.5-flash-preview-tts",
+        "bytes": 787804,
         "reused": true
       }
     ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T15-46-22-730Z/scene-4.wav",
-    "duration": 12.770958,
+    "duration": 12.970958,
     "text": "الطريقة الجديدة دي خلتنا نلاقي النجوم أسرع بمليون مرة من قبل كده، تخيل إن عملية كانت بتاخد ستمائة سنة، دلوقتي بقت بتخلص في عشر ساعات بس على كمبيوتر عادي، ده إنجاز علمي حقيقي.",
-    "sha256": "1a56c49ddb435635ee5d6be67ce7aec220e688b5e3ba7dac924798b6fd88a913",
+    "sha256": "a9552d11dc029bed5c6edae04486691177e10204250c66d2dcb359334ba27aa6",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -104,21 +104,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "889a150abfcb26271b37608abe3c8593ea3691a8ec21e810d61ae19ae7bb4b1a",
-        "sha256": "1a56c49ddb435635ee5d6be67ce7aec220e688b5e3ba7dac924798b6fd88a913",
+        "sha256": "a9552d11dc029bed5c6edae04486691177e10204250c66d2dcb359334ba27aa6",
         "text_sha256": "b83e684c03418ae9fcead1dff5401e524ee91128252223f43ed031904afd3251",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-2.5-flash-preview-tts",
-        "bytes": 613084,
+        "bytes": 622684,
         "reused": true
       }
     ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T15-46-22-730Z/scene-5.wav",
-    "duration": 16.52,
+    "duration": 16.48,
     "text": "الفريق قدر يكتشف النجم المسمى بي إس آر جي ألف وستمائة واثنين وعشرين، وهو نجم بيلف مائتين وواحد وستين مرة في الثانية الواحدة، وده كان مستحيل نلاقيه بالطرق القديمة اللي كانت بتفشل تماماً.",
-    "sha256": "bca8c00c2d5ad4d38c8d18493b4019ac2e1f6f34b874af88b6d280624586ba51",
+    "sha256": "f729ee5bdf70cb1994ac3ada75e20c3b9020ec43bc72851cdf109f5923ec7611",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -127,21 +127,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "9e85bb9aafbd0a18d64e52a1c10273025626cca41602700c8be7fb53fa83badc",
-        "sha256": "bca8c00c2d5ad4d38c8d18493b4019ac2e1f6f34b874af88b6d280624586ba51",
+        "sha256": "f729ee5bdf70cb1994ac3ada75e20c3b9020ec43bc72851cdf109f5923ec7611",
         "text_sha256": "058e67c7c7a6131fa2930891e9a22652ecdf047e27dae283ed8a0c368b4d65d2",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-3.1-flash-tts-preview",
-        "bytes": 793038,
+        "bytes": 791118,
         "reused": true
       }
     ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T15-46-22-730Z/scene-6.wav",
-    "duration": 13.330958,
+    "duration": 14.930958,
     "text": "كل ده حصل بفضل سياسة ناسا إنها بتخلي بياناتها متاحة للكل، فبدل ما فريق واحد يشتغل، أي حد عنده فكرة جديدة يقدر يحلل البيانات ويطلع اكتشافات مذهلة تخدم العلم وتطور فهمنا للكون.",
-    "sha256": "b28b000dede03c5c3308046ab3ae032c36114beab50d5adc34c6b3729bafd6b5",
+    "sha256": "f734446aee741f441473dabc126d2975191f2e119ba93ecc779106343d5c0c8f",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -150,21 +150,21 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "a80b6bdd854872d0ffee66708549696aafc0a3c1af7ec16de45483b4ba912447",
-        "sha256": "b28b000dede03c5c3308046ab3ae032c36114beab50d5adc34c6b3729bafd6b5",
+        "sha256": "f734446aee741f441473dabc126d2975191f2e119ba93ecc779106343d5c0c8f",
         "text_sha256": "7d06ace95dadb05a4d410a2bc48f057c38476b65fbcb6f4724ed2bde731d1c4e",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-2.5-flash-preview-tts",
-        "bytes": 639964,
+        "bytes": 716764,
         "reused": true
       }
     ]
   },
   {
     "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-19T15-46-22-730Z/scene-7.wav",
-    "duration": 16.010958,
+    "duration": 14.490958,
     "text": "الهدف الجاي هو البحث عن نجوم في أنظمة ثنائية، ودي نجوم بتلف حوالين نجوم تانية، والعلماء متوقعين إن فيه مئات النجوم لسه مستنيانا في البيانات اللي ناسا بتنشرها كل يوم، فاستنوا اكتشافات تانية قريبة.",
-    "sha256": "971b03be75725df20de37af7917b29798490681db84028c0a5803e51eb1fc04f",
+    "sha256": "4b162601a04b06c260416fccc597d4e103aa24dfc7fa692f2bd76bf89aa86ec2",
     "provider": "Gemini",
     "voice": "Charon",
     "chunks": [
@@ -173,12 +173,12 @@
         "chunk": 0,
         "schema": 1,
         "cacheKey": "7675992d357a416b99a98d68a967a9a326ac7abf5546e2459069ac6b26731ffb",
-        "sha256": "971b03be75725df20de37af7917b29798490681db84028c0a5803e51eb1fc04f",
+        "sha256": "4b162601a04b06c260416fccc597d4e103aa24dfc7fa692f2bd76bf89aa86ec2",
         "text_sha256": "8f11d827886bd6c33ba59573dbe6e6d9d1912b112832d8a7c4b008e776bf9a2e",
         "voice": "Charon",
         "provider": "Gemini",
         "model": "gemini-2.5-flash-preview-tts",
-        "bytes": 768604,
+        "bytes": 695644,
         "reused": true
       }
     ]

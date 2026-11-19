@@ -21,7 +21,7 @@
       "expression": 5,
       "action": "point",
       "brollQuery": "pulsar neutron star",
-      "duration": 15.84,
+      "duration": 16,
       "words": []
     },
     {
@@ -43,7 +43,7 @@
       "expression": 2,
       "action": "walk",
       "brollQuery": "space telescope data",
-      "duration": 15.44,
+      "duration": 14.930958,
       "words": []
     },
     {
@@ -65,7 +65,7 @@
       "expression": 8,
       "action": "run",
       "brollQuery": "computer network",
-      "duration": 15.84,
+      "duration": 15,
       "words": []
     },
     {
@@ -87,7 +87,7 @@
       "expression": 10,
       "action": "turn",
       "brollQuery": "algorithm code",
-      "duration": 16.6,
+      "duration": 16.410958,
       "words": []
     },
     {
@@ -109,7 +109,7 @@
       "expression": 11,
       "action": "jump",
       "brollQuery": "fast computing",
-      "duration": 12.770958,
+      "duration": 12.970958,
       "words": []
     },
     {
@@ -131,7 +131,7 @@
       "expression": 9,
       "action": "point",
       "brollQuery": "spinning star",
-      "duration": 16.52,
+      "duration": 16.48,
       "words": []
     },
     {
@@ -153,7 +153,7 @@
       "expression": 7,
       "action": "walk",
       "brollQuery": "nasa data",
-      "duration": 13.330958,
+      "duration": 14.930958,
       "words": []
     },
     {
@@ -175,11 +175,11 @@
       "expression": 6,
       "action": "point",
       "brollQuery": "binary star system",
-      "duration": 16.010958,
+      "duration": 14.490958,
       "words": []
     }
   ],
-  "durationInFrames": 3671,
+  "durationInFrames": 3637,
   "audio": "generated/2026-11-19T15-46-22-730Z/audio.wav",
   "incompleteMode": "unaligned_narration",
   "preview": true,
