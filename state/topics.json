@@ -10,5 +10,11 @@
     "value": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
     "status": "retired",
     "run": "2026-11-15T22-22-59-184Z"
+  },
+  {
+    "topicKey": "remotion-stickman-whatif-stellar-merger-bao",
+    "value": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+    "status": "reserved",
+    "run": "2026-11-19T06-41-31-270Z"
   }
 ]

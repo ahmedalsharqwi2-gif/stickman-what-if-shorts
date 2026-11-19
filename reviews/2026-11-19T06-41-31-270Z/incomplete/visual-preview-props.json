@@ -1,0 +1,178 @@
+{
+  "title": "ماذا لو نجمين قرروا يندمجوا في خناقة كونية؟",
+  "editorialLabel": null,
+  "scenes": [
+    {
+      "title": "بداية الحكاية في مجرة أندروميدا",
+      "text": "تخيل نجمين كانوا ماشيين جنب بعض بسلام لآلاف السنين، وفجأة واحد منهم قرر يغير مساره ويقرب من التاني، دي مش قصة خيال، ده اللي حصل فعلاً لنظام نجمي في مجرة أندروميدا المجاورة لينا.",
+      "summary": "نجمين في أندروميدا قرروا يندمجوا في حدث كوني نادر.",
+      "keyword": "اندماج نجمي",
+      "template": "phenomenon",
+      "labels": [
+        "أندروميدا",
+        "نظام ثنائي"
+      ],
+      "values": [],
+      "claim": "نظام نجمي ثنائي في مجرة أندروميدا اندمج في حدث نادر.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "Researchers recently identified a first of its kind: A star slightly less massive than the Sun spiraled into and merged with a puffy supergiant star at the outskirts of our neighboring Andromeda galaxy.",
+      "kind": "illustration",
+      "expression": 5,
+      "action": "walk",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "تسمية النجم باو",
+      "text": "العلماء سموا النجم الناتج عن الاندماج ده 'باو'، وكان فيه نجم عملاق ونجم أصغر منه، النجم الصغير فضل يلف حوالين الكبير لحد ما دخل في غلافه الجوي وبدأ يغوص جوه قلبه.",
+      "summary": "تسمية النجم باو بعد اندماج نجم عملاق مع نجم أصغر.",
+      "keyword": "النجم باو",
+      "template": "journey",
+      "labels": [
+        "نجم عملاق",
+        "نجم صغير"
+      ],
+      "values": [],
+      "claim": "نجم صغير اندمج داخل غلاف نجم عملاق.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "In this system, the primary star engulfed the smaller star and the companion plummeted, spiraling through the envelope as it was robbed of orbital energy by drag.",
+      "kind": "fact",
+      "expression": 6,
+      "action": "point",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "سرعة الاندماج",
+      "text": "الغريب إن الاندماج ده حصل بسرعة خيالية، في سبع مدارات بس، يعني حوالي سبع سنين، في حين إن أنظمة تانية بتاخد آلاف السنين عشان تندمج، ده كان حدث سريع جداً ومفاجئ للعلماء.",
+      "summary": "الاندماج تم في 7 سنوات فقط وهو وقت قياسي.",
+      "keyword": "سرعة الاندماج",
+      "template": "comparison",
+      "labels": [
+        "7 سنوات",
+        "آلاف السنين"
+      ],
+      "values": [
+        7
+      ],
+      "claim": "الاندماج استغرق 7 سنوات فقط.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "But once the smaller star came into contact with the surface of the giant star, their “unification” happened after only seven orbits (about seven years).",
+      "kind": "fact",
+      "expression": 8,
+      "action": "run",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "تأثير النجم العملاق",
+      "text": "النجم العملاق كان وحش حقيقي، كتلته سبع أضعاف كتلة الشمس، ونصف قطره 350 ضعف، وسطوعه 18 ألف ضعف، عشان كده العلماء أطلقوا عليه اسم 'باو الكبير' قبل ما يندمج مع الصغير.",
+      "summary": "مواصفات النجم العملاق باو الكبير مقارنة بالشمس.",
+      "keyword": "باو الكبير",
+      "template": "chart",
+      "labels": [
+        "كتلة الشمس",
+        "نصف القطر",
+        "السطوع"
+      ],
+      "values": [],
+      "claim": "النجم العملاق كان 7 أضعاف كتلة الشمس و18000 ضعف سطوعها.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "It was seven times as massive, 350 times the radius, and 18,000 times brighter — making “Big Bao” an appropriate nickname.",
+      "kind": "fact",
+      "expression": 9,
+      "action": "point",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "مراقبة جيمس ويب",
+      "text": "تلسكوب جيمس ويب رصد الحدث ده بعد 47 يوم بس من ذروة الانفجار، وده أسرع رصد لحدث من النوع ده في التاريخ، وساعدنا نفهم إيه اللي حصل قبل وأثناء وبعد الاندماج.",
+      "summary": "جيمس ويب رصد الحدث بعد 47 يوم من الانفجار.",
+      "keyword": "جيمس ويب",
+      "template": "steps",
+      "labels": [
+        "رصد",
+        "تحليل",
+        "بيانات"
+      ],
+      "values": [
+        47
+      ],
+      "claim": "جيمس ويب رصد الحدث بعد 47 يوم من ذروة الانفجار.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "Webb observed Bao only 47 days after the stars’ eruption peaked, the earliest ever follow-up of an event like this.",
+      "kind": "fact",
+      "expression": 7,
+      "action": "turn",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "انفجار داخل النجم",
+      "text": "العلماء وصفوا اللي حصل بأنه كان زي قنبلة انفجرت جوه نجم حي، النجم الصغير اتسحب لقلب النجم الكبير، وده أدى لإنتاج طاقة هائلة وتغيير شكل النظام النجمي بالكامل في وقت قصير.",
+      "summary": "الاندماج كان يشبه انفجار قنبلة داخل نجم.",
+      "keyword": "انفجار نجمي",
+      "template": "cause",
+      "labels": [
+        "طاقة",
+        "انفجار",
+        "اندماج"
+      ],
+      "values": [],
+      "claim": "الاندماج كان يشبه انفجار قنبلة داخل نجم.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "Their encounter was “almost like a bomb exploding inside a living star,” De said.",
+      "kind": "illustration",
+      "expression": 10,
+      "action": "jump",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "مستقبل النجم باو",
+      "text": "دلوقتي النجم باو بقى واحد، والعلماء لسه بيراقبوا عشان يشوفوا إزاي طاقته هتستقر، وهل النجم الصغير ساب أثر ولا اختفى تماماً جوه قلب العملاق، دي لسه ألغاز بنحاول نحلها في الفضاء.",
+      "summary": "مستقبل النجم باو لا يزال تحت المراقبة العلمية.",
+      "keyword": "مستقبل باو",
+      "template": "journey",
+      "labels": [
+        "مراقبة",
+        "استقرار",
+        "ألغاز"
+      ],
+      "values": [],
+      "claim": "العلماء يراقبون استقرار النجم باو بعد الاندماج.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "What does the new star — now simply Bao — look like today? Only future observations will identify how its “heft” settles.",
+      "kind": "fact",
+      "expression": 4,
+      "action": "sleep",
+      "duration": 12,
+      "words": []
+    },
+    {
+      "title": "خاتمة واكتشافات جديدة",
+      "text": "الاندماج ده فتح باب جديد لفهم تطور النجوم، ومع تلسكوبات زي رومان اللي جاي، هنشوف اكتشافات أكتر بكتير، الكون لسه مخبي لنا مفاجآت كتير، استنونا في الحلقات الجاية عشان تعرفوا أكتر.",
+      "summary": "اكتشافات جديدة في انتظارنا مع تلسكوبات المستقبل.",
+      "keyword": "اكتشافات فضائية",
+      "template": "steps",
+      "labels": [
+        "تلسكوب رومان",
+        "تطور النجوم"
+      ],
+      "values": [],
+      "claim": "تلسكوب رومان سيوفر اكتشافات جديدة للنجوم.",
+      "sourceId": "a9faff50e5d3",
+      "evidence": "The new finding comes about just as NASA’s recently launched Nancy Grace Roman Space Telescope is about to conduct vast publicly available surveys.",
+      "kind": "fact",
+      "expression": 11,
+      "action": "point",
+      "duration": 12,
+      "words": []
+    }
+  ],
+  "durationInFrames": 2880,
+  "incompleteMode": "silent",
+  "preview": true,
+  "incomplete": true
+}
