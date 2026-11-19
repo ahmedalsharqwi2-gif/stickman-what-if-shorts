@@ -8,6 +8,14 @@
     {
       "url": "https://www.nasa.gov/feed/",
       "official": true
+    },
+    {
+      "url": "https://www.space.com/feeds/all",
+      "official": false
+    },
+    {
+      "url": "https://phys.org/rss-feed/",
+      "official": false
     }
   ],
   "logo": "brand/logo/logo.jpg",
