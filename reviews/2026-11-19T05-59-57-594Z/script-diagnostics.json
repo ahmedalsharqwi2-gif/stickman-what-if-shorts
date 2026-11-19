@@ -1,0 +1,20 @@
+{
+  "code": "SCRIPT_SCHEMA_INVALID",
+  "attempt": 3,
+  "zodIssues": [
+    {
+      "origin": "number",
+      "code": "too_big",
+      "maximum": 100,
+      "inclusive": true,
+      "path": [
+        "scenes",
+        1,
+        "values",
+        1
+      ],
+      "message": "Too big: expected number to be <=100"
+    }
+  ],
+  "detail": "scenes.1.values.1: Too big: expected number to be <=100"
+}
