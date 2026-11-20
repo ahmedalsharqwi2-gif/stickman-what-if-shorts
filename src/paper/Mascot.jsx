@@ -9,9 +9,18 @@ import {interpolate} from 'remotion';
 // drop shadow, optional sweat drops. No hair curl (off for this look).
 // Same 12-expression / 8-action contract as v2/v3 - drawplan schema unchanged.
 
-export const CHARACTER_COLORS = {skin: '#FFFFFF', line: '#101719', tongue: '#E23B2E'};
-export const EXPRESSIONS = ['smile', 'shock', 'tired', 'angry', 'curious', 'sad', 'proud', 'scared', 'laugh', 'wink', 'confused', 'determined'];
-export const ACTIONS = ['walk', 'run', 'jump', 'fall', 'point', 'turn', 'hang', 'sleep'];
+import cfg from '../../config/character.json';
+
+// Look is config-driven (config/character.json = owner-approved WHITE v4).
+// Geometry anchors stay rig constants; colors, stroke widths, blink cadence
+// and gaze behavior come from the config.
+export const CHARACTER_COLORS = {skin: cfg.head.skin, line: cfg.head.stroke, tongue: '#E23B2E'};
+export const EXPRESSIONS = cfg.expressions;
+export const ACTIONS = cfg.actions;
+const HEAD_R = cfg.head.radius, HEAD_STROKE = cfg.head.strokeWidth;
+const BODY_W = cfg.body.strokeWidth;
+const BLINK_EVERY = cfg.eyes.idleBlinkEveryFrames || 105;
+const GAZE = cfg.eyes.gazeShift !== false;
 
 // Rig geometry: origin between the feet; head center at (0, -150), r=116.
 // Total height ~620 units before scale. Same anchors as v2/v3.
@@ -96,7 +105,7 @@ export const MascotRig = ({frame, expression = 0, action = 'point', gazeX = 10})
   const t = frame / 30, speed = action === 'run' ? 14 : 6, walk = ['walk', 'run'].includes(action) ? Math.sin(t * speed) * 20 : 0;
   // Animation principles: idle blink every ~3.5s, arms counter-swing the legs,
   // jump gets a short anticipation crouch before takeoff.
-  const blink = ((frame + 52) % 105) < 3;
+  const blink = ((frame + 52) % BLINK_EVERY) < 3;
   const jumpPhase = (t * 4) % (Math.PI * 2);
   const jumpY = jumpPhase < 0.5 ? 16 * Math.sin(jumpPhase / 0.5 * Math.PI) : -Math.abs(Math.sin(t * 4)) * 95;
   const y = action === 'jump' ? jumpY : action === 'hang' ? Math.sin(t * 3) * 12 : 0;
@@ -105,9 +114,8 @@ export const MascotRig = ({frame, expression = 0, action = 'point', gazeX = 10})
   const [mouthKind, browDy, browTilt, lidT, pupilR, browAsym, sweat] = e;
   const sleeping = action === 'sleep';
   const L = CHARACTER_COLORS.line;
-  const BODY = 26;
   const eyesClosed = sleeping || blink;
-  const gx = eyesClosed ? 0 : gazeX;
+  const gx = eyesClosed || !GAZE ? 0 : gazeX;
   // Stickman body: spine, legs from hips, arms from shoulder point on the spine.
   const spine = 'M0 -34 L0 130';
   const legs = `M0 130 L${-50 + walk} 268 M0 130 L${50 - walk} 268`;
@@ -121,15 +129,15 @@ export const MascotRig = ({frame, expression = 0, action = 'point', gazeX = 10})
       {/* drop shadow */}
       <ellipse cx="0" cy="296" rx="120" ry="16" fill="#101719" opacity="0.10" stroke="none" />
       {/* body lines */}
-      <path d={spine} fill="none" stroke={L} strokeWidth={BODY} />
-      <path d={legs} fill="none" stroke={L} strokeWidth={BODY} />
+      <path d={spine} fill="none" stroke={L} strokeWidth={BODY_W} />
+      <path d={legs} fill="none" stroke={L} strokeWidth={BODY_W} />
       {/* oval feet */}
       <ellipse cx={-56 + walk} cy="270" rx="28" ry="11" fill={L} stroke="none" />
       <ellipse cx={56 - walk} cy="270" rx="28" ry="11" fill={L} stroke="none" />
-      <path d={armL} fill="none" stroke={L} strokeWidth={BODY} />
-      <path d={armR} fill="none" stroke={L} strokeWidth={BODY} />
+      <path d={armL} fill="none" stroke={L} strokeWidth={BODY_W} />
+      <path d={armR} fill="none" stroke={L} strokeWidth={BODY_W} />
       {/* head */}
-      <circle cx="0" cy="-150" r="116" fill={CHARACTER_COLORS.skin} stroke={L} strokeWidth="11" />
+      <circle cx="0" cy="-150" r={HEAD_R} fill={CHARACTER_COLORS.skin} stroke={L} strokeWidth={HEAD_STROKE} />
       {/* eyes */}
       <Eye cx={-46} cy={-164} lidT={eyesClosed ? 1 : lidT} pupilR={pupilR} gx={gx} closed={eyesClosed} />
       <Eye cx={46} cy={-164} lidT={eyesClosed || expression === 9 ? 1 : lidT} pupilR={pupilR} gx={gx} closed={eyesClosed || expression === 9} />
