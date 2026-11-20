@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "head": {"shape": "circle", "radius": 116, "skin": "#FFFFFF", "stroke": "#101719", "strokeWidth": 11},
+  "eyes": {"style": "white-sclera-lids", "color": "#101719", "gazeShift": true, "idleBlinkEveryFrames": 105},
+  "body": {"style": "stick-lines", "color": "#101719", "strokeWidth": 26, "signature": "optional single hair curl (OFF by default for the current look)"},
+  "proportions": {"headDiameter": 232, "bodyHeight": 164, "legLength": 138},
+  "expressions": ["smile", "shock", "tired", "angry", "curious", "sad", "proud", "scared", "laugh", "wink", "confused", "determined"],
+  "actions": ["walk", "run", "jump", "fall", "point", "turn", "hang", "sleep"],
+  "reference_status": "Owner-directed plain white stick figure (2026-11-19), replacing the clothed blue character entirely; no fallback. Same expression/action contract."
+}

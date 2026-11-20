@@ -1,8 +1,11 @@
+node_modules/
 out/
+.cache/
+.venv/
 __pycache__/
-.pytest_cache/
-.env
-
-/.candidate-v2/
-/.voice_cache/
-state/api_budget.sqlite3*
+*.pyc
+.env*
+!.env.example
+public/generated/
+bundle/
+data/

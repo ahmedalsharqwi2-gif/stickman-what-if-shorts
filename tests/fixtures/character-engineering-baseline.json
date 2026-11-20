@@ -1,0 +1,42 @@
+{
+ "schema": 1,
+ "purpose": "Engineering regression fingerprints of the current owner-directed white stickman SVG rig (2026-11-19). Not a visual approval or comparison with any reference.",
+ "ownerApproved": false,
+ "referenceVideoParityAssessed": false,
+ "frames": [
+  0,
+  12,
+  24,
+  45,
+  75,
+  105
+ ],
+ "proportions": {
+  "headToTorsoHeight": 1.4146341463414633,
+  "declaredLegLength": 138
+ },
+ "expressions": {
+  "smile": "ae8dbf2fa65351dbb351d960ba376e24523a7adb9ad675e11a0ace08eaae1a67",
+  "shock": "a5825d47e26132152ced24c7fc1bb94a38b24491d9b5fed270ef67a39ab0000d",
+  "tired": "119f01a45dc6321eb13236b4052ab02c45245830688178ac560af1cf82fc6e2b",
+  "angry": "729c1ea96772b762f3fdace7db834b439c7f5bd760403f64944b5fb83b0fde89",
+  "curious": "fdcacbe42ba912d1df2485865bf45d5be0ffa587130dea4a1e0ac7a04238db20",
+  "sad": "2bdc7939ac4fa6d9155069b25f61c68deff469938161af617e4d5d14df2a20c4",
+  "proud": "316d4a94890398b61ccbfaf48c5b669057d9c1f9e3afb21553bcd7f1568dab8d",
+  "scared": "170f185a9336dba49228c3bb507cadd12c13d21d14073760e9024d6d1a5a78fe",
+  "laugh": "4dfef06e7cd26d409ba87bcf7bd43f0a44d690bf623a1ad794110440d17c3fc7",
+  "wink": "047d4b1b1002fb5f51f216e4ba05369ec750ecbeb96f3e1a36e666aa1be004f5",
+  "confused": "0674a1808cc1dad91fdda614cef54c3170c53ac47c112c4ac4b1d3f5648b0950",
+  "determined": "821780fd5d20f7b022c0580ce02910212c4dc1d2257520a2fbe461e50b268dcc"
+ },
+ "actions": {
+  "walk": "6bea4ef7242e624ed86dc6f88e777db6483f4fbc38a5ee69cb225d98b36588dd",
+  "run": "2cba682035ce584b617f662a4ee4646fb6f228108ee6eddc9ca0e0adbab9ad15",
+  "jump": "86bbad9a64f61a246bb02c19517cd261937c65fb997ab949a79720306cb11dd1",
+  "fall": "484d6cc5f478b84be2119a7d15b86fd6b75546710f845ac0c49ed856839b9d28",
+  "point": "cbe7bbb2122878b085d8ac985b0fa9abfa5fc50c0f706f4bd0e1f1fc360d348b",
+  "turn": "5b0bd272c8fa140ccf4e3def94918a0b84179ca1e963c50b128c15535fabe3c9",
+  "hang": "8c1016323e25fcb6b60c8b36993f824d9310b8e731cfcd864025ecb786e3c1b0",
+  "sleep": "35384dfe43bcffa9464cfe206ea6e9e95e54dd30e4f2a9b2315ab07e24af2ddf"
+ }
+}

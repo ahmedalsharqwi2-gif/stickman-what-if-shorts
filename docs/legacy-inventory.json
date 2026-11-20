@@ -1,0 +1,50 @@
+{
+  "files": 330,
+  "python_syntax_errors": [],
+  "workflows": [
+    ".github/workflows/replace-noon-once.yml",
+    ".github/workflows/checks.yml",
+    ".github/workflows/remotion-cleanup.yml",
+    ".github/workflows/remotion-health.yml",
+    ".github/workflows/remotion-daily.yml"
+  ],
+  "network_publish_modules": [
+    "production_v2/publish_completed_stickman.py",
+    "production_v2/connection_audit.py",
+    "remotion_factory/publish.py"
+  ],
+  "secret_names": [
+    "BUFFER_API_KEY",
+    "GEMINI_API_KEY",
+    "GEMINI_TEXT_API_KEY",
+    "GEMINI_TTS_API_KEY"
+  ],
+  "main_sha": "f9ce7aa783faa5d514af4a493f4ed6eb882bd1fc",
+  "preserved": [
+    {
+      "path": "config/channel_identity.json",
+      "sha256": "53574f337a2e8de2e7e8c77a03758c6d250b05f226372bc39a34554f47b0219e",
+      "bytes": 563
+    },
+    {
+      "path": "assets/fonts/Noto-Fonts-Copyright.txt",
+      "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+      "bytes": 5208
+    },
+    {
+      "path": "assets/fonts/NotoSansArabic-Bold.ttf",
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "bytes": 252940
+    },
+    {
+      "path": "remotion_motion/public/fonts/Arabic-Bold.ttf",
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "bytes": 252940
+    },
+    {
+      "path": "remotion_motion/public/fonts/Arabic-Regular.ttf",
+      "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "bytes": 244072
+    }
+  ]
+}
