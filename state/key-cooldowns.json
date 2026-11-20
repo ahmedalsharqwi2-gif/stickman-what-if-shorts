@@ -1,7 +1,17 @@
 {
   "schema": 1,
   "cooldowns": {
-    "text:a2a76904fc3a": 1795161600533,
-    "text:ba22daa1706f": 1795161600560
+    "schema": 1,
+    "cooldowns": {
+      "schema": 1,
+      "cooldowns": {
+        "text:ae9e90e117ba": 1795161600320
+      },
+      "text:ae9e90e117ba": 1795161600528
+    },
+    "voice:a2a76904fc3a": 1795248000816,
+    "voice:ba22daa1706f": 1795248000044,
+    "text:a2a76904fc3a": 1795248000664,
+    "text:ba22daa1706f": 1795248000837
   }
 }

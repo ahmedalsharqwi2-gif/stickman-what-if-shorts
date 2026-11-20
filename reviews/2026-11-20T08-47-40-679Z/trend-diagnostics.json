@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "source": "trends",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "suggestions",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "reddit",
+      "status": "unavailable",
+      "code": "FEED_HTTP_403"
+    }
+  ],
+  "degraded": false,
+  "decisions": [
+    {
+      "id": "bd57de37da4b",
+      "title": "APOD: 2026 November 20 – V-G-R",
+      "demand": 14,
+      "recency": 0.95,
+      "matches": [
+        {
+          "kind": "google_trend",
+          "label": "btc",
+          "weight": 6
+        },
+        {
+          "kind": "google_trend",
+          "label": "برج العقرب",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "حرارة",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "سعر الذهب اليوم عيار 21 الآن 2026",
+          "weight": 2
+        },
+        {
+          "kind": "google_trend",
+          "label": "الكويت",
+          "weight": 2
+        }
+      ],
+      "score": 14.47487985944751
+    }
+  ]
+}

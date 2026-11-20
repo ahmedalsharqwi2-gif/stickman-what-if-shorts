@@ -1,0 +1,186 @@
+[
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-20T08-33-25-654Z/scene-0.wav",
+    "duration": 14.72,
+    "text": "في نوفمبر من سنة 2026، بدأت مياه جنوب غرب المحيط الهادئ تتحرك بشكل غير عادي. ظهر اضطراب استوائي وبدأ يكبر بسرعة كبيرة، وبقى واحد من أقوى الأعاصير اللي شافتها المنطقة دي من عقود.",
+    "sha256": "640fd74f5bf59d126db76fc4b335fe69ccc135bfd571c6b86cd45d9ac2c89d62",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 0,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "1ede518ed10a27e0f0fbb34a7d2a84d120d3b245063f067ab96d169bf2102b1d",
+        "sha256": "640fd74f5bf59d126db76fc4b335fe69ccc135bfd571c6b86cd45d9ac2c89d62",
+        "text_sha256": "53709158046e7ac534306f3d91163b75af9d7544321c23f3e8556b6928d336d1",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 706638,
+        "reused": true
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-20T08-33-25-654Z/scene-1.wav",
+    "duration": 17.8,
+    "text": "العاصفة دي اتسمت كزافييه، وبدأت تشتد بسرعة مذهلة. الظروف كانت مثالية جداً للعاصفة عشان تقوى، لأن حرارة سطح الميه كانت عالية جداً، وده وفر طاقة كبيرة خلت الإعصار يتحول لشيء مرعب ومخيف جداً.",
+    "sha256": "326c0234f9914a1d07dca492af9a16ea046083314eac94db57e2a424d0f2a9b8",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 1,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "153a10e496a512f8a043214c3b24aac2d83c2349a99b97bd7953be601dd6cb2e",
+        "sha256": "326c0234f9914a1d07dca492af9a16ea046083314eac94db57e2a424d0f2a9b8",
+        "text_sha256": "34ffe5e239df68bbfe7393c479164b459fbf7434673ebd6b56018bfe046e4110",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 854478,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-20T08-33-25-654Z/scene-2.wav",
+    "duration": 15.52,
+    "text": "العلماء اكتشفوا إن فيه ظاهرة طبيعية اسمها النينيو كانت موجودة من شهر يونيو. الظاهرة دي بتخلي الميه دافية جداً، وده بيساعد الأعاصير إنها تقوى وتكبر بسرعة غير طبيعية في المنطقة دي من العالم.",
+    "sha256": "13fe93360f46451606d36a44ca3308dfc649753bb52b50697d5c739eca722f31",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 2,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "49f65a0715f5e828a1eac0a09201e824423869e4edc9fb19ced839f18de957e4",
+        "sha256": "13fe93360f46451606d36a44ca3308dfc649753bb52b50697d5c739eca722f31",
+        "text_sha256": "567a552cdfc0878ea7827bcc935e2025b4581a541c9d79b9230d2918f853ff2f",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 745038,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-20T08-33-25-654Z/scene-3.wav",
+    "duration": 17.6,
+    "text": "لما الأقمار الصناعية صورت الإعصار، لقوا إن سرعة الرياح وصلت لأرقام خيالية. الإعصار وصل لشدة الفئة الخامسة، ودي أقوى درجة ممكن يوصلها أي إعصار، وده بيوريك قد إيه الطبيعة ممكن تكون قوية ومدمرة.",
+    "sha256": "938d09ddecb8df7acbd569cedea5381e733c61c82a92438c9e6b7e5e5aef9a67",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 3,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "4e0afb3ee4afff20c1bba2f210d8ddff0119bd9950f2723b252590552cd6e18b",
+        "sha256": "938d09ddecb8df7acbd569cedea5381e733c61c82a92438c9e6b7e5e5aef9a67",
+        "text_sha256": "8f8bcf3869ee477644aaf876ddb4b8991934eb215e2e43a346a04fe049f46042",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 844878,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-20T08-33-25-654Z/scene-4.wav",
+    "duration": 14.48,
+    "text": "الخبراء أكدوا إن كزافييه هو أقوى إعصار استوائي حصل في شهر نوفمبر شرق خط التاريخ الدولي. ده رقم قياسي جديد بيخلينا نفكر في التغيرات اللي بتحصل في مناخ كوكبنا بشكل مستمر.",
+    "sha256": "de7af5c85d756de66afa61aae4f6239aa49b773699f2c5bc436a187af3424c0d",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 4,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "3f143899bb6569d76b325da154a893e6074fe1aa18dbe130dbf317ed68bc935f",
+        "sha256": "de7af5c85d756de66afa61aae4f6239aa49b773699f2c5bc436a187af3424c0d",
+        "text_sha256": "6b38e47e23f51203f7d5ad522911328299c15de4d8730e9471ca1d0fa5c4fb8c",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 695118,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-20T08-33-25-654Z/scene-5.wav",
+    "duration": 15.56,
+    "text": "للأسف، الإعصار تسبب في تدمير بيوت وقطع الكهرباء في جزر كوك الشمالية. لكن بعد فترة، واجه الإعصار هواء جاف وظروف مش مناسبة، فبدأ يضعف تدريجياً وهو بيتحرك ناحية الغرب، وده قلل الخطر.",
+    "sha256": "c5f41e05f08e09308b1a2b867c240908c8e9255c7d06f2c2497f5ad150addf4a",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 5,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "f13166db6d72585471ac9fba5b456b41f5b9389a168522c97f8a2529707f5ee6",
+        "sha256": "c5f41e05f08e09308b1a2b867c240908c8e9255c7d06f2c2497f5ad150addf4a",
+        "text_sha256": "5a4f5d61ae3419f691f634511edd6ed1233b4e7a3866394d938a836d42cd7969",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 746958,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-20T08-33-25-654Z/scene-6.wav",
+    "duration": 15.36,
+    "text": "الأرصاد الجوية بتتوقع إن المنطقة ممكن تشوف حوالي 11 لـ 15 إعصار تاني في الموسم ده. الخطر لسه موجود، خصوصاً شرق خط التاريخ الدولي، والناس لازم تكون مستعدة لأي طوارئ ممكن تحصل.",
+    "sha256": "c5d17b7e200d5bdb192b3d497f167d499f2076ed32990dcdee8dfd02dca80bb7",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 6,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "28069b8248435ea92bfe26955b9f67da3ec78c09e51991ac7fda879f9cbff04c",
+        "sha256": "c5d17b7e200d5bdb192b3d497f167d499f2076ed32990dcdee8dfd02dca80bb7",
+        "text_sha256": "64f02237078cc6c46d6fcb1ae1c23064a9723662512a3eddf9c7dbf27876d09c",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 737358,
+        "reused": false
+      }
+    ]
+  },
+  {
+    "file": "/home/runner/work/stickman-what-if-shorts/stickman-what-if-shorts/public/generated/2026-11-20T08-33-25-654Z/scene-7.wav",
+    "duration": 16.84,
+    "text": "دي كانت قصة إعصار كزافييه، مثال بسيط على قوة الطبيعة اللي بنعيش وسطها. الأرض دايماً بتفاجئنا بظواهرها، وفهمنا ليها هو أول خطوة عشان نحمي نفسنا ونعيش بأمان في كوكبنا العظيم ده.",
+    "sha256": "dd2e55d4a5a2732d6daceee742cda20860d401eb33d25c0c63e892d858545bf0",
+    "provider": "Gemini",
+    "voice": "Charon",
+    "chunks": [
+      {
+        "scene": 7,
+        "chunk": 0,
+        "schema": 1,
+        "cacheKey": "9f9dd37f2e02f9afcc072883e5857d695a908dd1deba08d28ab89b9f50adf397",
+        "sha256": "dd2e55d4a5a2732d6daceee742cda20860d401eb33d25c0c63e892d858545bf0",
+        "text_sha256": "aa5c2d8c941ff84a7e3a14a459a75195878ede60015ed9c49d3b6a9b118568c5",
+        "voice": "Charon",
+        "provider": "Gemini",
+        "model": "gemini-3.1-flash-tts-preview",
+        "bytes": 808398,
+        "reused": false
+      }
+    ]
+  }
+]

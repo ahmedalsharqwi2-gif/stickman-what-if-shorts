@@ -82,5 +82,17 @@
     "status": "retired",
     "reason": "STAGE_FAILED_SEE_RUNBOOK",
     "run": "2026-11-19T22-54-53-109Z"
+  },
+  {
+    "topicKey": "remotion-stickman-whatif-cyclone-xavier",
+    "value": "https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/",
+    "status": "retired",
+    "run": "2026-11-20T08-33-25-654Z"
+  },
+  {
+    "value": "https://science.nasa.gov/image-article/apod-2026-november-20-v-g-r/",
+    "status": "retired",
+    "reason": "DUPLICATE_TOPIC_IDENTITY",
+    "run": "2026-11-20T08-47-40-679Z"
   }
 ]
