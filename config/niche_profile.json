@@ -1,0 +1,105 @@
+{
+  "channel": "افترض كده؟",
+  "audience": "broad audience 10-35, curiosity plus light comedy",
+  "searchIntent": "ماذا لو…، إيه اللي يحصل لو…، hypothetical questions with repeat searches",
+  "tone": "light comedy, safe for all ages, ends with a real fact",
+  "pillars": [
+    {
+      "id": "everyday_life",
+      "title": "مواقف حياة يومية افتراضية",
+      "keywords": [
+        "موبايل",
+        "نت",
+        "كهرباء",
+        "مواصلات",
+        "مدرسة",
+        "شغل",
+        "phone",
+        "internet"
+      ]
+    },
+    {
+      "id": "body_sleep_food",
+      "title": "جسم الإنسان والنوم والأكل",
+      "keywords": [
+        "لو مبتنامش",
+        "نوم",
+        "أكل",
+        "ماء",
+        "قهوة",
+        "سكر",
+        "sleep",
+        "food",
+        "coffee"
+      ]
+    },
+    {
+      "id": "space_gravity_physics",
+      "title": "فضاء وجاذبية وفيزياء",
+      "keywords": [
+        "جاذبية",
+        "قمر",
+        "شمس",
+        "أرض",
+        "فضاء",
+        "ثقب أسود",
+        "gravity",
+        "moon",
+        "sun",
+        "earth"
+      ]
+    },
+    {
+      "id": "tech_internet_ai",
+      "title": "تكنولوجيا وإنترنت وذكاء اصطناعي",
+      "keywords": [
+        "ذكاء اصطناعي",
+        "إنترنت",
+        "سوشيال ميديا",
+        "wifi",
+        "خوارزمية",
+        "ai",
+        "algorithm"
+      ]
+    },
+    {
+      "id": "school_work_social",
+      "title": "مواقف مدرسة وشغل واجتماعية",
+      "keywords": [
+        "امتحان",
+        "مدرسة",
+        "أجازة",
+        "موظف",
+        "مدير",
+        "exam",
+        "boss"
+      ]
+    }
+  ],
+  "questionPatterns": [
+    "ماذا لو",
+    "إيه اللي يحصل لو",
+    "افترض"
+  ],
+  "bannedTopics": [
+    "سياسة",
+    "دين",
+    "محتوى جنسي",
+    "عنف",
+    "سخرية من أشخاص",
+    "سخرية من فئات"
+  ],
+  "rules": [
+    "no mocking real people or groups",
+    "no politics or religion",
+    "no sexual or violent content",
+    "each episode ends with a real fact",
+    "trending items become safe hypothetical questions"
+  ],
+  "bankMix": {
+    "evergreen": 70,
+    "trending": 30
+  },
+  "visualFilmabilityDefault": 0.8,
+  "aiDisclosure": "محتوى مُنشأ بمساعدة الذكاء الاصطناعي"
+}
